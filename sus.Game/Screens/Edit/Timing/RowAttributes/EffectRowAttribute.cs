@@ -1,0 +1,55 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Game.Beatmaps.ControlPoints;
+
+namespace sus.Game.Screens.Edit.Timing.RowAttributes
+{
+    public partial class EffectRowAttribute : RowAttribute
+    {
+        private readonly Bindable<bool> kiaiMode;
+        private readonly BindableNumber<double> scrollSpeed;
+
+        private AttributeText kiaiModeBubble = null!;
+        private AttributeText text = null!;
+        private AttributeProgressBar progressBar = null!;
+
+        [Resolved]
+        protected EditorBeatmap Beatmap { get; private set; } = null!;
+
+        public EffectRowAttribute(EffectControlPoint effect)
+            : base(effect, "effect")
+        {
+            kiaiMode = effect.KiaiModeBindable.GetBoundCopy();
+            scrollSpeed = effect.ScrollSpeedBindable.GetBoundCopy();
+        }
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            Content.AddRange(new Drawable[]
+            {
+                progressBar = new AttributeProgressBar(Point)
+                {
+                    Current = scrollSpeed,
+                },
+                text = new AttributeText(Point) { Width = 45 },
+                kiaiModeBubble = new AttributeText(Point) { Text = "kiai" },
+            });
+
+            if (!Beatmap.BeatmapInfo.Ruleset.CreateInstance().EditorShowScrollSpeed)
+            {
+                text.Hide();
+                progressBar.Hide();
+            }
+
+            kiaiMode.BindValueChanged(enabled => kiaiModeBubble.FadeTo(enabled.NewValue ? 1 : 0), true);
+            scrollSpeed.BindValueChanged(_ => updateText(), true);
+        }
+
+        private void updateText() => text.Text = $"{scrollSpeed.Value:n2}x";
+    }
+}

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <SupportedOSPlatformVersion>13.4</SupportedOSPlatformVersion>
+    <RootNamespace>sus.Game.Rulesets.Catch.Tests</RootNamespace>
+    <AssemblyName>sus.Game.Rulesets.Catch.Tests.iOS</AssemblyName>
+  </PropertyGroup>
+  <Import Project="..\sus.iOS.props" />
+  <ItemGroup>
+    <Compile Include="..\sus.Game.Rulesets.Catch.Tests\**\*.cs" Exclude="**\obj\**">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup Label="Project References">
+    <ProjectReference Include="..\sus.Game\sus.Game.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Catch\sus.Game.Rulesets.Catch.csproj" />
+  </ItemGroup>
+</Project>

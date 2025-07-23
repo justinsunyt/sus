@@ -1,0 +1,51 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Game.Tournament.Components;
+using sus.Framework.Graphics.Shapes;
+using sus.Game.Tournament.Models;
+using susTK.Graphics;
+
+namespace sus.Game.Tournament.Screens.Showcase
+{
+    public partial class ShowcaseScreen : BeatmapInfoScreen
+    {
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            AddRangeInternal(new Drawable[]
+            {
+                new TournamentLogo(),
+                new TourneyVideo("showcase")
+                {
+                    Loop = true,
+                    RelativeSizeAxes = Axes.Both,
+                },
+                new Container
+                {
+                    Padding = new MarginPadding { Bottom = SongBar.HEIGHT },
+                    RelativeSizeAxes = Axes.Both,
+                    Child = new Box
+                    {
+                        // chroma key area for stable gameplay
+                        Name = "chroma",
+                        Anchor = Anchor.TopCentre,
+                        Origin = Anchor.TopCentre,
+                        RelativeSizeAxes = Axes.Both,
+                        Colour = new Color4(0, 255, 0, 255),
+                    }
+                }
+            });
+        }
+
+        protected override void CurrentMatchChanged(ValueChangedEvent<TournamentMatch?> match)
+        {
+            // showcase screen doesn't care about a match being selected.
+            // base call intentionally omitted to not show match warning.
+        }
+    }
+}

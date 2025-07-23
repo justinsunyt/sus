@@ -1,0 +1,44 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using NUnit.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics.Containers;
+using sus.Game.Rulesets.Osu;
+using sus.Game.Screens.Play;
+using sus.Game.Tests.Gameplay;
+
+namespace sus.Game.Tests.Visual.Gameplay
+{
+    public partial class TestSceneDelayedResumeOverlay : OsuTestScene
+    {
+        private ResumeOverlay resume = null!;
+        private bool resumeFired;
+
+        [Cached]
+        private GameplayState gameplayState;
+
+        public TestSceneDelayedResumeOverlay()
+        {
+            gameplayState = TestGameplayState.Create(new OsuRuleset());
+        }
+
+        [SetUp]
+        public void SetUp() => Schedule(loadContent);
+
+        [Test]
+        public void TestResume()
+        {
+            AddStep("show", () => resume.Show());
+            AddUntilStep("dismissed", () => resumeFired && resume.State.Value == Visibility.Hidden);
+        }
+
+        private void loadContent()
+        {
+            Child = resume = new DelayedResumeOverlay();
+
+            resumeFired = false;
+            resume.ResumeAction = () => resumeFired = true;
+        }
+    }
+}

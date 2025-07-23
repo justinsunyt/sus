@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "sus! Desktop": {
+      "commandName": "Project"
+    },
+    "sus! Tournament": {
+      "commandName": "Project",
+      "commandLineArgs": "--tournament"
+    }
+  }
+}

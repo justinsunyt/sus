@@ -1,0 +1,35 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Shapes;
+using sus.Game.Overlays;
+using sus.Game.Overlays.Changelog;
+
+namespace sus.Game.Tests.Visual.Online
+{
+    public partial class TestSceneChangelogSupporterPromo : OsuTestScene
+    {
+        [Cached]
+        private readonly OverlayColourProvider colourProvider = new OverlayColourProvider(OverlayColourScheme.Purple);
+
+        public TestSceneChangelogSupporterPromo()
+        {
+            Child = new Container
+            {
+                RelativeSizeAxes = Axes.Both,
+                Children = new Drawable[]
+                {
+                    new Box
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Colour = colourProvider.Background4,
+                    },
+                    new ChangelogSupporterPromo(),
+                }
+            };
+        }
+    }
+}

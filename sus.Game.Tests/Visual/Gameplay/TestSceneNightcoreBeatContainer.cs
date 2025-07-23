@@ -1,0 +1,31 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Linq;
+using sus.Framework.Extensions.IEnumerableExtensions;
+using sus.Game.Beatmaps.Timing;
+using sus.Game.Rulesets.Mods;
+using sus.Game.Rulesets.Objects;
+using sus.Game.Rulesets.Osu;
+using sus.Game.Tests.Visual.UserInterface;
+
+namespace sus.Game.Tests.Visual.Gameplay
+{
+    public partial class TestSceneNightcoreBeatContainer : TestSceneBeatSyncedContainer
+    {
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            Beatmap.Value = CreateWorkingBeatmap(new OsuRuleset().RulesetInfo);
+
+            Beatmap.Value.Track.Start();
+            Beatmap.Value.Track.Seek(Beatmap.Value.Beatmap.HitObjects.First().StartTime - 1000);
+
+            Add(new ModNightcore<HitObject>.NightcoreBeatContainer());
+
+            AddStep("change signature to quadruple", () => Beatmap.Value.Beatmap.ControlPointInfo.TimingPoints.ForEach(p => p.TimeSignature = TimeSignature.SimpleQuadruple));
+            AddStep("change signature to triple", () => Beatmap.Value.Beatmap.ControlPointInfo.TimingPoints.ForEach(p => p.TimeSignature = TimeSignature.SimpleTriple));
+        }
+    }
+}

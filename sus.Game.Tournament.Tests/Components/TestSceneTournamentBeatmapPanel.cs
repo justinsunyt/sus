@@ -1,0 +1,41 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Game.Online.API;
+using sus.Game.Online.API.Requests;
+using sus.Game.Online.API.Requests.Responses;
+using sus.Game.Tests.Visual;
+using sus.Game.Tournament.Components;
+using sus.Game.Tournament.Models;
+
+namespace sus.Game.Tournament.Tests.Components
+{
+    public partial class TestSceneTournamentBeatmapPanel : TournamentTestScene
+    {
+        /// <remarks>
+        /// Warning: the below API instance is actually the online API, rather than the dummy API provided by the test.
+        /// It cannot be trivially replaced because setting <see cref="OsuTestScene.UseOnlineAPI"/> to <see langword="true"/> causes <see cref="OsuTestScene.API"/> to no longer be usable.
+        /// </remarks>
+        [Resolved]
+        private IAPIProvider api { get; set; } = null!;
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            var req = new GetBeatmapRequest(new APIBeatmap { OnlineID = 1091460 });
+            req.Success += success;
+            api.Queue(req);
+        }
+
+        private void success(APIBeatmap beatmap)
+        {
+            Add(new TournamentBeatmapPanel(new TournamentBeatmap(beatmap))
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre
+            });
+        }
+    }
+}

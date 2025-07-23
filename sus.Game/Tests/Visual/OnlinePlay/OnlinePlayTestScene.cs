@@ -1,0 +1,157 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Logging;
+using sus.Game.Beatmaps;
+using sus.Game.Database;
+using sus.Game.Online.API;
+using sus.Game.Online.API.Requests.Responses;
+using sus.Game.Online.Rooms;
+using sus.Game.Rulesets;
+using sus.Game.Screens.OnlinePlay;
+
+namespace sus.Game.Tests.Visual.OnlinePlay
+{
+    /// <summary>
+    /// A base test scene for all online play components and screens.
+    /// </summary>
+    public abstract partial class OnlinePlayTestScene : ScreenTestScene, IOnlinePlayTestSceneDependencies
+    {
+        public OngoingOperationTracker OngoingOperationTracker => OnlinePlayDependencies.OngoingOperationTracker;
+        public TestUserLookupCache UserLookupCache => OnlinePlayDependencies.UserLookupCache;
+        public BeatmapLookupCache BeatmapLookupCache => OnlinePlayDependencies.BeatmapLookupCache;
+
+        /// <summary>
+        /// All dependencies required for online play components and screens.
+        /// </summary>
+        protected OnlinePlayTestSceneDependencies OnlinePlayDependencies => dependencies.OnlinePlayDependencies!;
+
+        protected override Container<Drawable> Content => content;
+
+        [Resolved]
+        private RulesetStore rulesets { get; set; } = null!;
+
+        private readonly Container content;
+        private readonly Container drawableDependenciesContainer;
+        private DelegatedDependencyContainer dependencies = null!;
+        private int currentRoomId;
+
+        protected OnlinePlayTestScene()
+        {
+            base.Content.AddRange(new Drawable[]
+            {
+                drawableDependenciesContainer = new Container { RelativeSizeAxes = Axes.Both },
+                content = new Container { RelativeSizeAxes = Axes.Both },
+            });
+        }
+
+        protected sealed override IReadOnlyDependencyContainer CreateChildDependencies(IReadOnlyDependencyContainer parent)
+            => dependencies = new DelegatedDependencyContainer(base.CreateChildDependencies(parent));
+
+        public override void SetUpSteps()
+        {
+            base.SetUpSteps();
+
+            AddStep("setup dependencies", () =>
+            {
+                // Reset the room dependencies to a fresh state.
+                dependencies.OnlinePlayDependencies = CreateOnlinePlayDependencies();
+                drawableDependenciesContainer.Clear();
+                drawableDependenciesContainer.AddRange(dependencies.OnlinePlayDependencies.DrawableComponents);
+
+                var handler = OnlinePlayDependencies.RequestsHandler;
+
+                // Resolving the BeatmapManager in the test scene will inject the game-wide BeatmapManager, while many test scenes cache their own BeatmapManager instead.
+                // To get around this, the BeatmapManager is looked up from the dependencies provided to the children of the test scene instead.
+                var beatmapManager = dependencies.Get<BeatmapManager>();
+
+                ((DummyAPIAccess)API).HandleRequest = request =>
+                {
+                    try
+                    {
+                        return handler.HandleRequest(request, API.LocalUser.Value, beatmapManager);
+                    }
+                    catch (ObjectDisposedException)
+                    {
+                        // These requests can be fired asynchronously, but potentially arrive after game components
+                        // have been disposed (ie. realm in BeatmapManager).
+                        // This only happens in tests and it's easiest to ignore them for now.
+                        Logger.Log($"Handled {nameof(ObjectDisposedException)} in test request handling");
+                        return true;
+                    }
+                };
+            });
+        }
+
+        /// <summary>
+        /// Creates the room dependencies. Called every <see cref="SetUpSteps"/>.
+        /// </summary>
+        /// <remarks>
+        /// Any custom dependencies required for online play sub-classes should be added here.
+        /// </remarks>
+        protected virtual OnlinePlayTestSceneDependencies CreateOnlinePlayDependencies() => new OnlinePlayTestSceneDependencies();
+
+        protected Room[] GenerateRooms(int count, RulesetInfo? ruleset = null, bool withPassword = false, bool withSpotlightRooms = false)
+        {
+            Room[] rooms = new Room[count];
+
+            // Can't reference Osu ruleset project here.
+            ruleset ??= rulesets.GetRuleset(0)!;
+
+            for (int i = 0; i < count; i++)
+            {
+                rooms[i] = new Room
+                {
+                    RoomID = currentRoomId++,
+                    Name = $@"Room {currentRoomId}",
+                    Host = new APIUser { Username = @"Host" },
+                    Duration = TimeSpan.FromSeconds(10),
+                    Category = withSpotlightRooms && i % 2 == 0 ? RoomCategory.Spotlight : RoomCategory.Normal,
+                    Password = withPassword ? @"password" : null,
+                    PlaylistItemStats = new Room.RoomPlaylistItemStats { RulesetIDs = [ruleset.OnlineID] },
+                    Playlist = [new PlaylistItem(new BeatmapInfo { Metadata = new BeatmapMetadata() }) { RulesetID = ruleset.OnlineID }]
+                };
+            }
+
+            return rooms;
+        }
+
+        /// <summary>
+        /// A <see cref="IReadOnlyDependencyContainer"/> providing a mutable lookup source for online play dependencies.
+        /// </summary>
+        private class DelegatedDependencyContainer : IReadOnlyDependencyContainer
+        {
+            /// <summary>
+            /// The online play dependencies.
+            /// </summary>
+            public OnlinePlayTestSceneDependencies? OnlinePlayDependencies { get; set; }
+
+            private readonly IReadOnlyDependencyContainer parent;
+            private readonly DependencyContainer injectableDependencies;
+
+            /// <summary>
+            /// Creates a new <see cref="DelegatedDependencyContainer"/>.
+            /// </summary>
+            /// <param name="parent">The fallback <see cref="IReadOnlyDependencyContainer"/> to use when <see cref="OnlinePlayDependencies"/> cannot satisfy a dependency.</param>
+            public DelegatedDependencyContainer(IReadOnlyDependencyContainer parent)
+            {
+                this.parent = parent;
+                injectableDependencies = new DependencyContainer(this);
+            }
+
+            public object Get(Type type)
+                => OnlinePlayDependencies?.Get(type) ?? parent.Get(type);
+
+            public object Get(Type type, CacheInfo info)
+                => OnlinePlayDependencies?.Get(type, info) ?? parent.Get(type, info);
+
+            public void Inject<T>(T instance)
+                where T : class, IDependencyInjectionCandidate
+                => injectableDependencies.Inject(instance);
+        }
+    }
+}

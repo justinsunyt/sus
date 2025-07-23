@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\sus.Android.props" />
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>sus.Game.Rulesets.Catch.Tests</RootNamespace>
+    <AssemblyName>sus.Game.Rulesets.Catch.Tests.Android</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\sus.Game.Rulesets.Catch.Tests\**\*.cs" Exclude="**\obj\**">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </Compile>
+    <!-- TargetPath is relative to RootNamespace,
+         and DllResourceStore is relative to AssemblyName. -->
+    <EmbeddedResource Include="..\sus.Game.Rulesets.Catch.Tests\**\Resources\**\*">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <TargetPath>Android\%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sus.Game.Rulesets.Catch\sus.Game.Rulesets.Catch.csproj" />
+    <ProjectReference Include="..\sus.Game\sus.Game.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,97 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Colour;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Cursor;
+using sus.Framework.Graphics.Sprites;
+using sus.Framework.Graphics.Textures;
+using sus.Framework.Localisation;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Sprites;
+using sus.Game.Resources.Localisation.Web;
+using sus.Game.Scoring;
+using sus.Game.Users;
+
+namespace sus.Game.Overlays.Profile.Header.Components
+{
+    public partial class LevelBadge : CompositeDrawable, IHasTooltip
+    {
+        public readonly Bindable<UserStatistics.LevelInfo?> LevelInfo = new Bindable<UserStatistics.LevelInfo?>();
+
+        public LocalisableString TooltipText { get; private set; }
+
+        private OsuSpriteText levelText = null!;
+        private Sprite sprite = null!;
+
+        [Resolved]
+        private OsuColour susColour { get; set; } = null!;
+
+        public LevelBadge()
+        {
+            TooltipText = UsersStrings.ShowStatsLevel("0");
+        }
+
+        [BackgroundDependencyLoader]
+        private void load(OsuColour colours, TextureStore textures)
+        {
+            InternalChildren = new Drawable[]
+            {
+                sprite = new Sprite
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Texture = textures.Get("Profile/levelbadge"),
+                    Colour = colours.Yellow,
+                },
+                levelText = new OsuSpriteText
+                {
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    Font = OsuFont.GetFont(size: 20)
+                }
+            };
+        }
+
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            LevelInfo.BindValueChanged(level => updateLevel(level.NewValue), true);
+        }
+
+        private void updateLevel(UserStatistics.LevelInfo? levelInfo)
+        {
+            int level = levelInfo?.Current ?? 0;
+
+            levelText.Text = level.ToString();
+            TooltipText = UsersStrings.ShowStatsLevel(level.ToString());
+
+            sprite.Colour = mapLevelToTierColour(level);
+        }
+
+        private ColourInfo mapLevelToTierColour(int level)
+        {
+            var tier = RankingTier.Iron;
+
+            if (level > 0)
+            {
+                tier = (RankingTier)(level / 20);
+            }
+
+            if (level >= 105)
+            {
+                tier = RankingTier.Radiant;
+            }
+
+            if (level >= 110)
+            {
+                tier = RankingTier.Lustrous;
+            }
+
+            return susColour.ForRankingTier(tier);
+        }
+    }
+}

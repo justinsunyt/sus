@@ -1,0 +1,13 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Game.Rulesets.Judgements;
+using sus.Game.Rulesets.Osu.Judgements;
+
+namespace sus.Game.Rulesets.Osu.Objects
+{
+    public class HitCircle : OsuHitObject
+    {
+        public override Judgement CreateJudgement() => new OsuJudgement();
+    }
+}

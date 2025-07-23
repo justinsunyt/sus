@@ -1,0 +1,95 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using NUnit.Framework;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Cursor;
+using sus.Framework.Localisation;
+using sus.Game.Configuration;
+using sus.Game.Overlays.Settings;
+using susTK;
+
+namespace sus.Game.Tests.Visual.Settings
+{
+    [TestFixture]
+    public partial class TestSceneSettingsSource : OsuTestScene
+    {
+        public TestSceneSettingsSource()
+        {
+            Children = new Drawable[]
+            {
+                new PopoverContainer
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Child = new FillFlowContainer
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Direction = FillDirection.Vertical,
+                        Spacing = new Vector2(20),
+                        Width = 0.5f,
+                        Anchor = Anchor.Centre,
+                        Origin = Anchor.Centre,
+                        Padding = new MarginPadding(50),
+                        ChildrenEnumerable = new TestTargetClass().CreateSettingsControls()
+                    },
+                },
+            };
+        }
+
+        private class TestTargetClass
+        {
+            [SettingSource("Sample bool", "Clicking this changes a setting")]
+            public BindableBool TickBindable { get; } = new BindableBool();
+
+            [SettingSource(typeof(TestStrings), nameof(TestStrings.LocalisableLabel), nameof(TestStrings.LocalisableDescription))]
+            public BindableBool LocalisableBindable { get; } = new BindableBool(true);
+
+            [SettingSource("Sample float", "Change something for a mod")]
+            public BindableFloat SliderBindable { get; } = new BindableFloat
+            {
+                MinValue = 0,
+                MaxValue = 10,
+                Default = 5,
+                Value = 7
+            };
+
+            [SettingSource("Sample enum", "Change something for a mod")]
+            public Bindable<TestEnum> EnumBindable { get; } = new Bindable<TestEnum>
+            {
+                Default = TestEnum.Value1,
+                Value = TestEnum.Value2
+            };
+
+            [SettingSource("Sample string", "Change something for a mod")]
+            public Bindable<string> StringBindable { get; } = new Bindable<string>
+            {
+                Default = string.Empty,
+                Value = "Sample text"
+            };
+
+            [SettingSource("Sample number textbox", "Textbox number entry", SettingControlType = typeof(SettingsNumberBox))]
+            public Bindable<int?> IntTextBoxBindable { get; } = new Bindable<int?>();
+
+            [SettingSource("Sample colour", "Change the colour", SettingControlType = typeof(SettingsColour))]
+            public BindableColour4 ColourBindable { get; } = new BindableColour4
+            {
+                Default = Colour4.White,
+                Value = Colour4.Red
+            };
+        }
+
+        private enum TestEnum
+        {
+            Value1,
+            Value2
+        }
+
+        private class TestStrings
+        {
+            public static LocalisableString LocalisableLabel => new LocalisableString("Sample localisable label");
+            public static LocalisableString LocalisableDescription => new LocalisableString("Sample localisable description");
+        }
+    }
+}

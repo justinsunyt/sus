@@ -1,0 +1,66 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Collections.Generic;
+using System.Linq;
+using NUnit.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Platform;
+using sus.Game.Beatmaps;
+using sus.Game.Database;
+using sus.Game.Overlays.Music;
+using sus.Game.Rulesets;
+using sus.Game.Tests.Resources;
+using susTK;
+
+namespace sus.Game.Tests.Visual.UserInterface
+{
+    public partial class TestScenePlaylistOverlay : OsuManualInputManagerTestScene
+    {
+        protected override bool UseFreshStoragePerRun => true;
+
+        private BeatmapManager beatmapManager = null!;
+
+        private const int item_count = 20;
+
+        private List<BeatmapSetInfo> beatmapSets => beatmapManager.GetAllUsableBeatmapSets();
+
+        [BackgroundDependencyLoader]
+        private void load(GameHost host)
+        {
+            Dependencies.Cache(new RealmRulesetStore(Realm));
+            Dependencies.Cache(beatmapManager = new BeatmapManager(LocalStorage, Realm, null, Audio, Resources, host, Beatmap.Default));
+            Dependencies.Cache(Realm);
+        }
+
+        [SetUp]
+        public void Setup() => Schedule(() =>
+        {
+            Child = new Container
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                Size = new Vector2(300, 500),
+                Child = new PlaylistOverlay
+                {
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    RelativeSizeAxes = Axes.X,
+                    State = { Value = Visibility.Visible }
+                }
+            };
+
+            for (int i = 0; i < item_count; i++)
+            {
+                beatmapManager.Import(TestResources.CreateTestBeatmapSetInfo());
+            }
+
+            beatmapSets.First().ToLive(Realm);
+
+            // Ensure all the initial imports are present before running any tests.
+            Realm.Run(r => r.Refresh());
+        });
+    }
+}

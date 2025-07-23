@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Submit pending deployment notification
         run: |
-          export TITLE="Pending osu Production Deployment: $GITHUB_REF_NAME"
-          export URL="https://github.com/ppy/osu/actions/runs/$GITHUB_RUN_ID"
+          export TITLE="Pending sus Production Deployment: $GITHUB_REF_NAME"
+          export URL="https://github.com/ppy/sus/actions/runs/$GITHUB_RUN_ID"
           export DESCRIPTION="Awaiting approval for building NuGet packages for tag $GITHUB_REF_NAME:
           [View Workflow Run]($URL)"
           export ACTOR_ICON="https://avatars.githubusercontent.com/u/$GITHUB_ACTOR_ID"
@@ -57,28 +57,28 @@ jobs:
       - name: Pack
         run: |
           # Replace project references in templates with package reference, because they're included as source files.
-          dotnet remove Templates/Rulesets/ruleset-empty/osu.Game.Rulesets.EmptyFreeform/osu.Game.Rulesets.EmptyFreeform.csproj reference osu.Game/osu.Game.csproj
-          dotnet remove Templates/Rulesets/ruleset-example/osu.Game.Rulesets.Pippidon/osu.Game.Rulesets.Pippidon.csproj reference osu.Game/osu.Game.csproj
-          dotnet remove Templates/Rulesets/ruleset-scrolling-empty/osu.Game.Rulesets.EmptyScrolling/osu.Game.Rulesets.EmptyScrolling.csproj reference osu.Game/osu.Game.csproj
-          dotnet remove Templates/Rulesets/ruleset-scrolling-example/osu.Game.Rulesets.Pippidon/osu.Game.Rulesets.Pippidon.csproj reference osu.Game/osu.Game.csproj
+          dotnet remove Templates/Rulesets/ruleset-empty/sus.Game.Rulesets.EmptyFreeform/sus.Game.Rulesets.EmptyFreeform.csproj reference sus.Game/sus.Game.csproj
+          dotnet remove Templates/Rulesets/ruleset-example/sus.Game.Rulesets.Pippidon/sus.Game.Rulesets.Pippidon.csproj reference sus.Game/sus.Game.csproj
+          dotnet remove Templates/Rulesets/ruleset-scrolling-empty/sus.Game.Rulesets.EmptyScrolling/sus.Game.Rulesets.EmptyScrolling.csproj reference sus.Game/sus.Game.csproj
+          dotnet remove Templates/Rulesets/ruleset-scrolling-example/sus.Game.Rulesets.Pippidon/sus.Game.Rulesets.Pippidon.csproj reference sus.Game/sus.Game.csproj
 
-          dotnet add Templates/Rulesets/ruleset-empty/osu.Game.Rulesets.EmptyFreeform/osu.Game.Rulesets.EmptyFreeform.csproj package ppy.osu.Game -n -v ${{ github.ref_name }}
-          dotnet add Templates/Rulesets/ruleset-example/osu.Game.Rulesets.Pippidon/osu.Game.Rulesets.Pippidon.csproj package ppy.osu.Game -n -v ${{ github.ref_name }}
-          dotnet add Templates/Rulesets/ruleset-scrolling-empty/osu.Game.Rulesets.EmptyScrolling/osu.Game.Rulesets.EmptyScrolling.csproj package ppy.osu.Game -n -v ${{ github.ref_name }}
-          dotnet add Templates/Rulesets/ruleset-scrolling-example/osu.Game.Rulesets.Pippidon/osu.Game.Rulesets.Pippidon.csproj package ppy.osu.Game -n -v ${{ github.ref_name }}
+          dotnet add Templates/Rulesets/ruleset-empty/sus.Game.Rulesets.EmptyFreeform/sus.Game.Rulesets.EmptyFreeform.csproj package ppy.sus.Game -n -v ${{ github.ref_name }}
+          dotnet add Templates/Rulesets/ruleset-example/sus.Game.Rulesets.Pippidon/sus.Game.Rulesets.Pippidon.csproj package ppy.sus.Game -n -v ${{ github.ref_name }}
+          dotnet add Templates/Rulesets/ruleset-scrolling-empty/sus.Game.Rulesets.EmptyScrolling/sus.Game.Rulesets.EmptyScrolling.csproj package ppy.sus.Game -n -v ${{ github.ref_name }}
+          dotnet add Templates/Rulesets/ruleset-scrolling-example/sus.Game.Rulesets.Pippidon/sus.Game.Rulesets.Pippidon.csproj package ppy.sus.Game -n -v ${{ github.ref_name }}
 
           # Pack
-          dotnet pack -c Release osu.Game /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
-          dotnet pack -c Release osu.Game.Rulesets.Osu /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
-          dotnet pack -c Release osu.Game.Rulesets.Taiko /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
-          dotnet pack -c Release osu.Game.Rulesets.Catch /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
-          dotnet pack -c Release osu.Game.Rulesets.Mania /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
+          dotnet pack -c Release sus.Game /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
+          dotnet pack -c Release sus.Game.Rulesets.Osu /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
+          dotnet pack -c Release sus.Game.Rulesets.Taiko /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
+          dotnet pack -c Release sus.Game.Rulesets.Catch /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
+          dotnet pack -c Release sus.Game.Rulesets.Mania /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
           dotnet pack -c Release Templates /p:Version=${{ github.ref_name }} -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: osu
+          name: sus
           path: |
             ${{steps.artifactsPath.outputs.nuget_artifacts}}/*.nupkg
             ${{steps.artifactsPath.outputs.nuget_artifacts}}/*.snupkg

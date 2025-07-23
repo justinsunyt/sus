@@ -22,8 +22,8 @@ jobs:
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
           SENTRY_ORG: ppy
-          SENTRY_PROJECT: osu
+          SENTRY_PROJECT: sus
           SENTRY_URL: https://sentry.ppy.sh/
         with:
           environment: production
-          version: osu@${{ github.ref_name }}
+          version: sus@${{ github.ref_name }}

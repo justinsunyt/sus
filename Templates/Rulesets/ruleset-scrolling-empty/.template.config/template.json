@@ -4,8 +4,8 @@
     "classifications": [
         "Console"
     ],
-    "name": "osu! ruleset (scrolling)",
-    "identity": "ppy.osu.Game.Templates.Rulesets.Scrolling",
+    "name": "sus! ruleset (scrolling)",
+    "identity": "ppy.sus.Game.Templates.Rulesets.Scrolling",
     "shortName": "ruleset-scrolling",
     "tags": {
         "language": "C#",

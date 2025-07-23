@@ -1,0 +1,27 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Game.Beatmaps;
+using sus.Game.Database;
+using sus.Game.Graphics.Containers;
+
+namespace sus.Game.Overlays.Music
+{
+    public partial class Playlist : VirtualisedListContainer<Live<BeatmapSetInfo>, PlaylistItem>
+    {
+        public new MarginPadding Padding
+        {
+            get => base.Padding;
+            set => base.Padding = value;
+        }
+
+        public Playlist()
+            : base(20, 50)
+        {
+        }
+
+        protected override ScrollContainer<Drawable> CreateScrollContainer() => new OsuScrollContainer();
+    }
+}

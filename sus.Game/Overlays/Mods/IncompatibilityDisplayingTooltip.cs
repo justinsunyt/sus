@@ -1,0 +1,60 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Collections.Generic;
+using System.Linq;
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Sprites;
+using sus.Game.Rulesets;
+using sus.Game.Rulesets.Mods;
+using sus.Game.Screens.Play.HUD;
+using susTK;
+
+namespace sus.Game.Overlays.Mods
+{
+    internal partial class IncompatibilityDisplayingTooltip : ModButtonTooltip
+    {
+        private readonly OsuSpriteText incompatibleText;
+
+        private readonly Bindable<IReadOnlyList<Mod>> incompatibleMods = new Bindable<IReadOnlyList<Mod>>();
+
+        [Resolved]
+        private Bindable<RulesetInfo> ruleset { get; set; } = null!;
+
+        public IncompatibilityDisplayingTooltip(OverlayColourProvider colourProvider)
+            : base(colourProvider)
+        {
+            AddRange(new Drawable[]
+            {
+                incompatibleText = new OsuSpriteText
+                {
+                    Margin = new MarginPadding { Top = 5 },
+                    Colour = colourProvider.Content2,
+                    Font = OsuFont.GetFont(weight: FontWeight.Regular),
+                    Text = "Incompatible with:"
+                },
+                new ModDisplay
+                {
+                    Current = incompatibleMods,
+                    ExpansionMode = ExpansionMode.AlwaysExpanded,
+                    Scale = new Vector2(0.7f)
+                }
+            });
+        }
+
+        protected override void UpdateDisplay(Mod mod)
+        {
+            base.UpdateDisplay(mod);
+
+            var incompatibleTypes = mod.IncompatibleMods;
+
+            var allMods = ruleset.Value.CreateInstance().AllMods;
+
+            incompatibleMods.Value = allMods.Where(m => m.GetType() != mod.GetType() && incompatibleTypes.Any(t => t.IsInstanceOfType(m))).Select(m => m.CreateInstance()).ToList();
+            incompatibleText.Text = incompatibleMods.Value.Any() ? "Incompatible with:" : "Compatible with all mods";
+        }
+    }
+}

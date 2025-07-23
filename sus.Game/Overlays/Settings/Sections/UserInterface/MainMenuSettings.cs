@@ -1,0 +1,80 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+#nullable disable
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Localisation;
+using sus.Game.Configuration;
+using sus.Game.Localisation;
+using sus.Game.Online.API;
+using sus.Game.Online.API.Requests.Responses;
+
+namespace sus.Game.Overlays.Settings.Sections.UserInterface
+{
+    public partial class MainMenuSettings : SettingsSubsection
+    {
+        protected override LocalisableString Header => UserInterfaceStrings.MainMenuHeader;
+
+        private IBindable<APIUser> user;
+
+        private SettingsEnumDropdown<BackgroundSource> backgroundSourceDropdown;
+
+        [BackgroundDependencyLoader]
+        private void load(OsuConfigManager config, IAPIProvider api)
+        {
+            user = api.LocalUser.GetBoundCopy();
+
+            Children = new Drawable[]
+            {
+                new SettingsCheckbox
+                {
+                    LabelText = UserInterfaceStrings.ShowMenuTips,
+                    Current = config.GetBindable<bool>(OsuSetting.MenuTips)
+                },
+                new SettingsCheckbox
+                {
+                    Keywords = new[] { "intro", "welcome" },
+                    LabelText = UserInterfaceStrings.InterfaceVoices,
+                    Current = config.GetBindable<bool>(OsuSetting.MenuVoice)
+                },
+                new SettingsCheckbox
+                {
+                    Keywords = new[] { "intro", "welcome" },
+                    LabelText = UserInterfaceStrings.OsuMusicTheme,
+                    Current = config.GetBindable<bool>(OsuSetting.MenuMusic)
+                },
+                new SettingsEnumDropdown<IntroSequence>
+                {
+                    LabelText = UserInterfaceStrings.IntroSequence,
+                    Current = config.GetBindable<IntroSequence>(OsuSetting.IntroSequence),
+                },
+                backgroundSourceDropdown = new SettingsEnumDropdown<BackgroundSource>
+                {
+                    LabelText = UserInterfaceStrings.BackgroundSource,
+                    Current = config.GetBindable<BackgroundSource>(OsuSetting.MenuBackgroundSource),
+                },
+                new SettingsEnumDropdown<SeasonalBackgroundMode>
+                {
+                    LabelText = UserInterfaceStrings.SeasonalBackgrounds,
+                    Current = config.GetBindable<SeasonalBackgroundMode>(OsuSetting.SeasonalBackgroundMode),
+                }
+            };
+        }
+
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            user.BindValueChanged(u =>
+            {
+                if (u.NewValue?.IsSupporter != true)
+                    backgroundSourceDropdown.SetNoticeText(UserInterfaceStrings.NotSupporterNote, true);
+                else
+                    backgroundSourceDropdown.ClearNoticeText();
+            }, true);
+        }
+    }
+}

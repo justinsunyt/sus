@@ -1,0 +1,67 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Game.Overlays.Comments.Buttons;
+using sus.Framework.Graphics;
+using sus.Framework.Allocation;
+using sus.Game.Overlays;
+using sus.Framework.Graphics.Containers;
+using susTK;
+using NUnit.Framework;
+using System.Linq;
+using sus.Framework.Graphics.Sprites;
+using sus.Framework.Testing;
+
+namespace sus.Game.Tests.Visual.UserInterface
+{
+    public partial class TestSceneCommentRepliesButton : OsuTestScene
+    {
+        [Cached]
+        private readonly OverlayColourProvider colourProvider = new OverlayColourProvider(OverlayColourScheme.Blue);
+
+        private readonly TestButton button;
+
+        public TestSceneCommentRepliesButton()
+        {
+            Child = new FillFlowContainer
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                AutoSizeAxes = Axes.Both,
+                Direction = FillDirection.Vertical,
+                Spacing = new Vector2(0, 10),
+                Children = new Drawable[]
+                {
+                    button = new TestButton(),
+                    new LoadRepliesButton
+                    {
+                        Action = () => { }
+                    },
+                    new ShowRepliesButton(1),
+                    new ShowRepliesButton(2)
+                }
+            };
+        }
+
+        [Test]
+        public void TestArrowDirection()
+        {
+            AddStep("Set upwards", () => button.SetIconDirection(true));
+            AddUntilStep("Icon facing upwards", () => button.Icon.Scale.Y == -1);
+            AddStep("Set downwards", () => button.SetIconDirection(false));
+            AddUntilStep("Icon facing downwards", () => button.Icon.Scale.Y == 1);
+        }
+
+        private partial class TestButton : CommentRepliesButton
+        {
+            public SpriteIcon Icon => this.ChildrenOfType<SpriteIcon>().First();
+
+            public TestButton()
+            {
+                Text = "sample text";
+            }
+
+            public new void SetIconDirection(bool upwards) => base.SetIconDirection(upwards);
+        }
+    }
+}

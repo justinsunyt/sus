@@ -1,0 +1,27 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Graphics;
+using sus.Game.Graphics.Cursor;
+using sus.Game.Graphics.UserInterface;
+using susTK;
+
+namespace sus.Game.Tests.Visual.Online
+{
+    public partial class TestSceneExternalLinkButton : OsuTestScene
+    {
+        public TestSceneExternalLinkButton()
+        {
+            Child = new OsuContextMenuContainer
+            {
+                RelativeSizeAxes = Axes.Both,
+                Child = new ExternalLinkButton("https://sus.ppy.sh/home")
+                {
+                    Size = new Vector2(50),
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                }
+            };
+        }
+    }
+}

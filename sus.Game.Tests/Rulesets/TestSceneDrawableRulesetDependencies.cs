@@ -1,0 +1,178 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+#nullable disable
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
+using NUnit.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Audio;
+using sus.Framework.Audio.Sample;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Rendering;
+using sus.Framework.Graphics.Shaders;
+using sus.Framework.Graphics.Shapes;
+using sus.Framework.Graphics.Textures;
+using sus.Framework.IO.Stores;
+using sus.Framework.Platform;
+using sus.Framework.Testing;
+using sus.Game.Rulesets.Osu;
+using sus.Game.Rulesets.UI;
+using sus.Game.Tests.Visual;
+
+namespace sus.Game.Tests.Rulesets
+{
+    [HeadlessTest]
+    public partial class TestSceneDrawableRulesetDependencies : OsuTestScene
+    {
+        [Test]
+        public void TestDisposalDoesNotDisposeParentStores()
+        {
+            DrawableWithDependencies drawable = null;
+            TestTextureStore textureStore = null;
+            TestSampleStore sampleStore = null;
+            TestShaderManager shaderManager = null;
+
+            AddStep("add dependencies", () =>
+            {
+                Child = drawable = new DrawableWithDependencies();
+                textureStore = drawable.ParentTextureStore;
+                sampleStore = drawable.ParentSampleStore;
+                shaderManager = drawable.ParentShaderManager;
+            });
+
+            AddStep("clear children", Clear);
+            AddUntilStep("wait for disposal", () => drawable.IsDisposed);
+
+            AddStep("GC", () =>
+            {
+                drawable = null;
+
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+            });
+
+            AddAssert("parent texture store not disposed", () => !textureStore.IsDisposed);
+            AddAssert("parent sample store not disposed", () => !sampleStore.IsDisposed);
+            AddAssert("parent shader manager not disposed", () => !shaderManager.IsDisposed);
+        }
+
+        private partial class DrawableWithDependencies : CompositeDrawable
+        {
+            public TestTextureStore ParentTextureStore { get; private set; }
+            public TestSampleStore ParentSampleStore { get; private set; }
+            public TestShaderManager ParentShaderManager { get; private set; }
+
+            public DrawableWithDependencies()
+            {
+                InternalChild = new Box { RelativeSizeAxes = Axes.Both };
+            }
+
+            protected override IReadOnlyDependencyContainer CreateChildDependencies(IReadOnlyDependencyContainer parent)
+            {
+                var dependencies = new DependencyContainer(base.CreateChildDependencies(parent));
+
+                dependencies.CacheAs<TextureStore>(ParentTextureStore = new TestTextureStore(parent.Get<GameHost>().Renderer));
+                dependencies.CacheAs<ISampleStore>(ParentSampleStore = new TestSampleStore());
+                dependencies.CacheAs<ShaderManager>(ParentShaderManager = new TestShaderManager(parent.Get<GameHost>().Renderer, parent.Get<ShaderManager>()));
+
+                return new DrawableRulesetDependencies(new OsuRuleset(), dependencies);
+            }
+
+            public new bool IsDisposed { get; private set; }
+
+            protected override void Dispose(bool isDisposing)
+            {
+                base.Dispose(isDisposing);
+                IsDisposed = true;
+            }
+        }
+
+        private class TestTextureStore : TextureStore
+        {
+            public TestTextureStore(IRenderer renderer)
+                : base(renderer)
+            {
+            }
+
+            public override Texture Get(string name, WrapMode wrapModeS, WrapMode wrapModeT) => null;
+
+            public bool IsDisposed { get; private set; }
+
+            protected override void Dispose(bool disposing)
+            {
+                base.Dispose(disposing);
+                IsDisposed = true;
+            }
+        }
+
+        private class TestSampleStore : ISampleStore
+        {
+            public bool IsDisposed { get; private set; }
+
+            public void Dispose()
+            {
+                IsDisposed = true;
+            }
+
+            public Sample Get(string name) => null;
+
+            public Task<Sample> GetAsync(string name, CancellationToken cancellationToken = default) => null;
+
+            public Stream GetStream(string name) => null;
+
+            public IEnumerable<string> GetAvailableResources() => throw new NotImplementedException();
+
+            public BindableNumber<double> Volume => throw new NotImplementedException();
+            public BindableNumber<double> Balance => throw new NotImplementedException();
+            public BindableNumber<double> Frequency => throw new NotImplementedException();
+            public BindableNumber<double> Tempo => throw new NotImplementedException();
+
+            public void BindAdjustments(IAggregateAudioAdjustment component) => throw new NotImplementedException();
+
+            public void UnbindAdjustments(IAggregateAudioAdjustment component) => throw new NotImplementedException();
+
+            public void AddAdjustment(AdjustableProperty type, IBindable<double> adjustBindable) => throw new NotImplementedException();
+
+            public void RemoveAdjustment(AdjustableProperty type, IBindable<double> adjustBindable) => throw new NotImplementedException();
+
+            public void RemoveAllAdjustments(AdjustableProperty type) => throw new NotImplementedException();
+
+            public IBindable<double> AggregateVolume => throw new NotImplementedException();
+            public IBindable<double> AggregateBalance => throw new NotImplementedException();
+            public IBindable<double> AggregateFrequency => throw new NotImplementedException();
+            public IBindable<double> AggregateTempo => throw new NotImplementedException();
+
+            public int PlaybackConcurrency { get; set; }
+
+            public void AddExtension(string extension) => throw new NotImplementedException();
+        }
+
+        private class TestShaderManager : ShaderManager
+        {
+            private readonly ShaderManager parentManager;
+
+            public TestShaderManager(IRenderer renderer, ShaderManager parentManager)
+                : base(renderer, new ResourceStore<byte[]>())
+            {
+                this.parentManager = parentManager;
+            }
+
+            public override byte[] GetRawData(string fileName) => parentManager.GetRawData(fileName);
+
+            public bool IsDisposed { get; private set; }
+
+            protected override void Dispose(bool disposing)
+            {
+                base.Dispose(disposing);
+                IsDisposed = true;
+            }
+        }
+    }
+}

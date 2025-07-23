@@ -4,8 +4,8 @@
     "classifications": [
         "Console"
     ],
-    "name": "osu! ruleset",
-    "identity": "ppy.osu.Game.Templates.Rulesets",
+    "name": "sus! ruleset",
+    "identity": "ppy.sus.Game.Templates.Rulesets",
     "shortName": "ruleset",
     "tags": {
         "language": "C#",

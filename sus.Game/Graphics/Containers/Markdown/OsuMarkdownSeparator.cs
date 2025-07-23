@@ -1,0 +1,27 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers.Markdown;
+using sus.Framework.Graphics.Shapes;
+using sus.Game.Overlays;
+
+namespace sus.Game.Graphics.Containers.Markdown
+{
+    public partial class OsuMarkdownSeparator : MarkdownSeparator
+    {
+        protected override Drawable CreateSeparator() => new Separator();
+
+        private partial class Separator : Box
+        {
+            [BackgroundDependencyLoader]
+            private void load(OverlayColourProvider colourProvider)
+            {
+                RelativeSizeAxes = Axes.X;
+                Height = 1;
+                Colour = colourProvider.Background3;
+            }
+        }
+    }
+}

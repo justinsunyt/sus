@@ -1,0 +1,119 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Linq;
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Configuration;
+using sus.Framework.Extensions.Color4Extensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Colour;
+using sus.Framework.Input.Handlers.Mouse;
+using sus.Framework.Logging;
+using sus.Framework.Platform;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Cursor;
+using sus.Game.Graphics.UserInterface;
+using sus.Game.Overlays;
+using sus.Game.Tournament.Models;
+using susTK.Graphics;
+
+namespace sus.Game.Tournament
+{
+    [Cached]
+    public partial class TournamentGame : TournamentGameBase
+    {
+        public static ColourInfo GetTeamColour(TeamColour teamColour) => teamColour == TeamColour.Red ? COLOUR_RED : COLOUR_BLUE;
+
+        public static readonly Color4 COLOUR_RED = new OsuColour().TeamColourRed;
+        public static readonly Color4 COLOUR_BLUE = new OsuColour().TeamColourBlue;
+
+        public static readonly Color4 ELEMENT_BACKGROUND_COLOUR = Color4Extensions.FromHex("#fff");
+        public static readonly Color4 ELEMENT_FOREGROUND_COLOUR = Color4Extensions.FromHex("#000");
+
+        public static readonly Color4 TEXT_COLOUR = Color4Extensions.FromHex("#fff");
+        private Drawable heightWarning = null!;
+
+        private Bindable<WindowMode> windowMode = null!;
+        private readonly BindableSize windowSize = new BindableSize();
+
+        private LoadingSpinner loadingSpinner = null!;
+
+        [Cached(typeof(IDialogOverlay))]
+        private readonly DialogOverlay dialogOverlay = new DialogOverlay();
+
+        [BackgroundDependencyLoader]
+        private void load(FrameworkConfigManager frameworkConfig, GameHost host)
+        {
+            frameworkConfig.BindWith(FrameworkSetting.WindowedSize, windowSize);
+
+            windowMode = frameworkConfig.GetBindable<WindowMode>(FrameworkSetting.WindowMode);
+
+            Add(loadingSpinner = new LoadingSpinner(true, true)
+            {
+                Anchor = Anchor.BottomRight,
+                Origin = Anchor.BottomRight,
+                Margin = new MarginPadding(40),
+            });
+
+            // in order to have the OS mouse cursor visible, relative mode needs to be disabled.
+            // can potentially be removed when https://github.com/ppy/sus-framework/issues/4309 is resolved.
+            var mouseHandler = host.AvailableInputHandlers.OfType<MouseHandler>().FirstOrDefault();
+
+            if (mouseHandler != null)
+                mouseHandler.UseRelativeMode.Value = false;
+
+            loadingSpinner.Show();
+
+            BracketLoadTask.ContinueWith(t => Schedule(() =>
+            {
+                if (t.IsFaulted)
+                {
+                    loadingSpinner.Hide();
+                    loadingSpinner.Expire();
+
+                    Logger.Error(t.Exception, "Couldn't load bracket with error");
+                    Add(new WarningBox($"Your {BRACKET_FILENAME} file could not be parsed. Please check runtime.log for more details."));
+
+                    return;
+                }
+
+                LoadComponentsAsync(new[]
+                {
+                    new SaveChangesOverlay
+                    {
+                        Depth = float.MinValue,
+                    },
+                    heightWarning = new WarningBox("Please make the window wider")
+                    {
+                        Anchor = Anchor.BottomCentre,
+                        Origin = Anchor.BottomCentre,
+                        Margin = new MarginPadding(20),
+                    },
+                    new OsuContextMenuContainer
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Child = new TournamentSceneManager()
+                    },
+                    dialogOverlay
+                }, drawables =>
+                {
+                    loadingSpinner.Hide();
+                    loadingSpinner.Expire();
+                    AddRange(drawables);
+
+                    windowSize.BindValueChanged(size => ScheduleAfterChildren(() =>
+                    {
+                        int minWidth = (int)(size.NewValue.Height / 768f * TournamentSceneManager.REQUIRED_WIDTH) - 1;
+                        heightWarning.Alpha = size.NewValue.Width < minWidth ? 1 : 0;
+                    }), true);
+
+                    windowMode.BindValueChanged(_ => ScheduleAfterChildren(() =>
+                    {
+                        windowMode.Value = WindowMode.Windowed;
+                    }), true);
+                });
+            }));
+        }
+    }
+}

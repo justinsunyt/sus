@@ -1,0 +1,103 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Extensions.Color4Extensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Colour;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Shapes;
+using sus.Framework.Utils;
+using sus.Game.Rulesets.Objects.Drawables;
+using sus.Game.Rulesets.Osu.Objects.Drawables;
+using susTK.Graphics;
+
+namespace sus.Game.Rulesets.Osu.Skinning.Argon
+{
+    public partial class ArgonFollowCircle : FollowCircle
+    {
+        private readonly CircularContainer circleContainer;
+        private readonly Box circleFill;
+
+        private readonly IBindable<Color4> accentColour = new Bindable<Color4>();
+
+        [Resolved(canBeNull: true)]
+        private DrawableHitObject? parentObject { get; set; }
+
+        public ArgonFollowCircle()
+        {
+            InternalChild = circleContainer = new CircularContainer
+            {
+                RelativeSizeAxes = Axes.Both,
+                Masking = true,
+                BorderThickness = 4,
+                Blending = BlendingParameters.Additive,
+                Child = circleFill = new Box
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Alpha = 0.3f,
+                }
+            };
+        }
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            if (parentObject != null)
+                accentColour.BindTo(parentObject.AccentColour);
+        }
+
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            accentColour.BindValueChanged(colour =>
+            {
+                circleContainer.BorderColour = ColourInfo.GradientVertical(colour.NewValue, colour.NewValue.Darken(0.5f));
+                circleFill.Colour = ColourInfo.GradientVertical(colour.NewValue, colour.NewValue.Darken(0.5f));
+            }, true);
+        }
+
+        protected override void OnSliderPress()
+        {
+            const float duration = 300f;
+
+            if (Precision.AlmostEquals(0, Alpha))
+                this.ScaleTo(1);
+
+            this.ScaleTo(DrawableSliderBall.FOLLOW_AREA, duration, Easing.OutQuint)
+                .FadeIn(duration, Easing.OutQuint);
+        }
+
+        protected override void OnSliderRelease()
+        {
+            const float duration = 150;
+
+            this.ScaleTo(DrawableSliderBall.FOLLOW_AREA * 1.2f, duration, Easing.OutQuint)
+                .FadeTo(0, duration, Easing.OutQuint);
+        }
+
+        protected override void OnSliderEnd()
+        {
+            const float duration = 300;
+
+            this.ScaleTo(1, duration, Easing.OutQuint)
+                .FadeOut(duration / 2, Easing.OutQuint);
+        }
+
+        protected override void OnSliderTick()
+        {
+            if (Scale.X >= DrawableSliderBall.FOLLOW_AREA * 0.98f)
+            {
+                this.ScaleTo(DrawableSliderBall.FOLLOW_AREA * 1.08f, 40, Easing.OutQuint)
+                    .Then()
+                    .ScaleTo(DrawableSliderBall.FOLLOW_AREA, 200f, Easing.OutQuint);
+            }
+        }
+
+        protected override void OnSliderBreak()
+        {
+        }
+    }
+}

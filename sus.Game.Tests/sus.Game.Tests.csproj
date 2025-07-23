@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\sus.TestProject.props" />
+  <ItemGroup Label="Package References">
+    <PackageReference Include="Bogus" Version="35.6.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+    <PackageReference Include="DeepEqual" Version="4.2.1" />
+    <PackageReference Include="Nito.AsyncEx" Version="5.1.2" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+    <PackageReference Include="Moq" Version="4.18.4" />
+  </ItemGroup>
+  <PropertyGroup Label="Project">
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup Label="Code Analysis">
+    <GlobalAnalyzerConfigFiles Include="CodeAnalysis.tests.globalconfig" />
+  </ItemGroup>
+  <ItemGroup Label="Project References">
+    <ProjectReference Include="..\sus.Game.Rulesets.Osu\sus.Game.Rulesets.Osu.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Catch\sus.Game.Rulesets.Catch.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Mania\sus.Game.Rulesets.Mania.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Taiko\sus.Game.Rulesets.Taiko.csproj" />
+  </ItemGroup>
+</Project>

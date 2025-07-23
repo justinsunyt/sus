@@ -1,0 +1,25 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Game.Input.Bindings;
+
+namespace sus.Game.Overlays.Toolbar
+{
+    public partial class ToolbarSocialButton : ToolbarOverlayToggleButton
+    {
+        protected override Anchor TooltipAnchor => Anchor.TopRight;
+
+        public ToolbarSocialButton()
+        {
+            Hotkey = GlobalAction.ToggleSocial;
+        }
+
+        [BackgroundDependencyLoader(true)]
+        private void load(DashboardOverlay dashboard)
+        {
+            StateContainer = dashboard;
+        }
+    }
+}

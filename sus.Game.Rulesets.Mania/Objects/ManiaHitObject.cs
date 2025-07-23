@@ -1,0 +1,36 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Bindables;
+using sus.Game.Rulesets.Mania.Scoring;
+using sus.Game.Rulesets.Objects;
+using sus.Game.Rulesets.Objects.Types;
+using sus.Game.Rulesets.Scoring;
+
+namespace sus.Game.Rulesets.Mania.Objects
+{
+    public abstract class ManiaHitObject : HitObject, IHasColumn, IHasXPosition
+    {
+        private HitObjectProperty<int> column;
+
+        public Bindable<int> ColumnBindable => column.Bindable;
+
+        public virtual int Column
+        {
+            get => column.Value;
+            set => column.Value = value;
+        }
+
+        protected override HitWindows CreateHitWindows() => new ManiaHitWindows();
+
+        #region LegacyBeatmapEncoder
+
+        float IHasXPosition.X
+        {
+            get => Column;
+            set => Column = (int)value;
+        }
+
+        #endregion
+    }
+}

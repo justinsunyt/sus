@@ -1,6 +1,6 @@
 # ## Description
 #
-# Uses [diffcalc-sheet-generator](https://github.com/smoogipoo/diffcalc-sheet-generator) to run two builds of osu and generate an SR/PP/Score comparison spreadsheet.
+# Uses [diffcalc-sheet-generator](https://github.com/smoogipoo/diffcalc-sheet-generator) to run two builds of sus and generate an SR/PP/Score comparison spreadsheet.
 #
 # ## Requirements
 #
@@ -36,15 +36,15 @@
 
 name: Run difficulty calculation comparison
 
-run-name: "${{ github.event_name == 'workflow_dispatch' && format('Manual run: {0}', inputs.osu-b) || 'Automatic comment trigger' }}"
+run-name: "${{ github.event_name == 'workflow_dispatch' && format('Manual run: {0}', inputs.sus-b) || 'Automatic comment trigger' }}"
 
 on:
   issue_comment:
     types: [ created ]
   workflow_dispatch:
     inputs:
-      osu-b:
-        description: "The target build of ppy/osu"
+      sus-b:
+        description: "The target build of ppy/sus"
         type: string
         required: true
       ruleset:
@@ -52,7 +52,7 @@ on:
         type: choice
         required: true
         options:
-          - osu
+          - sus
           - taiko
           - catch
           - mania
@@ -71,28 +71,28 @@ on:
         type: string
         required: false
         default: 'pp,sr'
-      osu-a:
-        description: "The source build of ppy/osu"
+      sus-a:
+        description: "The source build of ppy/sus"
         type: string
         required: false
         default: 'latest'
       difficulty-calculator-a:
-        description: "The source build of ppy/osu-difficulty-calculator"
+        description: "The source build of ppy/sus-difficulty-calculator"
         type: string
         required: false
         default: 'latest'
       difficulty-calculator-b:
-        description: "The target build of ppy/osu-difficulty-calculator"
+        description: "The target build of ppy/sus-difficulty-calculator"
         type: string
         required: false
         default: 'latest'
       score-processor-a:
-        description: "The source build of ppy/osu-queue-score-statistics"
+        description: "The source build of ppy/sus-queue-score-statistics"
         type: string
         required: false
         default: 'latest'
       score-processor-b:
-        description: "The target build of ppy/osu-queue-score-statistics"
+        description: "The target build of ppy/sus-queue-score-statistics"
         type: string
         required: false
         default: 'latest'

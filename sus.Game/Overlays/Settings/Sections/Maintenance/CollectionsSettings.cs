@@ -1,0 +1,55 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Linq;
+using sus.Framework.Allocation;
+using sus.Framework.Localisation;
+using sus.Game.Collections;
+using sus.Game.Database;
+using sus.Game.Localisation;
+using sus.Game.Overlays.Notifications;
+
+namespace sus.Game.Overlays.Settings.Sections.Maintenance
+{
+    public partial class CollectionsSettings : SettingsSubsection
+    {
+        protected override LocalisableString Header => CommonStrings.Collections;
+
+        [Resolved]
+        private RealmAccess realm { get; set; } = null!;
+
+        [Resolved]
+        private INotificationOverlay? notificationOverlay { get; set; }
+
+        [BackgroundDependencyLoader]
+        private void load(IDialogOverlay? dialogOverlay)
+        {
+            Add(new DangerousSettingsButton
+            {
+                Text = MaintenanceSettingsStrings.DeleteAllCollections,
+                Action = () =>
+                {
+                    dialogOverlay?.Push(new MassDeleteConfirmationDialog(deleteAllCollections, DeleteConfirmationContentStrings.Collections));
+                }
+            });
+        }
+
+        private void deleteAllCollections()
+        {
+            bool anyDeleted = realm.Write(r =>
+            {
+                if (r.All<BeatmapCollection>().Any())
+                {
+                    r.RemoveAll<BeatmapCollection>();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            });
+
+            notificationOverlay?.Post(new ProgressCompletionNotification { Text = anyDeleted ? MaintenanceSettingsStrings.DeletedAllCollections : MaintenanceSettingsStrings.NoCollectionsFoundToDelete });
+        }
+    }
+}

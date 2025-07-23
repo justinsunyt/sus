@@ -1,0 +1,112 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+#nullable disable
+
+using System.Linq;
+using NUnit.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Shapes;
+using sus.Framework.Testing;
+using sus.Framework.Utils;
+using sus.Game.Beatmaps;
+using sus.Game.Graphics.UserInterface;
+using sus.Game.Online.API.Requests.Responses;
+using sus.Game.Overlays;
+using sus.Game.Overlays.BeatmapSet;
+using sus.Game.Screens.Select.Details;
+using susTK;
+using susTK.Graphics;
+
+namespace sus.Game.Tests.Visual.Online
+{
+    public partial class TestSceneBeatmapSetOverlaySuccessRate : OsuTestScene
+    {
+        private GraphExposingSuccessRate successRate;
+
+        [Cached]
+        private OverlayColourProvider colourProvider = new OverlayColourProvider(OverlayColourScheme.Blue);
+
+        [SetUp]
+        public void Setup() => Schedule(() =>
+        {
+            Child = new Container
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                Size = new Vector2(275, 220),
+                Children = new Drawable[]
+                {
+                    new Box
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Colour = Color4.Gray,
+                    },
+                    successRate = new GraphExposingSuccessRate
+                    {
+                        Anchor = Anchor.Centre,
+                        Origin = Anchor.Centre,
+                        Size = new Vector2(275, 220),
+                        Padding = new MarginPadding(20)
+                    }
+                }
+            };
+        });
+
+        [Test]
+        public void TestMetrics()
+        {
+            var firstBeatmap = createBeatmap();
+            var secondBeatmap = createBeatmap();
+
+            AddStep("set first set", () => successRate.Beatmap = firstBeatmap);
+            AddAssert("ratings set", () => successRate.Graph.FailTimes == firstBeatmap.FailTimes);
+
+            AddStep("set second set", () => successRate.Beatmap = secondBeatmap);
+            AddAssert("ratings set", () => successRate.Graph.FailTimes == secondBeatmap.FailTimes);
+
+            static APIBeatmap createBeatmap() => new APIBeatmap
+            {
+                FailTimes = new APIFailTimes
+                {
+                    Fails = Enumerable.Range(1, 100).Select(_ => RNG.Next(10)).ToArray(),
+                    Retries = Enumerable.Range(-2, 100).Select(_ => RNG.Next(10)).ToArray(),
+                },
+                PassCount = RNG.Next(0, 999),
+                PlayCount = RNG.Next(1000, 1999),
+            };
+        }
+
+        [Test]
+        public void TestOnlyFailMetrics()
+        {
+            AddStep("set beatmap", () => successRate.Beatmap = new APIBeatmap
+            {
+                FailTimes = new APIFailTimes
+                {
+                    Fails = Enumerable.Range(1, 100).ToArray(),
+                }
+            });
+
+            AddAssert("graph max values correct", () => successRate.ChildrenOfType<BarGraph>().All(graph => graph.MaxValue == 100));
+        }
+
+        [Test]
+        public void TestEmptyMetrics()
+        {
+            AddStep("set beatmap", () => successRate.Beatmap = new APIBeatmap
+            {
+                FailTimes = new APIFailTimes()
+            });
+
+            AddAssert("graph max values correct", () => successRate.ChildrenOfType<BarGraph>().All(graph => graph.MaxValue == 0));
+        }
+
+        private partial class GraphExposingSuccessRate : SuccessRate
+        {
+            public new FailRetryGraph Graph => base.Graph;
+        }
+    }
+}

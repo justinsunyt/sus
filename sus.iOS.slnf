@@ -1,0 +1,19 @@
+{
+  "solution": {
+    "path": "sus.sln",
+    "projects": [
+      "sus.Game.Rulesets.Catch.Tests.iOS\\sus.Game.Rulesets.Catch.Tests.iOS.csproj",
+      "sus.Game.Rulesets.Catch\\sus.Game.Rulesets.Catch.csproj",
+      "sus.Game.Rulesets.Mania.Tests.iOS\\sus.Game.Rulesets.Mania.Tests.iOS.csproj",
+      "sus.Game.Rulesets.Mania\\sus.Game.Rulesets.Mania.csproj",
+      "sus.Game.Rulesets.Osu.Tests.iOS\\sus.Game.Rulesets.Osu.Tests.iOS.csproj",
+      "sus.Game.Rulesets.Osu\\sus.Game.Rulesets.Osu.csproj",
+      "sus.Game.Rulesets.Taiko.Tests.iOS\\sus.Game.Rulesets.Taiko.Tests.iOS.csproj",
+      "sus.Game.Rulesets.Taiko\\sus.Game.Rulesets.Taiko.csproj",
+      "sus.Game.Tests.iOS\\sus.Game.Tests.iOS.csproj",
+      "sus.Game.Tests\\sus.Game.Tests.csproj",
+      "sus.Game\\sus.Game.csproj",
+      "sus.iOS\\sus.iOS.csproj"
+    ]
+  }
+}

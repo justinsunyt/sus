@@ -1,0 +1,59 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using JetBrains.Annotations;
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Sprites;
+using sus.Game.Graphics.Sprites;
+using sus.Game.Online.API;
+using sus.Game.Online.API.Requests.Responses;
+using sus.Game.Screens.Play;
+
+namespace sus.Game.Skinning.Components
+{
+    [UsedImplicitly]
+    public partial class PlayerName : FontAdjustableSkinComponent
+    {
+        private readonly OsuSpriteText text;
+
+        [Resolved]
+        private GameplayState? gameplayState { get; set; }
+
+        [Resolved]
+        private IAPIProvider api { get; set; } = null!;
+
+        private IBindable<APIUser>? apiUser;
+
+        public PlayerName()
+        {
+            AutoSizeAxes = Axes.Both;
+
+            InternalChildren = new Drawable[]
+            {
+                text = new OsuSpriteText
+                {
+                    Anchor = Anchor.CentreLeft,
+                    Origin = Anchor.CentreLeft,
+                }
+            };
+        }
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            if (gameplayState != null)
+                text.Text = gameplayState.Score.ScoreInfo.User.Username;
+            else
+            {
+                apiUser = api.LocalUser.GetBoundCopy();
+                apiUser.BindValueChanged(u => text.Text = u.NewValue.Username, true);
+            }
+        }
+
+        protected override void SetFont(FontUsage font) => text.Font = font.With(size: 40);
+
+        protected override void SetTextColour(Colour4 textColour) => text.Colour = textColour;
+    }
+}

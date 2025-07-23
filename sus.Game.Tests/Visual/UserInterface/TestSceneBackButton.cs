@@ -1,0 +1,49 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Shapes;
+using sus.Game.Graphics.UserInterface;
+using sus.Game.Screens.Footer;
+using susTK;
+using susTK.Graphics;
+
+namespace sus.Game.Tests.Visual.UserInterface
+{
+    public partial class TestSceneBackButton : OsuTestScene
+    {
+        private readonly BackButton? button;
+
+        public TestSceneBackButton()
+        {
+            ScreenFooter.BackReceptor receptor = new ScreenFooter.BackReceptor();
+
+            Child = new Container
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                Size = new Vector2(300),
+                Masking = true,
+                Children = new Drawable[]
+                {
+                    receptor,
+                    new Box
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Colour = Color4.SlateGray
+                    },
+                    button = new BackButton(receptor)
+                    {
+                        Action = () => button?.Hide(),
+                        Anchor = Anchor.BottomLeft,
+                        Origin = Anchor.BottomLeft,
+                    }
+                }
+            };
+
+            AddStep("show button", () => button.Show());
+            AddStep("hide button", () => button.Hide());
+        }
+    }
+}

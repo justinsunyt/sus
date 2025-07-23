@@ -1,55 +1,55 @@
-# Run this script to use a local copy of osu-framework rather than fetching it from nuget.
-# It expects the osu-framework directory to be at the same level as the osu directory
+# Run this script to use a local copy of sus-framework rather than fetching it from nuget.
+# It expects the sus-framework directory to be at the same level as the sus directory
 #
-# https://github.com/ppy/osu-framework/wiki/Testing-local-framework-checkout-with-other-projects
+# https://github.com/ppy/sus-framework/wiki/Testing-local-framework-checkout-with-other-projects
 
-$GAME_CSPROJ="osu.Game/osu.Game.csproj"
-$ANDROID_PROPS="osu.Android.props"
-$IOS_PROPS="osu.iOS.props"
-$SLN="osu.sln"
+$GAME_CSPROJ="sus.Game/sus.Game.csproj"
+$ANDROID_PROPS="sus.Android.props"
+$IOS_PROPS="sus.iOS.props"
+$SLN="sus.sln"
 
-dotnet remove $GAME_CSPROJ reference ppy.osu.Framework;
-dotnet remove $ANDROID_PROPS reference ppy.osu.Framework.Android;
-dotnet remove $IOS_PROPS reference ppy.osu.Framework.iOS;
+dotnet remove $GAME_CSPROJ reference ppy.sus.Framework;
+dotnet remove $ANDROID_PROPS reference ppy.sus.Framework.Android;
+dotnet remove $IOS_PROPS reference ppy.sus.Framework.iOS;
 
-dotnet sln $SLN add ../osu-framework/osu.Framework/osu.Framework.csproj `
-    ../osu-framework/osu.Framework.NativeLibs/osu.Framework.NativeLibs.csproj `
-    ../osu-framework/osu.Framework.Android/osu.Framework.Android.csproj `
-    ../osu-framework/osu.Framework.iOS/osu.Framework.iOS.csproj;
+dotnet sln $SLN add ../sus-framework/sus.Framework/sus.Framework.csproj `
+    ../sus-framework/sus.Framework.NativeLibs/sus.Framework.NativeLibs.csproj `
+    ../sus-framework/sus.Framework.Android/sus.Framework.Android.csproj `
+    ../sus-framework/sus.Framework.iOS/sus.Framework.iOS.csproj;
 
-dotnet add $GAME_CSPROJ reference ../osu-framework/osu.Framework/osu.Framework.csproj;
-dotnet add $ANDROID_PROPS reference ../osu-framework/osu.Framework.Android/osu.Framework.Android.csproj;
-dotnet add $IOS_PROPS reference ../osu-framework/osu.Framework.iOS/osu.Framework.iOS.csproj;
+dotnet add $GAME_CSPROJ reference ../sus-framework/sus.Framework/sus.Framework.csproj;
+dotnet add $ANDROID_PROPS reference ../sus-framework/sus.Framework.Android/sus.Framework.Android.csproj;
+dotnet add $IOS_PROPS reference ../sus-framework/sus.Framework.iOS/sus.Framework.iOS.csproj;
 
 # workaround for dotnet add not inserting $(MSBuildThisFileDirectory) on props files
-(Get-Content "osu.Android.props") -replace "`"..\\osu-framework", "`"`$(MSBuildThisFileDirectory)..\osu-framework" | Set-Content "osu.Android.props"
-(Get-Content "osu.iOS.props") -replace "`"..\\osu-framework", "`"`$(MSBuildThisFileDirectory)..\osu-framework" | Set-Content "osu.iOS.props"
+(Get-Content "sus.Android.props") -replace "`"..\\sus-framework", "`"`$(MSBuildThisFileDirectory)..\sus-framework" | Set-Content "sus.Android.props"
+(Get-Content "sus.iOS.props") -replace "`"..\\sus-framework", "`"`$(MSBuildThisFileDirectory)..\sus-framework" | Set-Content "sus.iOS.props"
 
 # needed because iOS framework nupkg includes a set of properties to work around certain issues during building,
 # and those get ignored when referencing framework via project, threfore we have to manually include it via props reference.
-(Get-Content "osu.iOS.props") |
+(Get-Content "sus.iOS.props") |
     Foreach-Object {
         if ($_ -match "</Project>")
         {
-            "  <Import Project=`"`$(MSBuildThisFileDirectory)../osu-framework/osu.Framework.iOS.props`"/>"
+            "  <Import Project=`"`$(MSBuildThisFileDirectory)../sus-framework/sus.Framework.iOS.props`"/>"
         }
 
         $_
-    } | Set-Content "osu.iOS.props"
+    } | Set-Content "sus.iOS.props"
 
 $TMP=New-TemporaryFile
 
-$SLNF=Get-Content "osu.Desktop.slnf" | ConvertFrom-Json
-$SLNF.solution.projects += ("../osu-framework/osu.Framework/osu.Framework.csproj", "../osu-framework/osu.Framework.NativeLibs/osu.Framework.NativeLibs.csproj")
+$SLNF=Get-Content "sus.Desktop.slnf" | ConvertFrom-Json
+$SLNF.solution.projects += ("../sus-framework/sus.Framework/sus.Framework.csproj", "../sus-framework/sus.Framework.NativeLibs/sus.Framework.NativeLibs.csproj")
 ConvertTo-Json $SLNF | Out-File $TMP -Encoding UTF8
-Move-Item -Path $TMP -Destination "osu.Desktop.slnf" -Force
+Move-Item -Path $TMP -Destination "sus.Desktop.slnf" -Force
 
-$SLNF=Get-Content "osu.Android.slnf" | ConvertFrom-Json
-$SLNF.solution.projects += ("../osu-framework/osu.Framework/osu.Framework.csproj", "../osu-framework/osu.Framework.NativeLibs/osu.Framework.NativeLibs.csproj", "../osu-framework/osu.Framework.Android/osu.Framework.Android.csproj")
+$SLNF=Get-Content "sus.Android.slnf" | ConvertFrom-Json
+$SLNF.solution.projects += ("../sus-framework/sus.Framework/sus.Framework.csproj", "../sus-framework/sus.Framework.NativeLibs/sus.Framework.NativeLibs.csproj", "../sus-framework/sus.Framework.Android/sus.Framework.Android.csproj")
 ConvertTo-Json $SLNF | Out-File $TMP -Encoding UTF8
-Move-Item -Path $TMP -Destination "osu.Android.slnf" -Force
+Move-Item -Path $TMP -Destination "sus.Android.slnf" -Force
 
-$SLNF=Get-Content "osu.iOS.slnf" | ConvertFrom-Json
-$SLNF.solution.projects += ("../osu-framework/osu.Framework/osu.Framework.csproj", "../osu-framework/osu.Framework.NativeLibs/osu.Framework.NativeLibs.csproj", "../osu-framework/osu.Framework.iOS/osu.Framework.iOS.csproj")
+$SLNF=Get-Content "sus.iOS.slnf" | ConvertFrom-Json
+$SLNF.solution.projects += ("../sus-framework/sus.Framework/sus.Framework.csproj", "../sus-framework/sus.Framework.NativeLibs/sus.Framework.NativeLibs.csproj", "../sus-framework/sus.Framework.iOS/sus.Framework.iOS.csproj")
 ConvertTo-Json $SLNF | Out-File $TMP -Encoding UTF8
-Move-Item -Path $TMP -Destination "osu.iOS.slnf" -Force
+Move-Item -Path $TMP -Destination "sus.iOS.slnf" -Force

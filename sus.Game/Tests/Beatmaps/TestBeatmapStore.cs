@@ -1,0 +1,16 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Threading;
+using sus.Framework.Bindables;
+using sus.Game.Beatmaps;
+using sus.Game.Database;
+
+namespace sus.Game.Tests.Beatmaps
+{
+    internal partial class TestBeatmapStore : BeatmapStore
+    {
+        public readonly BindableList<BeatmapSetInfo> BeatmapSets = new BindableList<BeatmapSetInfo>();
+        public override IBindableList<BeatmapSetInfo> GetBeatmapSets(CancellationToken? cancellationToken) => BeatmapSets.GetBoundCopy();
+    }
+}

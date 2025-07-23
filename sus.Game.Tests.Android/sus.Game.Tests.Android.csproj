@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\sus.Android.props" />
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>sus.Game.Tests</RootNamespace>
+    <AssemblyName>sus.Game.Tests.Android</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CA2007</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\sus.Game.Tests\**\*.cs" Exclude="**\obj\**">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </Compile>
+    <!-- TargetPath is relative to RootNamespace,
+         and DllResourceStore is relative to AssemblyName. -->
+    <EmbeddedResource Include="..\sus.Game.Tests\**\Resources\**\*">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <TargetPath>Android\%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sus.Game.Rulesets.Catch\sus.Game.Rulesets.Catch.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Mania\sus.Game.Rulesets.Mania.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Osu\sus.Game.Rulesets.Osu.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Taiko\sus.Game.Rulesets.Taiko.csproj" />
+    <ProjectReference Include="..\sus.Game\sus.Game.csproj" />
+  </ItemGroup>
+  <ItemGroup Label="Package References">
+    <PackageReference Include="Bogus" Version="35.6.2" />
+    <PackageReference Include="DeepEqual" Version="2.0.0" />
+    <PackageReference Include="Moq" Version="4.17.2" />
+  </ItemGroup>
+  <!-- sus.Framework.Android depends on https://www.nuget.org/packages/Xamarin.AndroidX.Window,
+       which - via a chain of transitive dependencies - also includes https://www.nuget.org/packages/Xamarin.Jetbrains.Annotations,
+       which causes compile failures such as:
+
+         The type 'NotNullAttribute' exists in both 'JetBrains.Annotations, Version=4242.42.42.42, Culture=neutral, PublicKeyToken=1010a0d8d6380325'
+         and 'Xamarin.Jetbrains.Annotations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' [D:\a\sus\sus\sus.Game.Tests.Android\sus.Game.Tests.Android.csproj]
+
+       We cannot easily change the source files, because of how this project works
+       (all source files are basically symlinked from the desktop test project,
+       so changing anything there just for the sake of mobile would be strange).
+       Thus, apply the following "interesting" workaround as borrowed from https://stackoverflow.com/a/65127159 instead. -->
+  <Target Name="AddPackageAliases" BeforeTargets="FindReferenceAssembliesForReferences;ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Condition="%(Filename) == 'Xamarin.Jetbrains.Annotations'">
+        <Aliases>XamarinJetbrainsAnnotations</Aliases>
+      </ReferencePath>
+    </ItemGroup>
+  </Target>
+</Project>
