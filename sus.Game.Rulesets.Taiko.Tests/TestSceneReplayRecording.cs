@@ -3,15 +3,15 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Rulesets.Taiko.Replays;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Taiko.Tests
 {

@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Humanizer;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Beatmaps.Drawables.Cards.Statistics
 {

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
 using sus.Game.Graphics;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.Dashboard.Friends
 {

@@ -6,8 +6,8 @@
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using sus.Framework.Graphics.Colour;
-using susTK.Graphics;
+using osu.Framework.Graphics.Colour;
+using osuTK.Graphics;
 
 namespace sus.Game.Online.API.Requests.Responses
 {

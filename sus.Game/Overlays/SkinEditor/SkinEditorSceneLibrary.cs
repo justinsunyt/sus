@@ -1,11 +1,11 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Screens;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -13,7 +13,7 @@ using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
 using sus.Game.Screens;
 using sus.Game.Screens.SelectV2;
-using susTK;
+using osuTK;
 using SongSelect = sus.Game.Screens.Select.SongSelect;
 
 namespace sus.Game.Overlays.SkinEditor

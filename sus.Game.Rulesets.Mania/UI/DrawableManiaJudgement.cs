@@ -3,10 +3,10 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.UI
 {

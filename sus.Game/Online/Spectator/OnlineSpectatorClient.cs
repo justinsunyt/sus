@@ -5,8 +5,8 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR.Client;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Online.API;
 using sus.Game.Online.Multiplayer;
 

@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics.Containers;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Skinning.Default
 {

@@ -3,9 +3,9 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;

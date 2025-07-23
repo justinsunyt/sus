@@ -4,8 +4,8 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Rankings;
 using sus.Game.Rulesets.Catch;

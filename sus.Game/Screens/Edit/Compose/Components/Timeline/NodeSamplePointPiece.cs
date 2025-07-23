@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;

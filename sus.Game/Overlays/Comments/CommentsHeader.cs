@@ -3,20 +3,20 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
-using sus.Framework.Graphics.Sprites;
-using susTK;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics.Sprites;
+using osuTK;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments
 {

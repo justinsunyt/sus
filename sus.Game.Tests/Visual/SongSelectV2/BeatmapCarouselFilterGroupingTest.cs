@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Carousel;
 using sus.Game.Screens.Select;

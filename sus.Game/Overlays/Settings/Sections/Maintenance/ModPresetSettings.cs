@@ -3,11 +3,11 @@
 
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Database;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Rulesets.Mods;

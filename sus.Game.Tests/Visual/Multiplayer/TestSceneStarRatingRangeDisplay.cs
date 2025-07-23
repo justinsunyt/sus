@@ -2,13 +2,13 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Beatmaps;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Components;
 using sus.Game.Tests.Resources;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

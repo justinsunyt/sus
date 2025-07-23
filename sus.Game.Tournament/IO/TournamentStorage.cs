@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Bindables;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.IO;
 using sus.Game.Tournament.Configuration;
 

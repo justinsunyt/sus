@@ -8,20 +8,20 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.IO.Stores;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.IO.Stores;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Storyboards;
 using sus.Game.Storyboards.Drawables;
 using sus.Game.Tests.Resources;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

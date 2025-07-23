@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Osu.Edit.Blueprints.HitCircles.Components;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

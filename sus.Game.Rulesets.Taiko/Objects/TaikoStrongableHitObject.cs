@@ -3,7 +3,7 @@
 
 using System.Linq;
 using System.Threading;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Objects;
 

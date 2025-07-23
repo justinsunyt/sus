@@ -16,7 +16,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Beatmaps;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit;
-using susTK;
+using osuTK;
 using Decoder = sus.Game.Beatmaps.Formats.Decoder;
 
 namespace sus.Game.Tests.Editing

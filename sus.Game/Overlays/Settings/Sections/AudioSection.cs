@@ -3,9 +3,9 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Localisation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics;
 using sus.Game.Localisation;
 using sus.Game.Overlays.Settings.Sections.Audio;

@@ -3,15 +3,15 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Framework.Logging;
+using osu.Framework.Logging;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Beatmaps.Drawables.Cards.Buttons
 {

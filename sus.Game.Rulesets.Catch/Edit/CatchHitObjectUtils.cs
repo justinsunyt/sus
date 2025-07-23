@@ -7,7 +7,7 @@ using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.UI.Scrolling;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Edit
 {

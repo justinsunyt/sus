@@ -3,12 +3,12 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Utils;
 using sus.Game.Screens.OnlinePlay.Multiplayer.Spectate;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

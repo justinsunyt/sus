@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Screens.Menu;
 using sus.Game.Screens.SelectV2;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

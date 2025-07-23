@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Rulesets.UI.Scrolling.Algorithms;
 using sus.Game.Tests.Visual;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mania.Tests.Skinning
 {

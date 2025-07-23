@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.StateChanges;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.StateChanges;
+using osu.Framework.Logging;
 using sus.Game.Configuration;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Input
 {

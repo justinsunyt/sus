@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Net.Sockets;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Online.API
 {

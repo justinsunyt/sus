@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;

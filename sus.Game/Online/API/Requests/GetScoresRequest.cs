@@ -10,7 +10,7 @@ using sus.Game.Rulesets.Mods;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Extensions;
 
 namespace sus.Game.Online.API.Requests

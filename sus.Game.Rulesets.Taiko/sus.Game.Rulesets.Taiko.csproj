@@ -8,7 +8,7 @@
 
   <PropertyGroup Label="Nuget">
     <Title>sus!taiko (ruleset)</Title>
-    <PackageId>ppy.sus.Game.Rulesets.Taiko</PackageId>
+    <PackageId>ppy.osu.Game.Rulesets.Taiko</PackageId>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 

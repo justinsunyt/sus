@@ -4,7 +4,7 @@
 using sus.Game.Rulesets.Objects.Types;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;

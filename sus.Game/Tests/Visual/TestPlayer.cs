@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Screens;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;
 using sus.Game.Online.Spectator;

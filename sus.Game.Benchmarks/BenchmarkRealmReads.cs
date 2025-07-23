@@ -4,8 +4,8 @@
 using System.Linq;
 using System.Threading;
 using BenchmarkDotNet.Attributes;
-using sus.Framework.Testing;
-using sus.Framework.Threading;
+using osu.Framework.Testing;
+using osu.Framework.Threading;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Rulesets.Osu;

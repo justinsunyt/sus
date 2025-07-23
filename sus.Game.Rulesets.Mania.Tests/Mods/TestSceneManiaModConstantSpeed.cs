@@ -3,8 +3,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Mania.Mods;
 using sus.Game.Rulesets.Mania.Objects.Drawables;
 using sus.Game.Rulesets.UI.Scrolling;

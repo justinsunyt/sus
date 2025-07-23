@@ -3,12 +3,12 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Skinning.Legacy
 {

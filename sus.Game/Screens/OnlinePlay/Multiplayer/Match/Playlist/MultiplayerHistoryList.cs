@@ -3,10 +3,10 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.Rooms;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Match.Playlist
 {

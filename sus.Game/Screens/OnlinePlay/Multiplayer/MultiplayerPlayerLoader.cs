@@ -3,9 +3,9 @@
 
 using System;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Screens.Play;
 

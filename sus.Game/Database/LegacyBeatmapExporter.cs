@@ -5,7 +5,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Text;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.Beatmaps.Timing;
@@ -13,7 +13,7 @@ using sus.Game.IO;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Database
 {

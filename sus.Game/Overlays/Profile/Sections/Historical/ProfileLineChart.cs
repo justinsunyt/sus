@@ -1,18 +1,18 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using System;
 using System.Linq;
 using sus.Game.Graphics.Sprites;
-using sus.Framework.Utils;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.LocalisationExtensions;
 using sus.Game.Graphics;
-using sus.Framework.Graphics.Shapes;
-using susTK;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics.Shapes;
+using osuTK;
+using osu.Framework.Localisation;
 using sus.Game.Online.API.Requests.Responses;
 
 namespace sus.Game.Overlays.Profile.Sections.Historical

@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.IO;
-using sus.Framework.iOS;
-using sus.Framework.Platform;
+using osu.Framework.iOS;
+using osu.Framework.Platform;
 using sus.Game.IO;
 
 namespace sus.iOS

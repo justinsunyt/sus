@@ -3,9 +3,9 @@
 
 #nullable disable
 
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Allocation;
-using sus.Framework.Logging;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Logging;
 using sus.Game.Extensions;
 
 namespace sus.Game.Rulesets

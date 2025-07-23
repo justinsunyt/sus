@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Database;
 using sus.Game.Extensions;
 using sus.Game.Online.API;

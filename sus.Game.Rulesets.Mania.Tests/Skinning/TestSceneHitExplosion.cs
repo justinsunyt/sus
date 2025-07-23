@@ -4,16 +4,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Pooling;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Pooling;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mania.Judgements;
 using sus.Game.Rulesets.Mania.Skinning.Default;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Rulesets.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Tests.Skinning
 {

@@ -6,12 +6,12 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Audio;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Audio;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Audio;
 
 namespace sus.Game.Skinning

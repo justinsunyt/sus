@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics;
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Rendering;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Rendering;
 using sus.Game.Graphics.Backgrounds;
 
 namespace sus.Game.Tests.Visual.Background

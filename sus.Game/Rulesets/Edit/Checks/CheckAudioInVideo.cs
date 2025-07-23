@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using sus.Framework.Logging;
+using osu.Framework.Logging;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Edit.Checks.Components;
 using sus.Game.Storyboards;

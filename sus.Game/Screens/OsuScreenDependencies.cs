@@ -4,8 +4,8 @@
 #nullable disable
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;

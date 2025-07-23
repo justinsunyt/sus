@@ -3,9 +3,9 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Development;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Statistics;
+using osu.Framework.Development;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Statistics;
 using Realms;
 
 namespace sus.Game.Database

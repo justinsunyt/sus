@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Numerics;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Overlays.Settings;
 
 namespace sus.Game.Graphics.UserInterfaceV2

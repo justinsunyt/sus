@@ -3,16 +3,16 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.StateChanges;
-using sus.Framework.Input.StateChanges.Events;
-using sus.Framework.Input.States;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.StateChanges;
+using osu.Framework.Input.StateChanges.Events;
+using osu.Framework.Input.States;
 using sus.Game.Configuration;
 using sus.Game.Input;
 using sus.Game.Input.Bindings;
@@ -20,7 +20,7 @@ using sus.Game.Input.Handlers;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Play.HUD.ClicksPerSecond;
-using susTK;
+using osuTK;
 using static sus.Game.Input.Handlers.ReplayInputHandler;
 
 namespace sus.Game.Rulesets.UI

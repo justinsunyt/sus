@@ -7,7 +7,7 @@ using sus.Game.Beatmaps;
 using sus.Game.Replays.Legacy;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Rulesets.Replays.Types;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Replays
 {

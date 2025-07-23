@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using sus.Framework.Audio.Track;
+using osu.Framework.Audio.Track;
 using sus.Game.Audio;
 using sus.Game.Extensions;
 using sus.Game.Rulesets.Edit.Checks.Components;

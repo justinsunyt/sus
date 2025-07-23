@@ -5,7 +5,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Play.HUD;
 

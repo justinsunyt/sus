@@ -8,9 +8,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Beatmaps.Formats;
@@ -27,8 +27,8 @@ using sus.Game.Rulesets.Taiko;
 using sus.Game.Skinning;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Resources;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Beatmaps.Formats
 {

@@ -1,8 +1,8 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Configuration;
-using sus.Framework.Platform;
+using osu.Framework.Configuration;
+using osu.Framework.Platform;
 
 namespace sus.Game.Configuration
 {

@@ -12,7 +12,7 @@ using Android.Content.PM;
 using Android.Graphics;
 using Android.OS;
 using Android.Views;
-using sus.Framework.Android;
+using osu.Framework.Android;
 using sus.Game.Database;
 using Debug = System.Diagnostics.Debug;
 using Uri = Android.Net.Uri;
@@ -55,7 +55,7 @@ namespace sus.Android
 
         private bool gameCreated;
 
-        protected override Framework.Game CreateGame()
+        protected override osu.Framework.Game CreateGame()
         {
             if (gameCreated)
                 throw new InvalidOperationException("Framework tried to create a game twice.");

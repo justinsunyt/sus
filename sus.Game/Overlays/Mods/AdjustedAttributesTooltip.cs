@@ -3,16 +3,16 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Mods
 {

@@ -7,11 +7,11 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics.Containers;
 using sus.Game.Overlays;
@@ -19,8 +19,8 @@ using sus.Game.Rulesets.Edit;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Timing;
 using sus.Game.Screens.Edit.Timing.RowAttributes;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

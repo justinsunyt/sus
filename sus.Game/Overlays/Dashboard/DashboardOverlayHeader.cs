@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Localisation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Dashboard
 {

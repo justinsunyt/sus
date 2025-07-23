@@ -4,15 +4,15 @@
 using System.Linq;
 using Moq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Edit.Checks;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Storyboards;
-using susTK;
+using osuTK;
 using static sus.Game.Tests.Visual.OsuTestScene.ClockBackedTestWorkingBeatmap;
 
 namespace sus.Game.Tests.Editing.Checks

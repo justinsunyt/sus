@@ -4,7 +4,7 @@
 using System;
 using System.IO;
 using Newtonsoft.Json;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Tournament.IO;
 
 namespace sus.Game.Tournament.Models

@@ -4,7 +4,7 @@
 #nullable disable
 
 using System.ComponentModel;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Sprites;
 
 namespace sus.Game.Graphics
 {

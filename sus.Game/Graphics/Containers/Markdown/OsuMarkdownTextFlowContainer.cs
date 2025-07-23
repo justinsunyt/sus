@@ -8,17 +8,17 @@ using System.Linq;
 using Markdig.Extensions.CustomContainers;
 using Markdig.Extensions.Footnotes;
 using Markdig.Syntax.Inlines;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Containers.Markdown;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics.Containers.Markdown.Footnotes;
 using sus.Game.Overlays;
 using sus.Game.Users;
 using sus.Game.Users.Drawables;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Graphics.Containers.Markdown
 {

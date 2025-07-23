@@ -5,10 +5,10 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.UI;

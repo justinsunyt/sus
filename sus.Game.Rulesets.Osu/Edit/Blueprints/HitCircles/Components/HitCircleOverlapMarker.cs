@@ -4,18 +4,18 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Skinning.Default;
 using sus.Game.Screens.Edit;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.HitCircles.Components
 {

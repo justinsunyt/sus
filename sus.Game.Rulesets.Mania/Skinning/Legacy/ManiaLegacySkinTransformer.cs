@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Beatmaps;
@@ -17,7 +17,7 @@ using sus.Game.Rulesets.Objects.Legacy;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Skinning.Legacy
 {

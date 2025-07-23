@@ -4,13 +4,13 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Overlays.Comments;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Overlays;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API;
 
 namespace sus.Game.Tests.Visual.Online

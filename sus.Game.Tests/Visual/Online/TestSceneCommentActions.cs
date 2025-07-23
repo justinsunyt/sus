@@ -7,13 +7,13 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
@@ -24,7 +24,7 @@ using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Comments;
 using sus.Game.Overlays.Comments.Buttons;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Online
 {

@@ -4,12 +4,12 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
@@ -24,8 +24,8 @@ using sus.Game.Scoring;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Resources;
 using sus.Game.Users;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.SongSelectV2
 {

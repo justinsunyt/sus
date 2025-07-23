@@ -4,9 +4,9 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Input;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Input;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
@@ -16,8 +16,8 @@ using sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders.Components;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

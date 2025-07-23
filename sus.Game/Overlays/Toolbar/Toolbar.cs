@@ -4,18 +4,18 @@
 #nullable disable
 
 using System;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
-using susTK;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Input.Events;
+using osuTK;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Input.Bindings;
 using sus.Game.Graphics.Containers;
 using sus.Game.Input.Bindings;
 

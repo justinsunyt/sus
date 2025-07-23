@@ -4,15 +4,15 @@
 using System.Linq;
 using Moq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Multiplayer;
 using sus.Game.Screens.Play;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

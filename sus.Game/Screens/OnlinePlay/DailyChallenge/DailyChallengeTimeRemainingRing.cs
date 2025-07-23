@@ -3,17 +3,17 @@
 
 using System;
 using System.ComponentModel;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Threading;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.DailyChallenge
 {

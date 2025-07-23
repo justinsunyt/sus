@@ -3,8 +3,8 @@
 
 using System;
 using System.Globalization;
-using sus.Framework.Configuration;
-using sus.Framework.Localisation;
+using osu.Framework.Configuration;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 
 namespace sus.Game.Extensions

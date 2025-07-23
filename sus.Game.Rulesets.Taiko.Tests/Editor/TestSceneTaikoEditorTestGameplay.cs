@@ -3,9 +3,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Screens.Edit;
@@ -14,7 +14,7 @@ using sus.Game.Screens.Edit.GameplayTest;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Beatmaps.IO;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Taiko.Tests.Editor
 {

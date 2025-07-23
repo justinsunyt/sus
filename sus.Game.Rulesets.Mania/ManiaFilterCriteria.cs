@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.Rulesets.Filter;

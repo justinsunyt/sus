@@ -3,15 +3,15 @@
 
 #nullable disable
 
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments
 {

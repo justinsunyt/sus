@@ -4,9 +4,9 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Configuration;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Configuration;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays;
 using sus.Game.Rulesets.Osu;

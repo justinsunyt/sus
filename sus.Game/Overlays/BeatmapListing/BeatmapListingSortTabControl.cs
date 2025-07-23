@@ -1,13 +1,13 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Graphics;
-using susTK.Graphics;
-using susTK;
-using sus.Framework.Input.Events;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Graphics;
+using osuTK.Graphics;
+using osuTK;
+using osu.Framework.Input.Events;
 
 namespace sus.Game.Overlays.BeatmapListing
 {

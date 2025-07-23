@@ -4,17 +4,17 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables.Cards.Buttons;
 using sus.Game.Configuration;
 using sus.Game.Online;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets.Osu;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Beatmaps
 {

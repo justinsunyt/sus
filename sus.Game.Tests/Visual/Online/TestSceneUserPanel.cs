@@ -3,10 +3,10 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Online;
 using sus.Game.Online.API.Requests.Responses;
@@ -17,7 +17,7 @@ using sus.Game.Scoring;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Visual.Metadata;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Online
 {

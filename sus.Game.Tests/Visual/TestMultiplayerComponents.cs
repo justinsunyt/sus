@@ -3,9 +3,9 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
 using sus.Game.Database;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API;

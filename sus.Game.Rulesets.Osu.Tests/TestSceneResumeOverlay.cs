@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Osu.UI.Cursor;
@@ -14,7 +14,7 @@ using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Play;
 using sus.Game.Tests.Gameplay;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

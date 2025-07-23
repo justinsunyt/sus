@@ -3,13 +3,13 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Overlays;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Setup;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Mania.Tests.Editor
 {

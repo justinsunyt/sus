@@ -1,8 +1,8 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics.Textures;
 using sus.Game.IO;
 
 namespace sus.Game.Beatmaps

@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Mods;
 
 namespace sus.Game.Tests.Visual.Gameplay

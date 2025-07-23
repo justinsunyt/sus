@@ -8,14 +8,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Caching;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Caching;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
@@ -29,8 +29,8 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Edit.Components.TernaryButtons;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Edit
 {

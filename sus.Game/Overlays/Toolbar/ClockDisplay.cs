@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 
 namespace sus.Game.Overlays.Toolbar
 {

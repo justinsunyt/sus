@@ -3,12 +3,12 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Screens.Play;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

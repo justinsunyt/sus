@@ -1,16 +1,16 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Game.Resources.Localisation.Web;
-using sus.Framework.Localisation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Game.Resources.Localisation.Web;
+using osu.Framework.Localisation;
 using sus.Game.Online.Chat;
 
 namespace sus.Game.Overlays.Profile.Sections.Kudsus
@@ -37,7 +37,7 @@ namespace sus.Game.Overlays.Profile.Sections.Kudsus
         private partial class CountTotal : CountSection
         {
             public CountTotal()
-                : base(UsersStrings.ShowExtraKudsusTotal)
+                : base(UsersStrings.ShowExtraKudosuTotal)
             {
                 DescriptionText.AddText("Based on how much of a contribution the user has made to beatmap moderation. See ");
                 DescriptionText.AddLink("this page", LinkAction.OpenWiki, @"Modding/Kudsus");

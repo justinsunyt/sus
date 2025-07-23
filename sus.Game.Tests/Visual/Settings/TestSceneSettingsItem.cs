@@ -5,9 +5,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics;
+using osu.Framework.Threading;
 
 namespace sus.Game.Audio
 {

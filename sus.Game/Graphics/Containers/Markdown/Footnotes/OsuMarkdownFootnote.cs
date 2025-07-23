@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Markdig.Extensions.Footnotes;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers.Markdown;
-using sus.Framework.Graphics.Containers.Markdown.Footnotes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics.Containers.Markdown.Footnotes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Graphics.Containers.Markdown.Footnotes
 {

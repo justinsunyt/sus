@@ -4,14 +4,14 @@
 using System.Reflection;
 using Android.App;
 using Android.OS;
-using sus.Framework.Android;
+using osu.Framework.Android;
 
 namespace sus.Game.Tests.Android
 {
     [Activity(ConfigurationChanges = DEFAULT_CONFIG_CHANGES, Exported = true, LaunchMode = DEFAULT_LAUNCH_MODE, MainLauncher = true)]
     public class MainActivity : AndroidGameActivity
     {
-        protected override Framework.Game CreateGame() => new OsuTestBrowser();
+        protected override osu.Framework.Game CreateGame() => new OsuTestBrowser();
 
         protected override void OnCreate(Bundle? savedInstanceState)
         {

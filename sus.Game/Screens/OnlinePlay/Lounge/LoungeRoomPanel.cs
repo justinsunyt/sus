@@ -4,20 +4,20 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Extensions;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
@@ -30,9 +30,9 @@ using sus.Game.Overlays;
 using sus.Game.Screens.OnlinePlay.Components;
 using sus.Game.Screens.OnlinePlay.Lounge.Components;
 using sus.Game.Screens.OnlinePlay.Playlists;
-using susTK;
-using susTK.Graphics;
-using Container = sus.Framework.Graphics.Containers.Container;
+using osuTK;
+using osuTK.Graphics;
+using Container = osu.Framework.Graphics.Containers.Container;
 
 namespace sus.Game.Screens.OnlinePlay.Lounge
 {

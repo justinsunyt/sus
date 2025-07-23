@@ -4,9 +4,9 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Skinning.Default;

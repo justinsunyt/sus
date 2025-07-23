@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Tournament.Models
 {

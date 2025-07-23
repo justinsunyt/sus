@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Localisation;
 using sus.Game.Overlays.Dialog;
 

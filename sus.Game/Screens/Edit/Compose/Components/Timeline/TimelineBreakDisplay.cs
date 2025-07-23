@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Specialized;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Caching;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Caching;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Configuration;
 using sus.Game.Screens.Edit.Components.Timelines.Summary.Parts;

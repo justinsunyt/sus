@@ -8,16 +8,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using JetBrains.Annotations;
-using sus.Framework;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Allocation;
-using sus.Framework.Layout;
-using sus.Framework.Threading;
+using osu.Framework;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Layout;
+using osu.Framework.Threading;
 
 namespace sus.Game.Screens.Play
 {

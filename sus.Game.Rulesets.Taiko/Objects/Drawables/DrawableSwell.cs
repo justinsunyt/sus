@@ -6,15 +6,15 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Objects.Drawables;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Taiko.Skinning.Default;
 using sus.Game.Screens.Play;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Objects.Drawables
 {

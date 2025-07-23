@@ -5,18 +5,18 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Screens;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Screens;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Screens.Backgrounds;
 using sus.Game.Graphics.UserInterface;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 using sus.Game.Graphics;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 
 namespace sus.Game.Screens
 {

@@ -3,11 +3,11 @@
 
 #nullable disable
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Lines;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Lines;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders.Components
 {

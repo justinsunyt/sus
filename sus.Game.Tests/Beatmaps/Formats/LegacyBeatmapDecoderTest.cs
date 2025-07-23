@@ -25,8 +25,8 @@ using sus.Game.Rulesets.Osu.Beatmaps;
 using sus.Game.Rulesets.Taiko;
 using sus.Game.Skinning;
 using sus.Game.Tests.Resources;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Beatmaps.Formats
 {

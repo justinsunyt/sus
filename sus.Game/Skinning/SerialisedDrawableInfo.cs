@@ -5,14 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Logging;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Logging;
 using sus.Game.Configuration;
 using sus.Game.Extensions;
 using sus.Game.Rulesets;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Skinning
 {

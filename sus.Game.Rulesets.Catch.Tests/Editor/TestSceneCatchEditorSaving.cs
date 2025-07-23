@@ -3,13 +3,13 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Tests.Editor
 {

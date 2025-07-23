@@ -1,7 +1,7 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Osu.Objects;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints

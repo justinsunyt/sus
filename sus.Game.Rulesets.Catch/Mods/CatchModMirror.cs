@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Catch.Beatmaps;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Mods
 {

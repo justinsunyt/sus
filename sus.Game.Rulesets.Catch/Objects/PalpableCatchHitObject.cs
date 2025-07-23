@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Skinning;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.Objects
 {

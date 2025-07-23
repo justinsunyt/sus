@@ -6,7 +6,7 @@
 using System;
 using System.Diagnostics;
 using System.IO;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 
 namespace sus.Game.Online.API
 {

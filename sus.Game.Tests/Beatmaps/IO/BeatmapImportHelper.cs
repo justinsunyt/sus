@@ -9,7 +9,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Tests.Database;

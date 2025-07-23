@@ -6,9 +6,9 @@
 using System;
 using System.IO;
 using System.Linq;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics.Textures;
 using sus.Game.Beatmaps;
 using sus.Game.IO.Archives;
 using sus.Game.Rulesets;

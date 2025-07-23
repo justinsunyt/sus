@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

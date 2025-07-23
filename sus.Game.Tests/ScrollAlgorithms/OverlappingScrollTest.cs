@@ -4,7 +4,7 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Rulesets.Timing;
 using sus.Game.Rulesets.UI.Scrolling.Algorithms;
 

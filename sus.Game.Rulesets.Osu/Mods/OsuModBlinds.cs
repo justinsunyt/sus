@@ -2,21 +2,21 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
 using sus.Game.Scoring;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

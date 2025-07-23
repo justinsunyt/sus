@@ -3,20 +3,20 @@
 
 using System;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics.Backgrounds;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Rooms;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.OnlinePlay.Components
 {

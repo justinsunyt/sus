@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Taiko.Beatmaps;

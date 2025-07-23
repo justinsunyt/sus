@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 
 namespace sus.Game.Utils
 {

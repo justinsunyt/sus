@@ -4,12 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Beatmaps
 {

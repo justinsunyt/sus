@@ -3,8 +3,8 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Localisation;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Localisation;
 using sus.Game.Input.Bindings;
 using sus.Game.Rulesets;
 using Realms;

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Drawables;

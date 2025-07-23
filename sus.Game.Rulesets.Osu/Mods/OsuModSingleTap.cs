@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

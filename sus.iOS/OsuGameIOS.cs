@@ -4,14 +4,14 @@
 using System;
 using Foundation;
 using Microsoft.Maui.Devices;
-using sus.Framework.Graphics;
-using sus.Framework.iOS;
-using sus.Framework.Platform;
+using osu.Framework.Graphics;
+using osu.Framework.iOS;
+using osu.Framework.Platform;
 using sus.Game;
 using sus.Game.Screens;
 using sus.Game.Updater;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 using UIKit;
 
 namespace sus.iOS

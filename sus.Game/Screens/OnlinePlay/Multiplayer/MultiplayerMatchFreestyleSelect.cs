@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Rooms;

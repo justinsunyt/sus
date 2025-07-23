@@ -5,7 +5,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.IO.Stores;
+using osu.Framework.IO.Stores;
 using sus.Game.Beatmaps;
 using sus.Game.Extensions;
 using sus.Game.Rulesets;

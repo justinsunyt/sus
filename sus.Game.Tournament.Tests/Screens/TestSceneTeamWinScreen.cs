@@ -3,7 +3,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Tournament.Screens.TeamWin;
 
 namespace sus.Game.Tournament.Tests.Screens

@@ -4,16 +4,16 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays.Chat;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Online
 {

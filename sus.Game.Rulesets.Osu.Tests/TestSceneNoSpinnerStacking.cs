@@ -4,7 +4,7 @@
 using NUnit.Framework;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

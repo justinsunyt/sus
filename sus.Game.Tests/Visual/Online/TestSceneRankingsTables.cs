@@ -4,11 +4,11 @@
 #nullable disable
 
 using System.Collections.Generic;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays.Rankings.Tables;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using System.Threading;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;

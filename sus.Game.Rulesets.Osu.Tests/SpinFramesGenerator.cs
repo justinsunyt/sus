@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using sus.Game.Rulesets.Osu.Replays;
 using sus.Game.Rulesets.Replays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

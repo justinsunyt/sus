@@ -4,9 +4,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Utils;
-using sus.Framework.Testing;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Utils;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Rulesets.Objects;
@@ -14,7 +14,7 @@ using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Osu.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

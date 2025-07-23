@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Screens;
+using osu.Framework.Screens;
 using sus.Game.Scoring;
 
 namespace sus.Game.Screens.Play

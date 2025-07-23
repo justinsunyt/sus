@@ -3,17 +3,17 @@
 
 using System.Diagnostics;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.States;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.States;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Configuration;
@@ -23,8 +23,8 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Osu.UI.Cursor;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Extensions.Color4Extensions;
-using susTK.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Extensions.Color4Extensions;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
+using osuTK;
 using sus.Game.Overlays.Profile.Header.Components;
 
 namespace sus.Game.Users

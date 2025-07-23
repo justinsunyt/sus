@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using BenchmarkDotNet.Attributes;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Osu.Objects;

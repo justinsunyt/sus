@@ -6,7 +6,7 @@ using System.Diagnostics.CodeAnalysis;
 using Newtonsoft.Json;
 using sus.Game.Graphics;
 using sus.Game.Utils;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Beatmaps.ControlPoints
 {

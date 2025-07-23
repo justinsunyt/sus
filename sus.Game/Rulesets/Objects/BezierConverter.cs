@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects.Types;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Objects
 {

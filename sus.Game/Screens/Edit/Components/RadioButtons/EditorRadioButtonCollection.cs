@@ -3,10 +3,10 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Components.RadioButtons
 {

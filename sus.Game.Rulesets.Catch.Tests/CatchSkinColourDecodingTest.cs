@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.IO.Stores;
+using osu.Framework.IO.Stores;
 using sus.Game.Rulesets.Catch.Skinning;
 using sus.Game.Rulesets.Catch.Skinning.Legacy;
 using sus.Game.Skinning;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Logging;
 using sus.Game.Graphics;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Rooms;
@@ -18,7 +18,7 @@ using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Select.Leaderboards;
 using sus.Game.Screens.Spectate;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Spectate
 {

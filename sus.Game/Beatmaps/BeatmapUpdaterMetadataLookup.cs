@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Online.API;
 
 namespace sus.Game.Beatmaps

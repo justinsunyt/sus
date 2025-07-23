@@ -3,7 +3,7 @@
 
 #nullable disable
 
-using susTK;
+using osuTK;
 using sus.Game.Rulesets.Objects.Types;
 using System.Collections.Generic;
 using sus.Game.Rulesets.Objects;
@@ -11,8 +11,8 @@ using System.Linq;
 using System.Threading;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
-using sus.Framework.Caching;
+using osu.Framework.Bindables;
+using osu.Framework.Caching;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;

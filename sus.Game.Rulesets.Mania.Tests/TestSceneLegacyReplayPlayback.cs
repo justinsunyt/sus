@@ -14,7 +14,7 @@ using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Tests
 {

@@ -4,7 +4,7 @@
 #nullable disable
 
 using JetBrains.Annotations;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Rulesets.Objects
 {

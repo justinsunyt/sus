@@ -5,15 +5,15 @@
 
 using System;
 using System.Collections.Generic;
-using susTK.Graphics;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osuTK.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Shapes;
 
 namespace sus.Game.Screens.Select
 {

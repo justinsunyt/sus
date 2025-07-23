@@ -5,16 +5,16 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Layout;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Layout;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.UI.Scrolling.Algorithms;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.UI.Scrolling
 {

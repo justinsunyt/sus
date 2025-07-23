@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 
 namespace sus.Game.IO
 {

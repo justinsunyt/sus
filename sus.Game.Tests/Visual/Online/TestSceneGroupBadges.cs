@@ -3,12 +3,12 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Profile.Header.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Online
 {

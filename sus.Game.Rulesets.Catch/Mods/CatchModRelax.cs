@@ -1,17 +1,17 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Input;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Play;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Mods
 {

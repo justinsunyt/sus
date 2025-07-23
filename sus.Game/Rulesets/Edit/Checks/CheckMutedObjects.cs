@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Edit.Checks.Components;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;

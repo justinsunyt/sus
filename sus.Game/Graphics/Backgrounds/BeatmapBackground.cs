@@ -3,8 +3,8 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Textures;
 using sus.Game.Beatmaps;
 
 namespace sus.Game.Graphics.Backgrounds

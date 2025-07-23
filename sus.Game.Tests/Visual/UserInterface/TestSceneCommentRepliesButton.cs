@@ -2,15 +2,15 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Overlays.Comments.Buttons;
-using sus.Framework.Graphics;
-using sus.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Allocation;
 using sus.Game.Overlays;
-using sus.Framework.Graphics.Containers;
-using susTK;
+using osu.Framework.Graphics.Containers;
+using osuTK;
 using NUnit.Framework;
 using System.Linq;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

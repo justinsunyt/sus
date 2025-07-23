@@ -9,12 +9,12 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
 using sus.Game.Audio;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.Extensions;
@@ -23,8 +23,8 @@ using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Play.HUD.HitErrorMeters;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

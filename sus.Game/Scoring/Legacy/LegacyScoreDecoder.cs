@@ -22,7 +22,7 @@ using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 using SharpCompress.Compressors.LZMA;
 
 namespace sus.Game.Scoring.Legacy

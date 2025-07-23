@@ -5,19 +5,19 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Tests.Visual;
-using sus.Framework.Timing;
+using osu.Framework.Timing;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.Configuration;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Mania.Objects.Drawables;
 using sus.Game.Rulesets.Mania.UI;
 

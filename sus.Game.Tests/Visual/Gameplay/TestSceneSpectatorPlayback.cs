@@ -7,15 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.StateChanges;
-using sus.Framework.Logging;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.StateChanges;
+using osu.Framework.Logging;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Online.Spectator;
@@ -30,8 +30,8 @@ using sus.Game.Scoring;
 using sus.Game.Tests.Gameplay;
 using sus.Game.Tests.Mods;
 using sus.Game.Tests.Visual.Spectator;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

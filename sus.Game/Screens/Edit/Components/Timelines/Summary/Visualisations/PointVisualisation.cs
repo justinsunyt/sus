@@ -1,8 +1,8 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
 
 namespace sus.Game.Screens.Edit.Components.Timelines.Summary.Visualisations
 {

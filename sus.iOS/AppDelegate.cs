@@ -3,7 +3,7 @@
 
 using System;
 using Foundation;
-using sus.Framework.iOS;
+using osu.Framework.iOS;
 using UIKit;
 
 namespace sus.iOS
@@ -39,7 +39,7 @@ namespace sus.iOS
             }
         }
 
-        protected override Framework.Game CreateGame() => new OsuGameIOS(this);
+        protected override osu.Framework.Game CreateGame() => new OsuGameIOS(this);
 
         public override UIInterfaceOrientationMask GetSupportedInterfaceOrientations(UIApplication application, UIWindow forWindow)
         {

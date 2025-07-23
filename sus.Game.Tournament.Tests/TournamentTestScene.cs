@@ -3,10 +3,10 @@
 
 using System.Linq;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays;
 using sus.Game.Rulesets;

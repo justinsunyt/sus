@@ -1,16 +1,16 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays.Rankings;
 using sus.Game.Users;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osuTK.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Overlays;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 
 namespace sus.Game.Tests.Visual.Online
 {

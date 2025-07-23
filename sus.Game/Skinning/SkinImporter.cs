@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Extensions;

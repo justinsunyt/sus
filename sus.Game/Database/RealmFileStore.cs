@@ -4,10 +4,10 @@
 using System;
 using System.Diagnostics;
 using System.IO;
-using sus.Framework.Extensions;
-using sus.Framework.IO.Stores;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Extensions;
+using osu.Framework.IO.Stores;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Extensions;
 using sus.Game.IO;
 using sus.Game.Models;

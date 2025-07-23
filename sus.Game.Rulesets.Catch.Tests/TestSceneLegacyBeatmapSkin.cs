@@ -3,16 +3,16 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.Skinning;
 using sus.Game.Skinning;
 using sus.Game.Tests.Beatmaps;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

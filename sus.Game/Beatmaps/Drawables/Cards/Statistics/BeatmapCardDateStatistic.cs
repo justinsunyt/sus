@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics;
 
 namespace sus.Game.Beatmaps.Drawables.Cards.Statistics

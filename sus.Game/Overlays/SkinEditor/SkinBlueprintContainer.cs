@@ -5,14 +5,14 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Overlays.SkinEditor
 {

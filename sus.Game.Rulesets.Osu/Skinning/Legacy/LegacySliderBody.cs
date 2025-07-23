@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.Color4Extensions;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Skinning.Default;
 using sus.Game.Skinning;
 using sus.Game.Utils;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Skinning.Legacy
 {

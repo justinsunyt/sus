@@ -4,9 +4,9 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Screens;
 using sus.Game.Extensions;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets;

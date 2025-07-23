@@ -3,16 +3,16 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.BeatmapSet.Buttons;
 using sus.Game.Rulesets;
 using sus.Game.Screens.Select.Details;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.BeatmapSet
 {

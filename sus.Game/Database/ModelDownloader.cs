@@ -7,7 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Humanizer;
-using sus.Framework.Logging;
+using osu.Framework.Logging;
 using sus.Game.Extensions;
 using sus.Game.Online.API;
 using sus.Game.Overlays.Notifications;

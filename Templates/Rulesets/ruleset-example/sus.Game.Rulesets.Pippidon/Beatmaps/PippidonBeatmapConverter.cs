@@ -8,7 +8,7 @@ using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Pippidon.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Pippidon.Beatmaps
 {

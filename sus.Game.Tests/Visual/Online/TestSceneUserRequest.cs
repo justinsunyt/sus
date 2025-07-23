@@ -4,14 +4,14 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mania;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API.Requests.Responses;

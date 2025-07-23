@@ -4,18 +4,18 @@
 #nullable disable
 
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Notifications;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Overlays.BeatmapSet.Buttons

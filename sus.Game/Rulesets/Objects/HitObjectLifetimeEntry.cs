@@ -3,8 +3,8 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Performance;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Performance;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Drawables;
 

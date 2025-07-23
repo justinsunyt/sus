@@ -3,16 +3,16 @@
 
 using System.ComponentModel;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Lists;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Lists;
 using sus.Game.Input.Bindings;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu
 {

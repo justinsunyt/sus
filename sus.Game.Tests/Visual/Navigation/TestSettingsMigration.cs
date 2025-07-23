@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 
 namespace sus.Game.Tests.Visual.Navigation

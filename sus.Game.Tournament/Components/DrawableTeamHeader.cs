@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Tournament.Models;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tournament.Components
 {

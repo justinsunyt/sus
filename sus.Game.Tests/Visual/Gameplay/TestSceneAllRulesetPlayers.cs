@@ -4,7 +4,7 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Configuration;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Catch;

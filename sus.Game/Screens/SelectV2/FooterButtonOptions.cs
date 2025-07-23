@@ -1,11 +1,11 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Input.Bindings;
@@ -48,7 +48,7 @@ namespace sus.Game.Screens.SelectV2
             Enabled.Value = !beatmap.IsDefault;
         }
 
-        public Framework.Graphics.UserInterface.Popover GetPopover() => new Popover(this, beatmap.Value)
+        public osu.Framework.Graphics.UserInterface.Popover GetPopover() => new Popover(this, beatmap.Value)
         {
             ColourProvider = colourProvider,
             SongSelect = songSelect

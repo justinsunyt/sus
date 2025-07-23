@@ -1,8 +1,8 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Screens;
+using osu.Framework.Bindables;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets;

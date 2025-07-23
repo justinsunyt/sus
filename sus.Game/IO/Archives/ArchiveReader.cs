@@ -7,8 +7,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Extensions;
-using sus.Framework.IO.Stores;
+using osu.Framework.Extensions;
+using osu.Framework.IO.Stores;
 
 namespace sus.Game.IO.Archives
 {

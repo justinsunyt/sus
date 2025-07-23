@@ -3,18 +3,18 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Testing;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets.Catch;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.OnlinePlay.Lounge;
 using sus.Game.Screens.OnlinePlay.Lounge.Components;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

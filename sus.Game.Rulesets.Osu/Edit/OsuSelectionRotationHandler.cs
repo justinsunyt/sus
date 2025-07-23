@@ -5,15 +5,15 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit
 {

@@ -6,9 +6,9 @@ using System.Collections.Concurrent;
 using System.Diagnostics.CodeAnalysis;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Statistics;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Statistics;
 
 namespace sus.Game.Database
 {

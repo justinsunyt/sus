@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Humanizer;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;

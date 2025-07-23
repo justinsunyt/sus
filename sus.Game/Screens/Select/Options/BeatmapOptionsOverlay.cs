@@ -4,18 +4,18 @@
 #nullable disable
 
 using System;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 using sus.Game.Graphics.Containers;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Screens.Select.Options
 {

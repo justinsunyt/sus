@@ -3,17 +3,17 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ListExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Lists;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ListExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Lists;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Online.Chat
 {

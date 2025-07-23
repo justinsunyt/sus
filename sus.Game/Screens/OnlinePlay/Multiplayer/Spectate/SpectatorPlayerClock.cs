@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Logging;
-using sus.Framework.Timing;
+using osu.Framework.Logging;
+using osu.Framework.Timing;
 using sus.Game.Screens.Play;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Spectate

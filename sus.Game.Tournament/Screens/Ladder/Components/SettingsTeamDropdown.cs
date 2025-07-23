@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Overlays.Settings;
 using sus.Game.Tournament.Models;
 

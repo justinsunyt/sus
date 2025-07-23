@@ -3,14 +3,14 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API.Requests.Responses;
@@ -21,7 +21,7 @@ using sus.Game.Screens.OnlinePlay;
 using sus.Game.Screens.OnlinePlay.Multiplayer;
 using sus.Game.Screens.OnlinePlay.Multiplayer.Match;
 using sus.Game.Tests.Resources;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

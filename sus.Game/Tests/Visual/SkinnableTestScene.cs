@@ -7,23 +7,23 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics.Sprites;
 using sus.Game.IO;
 using sus.Game.Rulesets;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual
 {

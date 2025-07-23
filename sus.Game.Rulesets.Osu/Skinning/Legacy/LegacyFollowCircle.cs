@@ -3,7 +3,7 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Skinning.Legacy
 {

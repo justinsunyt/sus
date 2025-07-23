@@ -5,14 +5,14 @@
 
 using System.Diagnostics;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
-using sus.Framework.Threading;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
+using osu.Framework.Threading;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Backgrounds;

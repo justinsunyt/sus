@@ -5,9 +5,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;

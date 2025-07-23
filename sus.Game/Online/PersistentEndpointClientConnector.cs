@@ -4,10 +4,10 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Logging;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Logging;
+using osu.Framework.Utils;
 using sus.Game.Online.API;
 
 namespace sus.Game.Online

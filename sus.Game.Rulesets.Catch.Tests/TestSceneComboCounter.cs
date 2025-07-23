@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.Objects.Drawables;
 using sus.Game.Rulesets.Catch.UI;
@@ -14,8 +14,8 @@ using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

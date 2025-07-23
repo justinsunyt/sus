@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using sus.Game.Rulesets.Difficulty.Skills;
 using sus.Game.Rulesets.Mods;
 using System.Linq;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 
 namespace sus.Game.Rulesets.Osu.Difficulty.Skills
 {

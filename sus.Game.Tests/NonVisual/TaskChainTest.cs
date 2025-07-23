@@ -6,7 +6,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Utils;
 
 namespace sus.Game.Tests.NonVisual

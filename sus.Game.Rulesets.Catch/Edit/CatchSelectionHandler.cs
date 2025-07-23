@@ -4,17 +4,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.UI;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
-using susTK.Input;
-using Direction = sus.Framework.Graphics.Direction;
+using osuTK;
+using osuTK.Input;
+using Direction = osu.Framework.Graphics.Direction;
 
 namespace sus.Game.Rulesets.Catch.Edit
 {

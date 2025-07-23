@@ -5,18 +5,18 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Overlays;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components.Timeline;
 using sus.Game.Screens.SelectV2;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

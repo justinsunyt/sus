@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets;
 

@@ -3,15 +3,15 @@
 
 #nullable disable
 
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays;
-using sus.Framework.Graphics;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Shapes;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Shapes;
+using osuTK.Graphics;
 using NUnit.Framework;
-using sus.Framework.Utils;
-using susTK.Input;
+using osu.Framework.Utils;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

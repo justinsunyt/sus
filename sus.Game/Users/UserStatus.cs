@@ -3,10 +3,10 @@
 
 using System;
 using System.ComponentModel;
-using sus.Framework.Localisation;
-using susTK.Graphics;
+using osu.Framework.Localisation;
+using osuTK.Graphics;
 using sus.Game.Graphics;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Users
 {

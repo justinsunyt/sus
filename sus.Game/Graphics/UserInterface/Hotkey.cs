@@ -3,9 +3,9 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Platform;
+using osu.Framework.Input;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Platform;
 using sus.Game.Input;
 using sus.Game.Input.Bindings;
 

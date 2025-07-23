@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics;
 using sus.Game.Online.Rooms;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.OnlinePlay.Lounge.Components
 {

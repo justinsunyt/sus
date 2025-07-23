@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Overlays;
 

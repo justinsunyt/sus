@@ -5,7 +5,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 
 namespace sus.Game.Tournament.Tests.NonVisual
 {

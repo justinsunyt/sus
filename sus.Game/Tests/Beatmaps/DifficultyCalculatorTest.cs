@@ -6,7 +6,7 @@
 using System.IO;
 using System.Reflection;
 using NUnit.Framework;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.IO;

@@ -5,15 +5,15 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Development;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Development;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Database;
@@ -28,7 +28,7 @@ using sus.Game.Scoring;
 using sus.Game.Screens;
 using sus.Game.Screens.Menu;
 using sus.Game.Screens.Play;
-using susTK.Graphics;
+using osuTK.Graphics;
 using IntroSequence = sus.Game.Configuration.IntroSequence;
 
 namespace sus.Game.Tests.Visual

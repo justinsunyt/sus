@@ -1,11 +1,11 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.IO.Stores;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.IO.Stores;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Formats;
@@ -13,7 +13,7 @@ using sus.Game.Database;
 using sus.Game.IO;
 using sus.Game.Rulesets.Objects.Legacy;
 using sus.Game.Rulesets.Objects.Types;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

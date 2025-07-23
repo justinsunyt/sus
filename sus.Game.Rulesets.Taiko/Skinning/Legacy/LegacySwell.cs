@@ -1,20 +1,20 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Skinning;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Rulesets.Taiko.Objects.Drawables;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Audio;
-using susTK;
+using osuTK;
 using sus.Game.Rulesets.Objects.Drawables;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 using System;
 using System.Globalization;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 
 namespace sus.Game.Rulesets.Taiko.Skinning.Legacy
 {

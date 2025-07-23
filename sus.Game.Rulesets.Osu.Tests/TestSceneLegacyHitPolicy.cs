@@ -8,10 +8,10 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using NUnit.Framework;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Beatmaps.Formats;
@@ -32,7 +32,7 @@ using sus.Game.Scoring;
 using sus.Game.Scoring.Legacy;
 using sus.Game.Screens.Play;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

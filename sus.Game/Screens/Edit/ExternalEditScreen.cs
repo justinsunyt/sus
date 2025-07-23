@@ -5,15 +5,15 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics;
@@ -25,7 +25,7 @@ using sus.Game.Localisation;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Overlays;
 using sus.Game.Screens.OnlinePlay.Match.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit
 {

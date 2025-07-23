@@ -4,10 +4,10 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.Objects;
@@ -21,7 +21,7 @@ using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.UI
 {

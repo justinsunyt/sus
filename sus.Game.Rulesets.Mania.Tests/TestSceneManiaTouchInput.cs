@@ -3,13 +3,13 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Mania.Configuration;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Tests
 {

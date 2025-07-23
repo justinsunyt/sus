@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Containers;
@@ -20,7 +20,7 @@ using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
 using sus.Game.Overlays.BeatmapListing;
 using sus.Game.Scoring;
-using susTK.Input;
+using osuTK.Input;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Tests.Visual.Online

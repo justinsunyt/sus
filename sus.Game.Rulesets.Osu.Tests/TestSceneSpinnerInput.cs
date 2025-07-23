@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Replays;
 using sus.Game.Rulesets.Judgements;
@@ -24,7 +24,7 @@ using sus.Game.Screens.Play;
 using sus.Game.Storyboards;
 using sus.Game.Tests;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Edit.Checks;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Tests.Beatmaps;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor.Checks
 {

@@ -6,20 +6,20 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mania;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Screens.Select.Details;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.SongSelect
 {

@@ -4,8 +4,8 @@
 using System;
 using System.Runtime;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Logging;
 using sus.Game.Performance;
 
 namespace sus.Desktop.Performance

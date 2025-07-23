@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Extensions;
 using sus.Game.Online.API;
 using sus.Game.Screens.OnlinePlay.Lounge.Components;

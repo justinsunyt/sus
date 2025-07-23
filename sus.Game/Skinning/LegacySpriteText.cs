@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Text;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Text;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Skinning
 {

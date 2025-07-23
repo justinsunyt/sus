@@ -3,13 +3,13 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
 using sus.Game.Database;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -18,7 +18,7 @@ using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Input.Bindings;
 using sus.Game.Localisation;
 using sus.Game.Rulesets.Mods;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Mods
 {
@@ -130,7 +130,7 @@ namespace sus.Game.Overlays.Mods
                                 // todo: for some very odd reason, this needs to be anchored to topright for the fill flow to be correctly sized to the AABB of the sheared button
                                 Anchor = Anchor.TopRight,
                                 Origin = Anchor.TopRight,
-                                Text = Resources.Localisation.Web.CommonStrings.ButtonsSave,
+                                Text = osu.Game.Resources.Localisation.Web.CommonStrings.ButtonsSave,
                                 DarkerColour = colours.Orange1,
                                 LighterColour = colours.Orange0,
                                 TextColour = colourProvider.Background6,

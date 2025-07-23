@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Rulesets.Replays;

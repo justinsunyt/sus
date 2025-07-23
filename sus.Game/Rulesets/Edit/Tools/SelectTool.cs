@@ -3,8 +3,8 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics;
 
 namespace sus.Game.Rulesets.Edit.Tools

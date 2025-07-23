@@ -1,10 +1,10 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Audio;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
+using osu.Framework.Audio;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
 using sus.Game.Database;
 
 namespace sus.Game.IO

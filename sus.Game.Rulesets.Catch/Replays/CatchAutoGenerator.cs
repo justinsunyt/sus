@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Catch.Beatmaps;
 using sus.Game.Rulesets.Catch.Objects;

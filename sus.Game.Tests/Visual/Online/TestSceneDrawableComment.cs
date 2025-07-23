@@ -5,8 +5,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Comments;

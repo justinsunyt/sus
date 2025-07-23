@@ -5,9 +5,9 @@ using System.Linq;
 using System.Collections.Generic;
 using Humanizer;
 using NUnit.Framework;
-using sus.Framework.Input;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Input;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterface;
@@ -23,8 +23,8 @@ using sus.Game.Screens.Edit.Components.TernaryButtons;
 using sus.Game.Screens.Edit.Compose.Components.Timeline;
 using sus.Game.Screens.Edit.Timing;
 using sus.Game.Tests.Beatmaps;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

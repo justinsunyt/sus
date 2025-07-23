@@ -6,7 +6,7 @@
 using System;
 using System.Diagnostics;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Extensions;
 using sus.Game.Online.API;

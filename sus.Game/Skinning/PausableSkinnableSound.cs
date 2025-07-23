@@ -6,9 +6,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Threading;
 using sus.Game.Audio;
 
 namespace sus.Game.Skinning

@@ -3,7 +3,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Tests.Resources;

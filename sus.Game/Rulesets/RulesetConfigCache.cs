@@ -3,7 +3,7 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Configuration;
 using sus.Game.Database;
 using sus.Game.Extensions;

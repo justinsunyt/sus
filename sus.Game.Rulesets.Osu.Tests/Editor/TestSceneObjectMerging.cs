@@ -3,14 +3,14 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Edit;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

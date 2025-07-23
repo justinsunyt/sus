@@ -6,9 +6,9 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Logging;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Logging;
+using osu.Framework.Testing;
 using sus.Game.Configuration;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;

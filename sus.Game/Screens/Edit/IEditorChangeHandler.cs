@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Rulesets.Objects;
 
 namespace sus.Game.Screens.Edit

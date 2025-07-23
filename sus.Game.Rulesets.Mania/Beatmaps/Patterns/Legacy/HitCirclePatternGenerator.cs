@@ -4,14 +4,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using susTK;
+using osuTK;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Utils;
 
 namespace sus.Game.Rulesets.Mania.Beatmaps.Patterns.Legacy

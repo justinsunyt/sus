@@ -4,9 +4,9 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays.Chat;

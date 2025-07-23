@@ -4,14 +4,14 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Screens.Play;
 using sus.Game.Screens.Play.HUD.ClicksPerSecond;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

@@ -3,9 +3,9 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Performance;
-using sus.Framework.Graphics.Pooling;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Performance;
+using osu.Framework.Graphics.Pooling;
 
 namespace sus.Game.Rulesets.Objects.Pooling
 {

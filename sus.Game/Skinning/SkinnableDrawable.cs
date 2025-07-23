@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Caching;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Animations;
-using susTK;
+using osu.Framework.Caching;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Animations;
+using osuTK;
 
 namespace sus.Game.Skinning
 {

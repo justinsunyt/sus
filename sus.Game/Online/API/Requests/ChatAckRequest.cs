@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Net.Http;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Online.API.Requests.Responses;
 
 namespace sus.Game.Online.API.Requests

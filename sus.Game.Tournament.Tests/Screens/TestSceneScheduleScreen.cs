@@ -3,8 +3,8 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.Screens.Schedule;
 

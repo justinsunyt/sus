@@ -4,12 +4,12 @@
 #nullable disable
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
-using susTK.Graphics;
+using osu.Game.Resources.Localisation.Web;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.Dashboard.Home.News
 {

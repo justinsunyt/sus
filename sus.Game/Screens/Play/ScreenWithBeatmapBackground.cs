@@ -3,7 +3,7 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Screens;
+using osu.Framework.Screens;
 using sus.Game.Screens.Backgrounds;
 
 namespace sus.Game.Screens.Play

@@ -1,16 +1,16 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API.Requests;
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Online.API.Requests.Responses;
 using System.Collections.Generic;
 using sus.Game.Online.API;
-using sus.Framework.Allocation;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Localisation;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Overlays.Profile.Sections.Ranks

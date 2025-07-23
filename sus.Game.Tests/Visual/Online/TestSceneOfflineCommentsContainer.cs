@@ -7,14 +7,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using sus.Game.Overlays.Comments;
 using sus.Game.Overlays;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Online.API.Requests.Responses;
 using JetBrains.Annotations;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Tests.Visual.Online

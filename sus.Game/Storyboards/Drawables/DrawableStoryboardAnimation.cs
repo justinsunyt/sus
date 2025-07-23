@@ -5,14 +5,14 @@
 
 using System;
 using System.IO;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Animations;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Animations;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Storyboards.Drawables
 {

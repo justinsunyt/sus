@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Graphics;
-using susTK;
-using sus.Framework.Extensions.EnumExtensions;
-using sus.Framework.Localisation;
+using osuTK;
+using osu.Framework.Extensions.EnumExtensions;
+using osu.Framework.Localisation;
 using sus.Game.Graphics.Containers;
 
 namespace sus.Game.Overlays.BeatmapListing

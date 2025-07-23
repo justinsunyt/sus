@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Mods;

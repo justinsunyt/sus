@@ -14,8 +14,8 @@ using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Legacy;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Beatmaps.Formats
 {

@@ -3,9 +3,9 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Rulesets.Mods
 {

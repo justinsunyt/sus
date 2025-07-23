@@ -4,9 +4,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Logging;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Logging;
+using osu.Framework.Threading;
 using sus.Game;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Notifications;

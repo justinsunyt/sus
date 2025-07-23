@@ -5,12 +5,12 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Online.Rooms;
@@ -26,7 +26,7 @@ using sus.Game.Screens.OnlinePlay.Playlists;
 using sus.Game.Screens.Play;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Playlists
 {

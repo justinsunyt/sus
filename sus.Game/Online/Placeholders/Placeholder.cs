@@ -4,7 +4,7 @@
 #nullable disable
 
 using System;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.Containers;
 
 namespace sus.Game.Online.Placeholders

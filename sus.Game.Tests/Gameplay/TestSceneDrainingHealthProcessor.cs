@@ -5,10 +5,10 @@
 
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Beatmaps.Timing;

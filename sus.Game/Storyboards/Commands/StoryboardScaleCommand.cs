@@ -1,9 +1,9 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Transforms;
-using susTK;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Transforms;
+using osuTK;
 
 namespace sus.Game.Storyboards.Commands
 {

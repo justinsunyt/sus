@@ -1,11 +1,11 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Mods;
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Beatmaps;
 

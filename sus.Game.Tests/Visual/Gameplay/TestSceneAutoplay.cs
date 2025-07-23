@@ -5,7 +5,7 @@
 
 using System.ComponentModel;
 using System.Linq;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Graphics.Containers;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Objects;

@@ -8,9 +8,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;
@@ -29,7 +29,7 @@ using sus.Game.Scoring;
 using sus.Game.Screens.Play;
 using sus.Game.Screens.Ranking;
 using sus.Game.Tests.Beatmaps;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

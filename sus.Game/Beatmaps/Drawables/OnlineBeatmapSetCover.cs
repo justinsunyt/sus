@@ -4,9 +4,9 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
 
 namespace sus.Game.Beatmaps.Drawables
 {

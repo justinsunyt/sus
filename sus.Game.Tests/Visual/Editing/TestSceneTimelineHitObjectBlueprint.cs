@@ -3,15 +3,15 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit.Compose.Components.Timeline;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 using static sus.Game.Screens.Edit.Compose.Components.Timeline.TimelineHitObjectBlueprint;
 
 namespace sus.Game.Tests.Visual.Editing

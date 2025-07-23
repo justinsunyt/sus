@@ -5,7 +5,7 @@
 
 using JetBrains.Annotations;
 using sus.Game.Rulesets.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Scoring
 {

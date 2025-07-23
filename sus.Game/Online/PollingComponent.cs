@@ -6,10 +6,10 @@
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using sus.Framework.Bindables;
-using sus.Framework.Development;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Threading;
+using osu.Framework.Bindables;
+using osu.Framework.Development;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Threading;
 
 namespace sus.Game.Online
 {

@@ -2,18 +2,18 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Mania.Edit.Blueprints.Components;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.UI.Scrolling;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Mania.Edit.Blueprints
 {

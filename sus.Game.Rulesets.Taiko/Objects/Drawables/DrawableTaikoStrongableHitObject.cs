@@ -4,8 +4,8 @@
 #nullable disable
 
 using JetBrains.Annotations;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 

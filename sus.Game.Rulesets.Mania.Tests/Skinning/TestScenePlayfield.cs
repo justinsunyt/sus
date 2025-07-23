@@ -3,14 +3,14 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Tests.Skinning
 {

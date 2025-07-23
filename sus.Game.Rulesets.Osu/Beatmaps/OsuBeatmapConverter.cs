@@ -1,7 +1,7 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using susTK;
+using osuTK;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Objects;
@@ -10,7 +10,7 @@ using sus.Game.Rulesets.Objects.Types;
 using System.Linq;
 using System.Threading;
 using sus.Game.Rulesets.Osu.UI;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Beatmaps.Legacy;
 
 namespace sus.Game.Rulesets.Osu.Beatmaps

@@ -4,14 +4,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.Taiko.UI;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Skinning.Legacy
 {

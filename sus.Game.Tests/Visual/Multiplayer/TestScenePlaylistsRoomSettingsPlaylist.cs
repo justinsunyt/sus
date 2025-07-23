@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Containers;
 using sus.Game.Models;
@@ -19,8 +19,8 @@ using sus.Game.Screens.OnlinePlay;
 using sus.Game.Screens.OnlinePlay.Playlists;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

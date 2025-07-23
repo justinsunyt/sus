@@ -7,14 +7,14 @@ using System;
 using System.Linq;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
+using osu.Framework.Threading;
 using sus.Game.Online.API;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays.Mods;
@@ -30,8 +30,8 @@ using sus.Game.Screens.Play.HUD.HitErrorMeters;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Skinning;
 using sus.Game.Tests.Beatmaps.IO;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

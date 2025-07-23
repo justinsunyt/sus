@@ -3,17 +3,17 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Bindings;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Settings.Sections.Input;
 using sus.Game.Rulesets.Osu;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Settings
 {

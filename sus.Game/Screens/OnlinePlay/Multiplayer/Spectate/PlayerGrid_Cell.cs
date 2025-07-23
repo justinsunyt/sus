@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
-using susTK;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Spectate
 {

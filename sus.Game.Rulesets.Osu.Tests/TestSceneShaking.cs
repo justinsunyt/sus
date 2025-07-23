@@ -3,8 +3,8 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using sus.Framework.Threading;
-using sus.Framework.Utils;
+using osu.Framework.Threading;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Scoring;

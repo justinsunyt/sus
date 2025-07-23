@@ -4,7 +4,7 @@
 #nullable disable
 
 using System.Diagnostics;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Scoring;
 

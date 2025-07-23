@@ -1,15 +1,15 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Chat;
 using System;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Profile.Sections.Kudsus
 {

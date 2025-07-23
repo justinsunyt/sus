@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Edit;

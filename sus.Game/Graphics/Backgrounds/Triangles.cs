@@ -3,20 +3,20 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
-using susTK;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
+using osuTK;
+using osuTK.Graphics;
 using System;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Allocation;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Allocation;
 using System.Collections.Generic;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Lists;
-using sus.Framework.Bindables;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Lists;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Graphics.Backgrounds
 {

@@ -5,8 +5,8 @@ using NUnit.Framework;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.Objects.Drawables;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

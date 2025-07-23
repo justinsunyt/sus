@@ -4,8 +4,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Overlays;
@@ -13,7 +13,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Setup;
 using sus.Game.Skinning;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Editing
 {

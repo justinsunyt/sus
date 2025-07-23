@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.StateChanges;
+using osu.Framework.Input.StateChanges;
 using sus.Game.Input.Handlers;
 using sus.Game.Replays;
 

@@ -5,8 +5,8 @@
 
 using System;
 using JetBrains.Annotations;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Catch.Judgements;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Judgements;

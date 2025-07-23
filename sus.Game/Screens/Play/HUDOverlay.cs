@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Configuration;
 using sus.Game.Input;
 using sus.Game.Input.Bindings;
@@ -27,7 +27,7 @@ using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Play.HUD.ClicksPerSecond;
 using sus.Game.Screens.Play.HUD.JudgementCounter;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Play
 {

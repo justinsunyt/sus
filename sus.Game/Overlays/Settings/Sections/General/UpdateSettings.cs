@@ -2,15 +2,15 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Threading.Tasks;
-using sus.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
-using sus.Framework.Statistics;
+using osu.Framework;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
+using osu.Framework.Statistics;
 using sus.Game.Configuration;
 using sus.Game.Localisation;
 using sus.Game.Online.Multiplayer;

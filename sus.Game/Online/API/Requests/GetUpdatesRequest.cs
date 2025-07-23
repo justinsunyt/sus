@@ -4,7 +4,7 @@
 #nullable disable
 
 using JetBrains.Annotations;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Online.Chat;
 
 namespace sus.Game.Online.API.Requests

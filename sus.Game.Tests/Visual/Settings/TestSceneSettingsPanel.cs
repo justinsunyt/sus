@@ -5,15 +5,15 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Settings;
 using sus.Game.Overlays.Settings.Sections;
 using sus.Game.Overlays.Settings.Sections.Input;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Settings
 {

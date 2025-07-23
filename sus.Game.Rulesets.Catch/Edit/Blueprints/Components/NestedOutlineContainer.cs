@@ -3,9 +3,9 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.UI.Scrolling;
 

@@ -6,11 +6,11 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Platform;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
@@ -25,8 +25,8 @@ using sus.Game.Rulesets.Mods;
 using sus.Game.Scoring;
 using sus.Game.Screens.Menu;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

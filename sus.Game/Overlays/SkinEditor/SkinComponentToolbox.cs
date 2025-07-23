@@ -3,20 +3,20 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
+using osu.Framework.Threading;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
 using sus.Game.Rulesets;
 using sus.Game.Screens.Edit.Components;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.SkinEditor
 {

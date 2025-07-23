@@ -3,8 +3,8 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Tests.Visual;
 
 namespace sus.Game.Rulesets.Osu.Tests

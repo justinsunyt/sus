@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Input;
+using osu.Framework.Allocation;
+using osu.Framework.Input;
 using sus.Game.Beatmaps;
 using sus.Game.Input.Handlers;
 using sus.Game.Replays;

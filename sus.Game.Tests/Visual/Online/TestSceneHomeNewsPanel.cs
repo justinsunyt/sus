@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Overlays;
 using System;
 using sus.Game.Overlays.Dashboard.Home.News;
-using susTK;
+using osuTK;
 using System.Collections.Generic;
 
 namespace sus.Game.Tests.Visual.Online

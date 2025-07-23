@@ -6,7 +6,7 @@ using sus.Game.Rulesets.Mania.Replays;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Rulesets.UI;
 using sus.Game.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.UI
 {

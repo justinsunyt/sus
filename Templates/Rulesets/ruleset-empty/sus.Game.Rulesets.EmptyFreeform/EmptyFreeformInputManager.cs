@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Input.Bindings;
 using sus.Game.Rulesets.UI;
 
 namespace sus.Game.Rulesets.EmptyFreeform

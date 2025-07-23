@@ -10,14 +10,14 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
+using osu.Framework.Threading;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
@@ -38,7 +38,7 @@ using sus.Game.Screens.Ranking;
 using sus.Game.Skinning;
 using sus.Game.Users;
 using sus.Game.Utils;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Play
 {

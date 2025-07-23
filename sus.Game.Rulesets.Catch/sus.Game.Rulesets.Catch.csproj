@@ -8,7 +8,7 @@
 
   <PropertyGroup Label="Nuget">
     <Title>sus!catch (ruleset)</Title>
-    <PackageId>ppy.sus.Game.Rulesets.Catch</PackageId>
+    <PackageId>ppy.osu.Game.Rulesets.Catch</PackageId>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 

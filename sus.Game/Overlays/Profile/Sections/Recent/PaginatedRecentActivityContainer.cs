@@ -1,15 +1,15 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Online.API.Requests;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.API;
 using System.Collections.Generic;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Game.Resources.Localisation.Web;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Profile.Sections.Recent
 {

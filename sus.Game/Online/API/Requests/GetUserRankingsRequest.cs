@@ -1,7 +1,7 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Rulesets;
 using sus.Game.Users;
 

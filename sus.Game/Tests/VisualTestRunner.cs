@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework;
-using sus.Framework.Platform;
+using osu.Framework;
+using osu.Framework.Platform;
 
 namespace sus.Game.Tests
 {

@@ -4,7 +4,7 @@
 #nullable disable
 
 using System;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Graphics.UserInterface
 {

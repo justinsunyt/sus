@@ -3,8 +3,8 @@
 
 using System;
 using System.IO;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics.Textures;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.IO;
 using sus.Game.Skinning;

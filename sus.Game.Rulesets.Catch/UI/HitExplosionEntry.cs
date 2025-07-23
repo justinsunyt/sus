@@ -1,10 +1,10 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Performance;
+using osu.Framework.Graphics.Performance;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Judgements;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.UI
 {

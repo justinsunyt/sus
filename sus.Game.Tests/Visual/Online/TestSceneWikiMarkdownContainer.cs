@@ -7,19 +7,19 @@ using System;
 using System.Linq;
 using Markdig.Syntax.Inlines;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Containers.Markdown;
 using sus.Game.Graphics.Containers.Markdown.Footnotes;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Wiki.Markdown;
 using sus.Game.Users.Drawables;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Online
 {

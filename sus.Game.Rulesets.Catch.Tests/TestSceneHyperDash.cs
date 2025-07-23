@@ -4,13 +4,13 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

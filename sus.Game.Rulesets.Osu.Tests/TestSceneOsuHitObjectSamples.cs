@@ -3,7 +3,7 @@
 
 using System.Reflection;
 using NUnit.Framework;
-using sus.Framework.IO.Stores;
+using osu.Framework.IO.Stores;
 using sus.Game.Tests.Beatmaps;
 
 namespace sus.Game.Rulesets.Osu.Tests

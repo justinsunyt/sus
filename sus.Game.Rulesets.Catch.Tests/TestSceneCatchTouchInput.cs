@@ -4,8 +4,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Catch.Beatmaps;
 using sus.Game.Rulesets.Catch.Mods;
 using sus.Game.Rulesets.Catch.UI;

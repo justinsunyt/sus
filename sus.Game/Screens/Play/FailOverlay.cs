@@ -5,13 +5,13 @@ using System;
 using System.Threading.Tasks;
 using sus.Game.Scoring;
 using sus.Game.Graphics.UserInterface;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 
 namespace sus.Game.Screens.Play

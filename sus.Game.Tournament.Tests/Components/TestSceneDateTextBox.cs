@@ -4,8 +4,8 @@
 using NUnit.Framework;
 using sus.Game.Tests.Visual;
 using sus.Game.Tournament.Components;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tournament.Tests.Components
 {

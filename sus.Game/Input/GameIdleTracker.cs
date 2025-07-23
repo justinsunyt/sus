@@ -3,7 +3,7 @@
 
 #nullable disable
 
-using sus.Framework.Input;
+using osu.Framework.Input;
 
 namespace sus.Game.Input
 {

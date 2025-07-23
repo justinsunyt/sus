@@ -5,7 +5,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Objects.Drawables;

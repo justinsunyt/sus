@@ -3,7 +3,7 @@
 
 using System;
 using sus.Game.Rulesets.Catch.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Edit.Blueprints.Components
 {

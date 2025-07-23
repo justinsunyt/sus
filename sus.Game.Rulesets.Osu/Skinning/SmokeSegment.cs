@@ -4,19 +4,19 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Rendering.Vertices;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Rendering.Vertices;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Utils;
 using sus.Game.Utils;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Skinning
 {

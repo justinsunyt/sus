@@ -7,7 +7,7 @@ using Markdig.Parsers;
 using Markdig.Syntax;
 using Markdig.Syntax.Inlines;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics.Containers.Markdown;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Wiki;

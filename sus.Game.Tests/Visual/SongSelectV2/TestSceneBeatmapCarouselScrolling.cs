@@ -3,8 +3,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Testing;
 using sus.Game.Screens.SelectV2;
 
 namespace sus.Game.Tests.Visual.SongSelectV2

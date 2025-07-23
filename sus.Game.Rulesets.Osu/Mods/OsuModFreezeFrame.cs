@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Drawables;

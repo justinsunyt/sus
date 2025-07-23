@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Threading;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Threading;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 

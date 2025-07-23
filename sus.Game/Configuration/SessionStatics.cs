@@ -1,7 +1,7 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework;
+using osu.Framework;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Input;
 using sus.Game.Online.API.Requests.Responses;

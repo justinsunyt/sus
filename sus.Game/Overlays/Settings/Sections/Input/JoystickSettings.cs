@@ -3,11 +3,11 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Handlers.Joystick;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Handlers.Joystick;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 
 namespace sus.Game.Overlays.Settings.Sections.Input

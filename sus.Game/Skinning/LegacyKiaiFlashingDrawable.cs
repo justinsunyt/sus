@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics.Containers;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

@@ -1,15 +1,15 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Screens.Ranking.Expanded.Accuracy;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Ranking.Expanded.Statistics
 {

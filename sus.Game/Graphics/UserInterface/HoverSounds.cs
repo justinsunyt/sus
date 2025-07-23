@@ -3,12 +3,12 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
 
 namespace sus.Game.Graphics.UserInterface
 {

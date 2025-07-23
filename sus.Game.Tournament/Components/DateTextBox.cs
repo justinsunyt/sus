@@ -3,7 +3,7 @@
 
 using System;
 using System.Globalization;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays.Settings;
 

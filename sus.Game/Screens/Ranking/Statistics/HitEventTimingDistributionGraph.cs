@@ -4,15 +4,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Layout;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Layout;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.Scoring;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Ranking.Statistics
 {

@@ -5,12 +5,12 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Lines;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Lines;
 using sus.Game.Rulesets.Osu.Skinning.Default;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Skinning
 {

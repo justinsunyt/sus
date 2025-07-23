@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Extensions.MatrixExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Layout;
-using susTK;
+using osu.Framework.Extensions.MatrixExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Layout;
+using osuTK;
 
 namespace sus.Game.Graphics.Containers
 {

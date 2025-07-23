@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Audio.Track;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Audio.Track;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Difficulty;
 using sus.Game.Rulesets.Mods;

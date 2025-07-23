@@ -8,13 +8,13 @@ using System.Collections.Generic;
 using System.Linq;
 using Humanizer;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
 using sus.Game.Audio;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
@@ -26,7 +26,7 @@ using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Edit.Components.TernaryButtons;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

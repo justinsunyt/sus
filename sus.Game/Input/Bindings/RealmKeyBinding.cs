@@ -4,7 +4,7 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Input.Bindings;
 using sus.Game.Database;
 using sus.Game.Rulesets;
 using Realms;

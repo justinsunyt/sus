@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Overlays.Settings;

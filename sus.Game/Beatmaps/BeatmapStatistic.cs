@@ -4,8 +4,8 @@
 #nullable disable
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Beatmaps
 {

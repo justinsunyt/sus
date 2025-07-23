@@ -4,20 +4,20 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Extensions;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
 
 namespace sus.Game.Overlays.BeatmapSet
 {

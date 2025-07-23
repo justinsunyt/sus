@@ -3,8 +3,8 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Localisation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Localisation;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Screens.Ranking.Statistics.User
 {

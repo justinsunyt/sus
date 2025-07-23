@@ -1,8 +1,8 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Configuration;
 using sus.Game.Graphics;
 using sus.Game.Overlays.Settings;

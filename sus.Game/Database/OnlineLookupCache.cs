@@ -6,8 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
 using sus.Game.Online.API;
 
 namespace sus.Game.Database

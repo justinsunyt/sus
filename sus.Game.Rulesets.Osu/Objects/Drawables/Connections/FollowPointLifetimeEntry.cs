@@ -3,10 +3,10 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Performance;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Performance;
 using sus.Game.Rulesets.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables.Connections
 {

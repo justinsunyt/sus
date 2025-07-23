@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Overlays.Settings;

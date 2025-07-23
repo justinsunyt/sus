@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input;
+using osu.Framework.Platform;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Input;
 using sus.Game.Overlays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Graphics.UserInterface
 {

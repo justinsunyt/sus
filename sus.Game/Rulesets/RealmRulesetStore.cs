@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 

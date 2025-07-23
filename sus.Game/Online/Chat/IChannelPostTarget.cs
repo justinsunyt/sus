@@ -3,7 +3,7 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 
 namespace sus.Game.Online.Chat
 {

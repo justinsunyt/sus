@@ -4,9 +4,9 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
 using sus.Game.Online.API;
@@ -19,7 +19,7 @@ using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Resources;
 using sus.Game.Tests.Visual.Metadata;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.DailyChallenge
 {

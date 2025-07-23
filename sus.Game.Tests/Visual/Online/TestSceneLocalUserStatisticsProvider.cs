@@ -3,9 +3,9 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online;
 using sus.Game.Online.API;

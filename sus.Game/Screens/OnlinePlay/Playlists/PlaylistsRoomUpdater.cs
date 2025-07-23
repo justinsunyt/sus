@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Online;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;

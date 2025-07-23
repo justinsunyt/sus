@@ -3,8 +3,8 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.StateChanges;
-using sus.Framework.Utils;
+using osu.Framework.Input.StateChanges;
+using osu.Framework.Utils;
 using sus.Game.Replays;
 using sus.Game.Rulesets.Replays;
 

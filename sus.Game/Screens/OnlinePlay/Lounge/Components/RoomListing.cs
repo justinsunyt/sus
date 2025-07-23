@@ -7,17 +7,17 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Input.Bindings;
 using sus.Game.Online.Rooms;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Lounge.Components
 {

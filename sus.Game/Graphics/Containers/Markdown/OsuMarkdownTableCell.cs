@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Markdig.Extensions.Tables;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers.Markdown;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Overlays;
 
 namespace sus.Game.Graphics.Containers.Markdown

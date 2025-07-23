@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Tournament.Models
 {

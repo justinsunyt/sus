@@ -4,12 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments
 {

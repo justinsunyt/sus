@@ -3,11 +3,11 @@
 
 using sus.Game.Screens.Select.Leaderboards;
 using sus.Game.Graphics.UserInterface;
-using sus.Framework.Allocation;
-using susTK.Graphics;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osuTK.Graphics;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
+using osu.Framework.Graphics;
 
 namespace sus.Game.Overlays.BeatmapSet
 {

@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.Objects.Drawables;
 using sus.Game.Rulesets.Catch.UI;

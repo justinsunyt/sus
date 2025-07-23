@@ -5,20 +5,20 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Testing;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Localisation;
 using sus.Game.Overlays.Settings;
 using sus.Game.Overlays.Settings.Sections;
 using sus.Game.Overlays.Settings.Sections.Input;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays
 {

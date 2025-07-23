@@ -3,15 +3,15 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Containers;
 using sus.Game.Screens.Edit;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Edit
 {

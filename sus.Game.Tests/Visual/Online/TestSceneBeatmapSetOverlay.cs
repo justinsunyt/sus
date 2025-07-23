@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays;
 using sus.Game.Overlays.BeatmapSet;
@@ -12,14 +12,14 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.BeatmapSet.Scores;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Screens.Select.Details;

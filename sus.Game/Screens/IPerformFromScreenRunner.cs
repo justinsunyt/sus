@@ -5,8 +5,8 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Screens;
 using sus.Game.Screens.Menu;
 
 namespace sus.Game.Screens

@@ -4,9 +4,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Online.API;

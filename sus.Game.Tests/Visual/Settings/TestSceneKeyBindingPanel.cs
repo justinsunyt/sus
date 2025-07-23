@@ -6,8 +6,8 @@
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Threading;
+using osu.Framework.Testing;
+using osu.Framework.Threading;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Graphics.UserInterfaceV2;
@@ -15,7 +15,7 @@ using sus.Game.Localisation;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Settings.Sections.Input;
 using sus.Game.Rulesets.Taiko;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Settings
 {

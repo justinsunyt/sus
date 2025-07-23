@@ -6,14 +6,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.Handlers;
-using sus.Framework.Input.StateChanges;
-using sus.Framework.Input.StateChanges.Events;
-using sus.Framework.Input.States;
-using sus.Framework.Platform;
+using osu.Framework.Input.Handlers;
+using osu.Framework.Input.StateChanges;
+using osu.Framework.Input.StateChanges.Events;
+using osu.Framework.Input.States;
+using osu.Framework.Platform;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Input.Handlers
 {

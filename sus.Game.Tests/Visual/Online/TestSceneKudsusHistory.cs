@@ -4,12 +4,12 @@
 using sus.Game.Overlays.Profile.Sections.Kudsus;
 using System.Collections.Generic;
 using System;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Overlays;
 
 namespace sus.Game.Tests.Visual.Online

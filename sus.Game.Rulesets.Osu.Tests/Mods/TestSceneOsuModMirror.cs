@@ -3,15 +3,15 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Beatmaps;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Osu.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Edit.Checks.Components;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit.Checks
 {

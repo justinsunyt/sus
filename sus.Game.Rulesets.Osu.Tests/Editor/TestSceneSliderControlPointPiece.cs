@@ -6,8 +6,8 @@
 using System.Linq;
 using Humanizer;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Objects;
@@ -18,8 +18,8 @@ using sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders.Components;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

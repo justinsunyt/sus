@@ -3,9 +3,9 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Extensions;
-using sus.Framework.Localisation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Extensions;
+using osu.Framework.Localisation;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Scoring;
 
 namespace sus.Game.Overlays.BeatmapListing

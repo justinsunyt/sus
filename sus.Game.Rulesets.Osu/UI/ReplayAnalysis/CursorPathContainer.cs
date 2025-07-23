@@ -3,12 +3,12 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics.Lines;
-using sus.Framework.Graphics.Performance;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics.Lines;
+using osu.Framework.Graphics.Performance;
 using sus.Game.Graphics;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.UI.ReplayAnalysis
 {

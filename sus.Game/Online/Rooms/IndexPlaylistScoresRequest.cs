@@ -5,7 +5,7 @@
 
 using System.Diagnostics;
 using JetBrains.Annotations;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Extensions;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;

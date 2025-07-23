@@ -3,9 +3,9 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
 
 namespace sus.Game.Screens.Menu
 {

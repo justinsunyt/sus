@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Input.Bindings;
 using sus.Game.Overlays;

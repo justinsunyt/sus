@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics.Colour;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics.Colour;
 using sus.Game.Beatmaps;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Utils;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Graphics
 {

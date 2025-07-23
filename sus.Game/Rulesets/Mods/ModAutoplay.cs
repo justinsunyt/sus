@@ -3,8 +3,8 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Replays;

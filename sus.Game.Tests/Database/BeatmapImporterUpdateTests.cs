@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Collections;
 using sus.Game.Database;

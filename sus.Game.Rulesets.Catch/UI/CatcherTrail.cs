@@ -1,10 +1,10 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Timing;
 using sus.Game.Rulesets.Objects.Pooling;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.UI
 {

@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Legacy;
 using sus.Game.Graphics;

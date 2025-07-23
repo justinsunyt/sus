@@ -5,7 +5,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;

@@ -4,11 +4,11 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;

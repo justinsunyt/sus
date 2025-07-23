@@ -4,12 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
@@ -22,7 +22,7 @@ using sus.Game.Screens.Play;
 using sus.Game.Screens.Select;
 using sus.Game.Users;
 using sus.Game.Utils;
-using WebCommonStrings = sus.Game.Resources.Localisation.Web.CommonStrings;
+using WebCommonStrings = osu.Game.Resources.Localisation.Web.CommonStrings;
 
 namespace sus.Game.Screens.SelectV2
 {

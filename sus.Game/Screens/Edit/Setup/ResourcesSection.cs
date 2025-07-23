@@ -4,11 +4,11 @@
 using System;
 using System.IO;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Beatmaps;
 using sus.Game.Localisation;
 using sus.Game.Models;

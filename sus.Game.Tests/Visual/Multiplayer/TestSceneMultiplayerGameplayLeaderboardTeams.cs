@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Multiplayer.MatchTypes.TeamVersus;
 using sus.Game.Screens.OnlinePlay.Multiplayer;

@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Input;
-using sus.Framework.Screens;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Input;
+using osu.Framework.Screens;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Configuration;
@@ -20,7 +20,7 @@ using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Play;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

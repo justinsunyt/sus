@@ -4,8 +4,8 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Platform;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Platform;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
 using sus.Game.Overlays.Notifications;

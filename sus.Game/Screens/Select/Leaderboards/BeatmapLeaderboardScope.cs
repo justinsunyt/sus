@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Localisation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Localisation;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Screens.Select.Leaderboards
 {

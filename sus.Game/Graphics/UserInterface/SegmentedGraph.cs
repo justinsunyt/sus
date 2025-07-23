@@ -5,14 +5,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Textures;
-using susTK;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Textures;
+using osuTK;
 
 namespace sus.Game.Graphics.UserInterface
 {

@@ -3,7 +3,7 @@
 
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Skinning.Legacy
 {

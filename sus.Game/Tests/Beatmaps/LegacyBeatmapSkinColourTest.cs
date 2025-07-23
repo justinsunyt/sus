@@ -6,14 +6,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Skinning;
 using sus.Game.Tests.Visual;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Beatmaps
 {

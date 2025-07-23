@@ -3,10 +3,10 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Input.Bindings;
 using sus.Game.Input;
 using sus.Game.Input.Bindings;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Input
 {

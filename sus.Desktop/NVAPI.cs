@@ -9,7 +9,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
-using sus.Framework.Logging;
+using osu.Framework.Logging;
 
 namespace sus.Desktop
 {

@@ -5,17 +5,17 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Input.Bindings;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Difficulty;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.UI;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

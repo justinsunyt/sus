@@ -1,10 +1,10 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 using DefaultJudgementPiece = sus.Game.Rulesets.Taiko.Skinning.Default.DefaultJudgementPiece;
 
 namespace sus.Game.Rulesets.Taiko.UI

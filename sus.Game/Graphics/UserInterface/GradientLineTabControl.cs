@@ -3,13 +3,13 @@
 
 #nullable disable
 
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
-using sus.Framework.Graphics.Shapes;
-using susTK.Graphics;
-using sus.Framework.Graphics.Colour;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
+using osu.Framework.Graphics.Shapes;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Colour;
 
 namespace sus.Game.Graphics.UserInterface
 {

@@ -5,13 +5,13 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

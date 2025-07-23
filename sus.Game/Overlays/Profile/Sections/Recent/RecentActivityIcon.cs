@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics;
 using sus.Game.Online.API.Requests;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics;
 using sus.Game.Online.API.Requests.Responses;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.Profile.Sections.Recent
 {

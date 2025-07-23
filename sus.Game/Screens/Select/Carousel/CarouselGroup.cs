@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Extensions.ListExtensions;
-using sus.Framework.Lists;
+using osu.Framework.Extensions.ListExtensions;
+using osu.Framework.Lists;
 
 namespace sus.Game.Screens.Select.Carousel
 {

@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Beatmaps.Formats
 {

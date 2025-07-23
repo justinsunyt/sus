@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Osu.Replays;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual
 {

@@ -3,17 +3,17 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Threading;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Threading;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Overlays;
 using sus.Game.Screens.Edit.Submission;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Editing
 {

@@ -5,7 +5,7 @@
 
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using sus.Framework.IO.Serialization;
+using osu.Framework.IO.Serialization;
 
 namespace sus.Game.IO.Serialization
 {

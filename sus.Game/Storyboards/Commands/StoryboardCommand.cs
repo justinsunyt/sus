@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Transforms;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Transforms;
 using sus.Game.Storyboards.Drawables;
 
 namespace sus.Game.Storyboards.Commands

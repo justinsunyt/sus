@@ -7,8 +7,8 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.Serialization;
-using sus.Framework.Extensions.EnumExtensions;
-using sus.Framework.Utils;
+using osu.Framework.Extensions.EnumExtensions;
+using osu.Framework.Utils;
 
 namespace sus.Game.Rulesets.Scoring
 {

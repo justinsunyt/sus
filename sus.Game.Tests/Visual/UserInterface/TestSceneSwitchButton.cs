@@ -4,10 +4,10 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.UserInterfaceV2;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

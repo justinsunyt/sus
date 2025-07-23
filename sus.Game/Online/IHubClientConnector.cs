@@ -4,7 +4,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR.Client;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Online.API;
 
 namespace sus.Game.Online

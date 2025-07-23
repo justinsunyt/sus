@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Catch.Mods;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Objects;

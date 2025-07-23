@@ -2,17 +2,17 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Transforms;
-using sus.Framework.Input.Events;
-using sus.Framework.Layout;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Transforms;
+using osu.Framework.Input.Events;
+using osu.Framework.Layout;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Containers;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Compose.Components.Timeline
 {

@@ -1,10 +1,10 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Input;
-using sus.Framework.Input.Events;
-using sus.Game.Resources.Localisation.Web;
-using susTK.Input;
+using osu.Framework.Input;
+using osu.Framework.Input.Events;
+using osu.Game.Resources.Localisation.Web;
+using osuTK.Input;
 
 namespace sus.Game.Graphics.UserInterface
 {

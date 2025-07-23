@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Mania.UI;
 
 namespace sus.Game.Rulesets.Mania.Mods

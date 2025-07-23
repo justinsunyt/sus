@@ -5,9 +5,9 @@
 
 using System;
 using Markdig.Syntax;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers.Markdown;
 using sus.Game.Overlays.Wiki.Markdown;
 
 namespace sus.Game.Overlays.Wiki

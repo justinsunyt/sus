@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Screens;
+using osu.Framework.Screens;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Components;

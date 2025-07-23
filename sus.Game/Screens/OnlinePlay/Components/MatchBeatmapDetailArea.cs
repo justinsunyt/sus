@@ -4,14 +4,14 @@
 using System;
 using System.ComponentModel;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Playlists;
 using sus.Game.Screens.Select;
-using susTK;
-using Container = sus.Framework.Graphics.Containers.Container;
+using osuTK;
+using Container = osu.Framework.Graphics.Containers.Container;
 
 namespace sus.Game.Screens.OnlinePlay.Components
 {

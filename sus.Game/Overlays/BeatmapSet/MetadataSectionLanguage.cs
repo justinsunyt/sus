@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online.Chat;

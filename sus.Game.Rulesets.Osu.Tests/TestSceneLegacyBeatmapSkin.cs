@@ -7,8 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Objects;
@@ -16,8 +16,8 @@ using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Skinning;
 using sus.Game.Tests.Beatmaps;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

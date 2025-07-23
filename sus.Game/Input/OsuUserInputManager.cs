@@ -1,10 +1,10 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Input;
+using osu.Framework.Bindables;
+using osu.Framework.Input;
 using sus.Game.Screens.Play;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Input
 {

@@ -4,13 +4,13 @@
 #nullable disable
 
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.UserInterface;
@@ -18,8 +18,8 @@ using sus.Game.Rulesets.Edit;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components.Timeline;
 using sus.Game.Storyboards;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Editing
 {

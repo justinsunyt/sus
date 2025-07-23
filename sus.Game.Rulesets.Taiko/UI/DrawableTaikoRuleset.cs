@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Input.Handlers;
@@ -27,7 +27,7 @@ using sus.Game.Scoring;
 using sus.Game.Screens.Play;
 using sus.Game.Skinning;
 using sus.Game.Storyboards;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.UI
 {

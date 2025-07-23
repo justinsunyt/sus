@@ -6,7 +6,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Extensions;
 using sus.Game.Overlays;
 using sus.Game.Overlays.BeatmapListing;

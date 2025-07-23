@@ -5,16 +5,16 @@ using System;
 using System.Linq;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Tournament.Screens.Editors;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays.Dialog;
 using sus.Game.Tournament.Screens.Editors.Components;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tournament.Tests.Screens
 {

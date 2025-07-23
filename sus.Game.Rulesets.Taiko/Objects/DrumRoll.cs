@@ -9,7 +9,7 @@ using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.Taiko.Beatmaps;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Objects
 {

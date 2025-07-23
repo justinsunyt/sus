@@ -6,9 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
 using NUnit.Framework;
-using sus.Framework.Extensions;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Extensions;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.IO;
@@ -109,7 +109,7 @@ namespace sus.Game.Tests.Database
         protected static RulesetInfo CreateRuleset() =>
             new RulesetInfo("sus", "sus!", string.Empty, 0) { Available = true };
 
-        private partial class RealmTestGame : Framework.Game
+        private partial class RealmTestGame : osu.Framework.Game
         {
             public RealmTestGame([InstantHandle] Func<Task> work)
             {

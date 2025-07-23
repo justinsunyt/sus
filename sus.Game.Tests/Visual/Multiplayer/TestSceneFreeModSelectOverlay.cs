@@ -5,20 +5,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input;
+using osu.Framework.Testing;
 using sus.Game.Overlays.Mods;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Screens.Footer;
 using sus.Game.Screens.OnlinePlay;
 using sus.Game.Utils;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Mods;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.UI;
 

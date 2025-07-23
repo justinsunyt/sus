@@ -3,11 +3,11 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ExceptionExtensions;
-using sus.Framework.Logging;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ExceptionExtensions;
+using osu.Framework.Logging;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API;

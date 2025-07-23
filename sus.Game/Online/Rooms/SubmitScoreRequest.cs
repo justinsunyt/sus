@@ -3,7 +3,7 @@
 
 using System.Net.Http;
 using Newtonsoft.Json;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Scoring;

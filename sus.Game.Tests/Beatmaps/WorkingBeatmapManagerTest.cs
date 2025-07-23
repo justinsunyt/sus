@@ -3,11 +3,11 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Extensions;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Extensions;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Collections;
 using sus.Game.Database;

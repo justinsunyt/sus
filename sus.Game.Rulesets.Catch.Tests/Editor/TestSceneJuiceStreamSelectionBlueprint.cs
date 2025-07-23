@@ -4,16 +4,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Catch.Edit.Blueprints;
 using sus.Game.Rulesets.Catch.Edit.Blueprints.Components;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Tests.Editor
 {

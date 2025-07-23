@@ -16,7 +16,7 @@ using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Legacy;
 using sus.Game.Rulesets.Scoring.Legacy;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Beatmaps
 {

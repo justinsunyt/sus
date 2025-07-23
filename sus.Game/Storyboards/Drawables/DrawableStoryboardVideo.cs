@@ -4,13 +4,13 @@
 using System;
 using System.IO;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Graphics.Video;
-using sus.Framework.Utils;
-using susTK;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Graphics.Video;
+using osu.Framework.Utils;
+using osuTK;
 
 namespace sus.Game.Storyboards.Drawables
 {

@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics.Containers;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Skinning.Legacy
 {

@@ -4,10 +4,10 @@
 #nullable disable
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers.Markdown;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 

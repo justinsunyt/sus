@@ -6,14 +6,14 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Input;
-using sus.Framework.IO.Stores;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Input;
+using osu.Framework.IO.Stores;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Database;
 using sus.Game.Graphics;
 using sus.Game.Online;
@@ -22,7 +22,7 @@ using sus.Game.Tournament.IO;
 using sus.Game.Tournament.IPC;
 using sus.Game.Tournament.Models;
 using sus.Game.Users;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tournament
 {

@@ -6,16 +6,16 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Configuration;
-using sus.Framework.Configuration.Tracking;
-using sus.Framework.Development;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Transforms;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Configuration;
+using osu.Framework.Configuration.Tracking;
+using osu.Framework.Development;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Transforms;
+using osu.Framework.Threading;
 using sus.Game.Overlays.OSD;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays
 {

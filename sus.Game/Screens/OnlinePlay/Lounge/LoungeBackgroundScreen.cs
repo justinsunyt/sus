@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Bindables;
-using sus.Framework.Screens;
+using osu.Framework.Bindables;
+using osu.Framework.Screens;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Components;
 

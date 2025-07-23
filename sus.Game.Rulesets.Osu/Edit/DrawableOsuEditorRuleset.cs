@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Edit;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit
 {

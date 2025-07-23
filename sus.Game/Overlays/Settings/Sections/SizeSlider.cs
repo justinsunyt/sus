@@ -4,7 +4,7 @@
 using System;
 using System.Numerics;
 using System.Globalization;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Graphics.UserInterface;
 
 namespace sus.Game.Overlays.Settings.Sections

@@ -1,11 +1,11 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using susTK.Graphics;
-using Box = sus.Framework.Graphics.Shapes.Box;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osuTK.Graphics;
+using Box = osu.Framework.Graphics.Shapes.Box;
 
 namespace sus.Game.Rulesets.Mania.Skinning.Argon
 {

@@ -2,15 +2,15 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Overlays.Profile.Sections.Historical;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using NUnit.Framework;
 using sus.Game.Overlays;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using System;
 using System.Linq;
-using sus.Framework.Testing;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Testing;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Profile;
 using sus.Game.Rulesets.Osu;

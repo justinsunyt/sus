@@ -4,18 +4,18 @@
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Rendering.Vertices;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Shaders.Types;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Rendering.Vertices;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Shaders.Types;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Graphics;
 using sus.Game.Graphics.OpenGL.Vertices;
@@ -24,8 +24,8 @@ using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
 using sus.Game.Scoring;
 using sus.Game.Screens.Play;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mods
 {

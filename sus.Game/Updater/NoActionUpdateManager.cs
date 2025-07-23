@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
 

@@ -8,8 +8,8 @@ using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Tests.Beatmaps;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Tests.Editor
 {

@@ -3,8 +3,8 @@
 
 using System;
 using Humanizer.Localisation;
-using sus.Framework.Allocation;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Threading;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Utils;
 

@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Mods;

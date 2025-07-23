@@ -3,14 +3,14 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.StateChanges;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.StateChanges;
 using sus.Game.Configuration;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.UI
 {

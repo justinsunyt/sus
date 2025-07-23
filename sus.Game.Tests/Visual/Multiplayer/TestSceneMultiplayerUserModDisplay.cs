@@ -3,9 +3,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Online.API;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.UI;

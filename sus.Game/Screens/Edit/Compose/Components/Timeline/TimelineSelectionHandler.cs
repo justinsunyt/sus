@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Input.Bindings;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Screens.Edit.Compose.Components.Timeline
 {

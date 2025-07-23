@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Database;
 
 namespace sus.Game.IPC

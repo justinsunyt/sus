@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using sus.Game.Beatmaps.Formats;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

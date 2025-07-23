@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Rulesets.Catch.Mods;

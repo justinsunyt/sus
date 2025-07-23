@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Graphics.UserInterface;
 
 namespace sus.Game.Screens.Edit.Components.Menus

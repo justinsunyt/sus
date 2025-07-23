@@ -3,11 +3,11 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Pooling;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Pooling;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Pooling;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables.Connections
 {

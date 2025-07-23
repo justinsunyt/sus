@@ -6,17 +6,17 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using Humanizer;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Audio;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

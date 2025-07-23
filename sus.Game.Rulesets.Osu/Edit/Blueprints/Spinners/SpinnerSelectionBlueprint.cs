@@ -3,7 +3,7 @@
 
 using sus.Game.Rulesets.Osu.Edit.Blueprints.Spinners.Components;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.Spinners
 {

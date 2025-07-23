@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using susTK;
+using osu.Framework.Graphics;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Skinning.Default
 {

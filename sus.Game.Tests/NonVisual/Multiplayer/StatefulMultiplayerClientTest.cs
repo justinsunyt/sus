@@ -4,8 +4,8 @@
 using System.Linq;
 using Humanizer;
 using NUnit.Framework;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Testing;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Testing;
 using sus.Game.Extensions;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Multiplayer;

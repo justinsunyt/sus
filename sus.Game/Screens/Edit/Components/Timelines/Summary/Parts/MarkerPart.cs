@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
 using sus.Game.Screens.Edit.Compose.Components.Timeline;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Components.Timelines.Summary.Parts
 {

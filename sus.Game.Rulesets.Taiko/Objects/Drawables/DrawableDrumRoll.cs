@@ -5,20 +5,20 @@
 
 using System;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Utils;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Objects.Drawables;
-using susTK.Graphics;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Input.Events;
+using osuTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Taiko.Skinning.Default;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Objects.Drawables
 {

@@ -5,7 +5,7 @@ using System;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps.ControlPoints;
 
 namespace sus.Game.Screens.Edit.Components.Timelines.Summary.Parts

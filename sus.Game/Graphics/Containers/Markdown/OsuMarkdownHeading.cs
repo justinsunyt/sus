@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Markdig.Syntax;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers.Markdown;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics.Sprites;
 
 namespace sus.Game.Graphics.Containers.Markdown
 {

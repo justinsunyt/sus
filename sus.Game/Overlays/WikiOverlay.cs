@@ -4,9 +4,9 @@
 using System;
 using System.Linq;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Extensions;
 using sus.Game.Localisation;
 using sus.Game.Online.API;

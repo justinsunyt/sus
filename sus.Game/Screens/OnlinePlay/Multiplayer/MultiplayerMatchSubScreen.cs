@@ -3,18 +3,18 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Cursor;
@@ -37,7 +37,7 @@ using sus.Game.Screens.OnlinePlay.Multiplayer.Spectate;
 using sus.Game.Screens.OnlinePlay.Playlists;
 using sus.Game.Users;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 using ParticipantsList = sus.Game.Screens.OnlinePlay.Multiplayer.Participants.ParticipantsList;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer

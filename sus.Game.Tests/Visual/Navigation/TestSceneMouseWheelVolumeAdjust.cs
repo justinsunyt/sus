@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Configuration;
 using sus.Game.Screens.Play;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Beatmaps.IO;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

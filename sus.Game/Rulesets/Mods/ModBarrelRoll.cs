@@ -3,14 +3,14 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mods
 {

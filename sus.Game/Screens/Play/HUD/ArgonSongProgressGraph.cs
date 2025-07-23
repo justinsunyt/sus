@@ -4,8 +4,8 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Objects;

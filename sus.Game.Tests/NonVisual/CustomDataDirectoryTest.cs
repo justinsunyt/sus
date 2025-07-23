@@ -8,10 +8,10 @@ using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Configuration;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Configuration;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Configuration;
 using sus.Game.IO;
 

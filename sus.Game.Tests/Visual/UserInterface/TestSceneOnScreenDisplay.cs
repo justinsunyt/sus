@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Configuration;
-using sus.Framework.Configuration.Tracking;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Configuration;
+using osu.Framework.Configuration.Tracking;
+using osu.Framework.Graphics;
 using sus.Game.Overlays;
 using sus.Game.Overlays.OSD;
 

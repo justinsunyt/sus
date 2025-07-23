@@ -3,10 +3,10 @@
 
 using System;
 using System.Runtime.InteropServices;
-using sus.Framework.Graphics.Rendering.Vertices;
-using susTK;
-using susTK.Graphics;
-using susTK.Graphics.ES30;
+using osu.Framework.Graphics.Rendering.Vertices;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Graphics.ES30;
 
 namespace sus.Game.Graphics.OpenGL.Vertices
 {

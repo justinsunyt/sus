@@ -6,15 +6,15 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Input;
-using sus.Framework.Testing;
+using osu.Framework.Input;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Setup;
 using sus.Game.Screens.Menu;
 using sus.Game.Screens.SelectV2;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual
 {

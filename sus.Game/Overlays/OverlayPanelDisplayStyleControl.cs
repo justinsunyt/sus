@@ -3,21 +3,21 @@
 
 #nullable disable
 
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
-using sus.Framework.Input.Events;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.UserInterface;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using susTK.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Localisation;
-using sus.Game.Resources.Localisation.Web;
-using sus.Framework.Extensions;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Localisation;
+using osu.Game.Resources.Localisation.Web;
+using osu.Framework.Extensions;
 
 namespace sus.Game.Overlays
 {

@@ -4,9 +4,9 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Timing;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 

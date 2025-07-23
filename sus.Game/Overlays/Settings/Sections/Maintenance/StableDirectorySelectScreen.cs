@@ -4,9 +4,9 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Localisation;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Localisation;
+using osu.Framework.Screens;
 using sus.Game.Database;
 
 namespace sus.Game.Overlays.Settings.Sections.Maintenance

@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Online.API;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Rulesets.Mods;

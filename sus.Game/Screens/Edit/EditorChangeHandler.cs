@@ -5,8 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
 
 namespace sus.Game.Screens.Edit
 {

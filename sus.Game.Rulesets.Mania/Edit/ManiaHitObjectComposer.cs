@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Edit.Tools;
@@ -15,7 +15,7 @@ using sus.Game.Rulesets.UI;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Edit
 {

@@ -6,8 +6,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.IO;
 
 namespace sus.Game.Database

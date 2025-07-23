@@ -6,15 +6,15 @@ using System.Linq;
 using Android.App;
 using Android.Content.PM;
 using Microsoft.Maui.Devices;
-using sus.Framework.Allocation;
-using sus.Framework.Development;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Development;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Platform;
 using sus.Game;
 using sus.Game.Screens;
 using sus.Game.Updater;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Android
 {

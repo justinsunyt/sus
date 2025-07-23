@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Pooling;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Pooling;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Scoring;

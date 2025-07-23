@@ -4,7 +4,7 @@
 #nullable disable
 
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Edit
 {

@@ -8,7 +8,7 @@ using sus.Game.Rulesets.Taiko.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using System.Threading;
 using sus.Game.Audio;
 using sus.Game.Beatmaps.ControlPoints;

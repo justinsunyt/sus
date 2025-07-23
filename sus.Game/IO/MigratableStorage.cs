@@ -6,7 +6,7 @@
 using System;
 using System.IO;
 using System.Linq;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Utils;
 
 namespace sus.Game.IO

@@ -7,10 +7,10 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Containers;
@@ -23,7 +23,7 @@ using sus.Game.Scoring;
 using sus.Game.Screens.Play;
 using sus.Game.Screens.Ranking;
 using sus.Game.Storyboards;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {
@@ -60,7 +60,7 @@ namespace sus.Game.Tests.Visual.Gameplay
             AddStep("set storyboard duration to long", () => currentStoryboardDuration = 200000);
             CreateTest();
             AddUntilStep("completion set by processor", () => Player.ScoreProcessor.HasCompleted.Value);
-            AddStep("skip outro", () => InputManager.Key(susTK.Input.Key.Space));
+            AddStep("skip outro", () => InputManager.Key(osuTK.Input.Key.Space));
             AddUntilStep("player is no longer current screen", () => !Player.IsCurrentScreen());
             AddUntilStep("wait for score shown", () => Player.IsScoreShown);
         }

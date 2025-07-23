@@ -3,9 +3,9 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.Objects;

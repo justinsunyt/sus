@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Scoring;
 using sus.Game.Screens.Play;

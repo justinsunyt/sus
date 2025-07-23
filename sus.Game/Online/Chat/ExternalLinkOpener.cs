@@ -2,19 +2,19 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Platform;
 using sus.Game.Configuration;
 using sus.Game.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Dialog;
 using sus.Game.Overlays.Notifications;
-using WebCommonStrings = sus.Game.Resources.Localisation.Web.CommonStrings;
+using WebCommonStrings = osu.Game.Resources.Localisation.Web.CommonStrings;
 
 namespace sus.Game.Online.Chat
 {

@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Extensions;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Extensions;
 using sus.Game.Configuration;
 using sus.Game.Database;
 

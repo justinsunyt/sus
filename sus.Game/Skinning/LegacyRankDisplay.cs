@@ -1,18 +1,18 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Audio;
 using sus.Game.Configuration;
 using sus.Game.Localisation;
 using sus.Game.Overlays.SkinEditor;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Skinning
 {

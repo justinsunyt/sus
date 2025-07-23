@@ -5,15 +5,15 @@ using System.Linq;
 using ManagedBass;
 using Moq;
 using NUnit.Framework;
-using sus.Framework.Audio.Track;
-using sus.Framework.Timing;
+using osu.Framework.Audio.Track;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Edit.Checks;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Tests.Resources;
 using sus.Game.Tests.Visual;
-using susTK.Audio;
+using osuTK.Audio;
 
 namespace sus.Game.Tests.Editing.Checks
 {

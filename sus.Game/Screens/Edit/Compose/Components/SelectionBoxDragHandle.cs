@@ -4,7 +4,7 @@
 #nullable disable
 
 using System;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

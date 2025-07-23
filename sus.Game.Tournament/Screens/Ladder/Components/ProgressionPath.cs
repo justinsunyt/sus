@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Lines;
-using susTK;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Lines;
+using osuTK;
 
 namespace sus.Game.Tournament.Screens.Ladder.Components
 {

@@ -12,7 +12,7 @@ using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Judgements;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Objects
 {
