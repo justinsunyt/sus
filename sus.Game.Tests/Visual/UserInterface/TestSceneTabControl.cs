@@ -1,0 +1,42 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.ComponentModel;
+using sus.Framework.Graphics;
+using sus.Game.Graphics.Sprites;
+using sus.Game.Graphics.UserInterface;
+using sus.Game.Screens.Select.Filter;
+using susTK;
+
+namespace sus.Game.Tests.Visual.UserInterface
+{
+    [Description("SongSelect filter control")]
+    public partial class TestSceneTabControl : OsuTestScene
+    {
+        public TestSceneTabControl()
+        {
+            OsuSpriteText text;
+            OsuTabControl<GroupMode> filter;
+            Add(filter = new OsuTabControl<GroupMode>
+            {
+                Margin = new MarginPadding(4),
+                Size = new Vector2(229, 24),
+                AutoSort = true
+            });
+            Add(text = new OsuSpriteText
+            {
+                Text = "None",
+                Margin = new MarginPadding(4),
+                Position = new Vector2(275, 5)
+            });
+
+            filter.PinItem(GroupMode.None);
+            filter.PinItem(GroupMode.LastPlayed);
+
+            filter.Current.ValueChanged += grouping =>
+            {
+                text.Text = "Currently Selected: " + grouping.NewValue.ToString();
+            };
+        }
+    }
+}

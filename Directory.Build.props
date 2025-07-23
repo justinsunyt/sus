@@ -1,4 +1,4 @@
-﻿<!-- Contains required properties for osu!framework projects. -->
+﻿<!-- Contains required properties for sus!framework projects. -->
 <Project>
   <PropertyGroup Label="C#">
     <LangVersion>12.0</LangVersion>
@@ -12,8 +12,8 @@
     <ApplicationManifest>$(MSBuildThisFileDirectory)app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup Label="License">
-    <None Include="$(MSBuildThisFileDirectory)osu.licenseheader">
-      <Link>osu.licenseheader</Link>
+    <None Include="$(MSBuildThisFileDirectory)sus.licenseheader">
+      <Link>sus.licenseheader</Link>
     </None>
   </ItemGroup>
   <ItemGroup Label="Resources">
@@ -23,7 +23,7 @@
     <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" PrivateAssets="All" />
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis\BannedSymbols.txt" />
     <!-- Rider compatibility: .globalconfig needs to be explicitly referenced instead of using the global file name. -->
-    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis\osu.globalconfig" />
+    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis\sus.globalconfig" />
   </ItemGroup>
   <PropertyGroup Label="Code Analysis">
     <AnalysisMode>Default</AnalysisMode>
@@ -46,11 +46,11 @@
     <IsPackable>false</IsPackable>
     <Authors>ppy Pty Ltd</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/ppy/osu</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ppy/osu</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ppy/sus</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ppy/sus</RepositoryUrl>
     <PackageReleaseNotes>Automated release.</PackageReleaseNotes>
     <Company>ppy Pty Ltd</Company>
     <Copyright>Copyright (c) 2025 ppy Pty Ltd</Copyright>
-    <PackageTags>osu game</PackageTags>
+    <PackageTags>sus game</PackageTags>
   </PropertyGroup>
 </Project>

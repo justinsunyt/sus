@@ -1,0 +1,82 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+#nullable disable
+
+using System;
+using System.Collections.Generic;
+using NUnit.Framework;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Testing;
+using sus.Framework.Timing;
+using sus.Game.Rulesets.Catch.Edit.Blueprints.Components;
+using sus.Game.Rulesets.Catch.Objects.Drawables;
+using sus.Game.Rulesets.Objects.Drawables;
+using sus.Game.Rulesets.UI.Scrolling;
+using sus.Game.Tests.Visual;
+using susTK;
+using susTK.Input;
+
+namespace sus.Game.Rulesets.Catch.Tests.Editor
+{
+    public abstract partial class CatchPlacementBlueprintTestScene : PlacementBlueprintTestScene
+    {
+        protected sealed override Ruleset CreateRuleset() => new CatchRuleset();
+
+        protected const double TIME_SNAP = 100;
+
+        protected DrawableCatchHitObject LastObject;
+
+        protected new ScrollingHitObjectContainer HitObjectContainer => contentContainer.Playfield.HitObjectContainer;
+
+        protected override Container<Drawable> Content => contentContainer;
+
+        private readonly CatchEditorTestSceneContainer contentContainer;
+
+        protected CatchPlacementBlueprintTestScene()
+        {
+            base.Content.Add(contentContainer = new CatchEditorTestSceneContainer());
+
+            contentContainer.Playfield.Clock = new FramedClock(new ManualClock());
+        }
+
+        [SetUp]
+        public void Setup() => Schedule(() =>
+        {
+            HitObjectContainer.Clear();
+            ResetPlacement();
+            LastObject = null;
+        });
+
+        protected void AddMoveStep(double time, float x) => AddStep($"move to time={time}, x={x}", () =>
+        {
+            float y = HitObjectContainer.PositionAtTime(time);
+            Vector2 pos = HitObjectContainer.ToScreenSpace(new Vector2(x, y + HitObjectContainer.DrawHeight));
+            InputManager.MoveMouseTo(pos);
+        });
+
+        protected void AddClickStep(MouseButton button) => AddStep($"click {button}", () =>
+        {
+            InputManager.Click(button);
+        });
+
+        protected IEnumerable<FruitOutline> FruitOutlines => Content.ChildrenOfType<FruitOutline>();
+
+        // Unused because AddHitObject is overriden
+        protected override Container CreateHitObjectContainer() => new Container();
+
+        protected override void AddHitObject(DrawableHitObject hitObject)
+        {
+            LastObject = (DrawableCatchHitObject)hitObject;
+            contentContainer.Playfield.HitObjectContainer.Add(hitObject);
+        }
+
+        protected override void UpdatePlacementTimeAndPosition()
+        {
+            var position = InputManager.CurrentState.Mouse.Position;
+            double time = Math.Round(HitObjectContainer.TimeAtScreenSpacePosition(position) / TIME_SNAP) * TIME_SNAP;
+            CurrentBlueprint.UpdateTimeAndPosition(position, time);
+        }
+    }
+}

@@ -1,0 +1,20 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Graphics;
+using sus.Game.Rulesets.UI;
+using susTK;
+
+namespace sus.Game.Rulesets.Pippidon.UI
+{
+    public partial class PippidonPlayfieldAdjustmentContainer : PlayfieldAdjustmentContainer
+    {
+        public PippidonPlayfieldAdjustmentContainer()
+        {
+            Anchor = Anchor.Centre;
+            Origin = Anchor.Centre;
+
+            Size = new Vector2(0.8f);
+        }
+    }
+}

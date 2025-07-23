@@ -1,0 +1,23 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using Humanizer;
+using sus.Framework.Extensions.LocalisationExtensions;
+using sus.Framework.Graphics.Sprites;
+using sus.Game.Resources.Localisation.Web;
+
+namespace sus.Game.Beatmaps.Drawables.Cards.Statistics
+{
+    /// <summary>
+    /// Shows the number of times the given beatmap set has been played.
+    /// </summary>
+    public partial class PlayCountStatistic : BeatmapCardStatistic
+    {
+        public PlayCountStatistic(IBeatmapSetOnlineInfo onlineInfo)
+        {
+            Icon = FontAwesome.Regular.PlayCircle;
+            Text = onlineInfo.PlayCount.ToMetric(decimals: 1);
+            TooltipText = BeatmapsStrings.PanelPlaycount(onlineInfo.PlayCount.ToLocalisableString(@"N0"));
+        }
+    }
+}

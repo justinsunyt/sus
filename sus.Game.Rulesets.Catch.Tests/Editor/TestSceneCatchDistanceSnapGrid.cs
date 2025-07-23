@@ -1,0 +1,91 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Input.Events;
+using sus.Framework.Timing;
+using sus.Game.Beatmaps;
+using sus.Game.Rulesets.Catch.Edit;
+using sus.Game.Rulesets.Catch.Edit.Blueprints.Components;
+using sus.Game.Rulesets.Catch.Objects;
+using sus.Game.Rulesets.Catch.UI;
+using sus.Game.Rulesets.UI;
+using sus.Game.Rulesets.UI.Scrolling;
+using sus.Game.Tests.Visual;
+using susTK;
+
+namespace sus.Game.Rulesets.Catch.Tests.Editor
+{
+    public partial class TestSceneCatchDistanceSnapGrid : OsuManualInputManagerTestScene
+    {
+        private readonly ManualClock manualClock = new ManualClock();
+
+        [Cached(typeof(Playfield))]
+        private readonly CatchPlayfield playfield;
+
+        private ScrollingHitObjectContainer hitObjectContainer => playfield.HitObjectContainer;
+
+        private readonly CatchDistanceSnapGrid distanceGrid;
+
+        private readonly FruitOutline fruitOutline;
+
+        private readonly Fruit fruit = new Fruit();
+
+        public TestSceneCatchDistanceSnapGrid()
+        {
+            Child = new Container
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                RelativeSizeAxes = Axes.Y,
+                Width = 500,
+
+                Children = new Drawable[]
+                {
+                    new ScrollingTestContainer(ScrollingDirection.Down)
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Child = playfield = new CatchPlayfield(new BeatmapDifficulty())
+                        {
+                            RelativeSizeAxes = Axes.Both,
+                            Clock = new FramedClock(manualClock)
+                        }
+                    },
+                    distanceGrid = new CatchDistanceSnapGrid(new double[] { 0, -1, 1 }),
+                    fruitOutline = new FruitOutline()
+                },
+            };
+        }
+
+        protected override void Update()
+        {
+            base.Update();
+
+            distanceGrid.StartTime = 100;
+            distanceGrid.StartX = 250;
+
+            Vector2 screenSpacePosition = InputManager.CurrentState.Mouse.Position;
+
+            var result = distanceGrid.GetSnappedPosition(screenSpacePosition);
+
+            if (result != null)
+            {
+                fruit.OriginalX = hitObjectContainer.ToLocalSpace(result.ScreenSpacePosition).X;
+
+                if (result.Time != null)
+                    fruit.StartTime = result.Time.Value;
+            }
+
+            fruitOutline.Position = CatchHitObjectUtils.GetStartPosition(hitObjectContainer, fruit);
+            fruitOutline.UpdateFrom(fruit);
+        }
+
+        protected override bool OnScroll(ScrollEvent e)
+        {
+            manualClock.CurrentTime -= e.ScrollDelta.Y * 50;
+            return true;
+        }
+    }
+}

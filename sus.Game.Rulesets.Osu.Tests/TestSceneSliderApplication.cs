@@ -1,0 +1,137 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+#nullable disable
+
+using System.Linq;
+using NUnit.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Testing;
+using sus.Game.Beatmaps;
+using sus.Game.Beatmaps.ControlPoints;
+using sus.Game.Rulesets.Objects;
+using sus.Game.Rulesets.Objects.Types;
+using sus.Game.Rulesets.Osu.Objects;
+using sus.Game.Rulesets.Osu.Objects.Drawables;
+using sus.Game.Rulesets.Osu.Skinning.Legacy;
+using sus.Game.Skinning;
+using sus.Game.Tests.Visual;
+using susTK;
+using susTK.Graphics;
+
+namespace sus.Game.Rulesets.Osu.Tests
+{
+    public partial class TestSceneSliderApplication : OsuTestScene
+    {
+        [Resolved]
+        private SkinManager skinManager { get; set; }
+
+        [Test]
+        public void TestApplyNewSlider()
+        {
+            DrawableSlider dho = null;
+
+            AddStep("create slider", () => Child = dho = new DrawableSlider(applyDefaults(new Slider
+            {
+                Position = new Vector2(256, 192),
+                IndexInCurrentCombo = 0,
+                StartTime = Time.Current,
+                Path = new SliderPath(PathType.LINEAR, new[]
+                {
+                    Vector2.Zero,
+                    new Vector2(150, 100),
+                    new Vector2(300, 0),
+                })
+            })));
+
+            AddWaitStep("wait for progression", 1);
+
+            AddStep("apply new slider", () => dho.Apply(applyDefaults(new Slider
+            {
+                Position = new Vector2(256, 192),
+                ComboIndex = 1,
+                StartTime = dho.HitObject.StartTime,
+                Path = new SliderPath(PathType.BEZIER, new[]
+                {
+                    Vector2.Zero,
+                    new Vector2(150, 100),
+                    new Vector2(300, 0),
+                }),
+                RepeatCount = 1
+            })));
+        }
+
+        [Test]
+        public void TestBallTintChangedOnAccentChange()
+        {
+            DrawableSlider dho = null;
+
+            AddStep("create slider", () =>
+            {
+                var skin = skinManager.GetSkin(DefaultLegacySkin.CreateInfo());
+                var provider = Ruleset.Value.CreateInstance().CreateSkinTransformer(skin, Beatmap.Value.Beatmap);
+
+                Child = new SkinProvidingContainer(provider)
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Child = dho = new DrawableSlider(applyDefaults(new Slider
+                    {
+                        Position = new Vector2(256, 192),
+                        IndexInCurrentCombo = 0,
+                        StartTime = Time.Current,
+                        Path = new SliderPath(PathType.LINEAR, new[]
+                        {
+                            Vector2.Zero,
+                            new Vector2(150, 100),
+                            new Vector2(300, 0),
+                        })
+                    }))
+                };
+            });
+
+            AddStep("set accent white", () => dho.AccentColour.Value = Color4.White);
+            AddAssert("ball is white", () => dho.ChildrenOfType<LegacySliderBall>().Single().BallColour == Color4.White);
+
+            AddStep("set accent red", () => dho.AccentColour.Value = Color4.Red);
+            AddAssert("ball is red", () => dho.ChildrenOfType<LegacySliderBall>().Single().BallColour == Color4.Red);
+        }
+
+        [Test]
+        public void TestIncreaseRepeatCount()
+        {
+            DrawableSlider dho = null;
+
+            AddStep("create slider", () =>
+            {
+                Child = dho = new DrawableSlider(applyDefaults(new Slider
+                {
+                    Position = new Vector2(256, 192),
+                    IndexInCurrentCombo = 0,
+                    StartTime = Time.Current,
+                    Path = new SliderPath(PathType.LINEAR, new[]
+                    {
+                        Vector2.Zero,
+                        new Vector2(150, 100),
+                        new Vector2(300, 0),
+                    })
+                }));
+            });
+
+            AddStep("increase repeat count", () =>
+            {
+                dho.HitObject.RepeatCount++;
+                applyDefaults(dho.HitObject);
+            });
+
+            AddAssert("repeat got custom anchor", () =>
+                dho.ChildrenOfType<DrawableSliderRepeat>().Single().RelativeAnchorPosition == Vector2.Divide(dho.SliderBody!.PathOffset, dho.DrawSize));
+        }
+
+        private Slider applyDefaults(Slider slider)
+        {
+            slider.ApplyDefaults(new ControlPointInfo(), new BeatmapDifficulty());
+            return slider;
+        }
+    }
+}

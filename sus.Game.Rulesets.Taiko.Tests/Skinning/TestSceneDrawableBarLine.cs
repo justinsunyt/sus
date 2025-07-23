@@ -1,0 +1,100 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using NUnit.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Game.Beatmaps;
+using sus.Game.Beatmaps.ControlPoints;
+using sus.Game.Rulesets.Taiko.Objects;
+using sus.Game.Rulesets.Taiko.Objects.Drawables;
+using sus.Game.Rulesets.Taiko.UI;
+using sus.Game.Rulesets.UI.Scrolling;
+using sus.Game.Tests.Visual;
+
+namespace sus.Game.Rulesets.Taiko.Tests.Skinning
+{
+    [TestFixture]
+    public partial class TestSceneDrawableBarLine : TaikoSkinnableTestScene
+    {
+        [Cached(typeof(IScrollingInfo))]
+        private ScrollingTestContainer.TestScrollingInfo info = new ScrollingTestContainer.TestScrollingInfo
+        {
+            Direction = { Value = ScrollingDirection.Left },
+            TimeRange = { Value = 5000 },
+        };
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            AddStep("Bar line", () => SetContents(_ =>
+            {
+                ScrollingHitObjectContainer hoc;
+
+                var cont = new Container
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Height = 0.2f,
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    Children = new Drawable[]
+                    {
+                        new TaikoPlayfield(),
+                        hoc = new ScrollingHitObjectContainer()
+                    }
+                };
+
+                hoc.Add(new DrawableBarLine(createBarLineAtCurrentTime())
+                {
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                });
+
+                return cont;
+            }));
+
+            AddStep("Bar line (major)", () => SetContents(_ =>
+            {
+                ScrollingHitObjectContainer hoc;
+
+                var cont = new Container
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Height = 0.2f,
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    Children = new Drawable[]
+                    {
+                        new TaikoPlayfield(),
+                        hoc = new ScrollingHitObjectContainer()
+                    }
+                };
+
+                hoc.Add(new DrawableBarLine(createBarLineAtCurrentTime(true))
+                {
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                });
+
+                return cont;
+            }));
+        }
+
+        private BarLine createBarLineAtCurrentTime(bool major = false)
+        {
+            var barLine = new BarLine
+            {
+                Major = major,
+                StartTime = Time.Current + 5000,
+            };
+
+            var cpi = new ControlPointInfo();
+            cpi.Add(0, new TimingControlPoint { BeatLength = 500 });
+
+            barLine.ApplyDefaults(cpi, new BeatmapDifficulty());
+
+            return barLine;
+        }
+    }
+}

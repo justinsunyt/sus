@@ -1,0 +1,68 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Shapes;
+using sus.Framework.Graphics.Sprites;
+using sus.Game.Rulesets.Objects.Drawables;
+using sus.Game.Rulesets.Taiko.Objects;
+using sus.Game.Rulesets.Taiko.Objects.Drawables;
+using susTK;
+
+namespace sus.Game.Rulesets.Taiko.Skinning.Argon
+{
+    public partial class ArgonTickPiece : CompositeDrawable
+    {
+        private readonly Bindable<bool> isFirstTick = new Bindable<bool>();
+
+        public ArgonTickPiece()
+        {
+            const float tick_size = 1 / TaikoHitObject.DEFAULT_SIZE * ArgonCirclePiece.ICON_SIZE;
+
+            Anchor = Anchor.Centre;
+            Origin = Anchor.Centre;
+
+            RelativeSizeAxes = Axes.Both;
+            FillMode = FillMode.Fit;
+            Size = new Vector2(tick_size);
+        }
+
+        [Resolved]
+        private DrawableHitObject drawableHitObject { get; set; } = null!;
+
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            if (drawableHitObject is DrawableDrumRollTick drumRollTick)
+                isFirstTick.BindTo(drumRollTick.IsFirstTick);
+
+            isFirstTick.BindValueChanged(first =>
+            {
+                if (first.NewValue)
+                {
+                    InternalChild = new Circle
+                    {
+                        Anchor = Anchor.Centre,
+                        Origin = Anchor.Centre,
+                        RelativeSizeAxes = Axes.Both
+                    };
+                }
+                else
+                {
+                    InternalChild = new SpriteIcon
+                    {
+                        Anchor = Anchor.Centre,
+                        Origin = Anchor.Centre,
+                        RelativeSizeAxes = Axes.Both,
+                        Icon = FontAwesome.Solid.AngleLeft,
+                        Scale = new Vector2(0.8f, 1)
+                    };
+                }
+            }, true);
+        }
+    }
+}

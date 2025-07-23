@@ -1,0 +1,84 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Extensions.Color4Extensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Effects;
+using sus.Framework.Graphics.Shapes;
+using sus.Game.Rulesets.Objects.Drawables;
+using sus.Game.Rulesets.UI.Scrolling;
+using susTK.Graphics;
+
+namespace sus.Game.Rulesets.Mania.Skinning.Default
+{
+    /// <summary>
+    /// Represents the static hit markers of notes.
+    /// </summary>
+    internal partial class DefaultNotePiece : CompositeDrawable
+    {
+        public const float NOTE_HEIGHT = 12;
+
+        private readonly IBindable<ScrollingDirection> direction = new Bindable<ScrollingDirection>();
+        private readonly IBindable<Color4> accentColour = new Bindable<Color4>();
+
+        private readonly Box colouredBox;
+
+        public DefaultNotePiece()
+        {
+            RelativeSizeAxes = Axes.X;
+            Height = NOTE_HEIGHT;
+
+            CornerRadius = 5;
+            Masking = true;
+
+            InternalChildren = new Drawable[]
+            {
+                new Box
+                {
+                    RelativeSizeAxes = Axes.Both
+                },
+                colouredBox = new Box
+                {
+                    RelativeSizeAxes = Axes.X,
+                    Height = NOTE_HEIGHT / 2,
+                    Alpha = 0.1f
+                }
+            };
+        }
+
+        [BackgroundDependencyLoader(true)]
+        private void load(IScrollingInfo scrollingInfo, DrawableHitObject? drawableObject)
+        {
+            direction.BindTo(scrollingInfo.Direction);
+            direction.BindValueChanged(onDirectionChanged, true);
+
+            if (drawableObject != null)
+            {
+                accentColour.BindTo(drawableObject.AccentColour);
+                accentColour.BindValueChanged(onAccentChanged, true);
+            }
+        }
+
+        private void onDirectionChanged(ValueChangedEvent<ScrollingDirection> direction)
+        {
+            colouredBox.Anchor = colouredBox.Origin = direction.NewValue == ScrollingDirection.Up
+                ? Anchor.TopCentre
+                : Anchor.BottomCentre;
+        }
+
+        private void onAccentChanged(ValueChangedEvent<Color4> accent)
+        {
+            colouredBox.Colour = accent.NewValue.Lighten(0.9f);
+
+            EdgeEffect = new EdgeEffectParameters
+            {
+                Type = EdgeEffectType.Glow,
+                Colour = accent.NewValue.Lighten(1f).Opacity(0.2f),
+                Radius = 10,
+            };
+        }
+    }
+}

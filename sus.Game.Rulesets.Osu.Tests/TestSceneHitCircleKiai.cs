@@ -1,0 +1,41 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+#nullable disable
+
+using NUnit.Framework;
+using sus.Framework.Audio;
+using sus.Framework.Audio.Track;
+using sus.Framework.Timing;
+using sus.Game.Beatmaps;
+using sus.Game.Beatmaps.ControlPoints;
+
+namespace sus.Game.Rulesets.Osu.Tests
+{
+    [TestFixture]
+    public partial class TestSceneHitCircleKiai : TestSceneHitCircle, IBeatSyncProvider
+    {
+        private ControlPointInfo controlPoints { get; set; }
+
+        [SetUp]
+        public void SetUp() => Schedule(() =>
+        {
+            controlPoints = new ControlPointInfo();
+
+            controlPoints.Add(0, new TimingControlPoint { BeatLength = 500 });
+            controlPoints.Add(0, new EffectControlPoint { KiaiMode = true });
+
+            Beatmap.Value = CreateWorkingBeatmap(new Beatmap
+            {
+                ControlPointInfo = controlPoints
+            });
+
+            // track needs to be playing for BeatSyncedContainer to work.
+            Beatmap.Value.Track.Start();
+        });
+
+        ChannelAmplitudes IHasAmplitudes.CurrentAmplitudes => new ChannelAmplitudes();
+        ControlPointInfo IBeatSyncProvider.ControlPoints => controlPoints;
+        IClock IBeatSyncProvider.Clock => Clock;
+    }
+}

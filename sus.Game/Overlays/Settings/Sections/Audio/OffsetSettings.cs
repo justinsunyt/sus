@@ -1,0 +1,32 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Collections.Generic;
+using System.Linq;
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Localisation;
+using sus.Game.Configuration;
+using sus.Game.Localisation;
+
+namespace sus.Game.Overlays.Settings.Sections.Audio
+{
+    public partial class OffsetSettings : SettingsSubsection
+    {
+        protected override LocalisableString Header => AudioSettingsStrings.OffsetHeader;
+
+        public override IEnumerable<LocalisableString> FilterTerms => base.FilterTerms.Concat(new LocalisableString[] { "universal", "uo", "timing", "delay", "latency", "wizard" });
+
+        [BackgroundDependencyLoader]
+        private void load(OsuConfigManager config)
+        {
+            Children = new Drawable[]
+            {
+                new AudioOffsetAdjustControl
+                {
+                    Current = config.GetBindable<double>(OsuSetting.AudioOffset),
+                },
+            };
+        }
+    }
+}

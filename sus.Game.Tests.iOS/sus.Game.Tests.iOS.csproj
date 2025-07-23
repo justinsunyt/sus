@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\sus.iOS.props" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <SupportedOSPlatformVersion>13.4</SupportedOSPlatformVersion>
+    <RootNamespace>sus.Game.Tests</RootNamespace>
+    <AssemblyName>sus.Game.Tests.iOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CA2007</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\sus.Game.Tests\**\*.cs" Exclude="**\obj\**">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </Compile>
+    <!-- TargetPath is relative to RootNamespace,
+         and DllResourceStore is relative to AssemblyName. -->
+    <EmbeddedResource Include="..\sus.Game.Tests\**\Resources\**\*">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <TargetPath>iOS\%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup Label="Project References">
+    <ProjectReference Include="..\sus.Game\sus.Game.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Osu\sus.Game.Rulesets.Osu.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Catch\sus.Game.Rulesets.Catch.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Mania\sus.Game.Rulesets.Mania.csproj" />
+    <ProjectReference Include="..\sus.Game.Rulesets.Taiko\sus.Game.Rulesets.Taiko.csproj" />
+  </ItemGroup>
+  <ItemGroup Label="Package References">
+    <PackageReference Include="Bogus" Version="35.6.2" />
+    <PackageReference Include="DeepEqual" Version="2.0.0" />
+    <PackageReference Include="Moq" Version="4.17.2" />
+  </ItemGroup>
+</Project>

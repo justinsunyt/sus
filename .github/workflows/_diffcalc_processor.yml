@@ -100,8 +100,8 @@ jobs:
             echo "${DISPATCH_INPUTS_JSON}" | jq -r ".\"$1\""
           }
 
-          osu_a=$(get_input 'osu-a')
-          osu_b=$(get_input 'osu-b')
+          sus_a=$(get_input 'sus-a')
+          sus_b=$(get_input 'sus-b')
           ruleset=$(get_input 'ruleset')
           generators=$(get_input 'generators')
           difficulty_calculator_a=$(get_input 'difficulty-calculator-a')
@@ -111,12 +111,12 @@ jobs:
           converts=$(get_input 'converts')
           ranked_only=$(get_input 'ranked-only')
 
-          sed -i "s;^OSU_B=.*$;OSU_B=${osu_b};" "${{ env.GENERATOR_ENV }}"
+          sed -i "s;^OSU_B=.*$;OSU_B=${sus_b};" "${{ env.GENERATOR_ENV }}"
           sed -i "s/^RULESET=.*$/RULESET=${ruleset}/" "${{ env.GENERATOR_ENV }}"
           sed -i "s/^GENERATORS=.*$/GENERATORS=${generators}/" "${{ env.GENERATOR_ENV }}"
 
-          if [[ "${osu_a}" != 'latest' ]]; then
-              sed -i "s;^OSU_A=.*$;OSU_A=${osu_a};" "${{ env.GENERATOR_ENV }}"
+          if [[ "${sus_a}" != 'latest' ]]; then
+              sed -i "s;^OSU_A=.*$;OSU_A=${sus_a};" "${{ env.GENERATOR_ENV }}"
           fi
 
           if [[ "${difficulty_calculator_a}" != 'latest' ]]; then
@@ -178,7 +178,7 @@ jobs:
       - name: Query latest beatmaps
         id: query-beatmaps
         run: |
-          beatmaps_data_name=$(curl -s "https://data.ppy.sh/" | grep "osu_files" | tail -1 | awk -F "'" '{print $2}' | sed 's/\.tar\.bz2//g')
+          beatmaps_data_name=$(curl -s "https://data.ppy.sh/" | grep "sus_files" | tail -1 | awk -F "'" '{print $2}' | sed 's/\.tar\.bz2//g')
 
           echo "TARGET_DIR=${{ env.GENERATOR_DIR }}/beatmaps" >> "${GITHUB_OUTPUT}"
           echo "DATA_NAME=${beatmaps_data_name}" >> "${GITHUB_OUTPUT}"

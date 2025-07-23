@@ -1,0 +1,159 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Extensions.Color4Extensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Effects;
+using sus.Framework.Graphics.Shapes;
+using sus.Framework.Graphics.Sprites;
+using sus.Framework.Input.Events;
+using sus.Framework.Localisation;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Sprites;
+using susTK;
+using susTK.Graphics;
+using sus.Game.Graphics.Containers;
+using sus.Game.Graphics.UserInterface;
+
+namespace sus.Game.Screens.Select.Options
+{
+    public partial class BeatmapOptionsButton : OsuClickableContainer
+    {
+        private const float width = 130;
+
+        private readonly Box background;
+        private readonly Box flash;
+        private readonly SpriteIcon iconText;
+        private readonly OsuSpriteText firstLine;
+        private readonly OsuSpriteText secondLine;
+        private readonly Container box;
+
+        public Color4 ButtonColour
+        {
+            get => background.Colour;
+            set => background.Colour = value;
+        }
+
+        public IconUsage Icon
+        {
+            get => iconText.Icon;
+            set => iconText.Icon = value;
+        }
+
+        public LocalisableString FirstLineText
+        {
+            get => firstLine.Text;
+            set => firstLine.Text = value;
+        }
+
+        public LocalisableString SecondLineText
+        {
+            get => secondLine.Text;
+            set => secondLine.Text = value;
+        }
+
+        protected override bool OnMouseDown(MouseDownEvent e)
+        {
+            flash.FadeTo(0.1f, 1000, Easing.OutQuint);
+            return base.OnMouseDown(e);
+        }
+
+        protected override void OnMouseUp(MouseUpEvent e)
+        {
+            flash.FadeTo(0, 1000, Easing.OutQuint);
+            base.OnMouseUp(e);
+        }
+
+        protected override bool OnClick(ClickEvent e)
+        {
+            flash.ClearTransforms();
+            flash.Alpha = 0.9f;
+            flash.FadeOut(800, Easing.OutExpo);
+
+            return base.OnClick(e);
+        }
+
+        public override bool ReceivePositionalInputAt(Vector2 screenSpacePos) => box.ReceivePositionalInputAt(screenSpacePos);
+
+        public BeatmapOptionsButton()
+            : base(HoverSampleSet.Button)
+        {
+            Width = width;
+            RelativeSizeAxes = Axes.Y;
+
+            Children = new Drawable[]
+            {
+                box = new Container
+                {
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    RelativeSizeAxes = Axes.Both,
+                    Shear = OsuGame.SHEAR,
+                    Masking = true,
+                    EdgeEffect = new EdgeEffectParameters
+                    {
+                        Type = EdgeEffectType.Shadow,
+                        Colour = Color4.Black.Opacity(0.2f),
+                        Roundness = 5,
+                        Radius = 8,
+                    },
+                    Children = new Drawable[]
+                    {
+                        background = new Box
+                        {
+                            RelativeSizeAxes = Axes.Both,
+                            EdgeSmoothness = new Vector2(1.5f, 0),
+                            Colour = Color4.Black,
+                        },
+                        flash = new Box
+                        {
+                            RelativeSizeAxes = Axes.Both,
+                            EdgeSmoothness = new Vector2(1.5f, 0),
+                            Blending = BlendingParameters.Additive,
+                            Colour = Color4.White,
+                            Alpha = 0,
+                        },
+                    },
+                },
+                new FillFlowContainer
+                {
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    RelativeSizeAxes = Axes.X,
+                    AutoSizeAxes = Axes.Y,
+                    Direction = FillDirection.Vertical,
+                    Children = new Drawable[]
+                    {
+                        iconText = new SpriteIcon
+                        {
+                            Origin = Anchor.TopCentre,
+                            Anchor = Anchor.TopCentre,
+                            Size = new Vector2(30),
+                            Shadow = true,
+                            Icon = FontAwesome.Solid.TimesCircle,
+                            Margin = new MarginPadding
+                            {
+                                Bottom = 5,
+                            },
+                        },
+                        firstLine = new OsuSpriteText
+                        {
+                            Origin = Anchor.TopCentre,
+                            Anchor = Anchor.TopCentre,
+                            Font = OsuFont.GetFont(weight: FontWeight.Bold),
+                            Text = @"",
+                        },
+                        secondLine = new OsuSpriteText
+                        {
+                            Origin = Anchor.TopCentre,
+                            Anchor = Anchor.TopCentre,
+                            Font = OsuFont.GetFont(weight: FontWeight.Bold),
+                            Text = @"",
+                        },
+                    },
+                },
+            };
+        }
+    }
+}

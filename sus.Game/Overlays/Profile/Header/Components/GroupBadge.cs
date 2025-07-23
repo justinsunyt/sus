@@ -1,0 +1,98 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Linq;
+using sus.Framework.Allocation;
+using sus.Framework.Extensions.Color4Extensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Cursor;
+using sus.Framework.Graphics.Shapes;
+using sus.Framework.Graphics.Sprites;
+using sus.Framework.Localisation;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Sprites;
+using sus.Game.Online.API.Requests.Responses;
+using sus.Game.Rulesets;
+using susTK;
+
+namespace sus.Game.Overlays.Profile.Header.Components
+{
+    public partial class GroupBadge : Container, IHasTooltip
+    {
+        public LocalisableString TooltipText { get; private set; }
+
+        public int TextSize { get; set; } = 12;
+
+        private readonly APIUserGroup group;
+
+        public GroupBadge(APIUserGroup group)
+        {
+            this.group = group;
+
+            AutoSizeAxes = Axes.Both;
+            Masking = true;
+            CornerRadius = 8;
+
+            TooltipText = group.Name;
+
+            if (group.IsProbationary)
+            {
+                Alpha = 0.6f;
+            }
+        }
+
+        [BackgroundDependencyLoader]
+        private void load(OverlayColourProvider? colourProvider, RulesetStore rulesets)
+        {
+            FillFlowContainer innerContainer;
+
+            AddRangeInternal(new Drawable[]
+            {
+                new Box
+                {
+                    RelativeSizeAxes = Axes.Both,
+                    Colour = colourProvider?.Background6 ?? Colour4.Black,
+                    // Normal badges background opacity is 75%, probationary is full opacity as the whole badge gets a bit transparent
+                    // Goal is to match sus-web so this is the most accurate it can be, its a bit scuffed but it is what it is
+                    // Source: https://github.com/ppy/sus-web/blob/master/resources/css/bem/user-group-badge.less#L50
+                    Alpha = group.IsProbationary ? 1 : 0.75f,
+                },
+                innerContainer = new FillFlowContainer
+                {
+                    AutoSizeAxes = Axes.Both,
+                    Origin = Anchor.Centre,
+                    Anchor = Anchor.Centre,
+                    Padding = new MarginPadding { Vertical = 2, Horizontal = 10 },
+                    Direction = FillDirection.Horizontal,
+                    Spacing = new Vector2(5),
+                    Children = new[]
+                    {
+                        new OsuSpriteText
+                        {
+                            Text = group.ShortName,
+                            Colour = Color4Extensions.FromHex(group.Colour ?? Colour4.White.ToHex()),
+                            Shadow = false,
+                            Font = OsuFont.GetFont(size: TextSize, weight: FontWeight.Bold, italics: true)
+                        }
+                    }
+                }
+            });
+
+            if (group.Playmodes?.Length > 0)
+            {
+                innerContainer.AddRange(group.Playmodes.Select(p =>
+                        (rulesets.GetRuleset(p)?.CreateInstance().CreateIcon() ?? new SpriteIcon { Icon = FontAwesome.Regular.QuestionCircle }).With(icon =>
+                        {
+                            icon.Size = new Vector2(TextSize - 1);
+                        })).ToList()
+                );
+
+                var badgeModesList = group.Playmodes.Select(p => rulesets.GetRuleset(p)?.Name).ToList();
+
+                string modesDisplay = string.Join(", ", badgeModesList);
+                TooltipText += $" ({modesDisplay})";
+            }
+        }
+    }
+}

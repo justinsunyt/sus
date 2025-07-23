@@ -1,0 +1,120 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.Collections.Generic;
+using System.Linq;
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Extensions.ObjectExtensions;
+using sus.Framework.Threading;
+using sus.Game.Configuration;
+using sus.Game.Online.Multiplayer;
+using sus.Game.Online.Rooms;
+using sus.Game.Overlays;
+using sus.Game.Overlays.Mods;
+using sus.Game.Rulesets;
+using sus.Game.Rulesets.Mods;
+using sus.Game.Utils;
+
+namespace sus.Game.Screens.OnlinePlay.Multiplayer.Match
+{
+    public partial class MultiplayerUserModSelectOverlay : UserModSelectOverlay
+    {
+        [Resolved]
+        private MultiplayerClient client { get; set; } = null!;
+
+        [Resolved]
+        private RulesetStore rulesets { get; set; } = null!;
+
+        private ModSettingChangeTracker? modSettingChangeTracker;
+        private ScheduledDelegate? debouncedModSettingsUpdate;
+
+        public MultiplayerUserModSelectOverlay()
+            : base(OverlayColourScheme.Plum)
+        {
+        }
+
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            client.RoomUpdated += onRoomUpdated;
+            SelectedMods.BindValueChanged(onSelectedModsChanged);
+
+            updateValidMods();
+        }
+
+        private void onRoomUpdated()
+        {
+            // Importantly, this is not scheduled because the client must not skip intermediate server states to validate the allowed mods.
+            updateValidMods();
+        }
+
+        private void onSelectedModsChanged(ValueChangedEvent<IReadOnlyList<Mod>> mods)
+        {
+            modSettingChangeTracker?.Dispose();
+
+            if (client.Room == null)
+                return;
+
+            client.ChangeUserMods(mods.NewValue).FireAndForget();
+
+            modSettingChangeTracker = new ModSettingChangeTracker(mods.NewValue);
+            modSettingChangeTracker.SettingChanged += _ =>
+            {
+                // Debounce changes to mod settings so as to not thrash the network.
+                debouncedModSettingsUpdate?.Cancel();
+                debouncedModSettingsUpdate = Scheduler.AddDelayed(() =>
+                {
+                    if (client.Room == null)
+                        return;
+
+                    client.ChangeUserMods(SelectedMods.Value).FireAndForget();
+                }, 500);
+            };
+        }
+
+        private void updateValidMods()
+        {
+            if (client.Room == null || client.LocalUser == null)
+                return;
+
+            MultiplayerPlaylistItem currentItem = client.Room.CurrentPlaylistItem;
+            Ruleset ruleset = rulesets.GetRuleset(client.LocalUser.RulesetId ?? currentItem.RulesetID)!.CreateInstance();
+            Mod[] allowedMods = ModUtils.EnumerateUserSelectableFreeMods(client.Room.Settings.MatchType, currentItem.RequiredMods, currentItem.AllowedMods, currentItem.Freestyle, ruleset);
+
+            // Update the mod panels to reflect the ones which are valid for selection.
+            IsValidMod = m => allowedMods.Any(a => a.GetType() == m.GetType());
+
+            // Remove any mods that are no longer allowed.
+            Mod[] newUserMods = SelectedMods.Value.Where(m => allowedMods.Any(a => m.GetType() == a.GetType())).ToArray();
+            if (!newUserMods.SequenceEqual(SelectedMods.Value))
+                SelectedMods.Value = newUserMods;
+
+            // The active mods include the playlist item's required mods which change separately from the selected mods.
+            IReadOnlyList<Mod> newActiveMods = ComputeActiveMods();
+            if (!newActiveMods.SequenceEqual(ActiveMods.Value))
+                ActiveMods.Value = newActiveMods;
+        }
+
+        protected override IReadOnlyList<Mod> ComputeActiveMods()
+        {
+            if (client.Room == null || client.LocalUser == null)
+                return [];
+
+            MultiplayerPlaylistItem currentItem = client.Room.CurrentPlaylistItem;
+            Ruleset ruleset = rulesets.GetRuleset(client.LocalUser.RulesetId ?? currentItem.RulesetID)!.CreateInstance();
+            return currentItem.RequiredMods.Select(m => m.ToMod(ruleset)).Concat(base.ComputeActiveMods()).ToArray();
+        }
+
+        protected override void Dispose(bool isDisposing)
+        {
+            base.Dispose(isDisposing);
+
+            if (client.IsNotNull())
+                client.RoomUpdated -= onRoomUpdated;
+
+            modSettingChangeTracker?.Dispose();
+        }
+    }
+}

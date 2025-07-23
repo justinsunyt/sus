@@ -1,0 +1,52 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Bindables;
+using sus.Framework.Extensions.ObjectExtensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Game.Rulesets.Mania.Skinning;
+using sus.Game.Rulesets.UI.Scrolling;
+using sus.Game.Skinning;
+
+namespace sus.Game.Rulesets.Mania.UI.Components
+{
+    public partial class HitPositionPaddedContainer : Container
+    {
+        protected readonly IBindable<ScrollingDirection> Direction = new Bindable<ScrollingDirection>();
+
+        [Resolved]
+        private ISkinSource skin { get; set; } = null!;
+
+        [BackgroundDependencyLoader]
+        private void load(IScrollingInfo scrollingInfo)
+        {
+            Direction.BindTo(scrollingInfo.Direction);
+            Direction.BindValueChanged(_ => UpdateHitPosition(), true);
+
+            skin.SourceChanged += onSkinChanged;
+        }
+
+        private void onSkinChanged() => UpdateHitPosition();
+
+        protected virtual void UpdateHitPosition()
+        {
+            float hitPosition = skin.GetConfig<ManiaSkinConfigurationLookup, float>(
+                                    new ManiaSkinConfigurationLookup(LegacyManiaSkinConfigurationLookups.HitPosition))?.Value
+                                ?? Stage.HIT_TARGET_POSITION;
+
+            Padding = Direction.Value == ScrollingDirection.Up
+                ? new MarginPadding { Top = hitPosition }
+                : new MarginPadding { Bottom = hitPosition };
+        }
+
+        protected override void Dispose(bool isDisposing)
+        {
+            base.Dispose(isDisposing);
+
+            if (skin.IsNotNull())
+                skin.SourceChanged -= onSkinChanged;
+        }
+    }
+}

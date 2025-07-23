@@ -1,0 +1,27 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Game.Graphics;
+using sus.Game.Input.Bindings;
+using sus.Game.Localisation;
+
+namespace sus.Game.Overlays.Toolbar
+{
+    public partial class ToolbarHomeButton : ToolbarButton
+    {
+        public ToolbarHomeButton()
+        {
+            ButtonContent.Width *= 1.4f;
+            Hotkey = GlobalAction.Home;
+        }
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            TooltipMain = ToolbarStrings.HomeHeaderTitle;
+            TooltipSub = ToolbarStrings.HomeHeaderDescription;
+            SetIcon(OsuIcon.Home);
+        }
+    }
+}

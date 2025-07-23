@@ -1,0 +1,19 @@
+{
+  "solution": {
+    "path": "sus.sln",
+    "projects": [
+      "sus.Android\\sus.Android.csproj",
+      "sus.Game.Rulesets.Catch.Tests.Android\\sus.Game.Rulesets.Catch.Tests.Android.csproj",
+      "sus.Game.Rulesets.Catch\\sus.Game.Rulesets.Catch.csproj",
+      "sus.Game.Rulesets.Mania.Tests.Android\\sus.Game.Rulesets.Mania.Tests.Android.csproj",
+      "sus.Game.Rulesets.Mania\\sus.Game.Rulesets.Mania.csproj",
+      "sus.Game.Rulesets.Osu.Tests.Android\\sus.Game.Rulesets.Osu.Tests.Android.csproj",
+      "sus.Game.Rulesets.Osu\\sus.Game.Rulesets.Osu.csproj",
+      "sus.Game.Rulesets.Taiko.Tests.Android\\sus.Game.Rulesets.Taiko.Tests.Android.csproj",
+      "sus.Game.Rulesets.Taiko\\sus.Game.Rulesets.Taiko.csproj",
+      "sus.Game.Tests.Android\\sus.Game.Tests.Android.csproj",
+      "sus.Game.Tests\\sus.Game.Tests.csproj",
+      "sus.Game\\sus.Game.csproj"
+    ]
+  }
+}

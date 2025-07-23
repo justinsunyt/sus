@@ -1,0 +1,35 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.ComponentModel;
+using sus.Framework.Localisation;
+using sus.Game.Graphics;
+using sus.Game.Localisation;
+using sus.Game.Resources.Localisation.Web;
+
+namespace sus.Game.Overlays.Dashboard
+{
+    public partial class DashboardOverlayHeader : TabControlOverlayHeader<DashboardOverlayTabs>
+    {
+        protected override OverlayTitle CreateTitle() => new DashboardTitle();
+
+        private partial class DashboardTitle : OverlayTitle
+        {
+            public DashboardTitle()
+            {
+                Title = PageTitleStrings.MainHomeControllerIndex;
+                Description = NamedOverlayComponentStrings.DashboardDescription;
+                Icon = OsuIcon.Global;
+            }
+        }
+    }
+
+    public enum DashboardOverlayTabs
+    {
+        [LocalisableDescription(typeof(FriendsStrings), nameof(FriendsStrings.TitleCompact))]
+        Friends,
+
+        [Description("Currently online")]
+        CurrentlyPlaying
+    }
+}

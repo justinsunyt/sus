@@ -1,0 +1,30 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System;
+using sus.Framework.Graphics.Sprites;
+using sus.Framework.Localisation;
+using sus.Game.Beatmaps;
+using sus.Game.Graphics;
+
+namespace sus.Game.Rulesets.Mods
+{
+    public abstract class ModHardRock : Mod, IApplicableToDifficulty
+    {
+        public override string Name => "Hard Rock";
+        public override string Acronym => "HR";
+        public override IconUsage? Icon => OsuIcon.ModHardRock;
+        public override ModType Type => ModType.DifficultyIncrease;
+        public override LocalisableString Description => "Everything just got a bit harder...";
+        public override Type[] IncompatibleMods => new[] { typeof(ModEasy), typeof(ModDifficultyAdjust) };
+        public override bool Ranked => UsesDefaultConfiguration;
+        public override bool ValidForFreestyleAsRequiredMod => true;
+
+        protected const float ADJUST_RATIO = 1.4f;
+
+        public virtual void ApplyToDifficulty(BeatmapDifficulty difficulty)
+        {
+            difficulty.DrainRate = Math.Min(difficulty.DrainRate * ADJUST_RATIO, 10.0f);
+        }
+    }
+}

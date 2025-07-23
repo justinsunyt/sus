@@ -1,0 +1,29 @@
+{
+  "solution": {
+    "path": "sus.sln",
+    "projects": [
+      "sus.Desktop\\sus.Desktop.csproj",
+      "sus.Game.Benchmarks\\sus.Game.Benchmarks.csproj",
+      "sus.Game.Rulesets.Catch.Tests\\sus.Game.Rulesets.Catch.Tests.csproj",
+      "sus.Game.Rulesets.Catch\\sus.Game.Rulesets.Catch.csproj",
+      "sus.Game.Rulesets.Mania.Tests\\sus.Game.Rulesets.Mania.Tests.csproj",
+      "sus.Game.Rulesets.Mania\\sus.Game.Rulesets.Mania.csproj",
+      "sus.Game.Rulesets.Osu.Tests\\sus.Game.Rulesets.Osu.Tests.csproj",
+      "sus.Game.Rulesets.Osu\\sus.Game.Rulesets.Osu.csproj",
+      "sus.Game.Rulesets.Taiko.Tests\\sus.Game.Rulesets.Taiko.Tests.csproj",
+      "sus.Game.Rulesets.Taiko\\sus.Game.Rulesets.Taiko.csproj",
+      "sus.Game.Tests\\sus.Game.Tests.csproj",
+      "sus.Game.Tournament.Tests\\sus.Game.Tournament.Tests.csproj",
+      "sus.Game.Tournament\\sus.Game.Tournament.csproj",
+      "sus.Game\\sus.Game.csproj",
+      "Templates\\Rulesets\\ruleset-empty\\sus.Game.Rulesets.EmptyFreeform.Tests\\sus.Game.Rulesets.EmptyFreeform.Tests.csproj",
+      "Templates\\Rulesets\\ruleset-empty\\sus.Game.Rulesets.EmptyFreeform\\sus.Game.Rulesets.EmptyFreeform.csproj",
+      "Templates\\Rulesets\\ruleset-example\\sus.Game.Rulesets.Pippidon.Tests\\sus.Game.Rulesets.Pippidon.Tests.csproj",
+      "Templates\\Rulesets\\ruleset-example\\sus.Game.Rulesets.Pippidon\\sus.Game.Rulesets.Pippidon.csproj",
+      "Templates\\Rulesets\\ruleset-scrolling-empty\\sus.Game.Rulesets.EmptyScrolling.Tests\\sus.Game.Rulesets.EmptyScrolling.Tests.csproj",
+      "Templates\\Rulesets\\ruleset-scrolling-empty\\sus.Game.Rulesets.EmptyScrolling\\sus.Game.Rulesets.EmptyScrolling.csproj",
+      "Templates\\Rulesets\\ruleset-scrolling-example\\sus.Game.Rulesets.Pippidon.Tests\\sus.Game.Rulesets.Pippidon.Tests.csproj",
+      "Templates\\Rulesets\\ruleset-scrolling-example\\sus.Game.Rulesets.Pippidon\\sus.Game.Rulesets.Pippidon.csproj"
+    ]
+  }
+}

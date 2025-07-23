@@ -1,0 +1,35 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Extensions.Color4Extensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Shapes;
+using sus.Game.Screens.Ranking.Expanded;
+using sus.Game.Tests.Resources;
+using susTK;
+
+namespace sus.Game.Tests.Visual.Ranking
+{
+    public partial class TestSceneExpandedPanelTopContent : OsuTestScene
+    {
+        public TestSceneExpandedPanelTopContent()
+        {
+            Child = new Container
+            {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                Size = new Vector2(500, 200),
+                Children = new Drawable[]
+                {
+                    new Box
+                    {
+                        RelativeSizeAxes = Axes.Both,
+                        Colour = Color4Extensions.FromHex("#444"),
+                    },
+                    new ExpandedPanelTopContent(TestResources.CreateTestScoreInfo().User),
+                }
+            };
+        }
+    }
+}

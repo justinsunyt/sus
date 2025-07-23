@@ -1,0 +1,28 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Bindables;
+using sus.Framework.Extensions.LocalisationExtensions;
+using sus.Framework.Localisation;
+using sus.Game.Graphics.UserInterface;
+using sus.Game.Resources.Localisation.Web;
+
+namespace sus.Game.Overlays.Comments
+{
+    public partial class CommentsShowMoreButton : ShowMoreButton
+    {
+        public readonly BindableInt Current = new BindableInt();
+
+        protected override void LoadComplete()
+        {
+            Current.BindValueChanged(onCurrentChanged, true);
+            base.LoadComplete();
+        }
+
+        private void onCurrentChanged(ValueChangedEvent<int> count)
+        {
+            Text = new TranslatableString(@"_", "{0} ({1})",
+                CommonStrings.ButtonsShowMore.ToUpper(), count.NewValue);
+        }
+    }
+}

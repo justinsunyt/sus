@@ -1,0 +1,48 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Extensions.ObjectExtensions;
+using sus.Framework.Screens;
+using sus.Game.Online.Spectator;
+using sus.Game.Scoring;
+using sus.Game.Screens.Ranking;
+
+namespace sus.Game.Screens.Play
+{
+    public partial class SpectatorResultsScreen : SoloResultsScreen
+    {
+        public SpectatorResultsScreen(ScoreInfo score)
+            : base(score)
+        {
+        }
+
+        [Resolved]
+        private SpectatorClient spectatorClient { get; set; } = null!;
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            spectatorClient.OnUserBeganPlaying += userBeganPlaying;
+        }
+
+        private void userBeganPlaying(int userId, SpectatorState state)
+        {
+            if (userId == Score?.UserID)
+            {
+                Schedule(() =>
+                {
+                    if (this.IsCurrentScreen()) this.Exit();
+                });
+            }
+        }
+
+        protected override void Dispose(bool isDisposing)
+        {
+            base.Dispose(isDisposing);
+
+            if (spectatorClient.IsNotNull())
+                spectatorClient.OnUserBeganPlaying -= userBeganPlaying;
+        }
+    }
+}

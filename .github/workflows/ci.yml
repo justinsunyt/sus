@@ -24,16 +24,16 @@ jobs:
         run: dotnet tool restore
 
       - name: Restore Packages
-        run: dotnet restore osu.Desktop.slnf
+        run: dotnet restore sus.Desktop.slnf
 
       - name: Restore inspectcode cache
         uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/inspectcode
-          key: inspectcode-${{ hashFiles('.config/dotnet-tools.json', '.github/workflows/ci.yml', 'osu.sln*', 'osu*.slnf', '.editorconfig', '.globalconfig', 'CodeAnalysis/*', '**/*.csproj', '**/*.props') }}
+          key: inspectcode-${{ hashFiles('.config/dotnet-tools.json', '.github/workflows/ci.yml', 'sus.sln*', 'sus*.slnf', '.editorconfig', '.globalconfig', 'CodeAnalysis/*', '**/*.csproj', '**/*.props') }}
 
       - name: Dotnet code style
-        run: dotnet build -c Debug -warnaserror osu.Desktop.slnf -p:EnforceCodeStyleInBuild=true
+        run: dotnet build -c Debug -warnaserror sus.Desktop.slnf -p:EnforceCodeStyleInBuild=true
 
       - name: CodeFileSanity
         run: |
@@ -49,7 +49,7 @@ jobs:
           exit $exit_code
 
       - name: InspectCode
-        run: dotnet jb inspectcode $(pwd)/osu.Desktop.slnf --no-build --output="inspectcodereport.xml" --caches-home="inspectcode" --verbosity=WARN
+        run: dotnet jb inspectcode $(pwd)/sus.Desktop.slnf --no-build --output="inspectcodereport.xml" --caches-home="inspectcode" --verbosity=WARN
 
       - name: NVika
         run: dotnet nvika parsereport "${{github.workspace}}/inspectcodereport.xml" --treatwarningsaserrors
@@ -79,17 +79,17 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Compile
-        run: dotnet build -c Debug -warnaserror osu.Desktop.slnf
+        run: dotnet build -c Debug -warnaserror sus.Desktop.slnf
 
       - name: Test
         run: >
           dotnet test
-          osu.Game.Tests/bin/Debug/**/osu.Game.Tests.dll
-          osu.Game.Rulesets.Osu.Tests/bin/Debug/**/osu.Game.Rulesets.Osu.Tests.dll
-          osu.Game.Rulesets.Taiko.Tests/bin/Debug/**/osu.Game.Rulesets.Taiko.Tests.dll
-          osu.Game.Rulesets.Catch.Tests/bin/Debug/**/osu.Game.Rulesets.Catch.Tests.dll
-          osu.Game.Rulesets.Mania.Tests/bin/Debug/**/osu.Game.Rulesets.Mania.Tests.dll
-          osu.Game.Tournament.Tests/bin/Debug/**/osu.Game.Tournament.Tests.dll
+          sus.Game.Tests/bin/Debug/**/sus.Game.Tests.dll
+          sus.Game.Rulesets.Osu.Tests/bin/Debug/**/sus.Game.Rulesets.Osu.Tests.dll
+          sus.Game.Rulesets.Taiko.Tests/bin/Debug/**/sus.Game.Rulesets.Taiko.Tests.dll
+          sus.Game.Rulesets.Catch.Tests/bin/Debug/**/sus.Game.Rulesets.Catch.Tests.dll
+          sus.Game.Rulesets.Mania.Tests/bin/Debug/**/sus.Game.Rulesets.Mania.Tests.dll
+          sus.Game.Tournament.Tests/bin/Debug/**/sus.Game.Tournament.Tests.dll
           Templates/**/*.Tests/bin/Debug/**/*.Tests.dll
           --logger "trx;LogFileName=TestResults-${{matrix.os.prettyname}}-${{matrix.threadingMode}}.trx"
           --
@@ -101,7 +101,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ always() }}
         with:
-          name: osu-test-results-${{matrix.os.prettyname}}-${{matrix.threadingMode}}
+          name: sus-test-results-${{matrix.os.prettyname}}-${{matrix.threadingMode}}
           path: ${{github.workspace}}/TestResults/TestResults-${{matrix.os.prettyname}}-${{matrix.threadingMode}}.trx
 
   build-only-android:
@@ -127,7 +127,7 @@ jobs:
         run: dotnet workload install android
 
       - name: Compile
-        run: dotnet build -c Debug osu.Android.slnf
+        run: dotnet build -c Debug sus.Android.slnf
 
   build-only-ios:
     name: Build only (iOS)
@@ -146,4 +146,4 @@ jobs:
         run: dotnet workload install ios
 
       - name: Build
-        run: dotnet build -c Debug osu.iOS.slnf
+        run: dotnet build -c Debug sus.iOS.slnf

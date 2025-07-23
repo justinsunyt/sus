@@ -1,11 +1,11 @@
-CSPROJ="osu.Game/osu.Game.csproj"
-SLN="osu.sln"
+CSPROJ="sus.Game/sus.Game.csproj"
+SLN="sus.sln"
 
-dotnet remove $CSPROJ package ppy.osu.Game.Resources;
-dotnet sln $SLN add ../osu-resources/osu.Game.Resources/osu.Game.Resources.csproj
-dotnet add $CSPROJ reference ../osu-resources/osu.Game.Resources/osu.Game.Resources.csproj
+dotnet remove $CSPROJ package ppy.sus.Game.Resources;
+dotnet sln $SLN add ../sus-resources/sus.Game.Resources/sus.Game.Resources.csproj
+dotnet add $CSPROJ reference ../sus-resources/sus.Game.Resources/sus.Game.Resources.csproj
 
-SLNF="osu.Desktop.slnf"
+SLNF="sus.Desktop.slnf"
 TMP=$(mktemp)
-jq '.solution.projects += ["../osu-resources/osu.Game.Resources/osu.Game.Resources.csproj"]' $SLNF > $TMP
+jq '.solution.projects += ["../sus-resources/sus.Game.Resources/sus.Game.Resources.csproj"]' $SLNF > $TMP
 mv -f $TMP $SLNF

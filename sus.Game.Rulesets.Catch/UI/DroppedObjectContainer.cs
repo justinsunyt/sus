@@ -1,0 +1,17 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Game.Rulesets.Catch.Objects.Drawables;
+
+namespace sus.Game.Rulesets.Catch.UI
+{
+    public partial class DroppedObjectContainer : Container<CaughtObject>
+    {
+        public DroppedObjectContainer()
+        {
+            RelativeSizeAxes = Axes.Both;
+        }
+    }
+}

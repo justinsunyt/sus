@@ -1,0 +1,78 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System;
+using sus.Framework.Allocation;
+using sus.Framework.Extensions.ObjectExtensions;
+using sus.Framework.Graphics;
+using sus.Game.Beatmaps.Drawables;
+using sus.Game.Online.Multiplayer;
+using sus.Game.Online.Rooms;
+using sus.Game.Screens.OnlinePlay.Lounge.Components;
+using sus.Game.Screens.OnlinePlay.Match.Components;
+using susTK;
+
+namespace sus.Game.Screens.OnlinePlay.Multiplayer
+{
+    /// <summary>
+    /// A <see cref="RoomPanel"/> to be displayed in a multiplayer lobby.
+    /// </summary>
+    public partial class MultiplayerRoomPanel : RoomPanel
+    {
+        public Action? OnEdit { get; set; }
+
+        public Drawable ChangeSettingsButton { get; private set; } = null!;
+
+        [Resolved]
+        private MultiplayerClient client { get; set; } = null!;
+
+        public MultiplayerRoomPanel(Room room)
+            : base(room)
+        {
+        }
+
+        [BackgroundDependencyLoader]
+        private void load()
+        {
+            ButtonsContainer.Add(ChangeSettingsButton = new PurpleRoundedButton
+            {
+                RelativeSizeAxes = Axes.Y,
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                Size = new Vector2(120, 0.7f),
+                Text = "Change settings",
+                Action = () => OnEdit?.Invoke()
+            });
+        }
+
+        protected override void LoadComplete()
+        {
+            base.LoadComplete();
+
+            client.RoomUpdated += onRoomUpdated;
+            onRoomUpdated();
+        }
+
+        private void onRoomUpdated() => Scheduler.AddOnce(() =>
+        {
+            if (client.Room == null || client.LocalUser == null)
+                return;
+
+            ChangeSettingsButton.Alpha = client.IsHost ? 1 : 0;
+            SelectedItem.Value = new PlaylistItem(client.Room.CurrentPlaylistItem);
+        });
+
+        protected override UpdateableBeatmapBackgroundSprite CreateBackground() => base.CreateBackground().With(d =>
+        {
+            d.BackgroundLoadDelay = 0;
+        });
+
+        protected override void Dispose(bool isDisposing)
+        {
+            base.Dispose(isDisposing);
+
+            if (client.IsNotNull())
+                client.RoomUpdated -= onRoomUpdated;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.Cursor;
+using sus.Framework.Localisation;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Sprites;
+
+namespace sus.Game.Overlays.Profile.Header.Components
+{
+    public partial class ProfileValueDisplay : CompositeDrawable
+    {
+        private readonly OsuSpriteText title;
+        private readonly ContentText content;
+
+        public LocalisableString Title
+        {
+            set => title.Text = value;
+        }
+
+        public LocalisableString Content
+        {
+            set => content.Text = value;
+        }
+
+        public LocalisableString ContentTooltipText
+        {
+            set => content.TooltipText = value;
+        }
+
+        public ProfileValueDisplay(bool big = false, int minimumWidth = 60)
+        {
+            AutoSizeAxes = Axes.Both;
+            InternalChild = new FillFlowContainer
+            {
+                Direction = FillDirection.Vertical,
+                AutoSizeAxes = Axes.Both,
+                Children = new Drawable[]
+                {
+                    title = new OsuSpriteText
+                    {
+                        Font = OsuFont.GetFont(size: 12)
+                    },
+                    content = new ContentText
+                    {
+                        Font = OsuFont.GetFont(size: big ? 30 : 20, weight: FontWeight.Light),
+                    },
+                    new Container // Add a minimum size to the FillFlowContainer
+                    {
+                        Width = minimumWidth,
+                    }
+                }
+            };
+        }
+
+        [BackgroundDependencyLoader]
+        private void load(OverlayColourProvider colourProvider)
+        {
+            title.Colour = colourProvider.Content1;
+            content.Colour = colourProvider.Content2;
+        }
+
+        private partial class ContentText : OsuSpriteText, IHasTooltip
+        {
+            public LocalisableString TooltipText { get; set; }
+        }
+    }
+}

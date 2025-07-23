@@ -1,0 +1,158 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System;
+using sus.Framework.Allocation;
+using sus.Framework.Extensions.LocalisationExtensions;
+using sus.Framework.Graphics;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Graphics.UserInterface;
+using sus.Framework.Input;
+using sus.Framework.Input.Events;
+using sus.Game.Configuration;
+using sus.Game.Graphics;
+using sus.Game.Graphics.Containers;
+using sus.Game.Graphics.Sprites;
+using sus.Game.Graphics.UserInterface;
+using sus.Game.Online.API;
+using sus.Game.Overlays.Settings;
+using sus.Game.Resources.Localisation.Web;
+using susTK;
+using sus.Game.Localisation;
+
+namespace sus.Game.Overlays.Login
+{
+    public partial class LoginForm : FillFlowContainer
+    {
+        private TextBox username = null!;
+        private TextBox password = null!;
+        private ShakeContainer shakeSignIn = null!;
+
+        [Resolved]
+        private IAPIProvider api { get; set; } = null!;
+
+        public Action? RequestHide;
+
+        public override bool AcceptsFocus => true;
+
+        [BackgroundDependencyLoader(permitNulls: true)]
+        private void load(OsuConfigManager config, AccountCreationOverlay accountCreation)
+        {
+            RelativeSizeAxes = Axes.X;
+            AutoSizeAxes = Axes.Y;
+            Direction = FillDirection.Vertical;
+            Spacing = new Vector2(0, SettingsSection.ITEM_SPACING);
+
+            ErrorTextFlowContainer errorText;
+            LinkFlowContainer forgottenPasswordLink;
+
+            Children = new Drawable[]
+            {
+                new FillFlowContainer
+                {
+                    RelativeSizeAxes = Axes.X,
+                    AutoSizeAxes = Axes.Y,
+                    Padding = new MarginPadding { Horizontal = SettingsPanel.CONTENT_MARGINS },
+                    Direction = FillDirection.Vertical,
+                    Spacing = new Vector2(0f, SettingsSection.ITEM_SPACING),
+                    Children = new Drawable[]
+                    {
+                        new OsuSpriteText
+                        {
+                            Text = LoginPanelStrings.Account.ToUpper(),
+                            Font = OsuFont.GetFont(weight: FontWeight.Bold),
+                        },
+                        username = new OsuTextBox
+                        {
+                            InputProperties = new TextInputProperties(TextInputType.Username, false),
+                            PlaceholderText = UsersStrings.LoginUsername.ToLower(),
+                            RelativeSizeAxes = Axes.X,
+                            Text = api.ProvidedUsername,
+                            TabbableContentContainer = this
+                        },
+                        password = new OsuPasswordTextBox
+                        {
+                            PlaceholderText = UsersStrings.LoginPassword.ToLower(),
+                            RelativeSizeAxes = Axes.X,
+                            TabbableContentContainer = this,
+                        },
+                        errorText = new ErrorTextFlowContainer
+                        {
+                            RelativeSizeAxes = Axes.X,
+                            AutoSizeAxes = Axes.Y,
+                            Alpha = 0,
+                        },
+                    },
+                },
+                new SettingsCheckbox
+                {
+                    LabelText = LoginPanelStrings.RememberUsername,
+                    Current = config.GetBindable<bool>(OsuSetting.SaveUsername),
+                },
+                new SettingsCheckbox
+                {
+                    LabelText = LoginPanelStrings.StaySignedIn,
+                    Current = config.GetBindable<bool>(OsuSetting.SavePassword),
+                },
+                forgottenPasswordLink = new LinkFlowContainer
+                {
+                    Padding = new MarginPadding { Horizontal = SettingsPanel.CONTENT_MARGINS },
+                    RelativeSizeAxes = Axes.X,
+                    AutoSizeAxes = Axes.Y,
+                },
+                new Container
+                {
+                    RelativeSizeAxes = Axes.X,
+                    AutoSizeAxes = Axes.Y,
+                    Children = new Drawable[]
+                    {
+                        shakeSignIn = new ShakeContainer
+                        {
+                            RelativeSizeAxes = Axes.X,
+                            AutoSizeAxes = Axes.Y,
+                            Child = new SettingsButton
+                            {
+                                Text = UsersStrings.LoginButton,
+                                Action = performLogin
+                            },
+                        }
+                    }
+                },
+                new SettingsButton
+                {
+                    Text = LoginPanelStrings.Register,
+                    Action = () =>
+                    {
+                        RequestHide?.Invoke();
+                        accountCreation.Show();
+                    }
+                }
+            };
+
+            forgottenPasswordLink.AddLink(LayoutStrings.PopupLoginLoginForgot, $"{api.Endpoints.WebsiteUrl}/home/password-reset");
+
+            password.OnCommit += (_, _) => performLogin();
+
+            if (api.LastLoginError?.Message is string error)
+            {
+                errorText.Alpha = 1;
+                errorText.AddErrors(new[] { error });
+            }
+        }
+
+        private void performLogin()
+        {
+            if (!string.IsNullOrEmpty(username.Text) && !string.IsNullOrEmpty(password.Text))
+                api.Login(username.Text, password.Text);
+            else
+                shakeSignIn.Shake();
+        }
+
+        protected override bool OnClick(ClickEvent e) => true;
+
+        protected override void OnFocus(FocusEvent e)
+        {
+            Schedule(() => { GetContainingFocusManager()!.ChangeFocus(string.IsNullOrEmpty(username.Text) ? username : password); });
+        }
+    }
+}

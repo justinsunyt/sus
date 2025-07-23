@@ -1,0 +1,19 @@
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using sus.Framework.Allocation;
+using sus.Framework.Graphics;
+
+namespace sus.Game.Overlays.Toolbar
+{
+    public partial class ToolbarWikiButton : ToolbarOverlayToggleButton
+    {
+        protected override Anchor TooltipAnchor => Anchor.TopRight;
+
+        [BackgroundDependencyLoader(true)]
+        private void load(WikiOverlay wiki)
+        {
+            StateContainer = wiki;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System;
+using System.Linq;
+using sus.Framework.Graphics.Sprites;
+using sus.Framework.Localisation;
+using sus.Game.Graphics;
+using sus.Game.Rulesets.Judgements;
+using sus.Game.Rulesets.Scoring;
+
+namespace sus.Game.Rulesets.Mods
+{
+    public abstract class ModPerfect : ModFailCondition
+    {
+        public override string Name => "Perfect";
+        public override string Acronym => "PF";
+        public override IconUsage? Icon => OsuIcon.ModPerfect;
+        public override ModType Type => ModType.DifficultyIncrease;
+        public override double ScoreMultiplier => 1;
+        public override LocalisableString Description => "SS or quit.";
+        public override bool Ranked => true;
+        public override bool ValidForFreestyleAsRequiredMod => true;
+
+        public override Type[] IncompatibleMods => base.IncompatibleMods.Concat(new[] { typeof(ModSuddenDeath), typeof(ModAccuracyChallenge) }).ToArray();
+
+        protected ModPerfect()
+        {
+            Restart.Value = Restart.Default = true;
+        }
+
+        protected override bool FailCondition(HealthProcessor healthProcessor, JudgementResult result)
+            => (isRelevantResult(result.Judgement.MinResult) || isRelevantResult(result.Judgement.MaxResult) || isRelevantResult(result.Type))
+               && result.Type != result.Judgement.MaxResult;
+
+        private bool isRelevantResult(HitResult result) => result.AffectsAccuracy() || result.AffectsCombo();
+    }
+}

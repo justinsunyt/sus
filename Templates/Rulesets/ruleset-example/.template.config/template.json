@@ -4,8 +4,8 @@
     "classifications": [
         "Console"
     ],
-    "name": "osu! ruleset (pippidon example)",
-    "identity": "ppy.osu.Game.Templates.Rulesets.Pippidon",
+    "name": "sus! ruleset (pippidon example)",
+    "identity": "ppy.sus.Game.Templates.Rulesets.Pippidon",
     "shortName": "ruleset-example",
     "tags": {
         "language": "C#",

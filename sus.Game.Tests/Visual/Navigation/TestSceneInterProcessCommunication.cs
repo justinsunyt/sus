@@ -1,0 +1,126 @@
+// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+// See the LICENCE file in the repository root for full licence text.
+
+using System.IO;
+using System.Linq;
+using NUnit.Framework;
+using sus.Framework;
+using sus.Framework.Allocation;
+using sus.Framework.Extensions;
+using sus.Framework.Graphics.Containers;
+using sus.Framework.Platform;
+using sus.Framework.Testing;
+using sus.Game.IPC;
+using sus.Game.Online.API;
+using sus.Game.Online.API.Requests;
+using sus.Game.Online.API.Requests.Responses;
+using sus.Game.Overlays;
+using sus.Game.Overlays.Notifications;
+using sus.Game.Tests.Resources;
+
+namespace sus.Game.Tests.Visual.Navigation
+{
+    [TestFixture]
+    [Ignore("This test cannot be run headless, as it requires the game host running the nested game to have IPC bound.")]
+    public partial class TestSceneInterProcessCommunication : OsuGameTestScene
+    {
+        private HeadlessGameHost ipcSenderHost = null!;
+
+        private OsuSchemeLinkIPCChannel susSchemeLinkIPCSender = null!;
+        private ArchiveImportIPCChannel archiveImportIPCSender = null!;
+
+        private const int requested_beatmap_set_id = 1;
+
+        protected override TestOsuGame CreateTestGame() => new IpcGame(LocalStorage, API);
+
+        [Resolved]
+        private GameHost gameHost { get; set; } = null!;
+
+        public override void SetUpSteps()
+        {
+            base.SetUpSteps();
+            AddStep("set up request handling", () =>
+            {
+                ((DummyAPIAccess)API).HandleRequest = request =>
+                {
+                    switch (request)
+                    {
+                        case GetBeatmapSetRequest gbr:
+
+                            var apiBeatmapSet = CreateAPIBeatmapSet();
+                            apiBeatmapSet.OnlineID = requested_beatmap_set_id;
+                            apiBeatmapSet.Beatmaps = apiBeatmapSet.Beatmaps.Append(new APIBeatmap
+                            {
+                                DifficultyName = "Target difficulty",
+                                OnlineID = 75,
+                            }).ToArray();
+                            gbr.TriggerSuccess(apiBeatmapSet);
+                            return true;
+                    }
+
+                    return false;
+                };
+            });
+            AddStep("create IPC sender channels", () =>
+            {
+                ipcSenderHost = new HeadlessGameHost(gameHost.Name, new HostOptions { IPCPipeName = OsuGame.IPC_PIPE_NAME });
+                susSchemeLinkIPCSender = new OsuSchemeLinkIPCChannel(ipcSenderHost);
+                archiveImportIPCSender = new ArchiveImportIPCChannel(ipcSenderHost);
+            });
+        }
+
+        [Test]
+        public void TestOsuSchemeLinkIPCChannel()
+        {
+            AddStep("open beatmap via IPC", () => susSchemeLinkIPCSender.HandleLinkAsync($@"sus://s/{requested_beatmap_set_id}").WaitSafely());
+            AddUntilStep("beatmap overlay displayed", () => Game.ChildrenOfType<BeatmapSetOverlay>().FirstOrDefault()?.State.Value == Visibility.Visible);
+            AddUntilStep("beatmap overlay showing content", () => Game.ChildrenOfType<BeatmapSetOverlay>().FirstOrDefault()?.Header.BeatmapSet.Value.OnlineID == requested_beatmap_set_id);
+        }
+
+        [Test]
+        public void TestArchiveImportLinkIPCChannel()
+        {
+            string? beatmapFilepath = null;
+
+            AddStep("import beatmap via IPC", () => archiveImportIPCSender.ImportAsync(beatmapFilepath = TestResources.GetQuickTestBeatmapForImport()).WaitSafely());
+            AddUntilStep("import complete notification was presented", () => Game.Notifications.ChildrenOfType<ProgressCompletionNotification>().Count(), () => Is.EqualTo(1));
+            AddAssert("original file deleted", () => File.Exists(beatmapFilepath), () => Is.False);
+        }
+
+        public override void TearDownSteps()
+        {
+            AddStep("dispose IPC senders", () =>
+            {
+                susSchemeLinkIPCSender.Dispose();
+                archiveImportIPCSender.Dispose();
+                ipcSenderHost.Dispose();
+            });
+            base.TearDownSteps();
+        }
+
+        private partial class IpcGame : TestOsuGame
+        {
+            private OsuSchemeLinkIPCChannel? susSchemeLinkIPCChannel;
+            private ArchiveImportIPCChannel? archiveImportIPCChannel;
+
+            public IpcGame(Storage storage, IAPIProvider api, string[]? args = null)
+                : base(storage, api, args)
+            {
+            }
+
+            protected override void LoadComplete()
+            {
+                base.LoadComplete();
+                susSchemeLinkIPCChannel = new OsuSchemeLinkIPCChannel(Host, this);
+                archiveImportIPCChannel = new ArchiveImportIPCChannel(Host, this);
+            }
+
+            protected override void Dispose(bool isDisposing)
+            {
+                base.Dispose(isDisposing);
+                susSchemeLinkIPCChannel?.Dispose();
+                archiveImportIPCChannel?.Dispose();
+            }
+        }
+    }
+}
