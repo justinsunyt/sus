@@ -3,9 +3,9 @@
 
 using System;
 using System.Globalization;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Graphics;
 using sus.Game.Configuration;
 
 namespace sus.Game.Skinning

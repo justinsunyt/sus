@@ -3,14 +3,14 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Lounge.Components;
 using sus.Game.Screens.OnlinePlay.Playlists;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Playlists
 {

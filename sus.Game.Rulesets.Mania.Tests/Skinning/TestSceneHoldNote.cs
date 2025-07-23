@@ -4,8 +4,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Mania.Objects;

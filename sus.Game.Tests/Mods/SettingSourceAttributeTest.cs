@@ -3,9 +3,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Configuration;
 using sus.Game.Overlays.Settings;
 

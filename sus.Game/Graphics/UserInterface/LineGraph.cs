@@ -6,12 +6,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using susTK;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Lines;
-using sus.Framework.Layout;
-using susTK.Graphics;
+using osuTK;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Lines;
+using osu.Framework.Layout;
+using osuTK.Graphics;
 
 namespace sus.Game.Graphics.UserInterface
 {

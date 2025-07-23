@@ -5,12 +5,12 @@
 
 using System;
 using JetBrains.Annotations;
-using sus.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Menu
 {

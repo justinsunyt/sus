@@ -4,7 +4,7 @@
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Judgements
 {

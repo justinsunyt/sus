@@ -8,22 +8,22 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Pooling;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Pooling;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 using sus.Game.Rulesets.Objects.Pooling;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Primitives;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Primitives;
 
 namespace sus.Game.Rulesets.UI
 {

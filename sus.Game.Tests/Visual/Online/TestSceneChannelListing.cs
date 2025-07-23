@@ -6,15 +6,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Chat.Listing;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Online
 {

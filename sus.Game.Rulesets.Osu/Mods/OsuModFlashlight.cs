@@ -3,17 +3,17 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

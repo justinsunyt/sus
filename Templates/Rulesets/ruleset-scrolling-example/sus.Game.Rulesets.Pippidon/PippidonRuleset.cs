@@ -3,8 +3,8 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Bindings;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Difficulty;
 using sus.Game.Rulesets.Mods;

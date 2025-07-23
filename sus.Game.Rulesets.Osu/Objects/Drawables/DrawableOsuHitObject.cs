@@ -7,18 +7,18 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Primitives;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Primitives;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Judgements;
 using sus.Game.Rulesets.Osu.Scoring;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Scoring;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables
 {

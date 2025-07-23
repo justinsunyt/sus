@@ -6,8 +6,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics.Textures;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects;

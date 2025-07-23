@@ -3,17 +3,17 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Audio;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Audio;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Screens.Ranking.Expanded.Accuracy;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Ranking.Expanded
 {

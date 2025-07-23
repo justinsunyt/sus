@@ -8,14 +8,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Input;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Input;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Cursor;
@@ -32,7 +32,7 @@ using sus.Game.Scoring;
 using sus.Game.Screens.Play;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Play.HUD.ClicksPerSecond;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.UI
 {

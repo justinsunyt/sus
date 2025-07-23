@@ -3,10 +3,10 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Bindings;
 
 namespace sus.Game.Overlays.Settings.Sections.Input
 {

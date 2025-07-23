@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.IO;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
@@ -15,7 +15,7 @@ using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Overlays;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.IPC;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tournament.Screens.Setup
 {

@@ -5,15 +5,15 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Database;
 using sus.Game.Graphics;
 using sus.Game.Localisation;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
-using susTK;
+using osuTK;
 using Realms;
 
 namespace sus.Game.Overlays.Mods

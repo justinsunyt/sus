@@ -3,8 +3,8 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Database;
 using sus.Game.Overlays;
 using sus.Game.Screens.OnlinePlay;

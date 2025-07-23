@@ -7,11 +7,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Beatmaps.Drawables.Cards;
@@ -22,8 +22,8 @@ using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Beatmaps
 {

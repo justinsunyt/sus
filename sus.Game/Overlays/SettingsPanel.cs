@@ -7,22 +7,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays.Settings;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays
 {

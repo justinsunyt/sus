@@ -3,9 +3,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Tournament.Models;
 using sus.Game.Tournament.Screens.Ladder.Components;
 

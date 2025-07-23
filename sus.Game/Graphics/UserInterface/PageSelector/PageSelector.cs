@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
-using sus.Framework.Bindables;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Graphics.UserInterface.PageSelector
 {

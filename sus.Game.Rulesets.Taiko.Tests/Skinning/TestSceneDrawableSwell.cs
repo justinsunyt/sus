@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Taiko.Objects;
@@ -20,7 +20,7 @@ namespace sus.Game.Rulesets.Taiko.Tests.Skinning
             {
                 Anchor = Anchor.Centre,
                 Origin = Anchor.Centre,
-                Scale = new susTK.Vector2(0.5f),
+                Scale = new osuTK.Vector2(0.5f),
             }));
         }
 

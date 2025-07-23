@@ -7,11 +7,11 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
-using sus.Framework.Caching;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Caching;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects.Types;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Objects
 {

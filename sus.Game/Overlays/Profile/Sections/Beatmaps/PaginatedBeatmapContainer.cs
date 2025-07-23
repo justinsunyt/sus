@@ -2,15 +2,15 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
+using osuTK;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Overlays.Profile.Sections.Beatmaps

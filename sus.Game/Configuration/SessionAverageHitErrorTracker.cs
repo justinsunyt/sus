@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;

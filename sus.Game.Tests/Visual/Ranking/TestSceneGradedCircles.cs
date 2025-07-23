@@ -1,12 +1,12 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Screens.Ranking.Expanded.Accuracy;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Ranking
 {

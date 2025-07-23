@@ -5,7 +5,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.Taiko.Judgements;

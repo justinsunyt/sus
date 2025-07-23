@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Tournament.Models;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tournament.Screens.Drawings.Components
 {

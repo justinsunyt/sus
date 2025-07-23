@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Transforms;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Transforms;
 using sus.Game.Scoring;
 
 namespace sus.Game.Online.Leaderboards

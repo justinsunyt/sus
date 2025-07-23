@@ -3,8 +3,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Mods;

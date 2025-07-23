@@ -1,10 +1,10 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Sprites;
 
 namespace sus.Game.Overlays.Notifications
 {

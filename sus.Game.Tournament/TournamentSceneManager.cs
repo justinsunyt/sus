@@ -3,13 +3,13 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using sus.Framework.Testing;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osu.Framework.Testing;
+using osu.Framework.Threading;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Tournament.Components;
@@ -24,9 +24,9 @@ using sus.Game.Tournament.Screens.Setup;
 using sus.Game.Tournament.Screens.Showcase;
 using sus.Game.Tournament.Screens.TeamIntro;
 using sus.Game.Tournament.Screens.TeamWin;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tournament
 {

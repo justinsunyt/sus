@@ -7,18 +7,18 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Notifications;
-using susTK.Input;
+using osuTK.Input;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Tests.Visual.Online

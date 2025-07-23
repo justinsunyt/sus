@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
+using osu.Framework.Threading;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Dialog;
 using sus.Game.Overlays.Notifications;

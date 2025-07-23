@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Logging;
+using osu.Framework.Logging;
 using sus.Game.Database;
 using sus.Game.Extensions;
 using sus.Game.Models;

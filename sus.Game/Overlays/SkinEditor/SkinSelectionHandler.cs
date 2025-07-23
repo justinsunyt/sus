@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Extensions;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Edit;
@@ -16,7 +16,7 @@ using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Localisation;
 using sus.Game.Skinning;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.SkinEditor
 {

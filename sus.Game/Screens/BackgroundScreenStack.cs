@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
 
 namespace sus.Game.Screens
 {

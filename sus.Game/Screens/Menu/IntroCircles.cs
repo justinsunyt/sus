@@ -5,11 +5,11 @@
 
 using System;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Screens;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Screens;
+using osu.Framework.Graphics;
 
 namespace sus.Game.Screens.Menu
 {

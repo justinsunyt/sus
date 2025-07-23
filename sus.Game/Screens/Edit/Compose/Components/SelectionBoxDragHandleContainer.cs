@@ -6,9 +6,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

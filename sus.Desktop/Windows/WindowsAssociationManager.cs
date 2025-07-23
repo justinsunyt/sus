@@ -7,8 +7,8 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using Microsoft.Win32;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Localisation;
 
 namespace sus.Desktop.Windows

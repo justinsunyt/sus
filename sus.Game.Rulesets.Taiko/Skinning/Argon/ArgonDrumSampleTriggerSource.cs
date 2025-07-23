@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Rulesets.Taiko.UI;

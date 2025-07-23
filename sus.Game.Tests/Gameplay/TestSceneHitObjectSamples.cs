@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.IO.Stores;
+using osu.Framework.IO.Stores;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Tests.Beatmaps;

@@ -3,7 +3,7 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Tests.Visual;
 using sus.Game.Tests.Visual.Metadata;
 

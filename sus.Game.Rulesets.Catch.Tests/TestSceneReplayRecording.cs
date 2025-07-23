@@ -3,18 +3,18 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.Replays;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

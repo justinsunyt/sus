@@ -3,12 +3,12 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Screens.Select.Filter;
 using sus.Game.Screens.SelectV2;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.SongSelectV2
 {

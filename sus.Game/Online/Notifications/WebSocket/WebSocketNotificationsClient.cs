@@ -9,8 +9,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Logging;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Logging;
 
 namespace sus.Game.Online.Notifications.WebSocket
 {
@@ -89,7 +89,7 @@ namespace sus.Game.Online.Notifications.WebSocket
         {
             try
             {
-                await socket.CloseAsync(WebSocketCloseStatus.NormalClsusre, @"Disconnecting", CancellationToken.None).ConfigureAwait(false);
+                await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, @"Disconnecting", CancellationToken.None).ConfigureAwait(false);
             }
             catch
             {

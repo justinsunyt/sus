@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Markdig.Extensions.Tables;
-using sus.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics.Containers.Markdown;
 
 namespace sus.Game.Graphics.Containers.Markdown
 {

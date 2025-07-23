@@ -5,12 +5,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
@@ -26,8 +26,8 @@ using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Play.PlayerSettings;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Beatmaps.IO;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

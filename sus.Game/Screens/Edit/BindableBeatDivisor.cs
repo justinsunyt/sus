@@ -4,11 +4,11 @@
 #nullable disable
 
 using System.Linq;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Graphics;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Edit
 {

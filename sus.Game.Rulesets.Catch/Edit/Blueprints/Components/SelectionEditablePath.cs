@@ -4,13 +4,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Catch.Objects;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Edit.Blueprints.Components
 {

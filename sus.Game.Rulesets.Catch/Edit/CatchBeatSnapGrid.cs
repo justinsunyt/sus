@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Screens.Edit.Compose.Components;

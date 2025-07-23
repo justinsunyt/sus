@@ -1,12 +1,12 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Mania.Edit.Blueprints.Components;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.UI.Scrolling;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Edit.Blueprints
 {

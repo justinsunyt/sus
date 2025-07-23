@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Graphics.UserInterface
 {

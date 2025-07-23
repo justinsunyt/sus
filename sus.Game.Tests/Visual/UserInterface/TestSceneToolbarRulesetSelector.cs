@@ -3,13 +3,13 @@
 
 #nullable disable
 
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays.Toolbar;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Utils;
 using sus.Game.Rulesets;
 
 namespace sus.Game.Tests.Visual.UserInterface

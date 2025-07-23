@@ -3,9 +3,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Online;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
@@ -15,7 +15,7 @@ using sus.Game.Overlays;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Tests.Visual.Metadata;
 using sus.Game.Users;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Components
 {

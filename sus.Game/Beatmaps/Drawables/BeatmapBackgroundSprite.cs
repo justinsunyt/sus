@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
 
 namespace sus.Game.Beatmaps.Drawables
 {

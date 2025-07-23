@@ -3,14 +3,14 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

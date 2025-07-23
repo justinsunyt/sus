@@ -5,17 +5,17 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
 using sus.Game.Overlays;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

@@ -5,17 +5,17 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Users;
 using sus.Game.Scoring;
-using sus.Framework.Localisation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Localisation;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Users.Drawables;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Rankings.Tables
 {

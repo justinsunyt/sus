@@ -9,13 +9,13 @@ using System.Linq;
 using JetBrains.Annotations;
 using Moq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Configuration;
 using sus.Game.Database;
 using sus.Game.Localisation;
@@ -25,8 +25,8 @@ using sus.Game.Overlays.Notifications;
 using sus.Game.Screens;
 using sus.Game.Screens.Footer;
 using sus.Game.Tests.Beatmaps;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

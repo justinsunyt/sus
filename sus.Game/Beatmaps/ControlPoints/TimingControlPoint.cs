@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Graphics;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Beatmaps.ControlPoints
 {

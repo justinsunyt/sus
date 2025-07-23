@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Skinning;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mania.Skinning.Default
 {

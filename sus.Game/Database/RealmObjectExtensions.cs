@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using AutoMapper;
 using AutoMapper.Internal;
-using sus.Framework.Logging;
+using osu.Framework.Logging;
 using sus.Game.Beatmaps;
 using sus.Game.Input.Bindings;
 using sus.Game.Models;

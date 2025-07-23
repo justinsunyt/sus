@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Containers;
 
 namespace sus.Game.Beatmaps.Drawables.Cards

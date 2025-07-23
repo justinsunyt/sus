@@ -6,16 +6,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Localisation;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Changelog
 {

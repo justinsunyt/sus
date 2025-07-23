@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Utils;
-using susTK.Graphics;
+using osu.Framework.Utils;
+using osuTK.Graphics;
 
 namespace sus.Game.Utils
 {

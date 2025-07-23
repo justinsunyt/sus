@@ -5,15 +5,15 @@
 
 using System.Diagnostics;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables
 {

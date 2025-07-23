@@ -6,14 +6,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics.Cursor;
@@ -27,8 +27,8 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Scoring;
 using sus.Game.Screens.Select.Leaderboards;
 using sus.Game.Tests.Resources;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

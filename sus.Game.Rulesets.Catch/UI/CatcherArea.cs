@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Catch.Objects.Drawables;
 using sus.Game.Rulesets.Catch.Replays;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Play;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.UI
 {

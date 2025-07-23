@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
 using sus.Game.Online.Leaderboards;
 using sus.Game.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Ranking.Expanded.Accuracy
 {

@@ -5,13 +5,13 @@ using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.ExceptionExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.ExceptionExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -21,8 +21,8 @@ using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
 using sus.Game.Screens.OnlinePlay.Match.Components;
-using susTK;
-using Container = sus.Framework.Graphics.Containers.Container;
+using osuTK;
+using Container = osu.Framework.Graphics.Containers.Container;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Match
 {

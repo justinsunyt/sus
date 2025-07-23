@@ -3,9 +3,9 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.UserInterface;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Overlays;
 
 namespace sus.Game.Tests.Visual.Online

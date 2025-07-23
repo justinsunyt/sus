@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Layout;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Layout;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Rulesets.Taiko.UI;
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Mods
 {

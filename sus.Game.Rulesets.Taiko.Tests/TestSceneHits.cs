@@ -5,8 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
@@ -16,7 +16,7 @@ using sus.Game.Rulesets.Taiko.Judgements;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Rulesets.Taiko.Objects.Drawables;
 using sus.Game.Rulesets.Taiko.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Tests
 {

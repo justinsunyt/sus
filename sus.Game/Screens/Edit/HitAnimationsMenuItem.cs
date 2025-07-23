@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using JetBrains.Annotations;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Graphics.UserInterface;
 
 namespace sus.Game.Screens.Edit

@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Timing;
 

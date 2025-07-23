@@ -5,14 +5,14 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Online;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Tests.Resources;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Online
 {

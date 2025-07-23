@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Allocation;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments
 {

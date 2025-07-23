@@ -1,20 +1,20 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Profile.Header.Components;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Users
 {

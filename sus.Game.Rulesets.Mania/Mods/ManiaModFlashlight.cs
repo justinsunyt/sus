@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Layout;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Layout;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Mods;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Mods
 {

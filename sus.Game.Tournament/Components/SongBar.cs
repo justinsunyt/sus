@@ -1,13 +1,13 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Legacy;
 using sus.Game.Extensions;
@@ -16,8 +16,8 @@ using sus.Game.Models;
 using sus.Game.Rulesets;
 using sus.Game.Screens.Menu;
 using sus.Game.Utils;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tournament.Components
 {

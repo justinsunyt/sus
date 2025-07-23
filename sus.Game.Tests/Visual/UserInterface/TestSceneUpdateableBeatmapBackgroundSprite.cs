@@ -6,10 +6,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Graphics.Containers;
@@ -17,7 +17,7 @@ using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Tests.Beatmaps.IO;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

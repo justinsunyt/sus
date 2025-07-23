@@ -5,11 +5,11 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu;

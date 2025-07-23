@@ -7,7 +7,7 @@ using sus.Game.Beatmaps;
 using sus.Game.Rulesets.EmptyFreeform.Objects;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.EmptyFreeform.Beatmaps
 {

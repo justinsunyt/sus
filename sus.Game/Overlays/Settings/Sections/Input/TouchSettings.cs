@@ -3,10 +3,10 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Input.Handlers;
-using sus.Framework.Localisation;
+using osu.Framework;
+using osu.Framework.Allocation;
+using osu.Framework.Input.Handlers;
+using osu.Framework.Localisation;
 using sus.Game.Configuration;
 using sus.Game.Localisation;
 

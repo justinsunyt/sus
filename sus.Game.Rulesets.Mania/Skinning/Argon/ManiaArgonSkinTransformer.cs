@@ -3,16 +3,16 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mania.Skinning.Argon
 {

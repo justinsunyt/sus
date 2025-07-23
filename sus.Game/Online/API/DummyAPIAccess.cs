@@ -4,8 +4,8 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Localisation;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;

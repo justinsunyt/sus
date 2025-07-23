@@ -3,16 +3,16 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -21,8 +21,8 @@ using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.SelectV2
 {

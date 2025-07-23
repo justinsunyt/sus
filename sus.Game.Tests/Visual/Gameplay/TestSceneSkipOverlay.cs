@@ -4,13 +4,13 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Timing;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Play;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

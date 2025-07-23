@@ -4,14 +4,14 @@
 #nullable disable
 
 using System;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
-using sus.Framework.Input;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Configuration;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 
 namespace sus.Game.Graphics.Containers
 {

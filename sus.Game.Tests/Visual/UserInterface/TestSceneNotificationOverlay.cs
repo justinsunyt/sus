@@ -6,20 +6,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Database;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Updater;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

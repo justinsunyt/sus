@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Markdig.Syntax.Inlines;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Containers.Markdown;
-using sus.Framework.Graphics.Sprites;
-using susTK;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Graphics.Sprites;
+using osuTK;
 
 namespace sus.Game.Overlays.Wiki.Markdown
 {

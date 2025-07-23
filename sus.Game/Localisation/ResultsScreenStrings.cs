@@ -1,13 +1,13 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Localisation
 {
     public static class ResultsScreenStrings
     {
-        private const string prefix = @"sus.Game.Resources.Localisation.ResultsScreen";
+        private const string prefix = @"osu.Game.Resources.Localisation.ResultsScreen";
 
         /// <summary>
         /// "Performance points are not granted for this score because the beatmap is not ranked."

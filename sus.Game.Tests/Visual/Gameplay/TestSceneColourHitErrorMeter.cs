@@ -4,10 +4,10 @@
 using System;
 using System.Diagnostics;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects;
@@ -15,7 +15,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Judgements;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play.HUD.HitErrorMeters;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

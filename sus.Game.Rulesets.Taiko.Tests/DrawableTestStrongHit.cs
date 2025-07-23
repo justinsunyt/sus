@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Rulesets.Taiko.Objects.Drawables;

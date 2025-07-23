@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
-using sus.Framework.Lists;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Lists;
+using osu.Framework.Utils;
 using sus.Game.Screens.Edit;
 using sus.Game.Utils;
 

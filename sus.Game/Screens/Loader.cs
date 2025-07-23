@@ -5,15 +5,15 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Development;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Development;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Utils;
 using sus.Game.Screens.Menu;
-using sus.Framework.Screens;
-using sus.Framework.Threading;
+using osu.Framework.Screens;
+using osu.Framework.Threading;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Seasonal;

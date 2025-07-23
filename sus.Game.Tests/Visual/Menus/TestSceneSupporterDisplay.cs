@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Screens.Menu;

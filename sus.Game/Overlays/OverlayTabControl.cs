@@ -3,18 +3,18 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays
 {

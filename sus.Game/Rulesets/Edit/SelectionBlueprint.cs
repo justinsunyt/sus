@@ -6,13 +6,13 @@
 using System;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Graphics.UserInterface;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Edit
 {

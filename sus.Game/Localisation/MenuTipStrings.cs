@@ -1,13 +1,13 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Localisation
 {
     public static class MenuTipStrings
     {
-        private const string prefix = @"sus.Game.Resources.Localisation.MenuTip";
+        private const string prefix = @"osu.Game.Resources.Localisation.MenuTip";
 
         /// <summary>
         /// "Press {0} anywhere in the game to toggle the toolbar!"

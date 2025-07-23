@@ -4,11 +4,11 @@
 #nullable disable
 
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Mania.Configuration;
@@ -17,7 +17,7 @@ using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Screens.Edit;
 using sus.Game.Skinning;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mania.Objects.Drawables
 {

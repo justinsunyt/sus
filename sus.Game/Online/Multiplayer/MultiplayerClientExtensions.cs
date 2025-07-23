@@ -5,8 +5,8 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
-using sus.Framework.Extensions.ExceptionExtensions;
-using sus.Framework.Logging;
+using osu.Framework.Extensions.ExceptionExtensions;
+using osu.Framework.Logging;
 
 namespace sus.Game.Online.Multiplayer
 {

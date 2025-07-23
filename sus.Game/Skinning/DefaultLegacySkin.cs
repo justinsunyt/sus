@@ -3,10 +3,10 @@
 
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using sus.Framework.IO.Stores;
+using osu.Framework.IO.Stores;
 using sus.Game.Extensions;
 using sus.Game.IO;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

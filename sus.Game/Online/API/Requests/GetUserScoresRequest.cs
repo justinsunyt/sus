@@ -4,7 +4,7 @@
 #nullable disable
 
 using System.Collections.Generic;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Rulesets;
 

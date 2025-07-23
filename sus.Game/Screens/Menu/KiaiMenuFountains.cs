@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Platform;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Platform;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Containers;
 
 namespace sus.Game.Screens.Menu

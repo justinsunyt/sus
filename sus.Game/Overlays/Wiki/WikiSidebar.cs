@@ -5,13 +5,13 @@
 
 using Markdig.Syntax;
 using Markdig.Syntax.Inlines;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers.Markdown;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Wiki
 {

@@ -5,16 +5,16 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Caching;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Caching;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Extensions;
@@ -22,7 +22,7 @@ using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Ranking
 {

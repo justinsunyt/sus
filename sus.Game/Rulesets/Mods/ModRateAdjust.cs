@@ -3,9 +3,9 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Rulesets.Mods
 {

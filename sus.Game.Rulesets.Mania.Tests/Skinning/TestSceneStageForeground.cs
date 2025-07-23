@@ -3,8 +3,8 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Skinning;
 
 namespace sus.Game.Rulesets.Mania.Tests.Skinning

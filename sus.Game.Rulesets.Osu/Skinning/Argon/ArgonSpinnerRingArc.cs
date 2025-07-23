@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 

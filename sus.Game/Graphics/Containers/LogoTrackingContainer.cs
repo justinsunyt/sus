@@ -3,12 +3,12 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
 using sus.Game.Screens.Menu;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Graphics.Containers
 {

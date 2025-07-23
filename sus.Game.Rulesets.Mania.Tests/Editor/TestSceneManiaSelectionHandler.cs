@@ -3,7 +3,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Edit.Blueprints;
 using sus.Game.Rulesets.Mania.Objects;
@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Mania.Tests.Editor
 {

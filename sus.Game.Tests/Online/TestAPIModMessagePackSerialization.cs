@@ -6,8 +6,8 @@
 using System.Collections.Generic;
 using MessagePack;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Online.API;

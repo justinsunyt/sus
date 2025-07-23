@@ -4,7 +4,7 @@
 using System.IO;
 using System.Linq;
 using ManagedBass;
-using sus.Framework.Audio.Callbacks;
+using osu.Framework.Audio.Callbacks;
 using sus.Game.Beatmaps;
 using sus.Game.Extensions;
 using sus.Game.Utils;

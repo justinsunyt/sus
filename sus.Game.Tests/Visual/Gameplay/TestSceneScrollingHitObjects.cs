@@ -7,15 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Threading;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Threading;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects;
@@ -23,8 +23,8 @@ using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.Timing;
 using sus.Game.Rulesets.UI.Scrolling;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

@@ -3,19 +3,19 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Primitives;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Primitives;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.UI.Scrolling;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.UI
 {

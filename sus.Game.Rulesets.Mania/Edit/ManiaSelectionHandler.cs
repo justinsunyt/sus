@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Objects;

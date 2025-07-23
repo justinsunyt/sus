@@ -3,13 +3,13 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Select.Carousel
 {

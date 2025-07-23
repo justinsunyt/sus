@@ -3,8 +3,8 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 
 namespace sus.Game.Overlays.Settings.Sections.Input

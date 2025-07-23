@@ -4,12 +4,12 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Overlays;
 using sus.Game.Screens.Edit.Timing;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

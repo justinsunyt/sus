@@ -3,7 +3,7 @@
 
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments
 {

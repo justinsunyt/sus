@@ -3,13 +3,13 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Taiko.Skinning.Legacy;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Tests
 {

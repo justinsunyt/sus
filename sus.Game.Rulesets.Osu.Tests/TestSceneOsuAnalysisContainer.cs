@@ -5,17 +5,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Replays;
 using sus.Game.Rulesets.Osu.Configuration;
 using sus.Game.Rulesets.Osu.Replays;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

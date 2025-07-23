@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.IO;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics.Textures;
 using sus.Game.Beatmaps;
 using sus.Game.Skinning;
 using sus.Game.Storyboards;

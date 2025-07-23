@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Taiko.Objects
 {

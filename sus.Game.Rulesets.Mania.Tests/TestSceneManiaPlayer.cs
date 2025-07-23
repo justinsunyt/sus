@@ -1,7 +1,7 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 using sus.Game.Rulesets.Mania.Configuration;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Tests.Visual;

@@ -3,12 +3,12 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Bindables;
-using sus.Framework.Logging;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Bindables;
+using osu.Framework.Logging;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Overlays;

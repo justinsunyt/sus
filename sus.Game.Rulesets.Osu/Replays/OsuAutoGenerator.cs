@@ -1,15 +1,15 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using susTK;
-using sus.Framework.Utils;
+using osuTK;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Osu.Objects;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Replays;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects;

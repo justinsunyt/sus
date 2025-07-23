@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
-using susTK;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
+using osuTK;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Audio;
 using sus.Game.Input.Bindings;
 using sus.Game.Overlays;

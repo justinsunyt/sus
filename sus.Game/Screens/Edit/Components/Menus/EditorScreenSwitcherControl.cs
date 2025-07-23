@@ -1,15 +1,15 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Edit.Components.Menus
 {

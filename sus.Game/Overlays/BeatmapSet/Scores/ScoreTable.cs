@@ -3,12 +3,12 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -17,13 +17,13 @@ using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
 using sus.Game.Scoring;
 using sus.Game.Users.Drawables;
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Localisation;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Localisation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets.Mods;
 
 namespace sus.Game.Overlays.BeatmapSet.Scores

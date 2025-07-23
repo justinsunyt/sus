@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using Newtonsoft.Json.Linq;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Legacy;
 using sus.Game.Rulesets;

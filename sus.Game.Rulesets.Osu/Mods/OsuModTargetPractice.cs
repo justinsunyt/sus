@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
@@ -26,8 +26,8 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Osu.Utils;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

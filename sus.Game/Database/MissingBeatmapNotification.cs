@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Configuration;

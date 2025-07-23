@@ -5,16 +5,16 @@
 
 using System;
 using System.Runtime.InteropServices;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Rendering.Vertices;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Shaders.Types;
-using sus.Framework.Graphics.Sprites;
-using susTK;
-using susTK.Graphics;
-using susTK.Graphics.ES30;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Rendering.Vertices;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Shaders.Types;
+using osu.Framework.Graphics.Sprites;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Graphics.ES30;
 
 namespace sus.Game.Graphics.Sprites
 {

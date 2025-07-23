@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Input.Bindings;
 
 namespace sus.Game.Rulesets.Mania
 {

@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Screens;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Screens;
+using osu.Framework.Threading;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables.Cards;
@@ -26,7 +26,7 @@ using sus.Game.Overlays.Settings;
 using sus.Game.Screens.OnlinePlay.Match.Components;
 using sus.Game.Screens.Spectate;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Play
 {

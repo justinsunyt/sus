@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 using System.Threading.Tasks;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Online;
 
 namespace sus.Game.IPC

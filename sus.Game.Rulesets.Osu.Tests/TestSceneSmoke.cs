@@ -4,13 +4,13 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.States;
-using sus.Framework.Logging;
-using sus.Framework.Testing.Input;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.States;
+using osu.Framework.Logging;
+using osu.Framework.Testing.Input;
 using sus.Game.Rulesets.Osu.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

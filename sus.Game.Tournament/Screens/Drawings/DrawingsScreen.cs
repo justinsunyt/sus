@@ -6,20 +6,20 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.Models;
 using sus.Game.Tournament.Screens.Drawings.Components;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tournament.Screens.Drawings
 {

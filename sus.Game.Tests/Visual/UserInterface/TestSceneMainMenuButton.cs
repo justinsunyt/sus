@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Graphics;
 using sus.Game.Localisation;
 using sus.Game.Online.API;
@@ -13,8 +13,8 @@ using sus.Game.Online.Metadata;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
 using sus.Game.Screens.Menu;
-using susTK.Input;
-using Color4 = susTK.Graphics.Color4;
+using osuTK.Input;
+using Color4 = osuTK.Graphics.Color4;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

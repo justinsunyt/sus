@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps;
 using sus.Game.Collections;
 using sus.Game.Database;

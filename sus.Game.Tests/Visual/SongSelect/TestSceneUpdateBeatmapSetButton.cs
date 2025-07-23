@@ -4,10 +4,10 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Online.API;
@@ -19,7 +19,7 @@ using sus.Game.Screens.Select.Filter;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Online;
 using sus.Game.Tests.Resources;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.SongSelect
 {

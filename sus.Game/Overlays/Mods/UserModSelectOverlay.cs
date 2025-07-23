@@ -3,8 +3,8 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Input.Events;
 using sus.Game.Input.Bindings;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Screens.Select;

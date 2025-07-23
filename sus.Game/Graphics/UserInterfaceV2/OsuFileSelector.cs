@@ -3,12 +3,12 @@
 
 using System.IO;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterfaceV2.FileSelection;

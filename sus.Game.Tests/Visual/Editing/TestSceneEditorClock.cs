@@ -3,16 +3,16 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Components;
 using sus.Game.Tests.Beatmaps;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Editing
 {

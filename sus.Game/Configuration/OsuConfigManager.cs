@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Configuration.Tracking;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Localisation;
-using sus.Framework.Platform;
+using osu.Framework;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Configuration.Tracking;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Localisation;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Input;
 using sus.Game.Input.Bindings;

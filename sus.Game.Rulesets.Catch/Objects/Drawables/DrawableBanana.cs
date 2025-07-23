@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Catch.Skinning.Default;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Objects.Drawables
 {

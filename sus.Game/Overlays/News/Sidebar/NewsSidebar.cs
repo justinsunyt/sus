@@ -3,12 +3,12 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
+using osuTK;
 using System.Linq;
 
 namespace sus.Game.Overlays.News.Sidebar

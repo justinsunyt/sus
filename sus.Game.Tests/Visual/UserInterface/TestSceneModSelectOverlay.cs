@@ -5,14 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input;
-using sus.Framework.Localisation;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input;
+using osu.Framework.Localisation;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays;
@@ -26,8 +26,8 @@ using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Taiko.Mods;
 using sus.Game.Screens.Footer;
 using sus.Game.Tests.Mods;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

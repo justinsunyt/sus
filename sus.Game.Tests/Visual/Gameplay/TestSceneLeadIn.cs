@@ -3,15 +3,15 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Play;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Beatmaps;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

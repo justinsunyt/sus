@@ -2,18 +2,18 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Osu.UI.Cursor;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Play;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.UI
 {

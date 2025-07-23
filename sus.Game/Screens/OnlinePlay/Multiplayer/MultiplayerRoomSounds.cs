@@ -1,11 +1,11 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.Multiplayer;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer

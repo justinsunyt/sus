@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Database;
 using sus.Game.IO;
 using sus.Game.Localisation;

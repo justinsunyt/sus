@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Mania.Configuration;
@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.UI;
 using sus.Game.Rulesets.UI.Scrolling;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Edit
 {

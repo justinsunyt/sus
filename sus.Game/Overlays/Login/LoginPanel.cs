@@ -2,13 +2,13 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Input.Events;
 using sus.Game.Configuration;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -18,7 +18,7 @@ using sus.Game.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Overlays.Settings;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Login
 {
@@ -123,7 +123,7 @@ namespace sus.Game.Overlays.Login
                         },
                     };
 
-                    linkFlow.AddLink(Resources.Localisation.Web.CommonStrings.ButtonsCancel.ToLower(), api.Logout, string.Empty);
+                    linkFlow.AddLink(osu.Game.Resources.Localisation.Web.CommonStrings.ButtonsCancel.ToLower(), api.Logout, string.Empty);
                     break;
 
                 case APIState.Online:

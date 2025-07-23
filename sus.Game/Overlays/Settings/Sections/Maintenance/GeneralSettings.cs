@@ -3,11 +3,11 @@
 
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
 using sus.Game.Localisation;
 using sus.Game.Screens;
 using sus.Game.Screens.Import;

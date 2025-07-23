@@ -3,9 +3,9 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.UserInterface;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments.Buttons
 {

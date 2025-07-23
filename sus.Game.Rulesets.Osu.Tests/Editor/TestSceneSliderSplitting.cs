@@ -3,9 +3,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Objects;
@@ -15,7 +15,7 @@ using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

@@ -1,12 +1,12 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics.Containers;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Sprites;
-using susTK;
-using sus.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Sprites;
+using osuTK;
+using osu.Framework.Allocation;
 
 namespace sus.Game.Overlays.Comments.Buttons
 {

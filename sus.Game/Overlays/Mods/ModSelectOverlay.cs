@@ -5,18 +5,18 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Input;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Input;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
@@ -29,9 +29,9 @@ using sus.Game.Localisation;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Screens.Footer;
 using sus.Game.Utils;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Overlays.Mods
 {
@@ -285,7 +285,7 @@ namespace sus.Game.Overlays.Mods
             ActiveMods = { BindTarget = ActiveMods },
         };
 
-        private static readonly LocalisableString input_search_placeholder = Resources.Localisation.Web.CommonStrings.InputSearch;
+        private static readonly LocalisableString input_search_placeholder = osu.Game.Resources.Localisation.Web.CommonStrings.InputSearch;
         private static readonly LocalisableString tab_to_search_placeholder = ModSelectOverlayStrings.TabToSearch;
 
         protected override void Update()

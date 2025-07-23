@@ -3,7 +3,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Catch.Edit.Blueprints;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.Objects.Drawables;
@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Tests.Editor
 {

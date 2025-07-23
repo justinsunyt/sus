@@ -5,20 +5,20 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
-using sus.Framework.IO.Stores;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
+using osu.Framework.IO.Stores;
 using sus.Game.Rulesets;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Overlays.Toolbar
 {

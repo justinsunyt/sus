@@ -3,11 +3,11 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Graphics;
-using sus.Framework.Input;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
 using sus.Game.Configuration;
 using sus.Game.Screens.Play;
 

@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Graphics;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Skinning.Default
 {

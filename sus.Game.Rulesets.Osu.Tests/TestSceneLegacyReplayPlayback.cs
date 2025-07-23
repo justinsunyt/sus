@@ -13,7 +13,7 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

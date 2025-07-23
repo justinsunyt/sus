@@ -3,7 +3,7 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
 using sus.Game.Online.Metadata;
@@ -15,8 +15,8 @@ using sus.Game.Screens.Menu;
 using sus.Game.Screens.OnlinePlay.DailyChallenge;
 using sus.Game.Tests.Visual.Metadata;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK.Graphics;
+using osuTK.Input;
 using CreateRoomRequest = sus.Game.Online.Rooms.CreateRoomRequest;
 
 namespace sus.Game.Tests.Visual.DailyChallenge

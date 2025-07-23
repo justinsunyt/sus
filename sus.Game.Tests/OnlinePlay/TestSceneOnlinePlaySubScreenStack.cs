@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Screens;

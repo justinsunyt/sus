@@ -4,19 +4,19 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Threading;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Multiplayer.Countdown;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Dialog;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Match
 {

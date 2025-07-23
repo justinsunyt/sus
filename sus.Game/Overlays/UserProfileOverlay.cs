@@ -4,15 +4,15 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
 using sus.Game.Extensions;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -27,8 +27,8 @@ using sus.Game.Overlays.Profile;
 using sus.Game.Overlays.Profile.Sections;
 using sus.Game.Rulesets;
 using sus.Game.Users;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays
 {

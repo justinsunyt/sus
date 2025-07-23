@@ -3,12 +3,12 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Video;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Video;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 
 namespace sus.Game.Overlays.Settings.Sections.Graphics

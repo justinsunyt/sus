@@ -7,17 +7,17 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
+using osu.Framework.Platform;
 using sus.Game.Database;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Screens.Play;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Storyboards.Drawables
 {

@@ -3,15 +3,15 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays;
 using sus.Game.Graphics.Carousel;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Visual.UserInterface;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.SongSelectV2
 {

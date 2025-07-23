@@ -8,7 +8,7 @@ using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Osu.Beatmaps;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

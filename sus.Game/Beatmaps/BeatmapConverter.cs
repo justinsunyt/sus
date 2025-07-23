@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Objects;

@@ -5,9 +5,9 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Testing;
 using sus.Game.Rulesets;
 using sus.Game.Skinning;
 

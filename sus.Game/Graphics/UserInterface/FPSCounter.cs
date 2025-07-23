@@ -2,20 +2,20 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using sus.Framework.Platform;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osu.Framework.Platform;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Graphics.UserInterface
 {

@@ -3,7 +3,7 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Tests.Resources;
 

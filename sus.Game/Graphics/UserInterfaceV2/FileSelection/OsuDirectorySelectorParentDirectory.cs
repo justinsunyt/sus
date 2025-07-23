@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.IO;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Overlays;
 
 namespace sus.Game.Graphics.UserInterfaceV2.FileSelection

@@ -6,16 +6,16 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
+using osu.Framework.Platform;
 using sus.Game.Rulesets.Configuration;
 
 namespace sus.Game.Rulesets.UI

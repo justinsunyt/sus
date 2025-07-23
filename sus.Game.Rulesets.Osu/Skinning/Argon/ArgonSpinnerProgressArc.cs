@@ -3,21 +3,21 @@
 
 using System;
 using System.Runtime.InteropServices;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Shaders;
-using sus.Framework.Graphics.Shaders.Types;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Shaders;
+using osu.Framework.Graphics.Shaders.Types;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Skinning.Argon
 {

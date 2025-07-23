@@ -4,20 +4,20 @@
 using System;
 using System.Linq;
 using Humanizer;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Localisation;
 using sus.Game.Online.Multiplayer;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Match
 {

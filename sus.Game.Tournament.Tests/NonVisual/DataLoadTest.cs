@@ -6,10 +6,10 @@ using System.IO;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Platform;
 using sus.Game.Rulesets;
 using sus.Game.Tests;
 

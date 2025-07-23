@@ -3,10 +3,10 @@
 
 using System.Collections.Generic;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
 
 namespace sus.Game.Storyboards.Drawables
 {

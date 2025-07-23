@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using sus.Game.Beatmaps.ControlPoints;
 using Newtonsoft.Json;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.IO.Serialization.Converters;
 

@@ -5,20 +5,20 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
 using sus.Game.Graphics.Containers;
 using sus.Game.Input.Bindings;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Mods;
 using sus.Game.Screens.Menu;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Footer
 {

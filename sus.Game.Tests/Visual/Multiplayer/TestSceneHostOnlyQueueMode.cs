@@ -4,14 +4,14 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions;
-using sus.Framework.Testing;
+using osu.Framework.Extensions;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Screens.OnlinePlay;
 using sus.Game.Screens.OnlinePlay.Multiplayer;
 using sus.Game.Screens.OnlinePlay.Multiplayer.Match.Playlist;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

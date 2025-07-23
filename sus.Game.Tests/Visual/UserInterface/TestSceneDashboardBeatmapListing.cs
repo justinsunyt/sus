@@ -1,14 +1,14 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using sus.Game.Overlays.Dashboard.Home;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using System;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Shapes;
 using System.Collections.Generic;
 using sus.Game.Online.API.Requests.Responses;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;

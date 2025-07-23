@@ -1,13 +1,13 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
-using susTK;
-using susTK.Input;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

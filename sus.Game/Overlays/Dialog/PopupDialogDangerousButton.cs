@@ -3,13 +3,13 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 

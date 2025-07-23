@@ -3,18 +3,18 @@
 
 using System;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.PolygonExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.PolygonExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Beatmaps;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.SelectV2
 {

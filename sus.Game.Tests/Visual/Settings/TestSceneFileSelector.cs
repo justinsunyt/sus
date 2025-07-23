@@ -3,8 +3,8 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Overlays;
 using sus.Game.Tests.Visual.UserInterface;

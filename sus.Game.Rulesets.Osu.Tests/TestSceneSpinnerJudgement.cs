@@ -4,8 +4,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Screens;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Replays;
 using sus.Game.Rulesets.Judgements;

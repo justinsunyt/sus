@@ -3,14 +3,14 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Objects.Drawables;
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Graphics.Shapes;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Skinning;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables
 {

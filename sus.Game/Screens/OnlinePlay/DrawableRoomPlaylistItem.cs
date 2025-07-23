@@ -5,19 +5,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Beatmaps.Drawables.Cards;
@@ -35,8 +35,8 @@ using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Users.Drawables;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 using sus.Game.Localisation;
 
 namespace sus.Game.Screens.OnlinePlay
@@ -560,7 +560,7 @@ namespace sus.Game.Screens.OnlinePlay
                 Size = new Vector2(30, 30),
                 Alpha = AllowEditing ? 1 : 0,
                 Action = () => RequestEdit?.Invoke(Item),
-                TooltipText = Resources.Localisation.Web.CommonStrings.ButtonsEdit
+                TooltipText = osu.Game.Resources.Localisation.Web.CommonStrings.ButtonsEdit
             },
             removeButton = new PlaylistRemoveButton
             {

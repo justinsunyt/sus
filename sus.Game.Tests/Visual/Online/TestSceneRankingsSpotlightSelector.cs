@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;

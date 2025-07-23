@@ -5,11 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
@@ -18,7 +18,7 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Edit
 {

@@ -4,11 +4,11 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Play;

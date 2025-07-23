@@ -1,13 +1,13 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Threading;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Threading;
+using osu.Framework.Utils;
 using sus.Game.Graphics;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Menu
 {

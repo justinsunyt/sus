@@ -4,7 +4,7 @@
 using System;
 using System.Linq;
 using System.Threading;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mods;

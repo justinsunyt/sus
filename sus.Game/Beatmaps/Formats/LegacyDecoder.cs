@@ -3,13 +3,13 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Extensions;
-using sus.Framework.Logging;
+using osu.Framework.Extensions;
+using osu.Framework.Logging;
 using sus.Game.Audio;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.IO;
 using sus.Game.Rulesets.Objects.Legacy;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Beatmaps.Formats
 {

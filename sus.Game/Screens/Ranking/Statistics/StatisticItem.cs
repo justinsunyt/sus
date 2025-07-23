@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Screens.Ranking.Statistics
 {

@@ -4,8 +4,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Logging;
+using osu.Framework.Graphics;
+using osu.Framework.Logging;
 using sus.Game.Screens.Play;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Spectate

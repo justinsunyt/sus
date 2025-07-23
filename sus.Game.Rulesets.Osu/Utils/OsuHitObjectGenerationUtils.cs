@@ -7,7 +7,7 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Beatmaps;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Utils
 {

@@ -6,8 +6,8 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Beatmaps.Timing;
@@ -17,8 +17,8 @@ using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Skinning.Legacy;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using JetBrains.Annotations;
-using sus.Framework.Audio.Sample;
+using osu.Framework.Audio.Sample;
 using sus.Game.Audio;
 using sus.Game.Extensions;
 using sus.Game.IO;

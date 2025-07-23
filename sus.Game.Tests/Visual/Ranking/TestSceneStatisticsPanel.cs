@@ -8,16 +8,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
@@ -41,7 +41,7 @@ using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Ranking.Statistics.User;
 using sus.Game.Tests.Resources;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Ranking
 {

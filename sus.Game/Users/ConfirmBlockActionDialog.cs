@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;

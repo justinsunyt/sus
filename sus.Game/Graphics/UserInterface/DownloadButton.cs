@@ -3,12 +3,12 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Online;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Graphics.UserInterface
 {

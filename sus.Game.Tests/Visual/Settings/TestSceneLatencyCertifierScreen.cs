@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Screens.Utility;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Settings
 {

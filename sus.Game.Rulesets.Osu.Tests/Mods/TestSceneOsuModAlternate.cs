@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Replays;
 using sus.Game.Rulesets.Replays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

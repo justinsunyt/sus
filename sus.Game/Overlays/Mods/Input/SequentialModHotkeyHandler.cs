@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Mods;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Overlays.Mods.Input
 {

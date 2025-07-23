@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Beatmaps.ControlPoints;
 
 namespace sus.Game.Beatmaps.Legacy

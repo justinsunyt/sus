@@ -6,15 +6,15 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Database;
@@ -29,7 +29,7 @@ using sus.Game.Screens.Menu;
 using sus.Game.Screens.Select.Filter;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Resources;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

@@ -3,10 +3,10 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Lists;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Lists;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Timing;
 using sus.Game.Rulesets.UI.Scrolling;

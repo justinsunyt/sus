@@ -4,17 +4,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Localisation;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Notifications
 {

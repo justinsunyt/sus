@@ -3,12 +3,12 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Taiko.Edit.Blueprints;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Edit
 {

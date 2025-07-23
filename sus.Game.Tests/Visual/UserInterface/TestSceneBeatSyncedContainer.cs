@@ -7,20 +7,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Audio.Track;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Audio.Track;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.Play;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

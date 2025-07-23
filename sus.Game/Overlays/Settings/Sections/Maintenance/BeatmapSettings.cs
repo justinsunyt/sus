@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Localisation;
 

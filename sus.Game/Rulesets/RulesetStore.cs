@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using sus.Framework;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 
 namespace sus.Game.Rulesets
 {

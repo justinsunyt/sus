@@ -5,8 +5,8 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.UI;

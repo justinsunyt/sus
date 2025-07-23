@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Catch;
@@ -19,7 +19,7 @@ using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Screens.Ranking.Expanded.Accuracy;
 using sus.Game.Tests.Beatmaps;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Ranking
 {

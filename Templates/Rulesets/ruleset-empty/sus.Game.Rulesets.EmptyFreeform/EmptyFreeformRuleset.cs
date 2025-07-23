@@ -3,11 +3,11 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Bindings;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Difficulty;
@@ -16,8 +16,8 @@ using sus.Game.Rulesets.EmptyFreeform.Mods;
 using sus.Game.Rulesets.EmptyFreeform.UI;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.UI;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.EmptyFreeform
 {

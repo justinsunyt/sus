@@ -7,16 +7,16 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
+using osu.Framework;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
 using sus.Game.Database;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -26,7 +26,7 @@ using sus.Game.Online.Chat;
 using sus.Game.Overlays.Settings;
 using sus.Game.Overlays.Settings.Sections.Maintenance;
 using sus.Game.Screens.Edit.Setup;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.FirstRunSetup
 {

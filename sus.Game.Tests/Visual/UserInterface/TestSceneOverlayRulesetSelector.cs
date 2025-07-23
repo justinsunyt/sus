@@ -1,18 +1,18 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Rulesets.Catch;
 using sus.Game.Rulesets.Mania;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Taiko;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Overlays;
 using sus.Game.Rulesets;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using susTK;
-using sus.Framework.Allocation;
+using osu.Framework.Graphics.Containers;
+using osuTK;
+using osu.Framework.Allocation;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

@@ -3,8 +3,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Rulesets;
@@ -12,7 +12,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Play;
 using sus.Game.Storyboards;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {
@@ -65,7 +65,7 @@ namespace sus.Game.Tests.Visual.Gameplay
             AddStep($"set first object start time to {firstObject}", () => firstObjectStartTime = firstObject);
             CreateTest();
 
-            AddStep("skip", () => InputManager.Key(susTK.Input.Key.Space));
+            AddStep("skip", () => InputManager.Key(osuTK.Input.Key.Space));
             AddAssert("skip performed", () => Player.ChildrenOfType<SkipOverlay>().Any(s => s.SkipCount == 1));
             AddUntilStep("gameplay clock advanced", () => Player.GameplayClockContainer.CurrentTime, () => Is.GreaterThanOrEqualTo(firstObject - 2000));
         }
@@ -77,11 +77,11 @@ namespace sus.Game.Tests.Visual.Gameplay
             AddStep("set first object start time to 11000", () => firstObjectStartTime = 11000);
             CreateTest();
 
-            AddStep("skip", () => InputManager.Key(susTK.Input.Key.Space));
+            AddStep("skip", () => InputManager.Key(osuTK.Input.Key.Space));
             AddAssert("skip performed", () => Player.ChildrenOfType<SkipOverlay>().Any(s => s.SkipCount == 1));
             AddUntilStep("gameplay clock advanced", () => Player.GameplayClockContainer.CurrentTime, () => Is.GreaterThanOrEqualTo(0));
 
-            AddStep("skip", () => InputManager.Key(susTK.Input.Key.Space));
+            AddStep("skip", () => InputManager.Key(osuTK.Input.Key.Space));
             AddAssert("skip performed", () => Player.ChildrenOfType<SkipOverlay>().Any(s => s.SkipCount == 2));
             AddUntilStep("gameplay clock advanced", () => Player.GameplayClockContainer.CurrentTime, () => Is.GreaterThanOrEqualTo(9000));
         }

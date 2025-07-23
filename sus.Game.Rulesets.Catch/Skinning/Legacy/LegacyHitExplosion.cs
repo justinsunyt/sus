@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Skinning.Legacy
 {

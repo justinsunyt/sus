@@ -3,11 +3,11 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Online.API.Requests.Responses;

@@ -4,11 +4,11 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.Leaderboards;
 using sus.Game.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Ranking
 {

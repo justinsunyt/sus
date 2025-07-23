@@ -2,16 +2,16 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics;
 using sus.Game.Screens.Ranking;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Skinning.Default
 {

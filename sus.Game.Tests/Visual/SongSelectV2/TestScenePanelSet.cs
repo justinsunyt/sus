@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Carousel;
 using sus.Game.Graphics.Cursor;
@@ -14,7 +14,7 @@ using sus.Game.Overlays;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Resources;
 using sus.Game.Tests.Visual.UserInterface;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.SongSelectV2
 {

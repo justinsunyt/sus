@@ -8,16 +8,16 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Configuration;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Configuration;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Collections;
 using sus.Game.Configuration;
@@ -53,8 +53,8 @@ using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Beatmaps.IO;
 using sus.Game.Tests.Resources;
 using sus.Game.Utils;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

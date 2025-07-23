@@ -7,15 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Models;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Screens.Ranking;
 using sus.Game.Tests.Resources;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Ranking
 {

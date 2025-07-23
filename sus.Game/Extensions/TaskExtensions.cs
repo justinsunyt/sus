@@ -4,7 +4,7 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 
 namespace sus.Game.Extensions
 {

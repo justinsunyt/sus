@@ -5,12 +5,12 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Online;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics.UserInterface;
@@ -18,7 +18,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Scoring;
 using sus.Game.Screens.Ranking;
 using sus.Game.Tests.Resources;
-using susTK.Input;
+using osuTK.Input;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Tests.Visual.Gameplay

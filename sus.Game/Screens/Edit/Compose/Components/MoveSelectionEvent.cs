@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Rulesets.Edit;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

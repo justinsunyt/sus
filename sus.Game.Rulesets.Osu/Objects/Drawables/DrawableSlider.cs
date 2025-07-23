@@ -7,11 +7,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Layout;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Layout;
 using sus.Game.Audio;
 using sus.Game.Graphics.Containers;
 using sus.Game.Rulesets.Judgements;
@@ -21,7 +21,7 @@ using sus.Game.Rulesets.Osu.Judgements;
 using sus.Game.Rulesets.Osu.Skinning.Default;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables
 {

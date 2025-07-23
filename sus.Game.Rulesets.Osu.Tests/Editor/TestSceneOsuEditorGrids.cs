@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Osu.Edit;
 using sus.Game.Rulesets.Osu.Edit.Blueprints.HitCircles;
@@ -13,8 +13,8 @@ using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Tests.Visual;
 using sus.Game.Utils;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

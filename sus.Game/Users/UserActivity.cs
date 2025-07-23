@@ -10,7 +10,7 @@ using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets;
 using sus.Game.Scoring;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Users
 {

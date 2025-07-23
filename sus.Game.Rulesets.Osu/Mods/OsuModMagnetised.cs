@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Drawables;
@@ -15,7 +15,7 @@ using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

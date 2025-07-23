@@ -6,7 +6,7 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Ranking.Statistics;

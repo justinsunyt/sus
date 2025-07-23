@@ -4,13 +4,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays;
@@ -19,7 +19,7 @@ using sus.Game.Tournament.Models;
 using sus.Game.Tournament.Screens.Editors.Components;
 using sus.Game.Tournament.Screens.Drawings.Components;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tournament.Screens.Editors
 {

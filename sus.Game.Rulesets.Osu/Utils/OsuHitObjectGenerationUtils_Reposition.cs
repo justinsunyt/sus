@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Utils;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Utils
 {

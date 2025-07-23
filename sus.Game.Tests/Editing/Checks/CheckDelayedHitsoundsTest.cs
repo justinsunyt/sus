@@ -13,7 +13,7 @@ using sus.Game.Rulesets.Edit.Checks;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Resources;
-using susTK.Audio;
+using osuTK.Audio;
 
 namespace sus.Game.Tests.Editing.Checks
 {

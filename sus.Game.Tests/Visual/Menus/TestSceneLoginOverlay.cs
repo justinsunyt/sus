@@ -4,10 +4,10 @@
 using System.Linq;
 using System.Net;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online;
@@ -19,7 +19,7 @@ using sus.Game.Overlays.Settings;
 using sus.Game.Tests.Visual.Online;
 using sus.Game.Users;
 using sus.Game.Users.Drawables;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Menus
 {

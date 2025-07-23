@@ -7,14 +7,14 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.Taiko.Skinning.Default;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Taiko.Objects.Drawables
 {

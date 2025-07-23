@@ -10,7 +10,7 @@ using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Mods
 {

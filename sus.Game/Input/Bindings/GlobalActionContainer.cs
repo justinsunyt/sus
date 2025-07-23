@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Input;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Input;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Localisation;
 
 namespace sus.Game.Input.Bindings

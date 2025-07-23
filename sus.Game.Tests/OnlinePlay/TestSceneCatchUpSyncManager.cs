@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Screens.OnlinePlay.Multiplayer.Spectate;
 using sus.Game.Screens.Play;
 using sus.Game.Tests.Visual;

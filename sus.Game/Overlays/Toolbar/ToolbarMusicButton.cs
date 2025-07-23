@@ -3,19 +3,19 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Transforms;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Transforms;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
 using sus.Game.Input.Bindings;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Overlays.Toolbar
 {

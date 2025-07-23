@@ -5,15 +5,15 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Mods;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Mods;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

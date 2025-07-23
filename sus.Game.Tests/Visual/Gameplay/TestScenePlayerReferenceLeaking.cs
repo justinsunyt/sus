@@ -4,7 +4,7 @@
 #nullable disable
 
 using System;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets;
 using sus.Game.Screens.Play;

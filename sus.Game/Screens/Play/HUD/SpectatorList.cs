@@ -4,14 +4,14 @@
 using System;
 using System.Collections.Specialized;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Pooling;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Pooling;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Localisation.HUD;
@@ -19,8 +19,8 @@ using sus.Game.Online.Chat;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Spectator;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Play.HUD
 {

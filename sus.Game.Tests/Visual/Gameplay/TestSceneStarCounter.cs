@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

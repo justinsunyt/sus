@@ -3,9 +3,9 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mania.Scoring;
 using sus.Game.Rulesets.Mania.Skinning.Legacy;

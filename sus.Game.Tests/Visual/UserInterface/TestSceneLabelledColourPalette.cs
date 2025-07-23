@@ -5,16 +5,16 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Graphics.UserInterfaceV2;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

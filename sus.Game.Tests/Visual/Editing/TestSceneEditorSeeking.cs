@@ -8,7 +8,7 @@ using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

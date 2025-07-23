@@ -5,9 +5,9 @@
 
 using NUnit.Framework;
 using sus.Game.Overlays.News;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Overlays;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 
 namespace sus.Game.Tests.Visual.Online
 {

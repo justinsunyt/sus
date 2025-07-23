@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Difficulty;
 using sus.Game.Rulesets.Difficulty.Preprocessing;

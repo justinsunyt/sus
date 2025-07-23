@@ -3,7 +3,7 @@
 
 using Moq;
 using NUnit.Framework;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Beatmaps;
 
 namespace sus.Game.Tests.Beatmaps

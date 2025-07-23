@@ -3,12 +3,12 @@
 
 using System;
 using System.Threading;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Online.Leaderboards
 {

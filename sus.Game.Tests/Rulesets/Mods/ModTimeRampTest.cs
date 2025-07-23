@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Audio.Track;
-using sus.Framework.Timing;
+using osu.Framework.Audio.Track;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Objects;

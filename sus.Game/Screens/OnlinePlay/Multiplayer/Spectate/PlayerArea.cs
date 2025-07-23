@@ -3,13 +3,13 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Logging;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets;

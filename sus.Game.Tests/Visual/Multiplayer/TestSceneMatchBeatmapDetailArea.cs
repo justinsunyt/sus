@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets.Osu;
@@ -10,7 +10,7 @@ using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Screens.OnlinePlay.Components;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

@@ -1,11 +1,11 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Timing;
-using susTK;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Timing;
+using osuTK;
 
 namespace sus.Game.Skinning
 {

@@ -4,11 +4,11 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Extensions.ListExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Performance;
-using sus.Framework.Lists;
+using osu.Framework.Extensions.ListExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Performance;
+using osu.Framework.Lists;
 
 namespace sus.Game.Rulesets.Objects.Pooling
 {

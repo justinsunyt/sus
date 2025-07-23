@@ -4,11 +4,11 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Rulesets;
@@ -19,7 +19,7 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Skinning;
 using sus.Game.Storyboards;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

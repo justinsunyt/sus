@@ -7,16 +7,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
 using sus.Game.Database;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
@@ -25,9 +25,9 @@ using sus.Game.Localisation;
 using sus.Game.Overlays.SkinEditor;
 using sus.Game.Screens.Select;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 using Realms;
-using WebCommonStrings = sus.Game.Resources.Localisation.Web.CommonStrings;
+using WebCommonStrings = osu.Game.Resources.Localisation.Web.CommonStrings;
 
 namespace sus.Game.Overlays.Settings.Sections
 {

@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Judgements;
 
 namespace sus.Game.Rulesets.Scoring

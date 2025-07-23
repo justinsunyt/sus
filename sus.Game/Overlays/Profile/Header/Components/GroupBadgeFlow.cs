@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Profile.Header.Components
 {

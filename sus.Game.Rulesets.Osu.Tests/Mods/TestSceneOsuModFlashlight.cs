@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Beatmaps;
@@ -12,7 +12,7 @@ using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Replays;
 using sus.Game.Rulesets.Replays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

@@ -1,19 +1,19 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Components.Menus
 {
@@ -74,7 +74,7 @@ namespace sus.Game.Screens.Edit.Components.Menus
             });
         }
 
-        protected override Framework.Graphics.UserInterface.Menu CreateSubMenu() => new SubMenu
+        protected override osu.Framework.Graphics.UserInterface.Menu CreateSubMenu() => new SubMenu
         {
             MaxHeight = MaxHeight,
         };
@@ -224,7 +224,7 @@ namespace sus.Game.Screens.Edit.Components.Menus
                 BackgroundColour = colourProvider.Background2;
             }
 
-            protected override Framework.Graphics.UserInterface.Menu CreateSubMenu() => new SubMenu
+            protected override osu.Framework.Graphics.UserInterface.Menu CreateSubMenu() => new SubMenu
             {
                 MaxHeight = MaxHeight,
             };

@@ -3,16 +3,16 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mania.Skinning.Legacy
 {

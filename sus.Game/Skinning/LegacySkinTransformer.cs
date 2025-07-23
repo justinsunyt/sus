@@ -1,7 +1,7 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Audio.Sample;
+using osu.Framework.Audio.Sample;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Objects.Legacy;
 using static sus.Game.Skinning.SkinConfiguration;

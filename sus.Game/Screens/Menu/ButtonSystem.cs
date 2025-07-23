@@ -4,20 +4,20 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
-using sus.Framework.Threading;
+using osu.Framework;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
+using osu.Framework.Threading;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Input;
@@ -26,9 +26,9 @@ using sus.Game.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Screens.Menu
 {

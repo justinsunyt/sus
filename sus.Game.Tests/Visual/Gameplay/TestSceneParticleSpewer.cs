@@ -5,15 +5,15 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Graphics;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

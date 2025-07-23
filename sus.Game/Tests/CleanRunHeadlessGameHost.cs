@@ -3,8 +3,8 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using sus.Framework;
-using sus.Framework.Testing;
+using osu.Framework;
+using osu.Framework.Testing;
 
 namespace sus.Game.Tests
 {

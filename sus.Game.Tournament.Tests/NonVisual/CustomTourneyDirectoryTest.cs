@@ -4,9 +4,9 @@
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Tests;
 using sus.Game.Tournament.Configuration;
 

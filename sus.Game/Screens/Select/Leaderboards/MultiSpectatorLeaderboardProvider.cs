@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Timing;
+using osu.Framework.Timing;
 using sus.Game.Online.Multiplayer;
 
 namespace sus.Game.Screens.Select.Leaderboards

@@ -3,7 +3,7 @@
 
 using System;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays.Dialog;
 using sus.Game.Scoring;

@@ -4,7 +4,7 @@
 using MessagePack;
 using Newtonsoft.Json;
 using sus.Game.Rulesets.Replays;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Replays.Legacy
 {

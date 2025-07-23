@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Animations;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Animations;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics;
@@ -15,8 +15,8 @@ using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Taiko.Objects;
 using sus.Game.Screens.Play;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Taiko.Skinning.Legacy
 {

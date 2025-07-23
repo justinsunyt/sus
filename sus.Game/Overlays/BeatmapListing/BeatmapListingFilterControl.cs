@@ -6,23 +6,23 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
+using osu.Framework.Threading;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
-using susTK.Graphics;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.BeatmapListing
 {

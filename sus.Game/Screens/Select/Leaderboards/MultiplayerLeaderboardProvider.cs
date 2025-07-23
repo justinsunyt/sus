@@ -6,13 +6,13 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Caching;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Caching;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Configuration;
 using sus.Game.Database;
 using sus.Game.Graphics;
@@ -22,7 +22,7 @@ using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Multiplayer.MatchTypes.TeamVersus;
 using sus.Game.Online.Spectator;
 using sus.Game.Rulesets.Scoring;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Select.Leaderboards
 {

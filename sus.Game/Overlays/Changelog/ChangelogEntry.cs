@@ -5,17 +5,17 @@ using System;
 using System.Diagnostics;
 using System.Net;
 using System.Text.RegularExpressions;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 using APIUser = sus.Game.Online.API.Requests.Responses.APIUser;
 
 namespace sus.Game.Overlays.Changelog

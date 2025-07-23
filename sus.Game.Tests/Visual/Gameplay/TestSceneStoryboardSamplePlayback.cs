@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics.Audio;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics.Audio;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Rulesets;
@@ -19,7 +19,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Storyboards;
 using sus.Game.Storyboards.Drawables;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

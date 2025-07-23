@@ -2,17 +2,17 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Input.Bindings;
 using sus.Game.Screens.Footer;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Screens.SelectV2
 {

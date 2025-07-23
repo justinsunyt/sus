@@ -2,18 +2,18 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.Sprites;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Humanizer;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Online.API.Requests.Responses;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.Changelog
 {

@@ -17,7 +17,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Beatmaps;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Tests.Resources;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Beatmaps.Formats
 {

@@ -1,33 +1,33 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using sus.Game.Graphics;
-using susTK;
+using osuTK;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Users.Drawables;
 using sus.Game.Graphics.Containers;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using System.Linq;
 using sus.Game.Graphics.Sprites;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using System.Collections.Generic;
 using System;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using System.Collections.Specialized;
 using System.Diagnostics;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Overlays.Comments.Buttons;
 using sus.Game.Overlays.Dialog;
 using sus.Game.Overlays.OSD;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Comments
 {

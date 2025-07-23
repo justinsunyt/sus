@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Osu;

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Screens.Menu;
 using sus.Game.Seasonal;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

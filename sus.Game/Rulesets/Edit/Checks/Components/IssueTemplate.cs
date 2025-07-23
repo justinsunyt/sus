@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Humanizer;
-using sus.Framework.Graphics;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Edit.Checks.Components
 {

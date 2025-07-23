@@ -5,16 +5,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Extensions;
 using sus.Game.Graphics.Sprites;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Catch;
 using sus.Game.Rulesets.Mania;
@@ -24,7 +24,7 @@ using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Taiko;
 using sus.Game.Screens.Select;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.SongSelect
 {

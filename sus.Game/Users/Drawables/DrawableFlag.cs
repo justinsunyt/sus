@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Users.Drawables
 {

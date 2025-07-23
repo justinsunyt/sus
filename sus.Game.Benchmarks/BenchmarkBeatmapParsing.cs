@@ -3,7 +3,7 @@
 
 using System.IO;
 using BenchmarkDotNet.Attributes;
-using sus.Framework.IO.Stores;
+using osu.Framework.IO.Stores;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.IO;

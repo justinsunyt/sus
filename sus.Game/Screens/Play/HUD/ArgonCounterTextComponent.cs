@@ -4,17 +4,17 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Localisation;
-using sus.Framework.Text;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Localisation;
+using osu.Framework.Text;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Play.HUD
 {

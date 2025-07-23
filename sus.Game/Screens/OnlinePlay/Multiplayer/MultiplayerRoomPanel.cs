@@ -2,15 +2,15 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Online.Multiplayer;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Lounge.Components;
 using sus.Game.Screens.OnlinePlay.Match.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer
 {

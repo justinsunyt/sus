@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;

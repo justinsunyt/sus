@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Extensions;

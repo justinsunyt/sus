@@ -1,16 +1,16 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Input.Events;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Osu.Edit.Blueprints.HitCircles.Components;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.HitCircles
 {

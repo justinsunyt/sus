@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Configuration;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Localisation;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Configuration;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Localisation;
+using osu.Framework.Platform;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;

@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -15,9 +15,9 @@ using sus.Game.Online;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Overlays.BeatmapSet;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Screens.Select.Details;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Select
 {

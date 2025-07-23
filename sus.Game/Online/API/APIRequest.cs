@@ -5,9 +5,9 @@ using System;
 using System.Diagnostics;
 using System.Globalization;
 using Newtonsoft.Json;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.IO.Network;
-using sus.Framework.Logging;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.IO.Network;
+using osu.Framework.Logging;
 using sus.Game.Extensions;
 using sus.Game.Online.API.Requests.Responses;
 

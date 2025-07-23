@@ -4,23 +4,23 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Localisation;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Localisation;
+using osu.Framework.Testing;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays.Chat.Listing;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
 
 namespace sus.Game.Overlays.Chat.ChannelList
 {

@@ -3,8 +3,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Configuration;
@@ -13,7 +13,7 @@ using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

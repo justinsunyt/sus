@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.StateChanges;
-using sus.Framework.Localisation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.StateChanges;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Objects;

@@ -3,18 +3,18 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Dashboard.Home
 {

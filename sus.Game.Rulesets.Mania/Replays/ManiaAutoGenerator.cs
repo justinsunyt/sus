@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Objects;

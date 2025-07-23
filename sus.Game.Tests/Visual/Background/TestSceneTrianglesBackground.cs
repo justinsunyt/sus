@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Graphics.Backgrounds;
-using sus.Framework.Graphics;
-using susTK.Graphics;
-using sus.Framework.Graphics.Shapes;
-using susTK;
+using osu.Framework.Graphics;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Background
 {

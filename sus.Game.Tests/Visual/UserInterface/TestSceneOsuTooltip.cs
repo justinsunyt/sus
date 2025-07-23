@@ -3,16 +3,16 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
+using osu.Framework.Testing;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

@@ -4,10 +4,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
-using sus.Framework.Graphics;
-using sus.Framework.Lists;
-using susTK;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Lists;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Storyboards.Commands
 {

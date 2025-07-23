@@ -3,15 +3,15 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Graphics.Pooling;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Graphics.Pooling;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Osu.Objects;
@@ -19,8 +19,8 @@ using sus.Game.Rulesets.Osu.Objects.Drawables;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
 using sus.Game.Scoring;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Mods
 {

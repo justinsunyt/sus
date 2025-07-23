@@ -3,8 +3,8 @@
 
 using System;
 using Humanizer;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Localisation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Utils
 {

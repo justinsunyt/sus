@@ -3,18 +3,18 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.States;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.States;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Utility.SampleComponents;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Screens.Utility
 {

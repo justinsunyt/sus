@@ -2,13 +2,13 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Skinning.Default;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders.Components
 {

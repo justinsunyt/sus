@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
-using susTK;
-using susTK.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.Edit.Compose.Components
 {

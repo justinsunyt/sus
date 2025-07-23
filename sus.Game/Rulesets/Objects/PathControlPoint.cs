@@ -6,7 +6,7 @@
 using System;
 using Newtonsoft.Json;
 using sus.Game.Rulesets.Objects.Types;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Objects
 {

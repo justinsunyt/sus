@@ -3,9 +3,9 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Pooling;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Pooling;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Skinning;
 

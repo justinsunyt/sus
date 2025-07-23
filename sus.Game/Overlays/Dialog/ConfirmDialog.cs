@@ -4,9 +4,9 @@
 #nullable disable
 
 using System;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Dialog
 {

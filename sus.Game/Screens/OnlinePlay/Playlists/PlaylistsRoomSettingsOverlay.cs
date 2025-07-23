@@ -7,12 +7,12 @@ using System.ComponentModel;
 using System.Linq;
 using Humanizer;
 using Humanizer.Localisation;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -23,10 +23,10 @@ using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
 using sus.Game.Screens.OnlinePlay.Match.Components;
-using susTK;
+using osuTK;
 using sus.Game.Localisation;
 using sus.Game.Rulesets;
-using Container = sus.Framework.Graphics.Containers.Container;
+using Container = osu.Framework.Graphics.Containers.Container;
 
 namespace sus.Game.Screens.OnlinePlay.Playlists
 {

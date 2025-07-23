@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Drawing;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Tournament.Screens.Ladder.Components;
 
 namespace sus.Game.Tournament.Models

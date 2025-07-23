@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Objects;
@@ -10,7 +10,7 @@ using sus.Game.Rulesets.Objects.Legacy;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Scoring;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Objects
 {

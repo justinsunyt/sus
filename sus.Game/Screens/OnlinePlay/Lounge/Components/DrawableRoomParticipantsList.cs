@@ -4,11 +4,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -16,8 +16,8 @@ using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
 using sus.Game.Users.Drawables;
-using susTK;
-using Container = sus.Framework.Graphics.Containers.Container;
+using osuTK;
+using Container = osu.Framework.Graphics.Containers.Container;
 
 namespace sus.Game.Screens.OnlinePlay.Lounge.Components
 {

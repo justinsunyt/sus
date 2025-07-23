@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Localisation
 {

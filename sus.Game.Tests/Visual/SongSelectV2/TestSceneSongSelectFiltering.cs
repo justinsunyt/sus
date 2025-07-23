@@ -4,10 +4,10 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;

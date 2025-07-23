@@ -4,14 +4,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Localisation;
 using sus.Game.Database;
 using sus.Game.Input.Bindings;
 using sus.Game.Localisation;
-using susTK;
+using osuTK;
 using Realms;
 
 namespace sus.Game.Overlays.Settings.Sections.Input

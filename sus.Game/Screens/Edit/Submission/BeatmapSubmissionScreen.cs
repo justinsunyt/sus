@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Development;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Development;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Configuration;
@@ -31,7 +31,7 @@ using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Screens.Select;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Submission
 {

@@ -3,14 +3,14 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
 using System;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Sprites;
 
 namespace sus.Game.Screens.Play.HUD
 {

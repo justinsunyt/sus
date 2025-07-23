@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Beatmaps.Drawables.Cards;
@@ -30,8 +30,8 @@ using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Screens.OnlinePlay;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Users.Drawables;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

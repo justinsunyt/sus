@@ -5,14 +5,14 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Utils;
-using susTK;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Utils;
+using osuTK;
 
 namespace sus.Game.Graphics
 {

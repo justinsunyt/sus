@@ -4,11 +4,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Mods;

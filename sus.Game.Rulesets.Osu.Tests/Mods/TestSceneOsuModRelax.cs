@@ -15,7 +15,7 @@ using sus.Game.Rulesets.Osu.Scoring;
 using sus.Game.Rulesets.Replays;
 using sus.Game.Scoring;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests.Mods
 {

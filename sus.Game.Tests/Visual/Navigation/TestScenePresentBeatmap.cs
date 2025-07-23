@@ -6,8 +6,8 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Extensions;

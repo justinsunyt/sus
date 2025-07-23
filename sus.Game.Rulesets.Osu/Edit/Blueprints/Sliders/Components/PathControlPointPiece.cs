@@ -4,22 +4,22 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders.Components
 {

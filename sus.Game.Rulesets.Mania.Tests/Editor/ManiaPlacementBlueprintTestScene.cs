@@ -5,10 +5,10 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Timing;
 using sus.Game.Rulesets.Mania.Beatmaps;
 using sus.Game.Rulesets.Mania.Objects.Drawables;
 using sus.Game.Rulesets.Mania.UI;
@@ -16,7 +16,7 @@ using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Tests.Visual;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Mania.Tests.Editor
 {

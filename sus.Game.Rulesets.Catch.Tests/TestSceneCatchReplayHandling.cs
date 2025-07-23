@@ -3,12 +3,12 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Catch.Beatmaps;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Scoring;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Tests
 {

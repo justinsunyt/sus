@@ -2,15 +2,15 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Animations;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Animations;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Skinning.Legacy
 {

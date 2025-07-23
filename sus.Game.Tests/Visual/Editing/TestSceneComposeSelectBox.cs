@@ -7,16 +7,16 @@ using System;
 using System.Linq;
 using JetBrains.Annotations;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Testing;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Testing;
+using osu.Framework.Threading;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Utils;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

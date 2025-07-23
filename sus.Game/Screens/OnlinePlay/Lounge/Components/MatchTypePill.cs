@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.ComponentModel;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Online.Rooms;
 
 namespace sus.Game.Screens.OnlinePlay.Lounge.Components

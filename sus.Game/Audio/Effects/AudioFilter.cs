@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using ManagedBass.Fx;
-using sus.Framework.Audio.Mixing;
-using sus.Framework.Graphics;
+using osu.Framework.Audio.Mixing;
+using osu.Framework.Graphics;
 
 namespace sus.Game.Audio.Effects
 {

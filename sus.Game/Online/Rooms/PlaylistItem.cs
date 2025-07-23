@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;

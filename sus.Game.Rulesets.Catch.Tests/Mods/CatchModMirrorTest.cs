@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Catch.Beatmaps;
@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Catch.Mods;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Tests.Mods
 {

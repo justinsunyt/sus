@@ -3,10 +3,10 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders;
 using sus.Game.Rulesets.Osu.Objects;
@@ -14,8 +14,8 @@ using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Edit.Components.RadioButtons;
 using sus.Game.Screens.Edit.Compose.Components;
 using sus.Game.Tests.Beatmaps;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

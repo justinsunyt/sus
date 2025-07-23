@@ -3,16 +3,16 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Pooling;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Pooling;
+using osu.Framework.Logging;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Skinning;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Judgements
 {

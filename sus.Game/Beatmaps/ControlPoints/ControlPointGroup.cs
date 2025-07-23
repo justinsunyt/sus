@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Beatmaps.ControlPoints
 {

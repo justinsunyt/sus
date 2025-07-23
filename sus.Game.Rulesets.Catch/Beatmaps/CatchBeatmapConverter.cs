@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Objects;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Beatmaps.Legacy;
 
 namespace sus.Game.Rulesets.Catch.Beatmaps

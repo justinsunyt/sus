@@ -4,10 +4,10 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Configuration;
 using sus.Game.Graphics;
 using sus.Game.Online.API;

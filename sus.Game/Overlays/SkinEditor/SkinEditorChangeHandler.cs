@@ -7,9 +7,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Screens.Edit;
 using sus.Game.Skinning;
 

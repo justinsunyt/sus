@@ -8,12 +8,12 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Database;
@@ -26,7 +26,7 @@ using sus.Game.Screens.Select.Carousel;
 using sus.Game.Screens.Select.Filter;
 using sus.Game.Tests.Beatmaps;
 using sus.Game.Tests.Resources;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.SongSelect
 {

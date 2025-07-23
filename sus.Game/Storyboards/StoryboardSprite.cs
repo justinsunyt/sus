@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Storyboards.Commands;
 using sus.Game.Storyboards.Drawables;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Storyboards
 {

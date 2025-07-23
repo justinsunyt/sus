@@ -9,9 +9,9 @@ using System.Runtime.Serialization;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Online.API.Requests.Responses;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Scoring;
 using sus.Game.Utils;
 

@@ -4,10 +4,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Textures;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Textures;
 using sus.Game.Audio;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.Extensions;
@@ -16,8 +16,8 @@ using sus.Game.Screens.Play;
 using sus.Game.Screens.Play.HUD;
 using sus.Game.Screens.Play.HUD.HitErrorMeters;
 using sus.Game.Skinning.Components;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

@@ -3,9 +3,9 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Bindings;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Bindings;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Difficulty;

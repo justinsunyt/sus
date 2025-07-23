@@ -9,7 +9,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.Beatmaps.Legacy;
@@ -34,7 +34,7 @@ using sus.Game.Scoring;
 using sus.Game.Scoring.Legacy;
 using sus.Game.Tests.Resources;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Beatmaps.Formats
 {

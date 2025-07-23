@@ -5,17 +5,17 @@
 
 using System.IO;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Logging;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Logging;
+using osu.Framework.Screens;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
 using sus.Game.Screens;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Settings.Sections.Maintenance
 {

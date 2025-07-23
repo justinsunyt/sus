@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Graphics;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
@@ -14,7 +14,7 @@ using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Settings;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.Models;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tournament.Screens.Editors
 {

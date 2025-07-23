@@ -4,9 +4,9 @@
 using System.IO;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Settings.Sections.Maintenance;
 

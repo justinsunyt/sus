@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Game.Resources.Localisation.Web;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Users;
 
 namespace sus.Game.Overlays.Rankings.Tables

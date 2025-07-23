@@ -4,10 +4,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using susTK;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.OnlinePlay.Multiplayer.Spectate
 {

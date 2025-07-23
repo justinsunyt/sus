@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;

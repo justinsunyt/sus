@@ -3,8 +3,8 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Localisation;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Dialog;

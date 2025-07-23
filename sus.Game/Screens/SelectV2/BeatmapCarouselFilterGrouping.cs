@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Carousel;
 using sus.Game.Screens.Select;

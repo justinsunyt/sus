@@ -3,25 +3,25 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Leaderboards;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.UI;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Profile.Sections.Ranks
 {

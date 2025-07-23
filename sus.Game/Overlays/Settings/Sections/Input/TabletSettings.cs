@@ -5,18 +5,18 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Handlers.Tablet;
-using sus.Framework.Localisation;
-using sus.Framework.Platform;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Handlers.Tablet;
+using osu.Framework.Localisation;
+using osu.Framework.Platform;
+using osu.Framework.Threading;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
-using susTK;
+using osuTK;
 using sus.Game.Localisation;
 using sus.Game.Online.Chat;
 

@@ -4,19 +4,19 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
-using sus.Framework.Localisation;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
+using osu.Framework.Localisation;
+using osu.Framework.Platform;
 using sus.Game.Configuration;
 using sus.Game.Extensions;
 using sus.Game.Graphics;
@@ -27,7 +27,7 @@ using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API;
 using sus.Game.Online.Leaderboards;
 using sus.Game.Overlays;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Rulesets.UI;
@@ -36,8 +36,8 @@ using sus.Game.Screens.Select;
 using sus.Game.Users;
 using sus.Game.Users.Drawables;
 using sus.Game.Utils;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 using CommonStrings = sus.Game.Localisation.CommonStrings;
 
 namespace sus.Game.Screens.SelectV2
@@ -629,7 +629,7 @@ namespace sus.Game.Screens.SelectV2
                 if (Score.Files.Count <= 0) return items.ToArray();
 
                 items.Add(new OsuMenuItem(CommonStrings.Export, MenuItemType.Standard, () => scoreManager.Export(Score)));
-                items.Add(new OsuMenuItem(Resources.Localisation.Web.CommonStrings.ButtonsDelete, MenuItemType.Destructive, () => dialogOverlay?.Push(new LocalScoreDeleteDialog(Score))));
+                items.Add(new OsuMenuItem(osu.Game.Resources.Localisation.Web.CommonStrings.ButtonsDelete, MenuItemType.Destructive, () => dialogOverlay?.Push(new LocalScoreDeleteDialog(Score))));
 
                 return items.ToArray();
             }

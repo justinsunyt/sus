@@ -4,10 +4,10 @@
 #nullable disable
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osuTK.Graphics;
 
 namespace sus.Game.Graphics.UserInterface
 {

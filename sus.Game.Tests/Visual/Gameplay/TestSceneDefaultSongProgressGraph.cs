@@ -5,9 +5,9 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Screens.Play.HUD;
 

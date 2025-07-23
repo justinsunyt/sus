@@ -4,15 +4,15 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Threading;
 using sus.Game.Overlays;
 using sus.Game.Screens;
 using sus.Game.Screens.Menu;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Menus
 {

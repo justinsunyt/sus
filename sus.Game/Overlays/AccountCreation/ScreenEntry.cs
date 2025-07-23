@@ -4,14 +4,14 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Utils;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Utils;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Sprites;
@@ -20,9 +20,9 @@ using sus.Game.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays.Settings;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
-using susTK.Graphics;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.AccountCreation
 {

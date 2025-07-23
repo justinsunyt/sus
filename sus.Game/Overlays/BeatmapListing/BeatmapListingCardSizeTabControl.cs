@@ -4,18 +4,18 @@
 #nullable disable
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Graphics.UserInterface;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.BeatmapListing
 {

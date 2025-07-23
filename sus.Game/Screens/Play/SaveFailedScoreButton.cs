@@ -3,20 +3,20 @@
 
 using System;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Database;
 using sus.Game.Scoring;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Input.Bindings;
 using sus.Game.Online;
 using sus.Game.Online.Multiplayer;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Play
 {

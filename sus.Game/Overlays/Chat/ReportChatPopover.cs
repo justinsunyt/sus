@@ -1,12 +1,12 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.Chat;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Overlays.Chat
 {

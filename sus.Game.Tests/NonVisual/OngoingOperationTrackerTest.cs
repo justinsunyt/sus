@@ -5,11 +5,11 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Screens;
 using sus.Game.Screens.OnlinePlay;
 using sus.Game.Tests.Visual;

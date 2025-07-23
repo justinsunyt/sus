@@ -1,15 +1,15 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Skinning;
 using sus.Game.Users.Drawables;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Play.HUD
 {

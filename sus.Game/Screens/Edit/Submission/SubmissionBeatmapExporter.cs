@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Online.API.Requests.Responses;

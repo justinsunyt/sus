@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using sus.Game.Beatmaps.Formats;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Skinning
 {

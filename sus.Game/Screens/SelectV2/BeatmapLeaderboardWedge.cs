@@ -6,16 +6,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Extensions.PolygonExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Extensions.PolygonExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -31,8 +31,8 @@ using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Scoring;
 using sus.Game.Screens.Select.Leaderboards;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Screens.SelectV2
 {

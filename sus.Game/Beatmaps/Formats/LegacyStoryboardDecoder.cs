@@ -5,14 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps.Legacy;
 using sus.Game.IO;
 using sus.Game.Storyboards;
 using sus.Game.Storyboards.Commands;
 using sus.Game.Utils;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Beatmaps.Formats
 {

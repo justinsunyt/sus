@@ -4,10 +4,10 @@
 #nullable disable
 
 using System;
-using sus.Framework.Screens;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using susTK;
+using osu.Framework.Screens;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osuTK;
 
 namespace sus.Game.Screens
 {

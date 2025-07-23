@@ -5,9 +5,9 @@
 
 using System;
 using System.Threading;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API.Requests;
 using sus.Game.Overlays.News;
 using sus.Game.Overlays.News.Displays;

@@ -3,7 +3,7 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Mods;

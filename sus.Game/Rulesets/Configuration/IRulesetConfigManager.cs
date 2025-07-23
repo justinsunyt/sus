@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Configuration.Tracking;
+using osu.Framework.Configuration.Tracking;
 
 namespace sus.Game.Rulesets.Configuration
 {

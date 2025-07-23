@@ -5,17 +5,17 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
 using sus.Game.Overlays.Settings;
 using sus.Game.Screens.Play.PlayerSettings;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.Models;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tournament.Screens.Ladder.Components
 {

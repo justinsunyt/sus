@@ -3,10 +3,10 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.Drawables;
 using sus.Game.Database;
@@ -14,8 +14,8 @@ using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Localisation;
 using sus.Game.Online;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 using Realms;
 
 namespace sus.Game.Overlays.FirstRunSetup

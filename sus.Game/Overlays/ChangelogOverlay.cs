@@ -9,16 +9,16 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
 using sus.Game.Input.Bindings;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Changelog;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays
 {

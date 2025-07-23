@@ -5,17 +5,17 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps.Drawables.Cards.Buttons;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
-using susTK.Input;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Beatmaps
 {

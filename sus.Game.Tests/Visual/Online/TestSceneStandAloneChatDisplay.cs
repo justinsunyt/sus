@@ -3,20 +3,20 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Online.Chat;
-using susTK;
+using osuTK;
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Chat;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Online
 {

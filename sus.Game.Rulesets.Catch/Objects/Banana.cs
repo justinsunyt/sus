@@ -9,7 +9,7 @@ using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Skinning;
 using sus.Game.Utils;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Catch.Objects
 {

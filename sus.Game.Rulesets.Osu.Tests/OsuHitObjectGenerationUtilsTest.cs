@@ -10,7 +10,7 @@ using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Osu.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

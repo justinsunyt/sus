@@ -5,15 +5,15 @@ using System;
 using System.Linq;
 using Moq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Logging;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Logging;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Multiplayer;
@@ -21,8 +21,8 @@ using sus.Game.Online.Multiplayer.Countdown;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay;
 using sus.Game.Screens.OnlinePlay.Multiplayer.Match;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

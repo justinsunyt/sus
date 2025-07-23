@@ -10,28 +10,28 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Development;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Input;
-using sus.Framework.Input.Handlers;
-using sus.Framework.Input.Handlers.Joystick;
-using sus.Framework.Input.Handlers.Midi;
-using sus.Framework.Input.Handlers.Mouse;
-using sus.Framework.Input.Handlers.Tablet;
-using sus.Framework.Input.Handlers.Touch;
-using sus.Framework.IO.Stores;
-using sus.Framework.Localisation;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Development;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Input;
+using osu.Framework.Input.Handlers;
+using osu.Framework.Input.Handlers.Joystick;
+using osu.Framework.Input.Handlers.Midi;
+using osu.Framework.Input.Handlers.Mouse;
+using osu.Framework.Input.Handlers.Tablet;
+using osu.Framework.Input.Handlers.Touch;
+using osu.Framework.IO.Stores;
+using osu.Framework.Localisation;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
+using osu.Framework.Timing;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
@@ -57,13 +57,13 @@ using sus.Game.Overlays;
 using sus.Game.Overlays.Settings;
 using sus.Game.Overlays.Settings.Sections;
 using sus.Game.Overlays.Settings.Sections.Input;
-using sus.Game.Resources;
+using osu.Game.Resources;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Scoring;
 using sus.Game.Skinning;
 using sus.Game.Utils;
-using RuntimeInfo = sus.Framework.RuntimeInfo;
+using RuntimeInfo = osu.Framework.RuntimeInfo;
 
 namespace sus.Game
 {
@@ -73,7 +73,7 @@ namespace sus.Game
     /// for provide dependencies to test cases without interfering with them.
     /// </summary>
     [Cached(typeof(OsuGameBase))]
-    public partial class OsuGameBase : Framework.Game, ICanAcceptFiles, IBeatSyncProvider
+    public partial class OsuGameBase : osu.Framework.Game, ICanAcceptFiles, IBeatSyncProvider
     {
 #if DEBUG
         public const string GAME_NAME = "sus! (development)";

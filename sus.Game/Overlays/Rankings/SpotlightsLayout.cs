@@ -5,10 +5,10 @@
 
 using System.Linq;
 using System.Threading;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Beatmaps.Drawables.Cards;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.UserInterface;
@@ -17,7 +17,7 @@ using sus.Game.Online.API.Requests;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Rankings.Tables;
 using sus.Game.Rulesets;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Rankings
 {

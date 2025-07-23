@@ -3,7 +3,7 @@
 
 using System.Net.Http;
 using Newtonsoft.Json;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Online.API;
 
 namespace sus.Game.Online.Rooms

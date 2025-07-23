@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online;
@@ -25,8 +25,8 @@ using sus.Game.Rulesets.Taiko.Mods;
 using sus.Game.Screens.OnlinePlay.Multiplayer.Participants;
 using sus.Game.Tests.Resources;
 using sus.Game.Users;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

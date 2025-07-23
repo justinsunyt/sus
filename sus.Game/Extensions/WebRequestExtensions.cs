@@ -3,8 +3,8 @@
 
 using System.Globalization;
 using Newtonsoft.Json.Linq;
-using sus.Framework.IO.Network;
-using sus.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.IO.Network;
+using osu.Framework.Extensions.IEnumerableExtensions;
 using sus.Game.Online.API.Requests;
 
 namespace sus.Game.Extensions

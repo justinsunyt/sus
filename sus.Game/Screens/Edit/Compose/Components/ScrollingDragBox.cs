@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.UI;
 using sus.Game.Rulesets.UI.Scrolling;
 

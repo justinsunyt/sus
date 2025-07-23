@@ -4,11 +4,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Input.Bindings;
@@ -20,7 +20,7 @@ using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.UI;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Edit
 {

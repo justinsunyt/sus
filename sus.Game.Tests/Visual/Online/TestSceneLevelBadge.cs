@@ -4,11 +4,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Overlays.Profile.Header.Components;
 using sus.Game.Users;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Online
 {

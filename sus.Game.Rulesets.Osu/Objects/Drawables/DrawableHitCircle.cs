@@ -4,12 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Graphics.Containers;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Drawables;
@@ -19,8 +19,8 @@ using sus.Game.Rulesets.Osu.Skinning.Default;
 using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Skinning;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables
 {

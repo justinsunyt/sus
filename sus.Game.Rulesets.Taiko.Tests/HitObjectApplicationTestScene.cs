@@ -3,10 +3,10 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Objects.Drawables;

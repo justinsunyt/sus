@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Screens;
 using sus.Game.Overlays.Dialog;
 using sus.Game.Screens;
 

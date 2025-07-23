@@ -5,12 +5,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Testing;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Graphics.UserInterfaceV2;
@@ -21,7 +21,7 @@ using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mania.Mods;
 using sus.Game.Rulesets.Mods;
 using sus.Game.Rulesets.Osu.Mods;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

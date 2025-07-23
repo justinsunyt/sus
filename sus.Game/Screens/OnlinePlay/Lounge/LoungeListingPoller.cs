@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
 using sus.Game.Online;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;

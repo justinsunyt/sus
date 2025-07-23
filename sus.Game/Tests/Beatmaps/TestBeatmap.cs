@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Threading;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.Beatmaps;
 using sus.Game.IO;
 using sus.Game.Online.API.Requests.Responses;

@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Input;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Input;
+using osu.Framework.Testing;
 using sus.Game.Configuration;
 using sus.Game.Input;
 using sus.Game.Screens.Play;

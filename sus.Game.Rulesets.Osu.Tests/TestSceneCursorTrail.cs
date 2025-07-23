@@ -8,22 +8,22 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Rendering;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Testing;
-using sus.Framework.Testing.Input;
+using osu.Framework.Allocation;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Rendering;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Testing;
+using osu.Framework.Testing.Input;
 using sus.Game.Audio;
 using sus.Game.Rulesets.Osu.Skinning;
 using sus.Game.Rulesets.Osu.Skinning.Legacy;
 using sus.Game.Rulesets.Osu.UI.Cursor;
 using sus.Game.Skinning;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

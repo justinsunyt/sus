@@ -4,18 +4,18 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Scoring;
 using sus.Game.Screens.Ranking;
 using sus.Game.Storyboards;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

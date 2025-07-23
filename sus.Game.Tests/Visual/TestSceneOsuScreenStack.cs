@@ -4,14 +4,14 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Overlays;
 using sus.Game.Screens;
 using sus.Game.Screens.Play;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual
 {

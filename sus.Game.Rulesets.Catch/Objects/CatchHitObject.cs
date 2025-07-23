@@ -3,7 +3,7 @@
 
 using System;
 using Newtonsoft.Json;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Rulesets.Catch.UI;
@@ -11,7 +11,7 @@ using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Legacy;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Objects
 {

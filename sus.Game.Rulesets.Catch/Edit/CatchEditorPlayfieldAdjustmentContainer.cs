@@ -2,11 +2,11 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Catch.UI;
 using sus.Game.Rulesets.UI;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Edit
 {

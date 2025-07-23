@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
 using sus.Game.Online;
 using sus.Game.Scoring;
 using sus.Game.Screens.Ranking.Statistics.User;

@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 #nullable disable
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.UserInterface;
 
 namespace sus.Game.Overlays

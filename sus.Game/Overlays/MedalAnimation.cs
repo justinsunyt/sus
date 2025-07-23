@@ -1,26 +1,26 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Sprites;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Users;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Backgrounds;
 using sus.Game.Overlays.MedalSplash;
-using sus.Framework.Allocation;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Audio;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Audio;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Graphics.Shapes;
 using System;
 using System.Diagnostics;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Utils;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Utils;
 
 namespace sus.Game.Overlays
 {

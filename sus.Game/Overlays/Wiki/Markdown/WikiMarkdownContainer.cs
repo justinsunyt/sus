@@ -6,7 +6,7 @@ using Markdig.Extensions.CustomContainers;
 using Markdig.Extensions.Yaml;
 using Markdig.Syntax;
 using Markdig.Syntax.Inlines;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics.Containers.Markdown;
 
 namespace sus.Game.Overlays.Wiki.Markdown

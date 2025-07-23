@@ -4,12 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Input;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Input;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Objects;
@@ -18,8 +18,8 @@ using sus.Game.Rulesets.Osu.Edit.Blueprints.HitCircles.Components;
 using sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders.Components;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Osu.Edit.Blueprints.Sliders
 {

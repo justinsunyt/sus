@@ -3,7 +3,7 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Configuration;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;

@@ -6,15 +6,15 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Overlays;
 using sus.Game.Rulesets.Edit;
@@ -23,8 +23,8 @@ using sus.Game.Rulesets.Osu.Edit;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Screens.Edit;
 using sus.Game.Tests.Visual;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Tests.Editor
 {

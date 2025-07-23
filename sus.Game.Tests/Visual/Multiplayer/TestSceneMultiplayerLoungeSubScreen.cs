@@ -3,16 +3,16 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.Rooms;
 using sus.Game.Screens.OnlinePlay.Lounge;
 using sus.Game.Screens.OnlinePlay.Multiplayer;
 using sus.Game.Tests.Visual.OnlinePlay;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

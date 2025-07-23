@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Bindables;
-using sus.Framework.Localisation;
-using sus.Framework.Utils;
+using osu.Framework.Bindables;
+using osu.Framework.Localisation;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Overlays.Settings;

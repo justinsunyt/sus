@@ -6,18 +6,18 @@
 using System.Linq;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
-using sus.Framework.Input.States;
-using sus.Framework.Platform;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
+using osu.Framework.Input.States;
+using osu.Framework.Platform;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Database;
@@ -35,8 +35,8 @@ using sus.Game.Screens.Ranking;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Storyboards.Drawables;
 using sus.Game.Tests.Resources;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Background
 {

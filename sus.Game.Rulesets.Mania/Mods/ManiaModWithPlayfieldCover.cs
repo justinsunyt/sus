@@ -3,9 +3,9 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Mania.UI;
 using sus.Game.Rulesets.Mods;

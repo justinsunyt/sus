@@ -6,11 +6,11 @@
 using System.Linq;
 using Humanizer;
 using NUnit.Framework;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Utils;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Utils;
 using sus.Game.Screens.Ranking.Statistics;
 
 namespace sus.Game.Tests.Visual.Ranking

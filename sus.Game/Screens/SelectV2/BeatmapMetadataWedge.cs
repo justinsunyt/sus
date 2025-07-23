@@ -5,12 +5,12 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Logging;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Logging;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics.Containers;
@@ -19,8 +19,8 @@ using sus.Game.Online;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Chat;
-using sus.Game.Resources.Localisation.Web;
-using susTK;
+using osu.Game.Resources.Localisation.Web;
+using osuTK;
 
 namespace sus.Game.Screens.SelectV2
 {

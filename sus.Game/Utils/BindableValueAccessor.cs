@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using System.Reflection;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.TypeExtensions;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.TypeExtensions;
 
 namespace sus.Game.Utils
 {

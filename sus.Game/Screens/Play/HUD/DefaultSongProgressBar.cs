@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Utils;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Utils;
 
 namespace sus.Game.Screens.Play.HUD
 {

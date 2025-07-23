@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics;
 using sus.Game.Rulesets.Mania.Skinning.Default;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Mania.Edit.Blueprints.Components
 {

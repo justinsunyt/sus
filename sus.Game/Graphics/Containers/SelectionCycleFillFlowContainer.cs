@@ -5,9 +5,9 @@
 
 using System;
 using System.Diagnostics;
-using sus.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics.UserInterface;
 
 namespace sus.Game.Graphics.Containers

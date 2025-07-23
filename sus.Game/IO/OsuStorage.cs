@@ -3,8 +3,8 @@
 
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Configuration;
 
 namespace sus.Game.IO

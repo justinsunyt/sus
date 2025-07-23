@@ -8,20 +8,20 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Humanizer;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Input.Events;
 using sus.Game.Configuration;
 using sus.Game.Graphics;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
 using sus.Game.Overlays.Mods.Input;
 using sus.Game.Rulesets.Mods;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.Mods
 {

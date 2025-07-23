@@ -4,7 +4,7 @@
 using System.ComponentModel;
 using System.Linq;
 using Humanizer;
-using sus.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Extensions.LocalisationExtensions;
 using sus.Game.Graphics;
 using sus.Game.Online.Rooms;
 

@@ -6,7 +6,7 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;

@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Runtime.InteropServices;
-using sus.Framework.Graphics.Shaders.Types;
+using osu.Framework.Graphics.Shaders.Types;
 
 namespace sus.Game.Graphics.Backgrounds
 {

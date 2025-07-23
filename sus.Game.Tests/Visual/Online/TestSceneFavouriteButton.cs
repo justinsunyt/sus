@@ -4,12 +4,12 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.BeatmapSet.Buttons;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Online
 {

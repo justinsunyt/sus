@@ -3,14 +3,14 @@
 
 #nullable disable
 
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Users.Drawables;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Ranking.Expanded
 {

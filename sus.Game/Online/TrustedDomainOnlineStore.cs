@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.IO.Stores;
-using sus.Framework.Logging;
+using osu.Framework.IO.Stores;
+using osu.Framework.Logging;
 
 namespace sus.Game.Online
 {

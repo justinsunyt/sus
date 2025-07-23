@@ -4,7 +4,7 @@
 using System.IO;
 using System.Linq;
 using System.Threading;
-using sus.Framework.Platform;
+using osu.Framework.Platform;
 using sus.Game.Extensions;
 using sus.Game.Overlays.Notifications;
 using sus.Game.Scoring;

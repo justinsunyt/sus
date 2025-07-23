@@ -4,14 +4,14 @@
 #nullable disable
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
-using susTK.Input;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
+using osuTK.Input;
 
 namespace sus.Game.Graphics.UserInterface
 {

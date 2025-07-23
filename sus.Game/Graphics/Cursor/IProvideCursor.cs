@@ -3,8 +3,8 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
 
 namespace sus.Game.Graphics.Cursor
 {

@@ -1,18 +1,18 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
 using sus.Game.Overlays.Settings;
 using NUnit.Framework;
-using susTK;
+using osuTK;
 using sus.Game.Overlays;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Graphics.UserInterface;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using susTK.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osuTK.Graphics;
 using sus.Game.Graphics.Sprites;
 
 namespace sus.Game.Tests.Visual.UserInterface

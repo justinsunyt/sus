@@ -9,7 +9,7 @@ using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Osu.Mods;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Scoring;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Difficulty.Preprocessing
 {

@@ -5,11 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
+using osu.Framework.Timing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Replays;
@@ -24,7 +24,7 @@ using sus.Game.Scoring;
 using sus.Game.Skinning;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Osu.Tests
 {

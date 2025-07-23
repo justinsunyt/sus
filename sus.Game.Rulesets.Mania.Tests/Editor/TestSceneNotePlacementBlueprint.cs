@@ -5,8 +5,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Testing;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Edit;
 using sus.Game.Rulesets.Mania.Edit.Blueprints;
 using sus.Game.Rulesets.Mania.Objects;
@@ -17,7 +17,7 @@ using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Rulesets.UI;
 using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Tests.Visual;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Mania.Tests.Editor
 {

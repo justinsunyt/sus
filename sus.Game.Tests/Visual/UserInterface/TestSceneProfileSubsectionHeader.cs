@@ -3,11 +3,11 @@
 
 using NUnit.Framework;
 using sus.Game.Overlays.Profile.Sections;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using System.Linq;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Overlays;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

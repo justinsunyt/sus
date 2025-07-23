@@ -5,17 +5,17 @@
 
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Track;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Audio;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Track;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Audio;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.Osu;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Visual.Editing
 {

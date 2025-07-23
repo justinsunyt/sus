@@ -4,9 +4,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Timing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Timing;
 using sus.Game.Audio;
 using sus.Game.Beatmaps;
 using sus.Game.Beatmaps.ControlPoints;

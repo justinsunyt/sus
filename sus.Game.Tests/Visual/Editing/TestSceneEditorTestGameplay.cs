@@ -6,10 +6,10 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Mods;
@@ -24,7 +24,7 @@ using sus.Game.Screens.Edit.GameplayTest;
 using sus.Game.Screens.Play;
 using sus.Game.Storyboards;
 using sus.Game.Tests.Beatmaps.IO;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

@@ -5,9 +5,9 @@
 
 using System.Collections.Generic;
 using Markdig.Syntax.Inlines;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers.Markdown;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers.Markdown;
 using sus.Game.Online;
 using sus.Game.Online.Chat;
 using sus.Game.Overlays;

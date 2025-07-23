@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
 
 namespace sus.Game.Screens.Edit.Timing
 {

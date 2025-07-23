@@ -2,20 +2,20 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Testing;
-using sus.Framework.Testing.Input;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Testing;
+using osu.Framework.Testing.Input;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Input.Bindings;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual
 {

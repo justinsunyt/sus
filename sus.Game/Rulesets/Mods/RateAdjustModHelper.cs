@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
 
 namespace sus.Game.Rulesets.Mods
 {

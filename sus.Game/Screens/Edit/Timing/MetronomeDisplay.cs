@@ -2,25 +2,25 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Audio.Track;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Colour;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
-using sus.Framework.Timing;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Audio.Track;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Colour;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
+using osu.Framework.Timing;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Overlays;
 using sus.Game.Utils;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Screens.Edit.Timing
 {

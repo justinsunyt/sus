@@ -8,8 +8,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Platform;
-using sus.Framework.Testing;
+using osu.Framework.Platform;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Graphics.Sprites;
@@ -27,7 +27,7 @@ using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Resources;
 using sus.Game.Users;
 using sus.Game.Utils;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.SongSelect
 {

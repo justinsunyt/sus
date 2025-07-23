@@ -6,9 +6,9 @@ using System.Linq;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Mania.Objects;
 using sus.Game.Rulesets.Mods;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Sprites;
 using System.Collections.Generic;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Rulesets.Mania.Beatmaps;
 
 namespace sus.Game.Rulesets.Mania.Mods

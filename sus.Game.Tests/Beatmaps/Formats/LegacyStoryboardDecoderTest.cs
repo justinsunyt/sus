@@ -3,8 +3,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using susTK;
-using sus.Framework.Graphics;
+using osuTK;
+using osu.Framework.Graphics;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.IO;
 using sus.Game.Storyboards;

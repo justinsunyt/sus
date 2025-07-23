@@ -2,21 +2,21 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Input.Events;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Input.Events;
+using osu.Framework.Threading;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.IPC;
 using sus.Game.Tournament.Models;
 using sus.Game.Tournament.Screens.Gameplay;
 using sus.Game.Tournament.Screens.Gameplay.Components;
-using susTK;
-using susTK.Graphics;
-using susTK.Input;
+using osuTK;
+using osuTK.Graphics;
+using osuTK.Input;
 
 namespace sus.Game.Tournament.Screens.MapPool
 {

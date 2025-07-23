@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Foundation;
-using sus.Framework.iOS;
+using osu.Framework.iOS;
 using sus.Game.Tests;
 
 namespace sus.Game.Rulesets.Taiko.Tests.iOS
@@ -10,6 +10,6 @@ namespace sus.Game.Rulesets.Taiko.Tests.iOS
     [Register("AppDelegate")]
     public class AppDelegate : GameApplicationDelegate
     {
-        protected override Framework.Game CreateGame() => new OsuTestBrowser();
+        protected override osu.Framework.Game CreateGame() => new OsuTestBrowser();
     }
 }

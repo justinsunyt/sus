@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Models;

@@ -3,10 +3,10 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.IO.Stores;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.IO.Stores;
 using sus.Game.Beatmaps;
 using sus.Game.Overlays.Toolbar;
 using sus.Game.Rulesets;

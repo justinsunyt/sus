@@ -3,7 +3,7 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Graphics;
+using osu.Framework.Graphics;
 using sus.Game.Screens.OnlinePlay.Multiplayer;
 
 namespace sus.Game.Tests.Visual.Multiplayer

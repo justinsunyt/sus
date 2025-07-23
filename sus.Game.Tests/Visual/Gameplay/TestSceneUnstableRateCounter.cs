@@ -5,16 +5,16 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Rulesets.Osu.Objects;
 using sus.Game.Rulesets.Osu.Scoring;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Screens.Play.HUD;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

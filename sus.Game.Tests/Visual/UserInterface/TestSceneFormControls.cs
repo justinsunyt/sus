@@ -1,17 +1,17 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Localisation;
 using sus.Game.Screens.Edit.Setup;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.UserInterface
 {

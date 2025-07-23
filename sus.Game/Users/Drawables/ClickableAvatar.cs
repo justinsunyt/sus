@@ -2,17 +2,17 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Input.Events;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Users.Drawables
 {

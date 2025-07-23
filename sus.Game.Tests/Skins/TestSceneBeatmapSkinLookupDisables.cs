@@ -5,13 +5,13 @@
 
 using System;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Testing;
 using sus.Game.Audio;
 using sus.Game.Configuration;
 using sus.Game.Rulesets.Osu;

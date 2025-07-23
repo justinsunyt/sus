@@ -1,15 +1,15 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
-using susTK;
-using susTK.Graphics;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Effects;
-using sus.Framework.Graphics.Pooling;
-using sus.Framework.Graphics.Shapes;
+using osu.Framework.Bindables;
+using osuTK;
+using osuTK.Graphics;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Effects;
+using osu.Framework.Graphics.Pooling;
+using osu.Framework.Graphics.Shapes;
 using sus.Game.Skinning;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables.Connections

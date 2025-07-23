@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.IO;
-using sus.Framework.Extensions;
+using osu.Framework.Extensions;
 using sus.Game.IO.Archives;
 using sus.Game.Utils;
 using SharpCompress.Common;

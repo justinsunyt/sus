@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps.Drawables.Cards.Statistics;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
@@ -16,8 +16,8 @@ using sus.Game.Graphics.UserInterface;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays;
 using sus.Game.Overlays.BeatmapSet;
-using susTK;
-using sus.Game.Resources.Localisation.Web;
+using osuTK;
+using osu.Game.Resources.Localisation.Web;
 
 namespace sus.Game.Beatmaps.Drawables.Cards
 {

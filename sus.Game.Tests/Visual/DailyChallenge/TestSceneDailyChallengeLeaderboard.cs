@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Utils;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Rooms;
@@ -14,7 +14,7 @@ using sus.Game.Overlays;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 using sus.Game.Screens.OnlinePlay.DailyChallenge;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.DailyChallenge
 {

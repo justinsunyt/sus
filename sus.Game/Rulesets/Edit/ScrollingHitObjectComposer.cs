@@ -2,12 +2,12 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Configuration;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Edit.Tools;
@@ -16,7 +16,7 @@ using sus.Game.Rulesets.UI.Scrolling;
 using sus.Game.Screens.Edit;
 using sus.Game.Screens.Edit.Components.TernaryButtons;
 using sus.Game.Screens.Edit.Compose.Components;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Edit
 {

@@ -3,12 +3,12 @@
 
 using System.Collections.Generic;
 using NUnit.Framework;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Online.Rooms;
 using sus.Game.Rulesets.Osu;
 using sus.Game.Screens.OnlinePlay.Multiplayer;
 using sus.Game.Tests.Resources;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Multiplayer
 {

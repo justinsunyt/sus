@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Overlays.BeatmapSet;
-using sus.Framework.Graphics;
-using sus.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Bindables;
 using sus.Game.Screens.Select.Leaderboards;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Overlays;
 
 namespace sus.Game.Tests.Visual.Online

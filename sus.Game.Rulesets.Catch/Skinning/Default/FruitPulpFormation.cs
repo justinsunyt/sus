@@ -1,9 +1,9 @@
 // Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Rulesets.Catch.Objects;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Rulesets.Catch.Skinning.Default
 {

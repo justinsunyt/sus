@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using sus.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Extensions.ObjectExtensions;
 
 namespace sus.Game.IO.Serialization.Converters
 {

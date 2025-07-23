@@ -4,11 +4,11 @@
 #nullable disable
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Input.Events;
-using susTK;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Input.Events;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Graphics.UserInterface
 {

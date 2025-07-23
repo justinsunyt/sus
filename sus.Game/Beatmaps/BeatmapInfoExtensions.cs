@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Linq;
-using sus.Framework.Localisation;
+using osu.Framework.Localisation;
 using sus.Game.Online.API;
 using sus.Game.Rulesets;
 using sus.Game.Rulesets.Objects.Types;

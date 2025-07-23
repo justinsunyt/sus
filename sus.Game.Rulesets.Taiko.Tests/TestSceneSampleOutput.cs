@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Rulesets.Taiko.Objects.Drawables;
 using sus.Game.Rulesets.Taiko.UI;

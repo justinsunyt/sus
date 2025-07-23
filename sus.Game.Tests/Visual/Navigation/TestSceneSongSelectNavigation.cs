@@ -4,10 +4,10 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Extensions.TypeExtensions;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Extensions.TypeExtensions;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Online.Leaderboards;
 using sus.Game.Overlays;
@@ -21,7 +21,7 @@ using sus.Game.Screens.Play;
 using sus.Game.Screens.Ranking;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Beatmaps.IO;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Navigation
 {

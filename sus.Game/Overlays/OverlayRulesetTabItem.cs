@@ -1,19 +1,19 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Events;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Events;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets;
-using susTK.Graphics;
-using susTK;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Audio.Sample;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Localisation;
+using osuTK.Graphics;
+using osuTK;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Audio.Sample;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Localisation;
 using sus.Game.Graphics.Containers;
 
 namespace sus.Game.Overlays

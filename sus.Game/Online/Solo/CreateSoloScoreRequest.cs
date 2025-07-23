@@ -3,7 +3,7 @@
 
 using System.Globalization;
 using System.Net.Http;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API;
 using sus.Game.Online.Rooms;

@@ -4,7 +4,7 @@
 using sus.Game.Rulesets.Judgements;
 using sus.Game.Rulesets.Objects.Drawables;
 using sus.Game.Skinning;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Rulesets.Osu.Objects.Drawables
 {

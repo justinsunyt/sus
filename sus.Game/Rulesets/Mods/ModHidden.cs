@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using sus.Game.Graphics;
-using sus.Framework.Graphics.Sprites;
+using osu.Framework.Graphics.Sprites;
 using sus.Game.Rulesets.Scoring;
 using sus.Game.Scoring;
 

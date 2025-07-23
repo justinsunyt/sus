@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Lists;
+using osu.Framework.Lists;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Beatmaps.Timing;
 using sus.Game.Rulesets.Edit;

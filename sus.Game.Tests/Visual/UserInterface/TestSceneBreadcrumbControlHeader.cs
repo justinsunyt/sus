@@ -5,8 +5,8 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
 using sus.Game.Overlays;
 
 namespace sus.Game.Tests.Visual.UserInterface

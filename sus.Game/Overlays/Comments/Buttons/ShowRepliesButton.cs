@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using Humanizer;
-using sus.Framework.Bindables;
-using sus.Framework.Input.Events;
+using osu.Framework.Bindables;
+using osu.Framework.Input.Events;
 
 namespace sus.Game.Overlays.Comments.Buttons
 {

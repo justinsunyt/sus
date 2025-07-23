@@ -5,15 +5,15 @@ using System.Linq;
 using Moq;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Testing;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Testing;
 using sus.Game.Online.API;
 using sus.Game.Online.Notifications.WebSocket;
 using sus.Game.Online.Notifications.WebSocket.Events;
 using sus.Game.Overlays;
-using susTK.Input;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

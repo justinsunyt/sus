@@ -3,12 +3,12 @@
 
 using System;
 using System.Collections.Generic;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Localisation;
-using susTK;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Localisation;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Graphics.Sprites
 {

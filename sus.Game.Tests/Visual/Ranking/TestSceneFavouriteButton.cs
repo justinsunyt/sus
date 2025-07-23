@@ -2,8 +2,8 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Testing;
+using osu.Framework.Graphics;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;

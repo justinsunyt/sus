@@ -3,7 +3,7 @@
 
 using System;
 using System.Threading.Tasks;
-using sus.Framework.Bindables;
+using osu.Framework.Bindables;
 using sus.Game.Localisation;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Online.Chat;

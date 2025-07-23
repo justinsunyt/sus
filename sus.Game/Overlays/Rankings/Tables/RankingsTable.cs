@@ -3,20 +3,20 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Sprites;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Extensions.LocalisationExtensions;
 using sus.Game.Users;
 using sus.Game.Users.Drawables;
-using susTK;
-using sus.Framework.Localisation;
+using osuTK;
+using osu.Framework.Localisation;
 
 namespace sus.Game.Overlays.Rankings.Tables
 {

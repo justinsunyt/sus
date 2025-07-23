@@ -1,7 +1,7 @@
 ﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
-using susTK;
+using osuTK;
 using sus.Game.Rulesets.Objects.Types;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.IO;
 using sus.Game.Beatmaps.Formats;
 using sus.Game.Audio;
 using System.Linq;
-using sus.Framework.Utils;
+using osu.Framework.Utils;
 using sus.Game.Beatmaps.ControlPoints;
 using sus.Game.Beatmaps.Legacy;
 using sus.Game.Skinning;

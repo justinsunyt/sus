@@ -3,22 +3,22 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Caching;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Primitives;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Input.Bindings;
-using sus.Framework.Input.Events;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Caching;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Primitives;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Input.Bindings;
+using osu.Framework.Input.Events;
+using osu.Framework.Utils;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets.Catch.Edit.Blueprints.Components;
 using sus.Game.Rulesets.Catch.Objects;
 using sus.Game.Rulesets.Objects;
 using sus.Game.Rulesets.Objects.Types;
 using sus.Game.Screens.Edit;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Rulesets.Catch.Edit.Blueprints
 {

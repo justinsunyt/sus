@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Transforms;
-using susTK.Graphics;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Transforms;
+using osuTK.Graphics;
 
 namespace sus.Game.Utils
 {

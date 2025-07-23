@@ -4,7 +4,7 @@
 #nullable disable
 
 using JetBrains.Annotations;
-using sus.Framework.Input.Events;
+using osu.Framework.Input.Events;
 using sus.Game.Skinning;
 
 namespace sus.Game.Rulesets.Taiko.Objects.Drawables

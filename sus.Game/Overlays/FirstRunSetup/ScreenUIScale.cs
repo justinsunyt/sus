@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Audio;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Audio;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Localisation;
 using sus.Game.Beatmaps;
 using sus.Game.Configuration;
 using sus.Game.Graphics;
@@ -27,7 +27,7 @@ using sus.Game.Screens.Footer;
 using sus.Game.Screens.Menu;
 using sus.Game.Screens.SelectV2;
 using sus.Game.Tests.Visual;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.FirstRunSetup
 {

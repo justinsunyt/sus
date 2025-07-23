@@ -4,7 +4,7 @@
 using System;
 using System.Globalization;
 using NUnit.Framework;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Extensions;
 
 namespace sus.Game.Tests.Extensions

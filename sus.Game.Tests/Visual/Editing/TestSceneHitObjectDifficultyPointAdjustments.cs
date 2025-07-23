@@ -4,7 +4,7 @@
 using System.Linq;
 using Humanizer;
 using NUnit.Framework;
-using sus.Framework.Testing;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Rulesets;
@@ -16,8 +16,8 @@ using sus.Game.Rulesets.Osu.UI;
 using sus.Game.Screens.Edit.Compose.Components.Timeline;
 using sus.Game.Screens.Edit.Timing;
 using sus.Game.Tests.Beatmaps;
-using susTK;
-using susTK.Input;
+using osuTK;
+using osuTK.Input;
 
 namespace sus.Game.Tests.Visual.Editing
 {

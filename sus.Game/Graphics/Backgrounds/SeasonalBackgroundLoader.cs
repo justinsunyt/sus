@@ -5,11 +5,11 @@
 
 using System;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.Utils;
 using sus.Game.Configuration;
 using sus.Game.Online.API;
 using sus.Game.Online.API.Requests;

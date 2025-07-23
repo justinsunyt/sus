@@ -6,10 +6,10 @@
 using System;
 using System.Threading;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Sprites;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Sprites;
+using osu.Framework.Testing;
 using sus.Game.Overlays;
 using sus.Game.Overlays.Dialog;
 

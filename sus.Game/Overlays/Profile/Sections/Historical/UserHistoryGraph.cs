@@ -4,8 +4,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Localisation;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Localisation;
 using sus.Game.Online.API.Requests.Responses;
 
 namespace sus.Game.Overlays.Profile.Sections.Historical

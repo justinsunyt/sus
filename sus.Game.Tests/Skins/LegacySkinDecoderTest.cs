@@ -8,7 +8,7 @@ using NUnit.Framework;
 using sus.Game.IO;
 using sus.Game.Skinning;
 using sus.Game.Tests.Resources;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tests.Skins
 {

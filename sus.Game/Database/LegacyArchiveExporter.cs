@@ -5,8 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using sus.Framework.Logging;
-using sus.Framework.Platform;
+using osu.Framework.Logging;
+using osu.Framework.Platform;
 using sus.Game.Extensions;
 using sus.Game.IO.Archives;
 using sus.Game.Overlays.Notifications;
@@ -14,7 +14,7 @@ using Realms;
 using SharpCompress.Common;
 using SharpCompress.Writers;
 using SharpCompress.Writers.Zip;
-using Logger = sus.Framework.Logging.Logger;
+using Logger = osu.Framework.Logging.Logger;
 
 namespace sus.Game.Database
 {

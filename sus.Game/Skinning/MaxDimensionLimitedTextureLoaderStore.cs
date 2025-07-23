@@ -6,8 +6,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using sus.Framework.Graphics.Textures;
-using sus.Framework.IO.Stores;
+using osu.Framework.Graphics.Textures;
+using osu.Framework.IO.Stores;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 

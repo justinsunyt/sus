@@ -2,9 +2,9 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.IO;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Platform;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Platform;
 using sus.Game.Graphics.Cursor;
 using sus.Game.Tournament.Screens.Drawings;
 

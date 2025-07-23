@@ -2,7 +2,7 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Globalization;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 using sus.Game.Beatmaps;
 using sus.Game.Online.API.Requests.Responses;
 

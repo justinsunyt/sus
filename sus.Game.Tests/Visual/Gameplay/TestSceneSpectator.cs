@@ -3,11 +3,11 @@
 
 using System.Linq;
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Screens;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Screens;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Database;
 using sus.Game.Localisation;
@@ -24,7 +24,7 @@ using sus.Game.Tests.Beatmaps.IO;
 using sus.Game.Tests.Gameplay;
 using sus.Game.Tests.Visual.Multiplayer;
 using sus.Game.Tests.Visual.Spectator;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Tests.Visual.Gameplay
 {

@@ -6,10 +6,10 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using HtmlAgilityPack;
-using sus.Framework.Allocation;
+using osu.Framework.Allocation;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 

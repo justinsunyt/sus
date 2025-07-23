@@ -3,7 +3,7 @@
 
 using System;
 using System.Net.Http;
-using sus.Framework.IO.Network;
+using osu.Framework.IO.Network;
 
 namespace sus.Game.Online.API.Requests
 {

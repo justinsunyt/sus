@@ -5,14 +5,14 @@ using System;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Graphics.UserInterface;
-using sus.Framework.Localisation;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Graphics.UserInterface;
+using osu.Framework.Localisation;
 using sus.Game.Configuration;
 using sus.Game.Extensions;
 using sus.Game.Graphics;
@@ -21,7 +21,7 @@ using sus.Game.Graphics.UserInterface;
 using sus.Game.Graphics.UserInterfaceV2;
 using sus.Game.Localisation;
 using sus.Game.Screens.Play.PlayerSettings;
-using susTK;
+using osuTK;
 
 namespace sus.Game.Overlays.Settings.Sections.Audio
 {

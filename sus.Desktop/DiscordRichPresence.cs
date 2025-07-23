@@ -6,12 +6,12 @@ using System.Text;
 using DiscordRPC;
 using DiscordRPC.Message;
 using Newtonsoft.Json;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Extensions.ObjectExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Logging;
-using sus.Framework.Threading;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Extensions.ObjectExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Logging;
+using osu.Framework.Threading;
 using sus.Game;
 using sus.Game.Configuration;
 using sus.Game.Extensions;
@@ -23,7 +23,7 @@ using sus.Game.Online.Rooms;
 using sus.Game.Overlays;
 using sus.Game.Rulesets;
 using sus.Game.Users;
-using LogLevel = sus.Framework.Logging.LogLevel;
+using LogLevel = osu.Framework.Logging.LogLevel;
 
 namespace sus.Desktop
 {

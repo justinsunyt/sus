@@ -2,14 +2,14 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using System.Collections.Generic;
-using sus.Framework.Extensions.LocalisationExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
+using osu.Framework.Extensions.LocalisationExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
 using sus.Game.Graphics;
 using sus.Game.Graphics.Containers;
 using sus.Game.Online.API.Requests.Responses;
 using sus.Game.Overlays.Rankings.Tables;
-using sus.Game.Resources.Localisation.Web;
+using osu.Game.Resources.Localisation.Web;
 using sus.Game.Users;
 
 namespace sus.Game.Overlays
@@ -51,9 +51,9 @@ namespace sus.Game.Overlays
             const int min_width = 120;
             return new[]
             {
-                new RankingsTableColumn(RankingsStrings.KudsusTotal, Anchor.Centre, new Dimension(GridSizeMode.AutoSize, minSize: min_width), true),
-                new RankingsTableColumn(RankingsStrings.KudsusAvailable, Anchor.Centre, new Dimension(GridSizeMode.AutoSize, minSize: min_width)),
-                new RankingsTableColumn(RankingsStrings.KudsusUsed, Anchor.Centre, new Dimension(GridSizeMode.AutoSize, minSize: min_width)),
+                new RankingsTableColumn(RankingsStrings.KudosuTotal, Anchor.Centre, new Dimension(GridSizeMode.AutoSize, minSize: min_width), true),
+                new RankingsTableColumn(RankingsStrings.KudosuAvailable, Anchor.Centre, new Dimension(GridSizeMode.AutoSize, minSize: min_width)),
+                new RankingsTableColumn(RankingsStrings.KudosuUsed, Anchor.Centre, new Dimension(GridSizeMode.AutoSize, minSize: min_width)),
             };
         }
 

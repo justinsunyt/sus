@@ -6,7 +6,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using Microsoft.Win32.SafeHandles;
-using sus.Framework;
+using osu.Framework;
 
 namespace sus.Game.IO
 {

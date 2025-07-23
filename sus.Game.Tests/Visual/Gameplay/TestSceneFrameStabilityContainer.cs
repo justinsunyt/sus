@@ -4,9 +4,9 @@
 #nullable disable
 
 using NUnit.Framework;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Timing;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Timing;
 using sus.Game.Graphics.Sprites;
 using sus.Game.Rulesets.UI;
 

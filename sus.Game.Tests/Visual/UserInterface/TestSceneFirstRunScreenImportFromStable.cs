@@ -4,11 +4,11 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Moq;
-using sus.Framework.Allocation;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Cursor;
-using sus.Framework.Screens;
-using sus.Framework.Utils;
+using osu.Framework.Allocation;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Screens;
+using osu.Framework.Utils;
 using sus.Game.Database;
 using sus.Game.Overlays;
 using sus.Game.Overlays.FirstRunSetup;

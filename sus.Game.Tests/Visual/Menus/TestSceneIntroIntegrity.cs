@@ -2,10 +2,10 @@
 // See the LICENCE file in the repository root for full licence text.
 
 using NUnit.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Audio.Track;
-using sus.Framework.Bindables;
-using sus.Framework.Testing;
+using osu.Framework.Allocation;
+using osu.Framework.Audio.Track;
+using osu.Framework.Bindables;
+using osu.Framework.Testing;
 using sus.Game.Beatmaps;
 using sus.Game.Screens.Menu;
 

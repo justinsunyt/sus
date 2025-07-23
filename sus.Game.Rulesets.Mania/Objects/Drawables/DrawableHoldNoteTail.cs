@@ -3,8 +3,8 @@
 
 #nullable disable
 
-using sus.Framework.Graphics;
-using sus.Framework.Input.Events;
+using osu.Framework.Graphics;
+using osu.Framework.Input.Events;
 using sus.Game.Rulesets.Scoring;
 
 namespace sus.Game.Rulesets.Mania.Objects.Drawables

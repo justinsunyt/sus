@@ -5,23 +5,23 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using sus.Framework;
-using sus.Framework.Allocation;
-using sus.Framework.Bindables;
-using sus.Framework.Configuration;
-using sus.Framework.Extensions.IEnumerableExtensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Shapes;
-using sus.Framework.Localisation;
-using sus.Framework.Platform;
-using sus.Framework.Platform.Windows;
+using osu.Framework;
+using osu.Framework.Allocation;
+using osu.Framework.Bindables;
+using osu.Framework.Configuration;
+using osu.Framework.Extensions.IEnumerableExtensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Shapes;
+using osu.Framework.Localisation;
+using osu.Framework.Platform;
+using osu.Framework.Platform.Windows;
 using sus.Game.Configuration;
 using sus.Game.Graphics.Containers;
 using sus.Game.Graphics.UserInterface;
 using sus.Game.Localisation;
-using susTK;
-using susTK.Graphics;
+using osuTK;
+using osuTK.Graphics;
 
 namespace sus.Game.Overlays.Settings.Sections.Graphics
 {

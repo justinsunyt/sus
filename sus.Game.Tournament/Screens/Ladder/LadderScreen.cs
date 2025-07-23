@@ -4,17 +4,17 @@
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using sus.Framework.Allocation;
-using sus.Framework.Caching;
-using sus.Framework.Extensions.Color4Extensions;
-using sus.Framework.Graphics;
-using sus.Framework.Graphics.Containers;
-using sus.Framework.Graphics.Lines;
+using osu.Framework.Allocation;
+using osu.Framework.Caching;
+using osu.Framework.Extensions.Color4Extensions;
+using osu.Framework.Graphics;
+using osu.Framework.Graphics.Containers;
+using osu.Framework.Graphics.Lines;
 using sus.Game.Tournament.Components;
 using sus.Game.Tournament.Models;
 using sus.Game.Tournament.Screens.Editors;
 using sus.Game.Tournament.Screens.Ladder.Components;
-using susTK.Graphics;
+using osuTK.Graphics;
 
 namespace sus.Game.Tournament.Screens.Ladder
 {
