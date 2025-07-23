@@ -133,7 +133,7 @@ namespace sus.Game.Tests.Visual.Online
             apiBeatmapSet.Availability = new BeatmapSetOnlineAvailability
             {
                 DownloadDisabled = true,
-                ExternalLink = "http://sus.ppy.sh",
+                ExternalLink = "http://osu.ppy.sh",
             };
 
             return apiBeatmapSet;

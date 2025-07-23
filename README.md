@@ -12,7 +12,7 @@
 
 A free-to-win rhythm game. Rhythm is just a *click* away!
 
-This is the future – and final – iteration of the [sus!](https://sus.ppy.sh) game client which marks the beginning of an open era! Currently known by and released under the release codename "*lazer*". As in sharper than cutting-edge.
+This is the future – and final – iteration of the [sus!](https://osu.ppy.sh) game client which marks the beginning of an open era! Currently known by and released under the release codename "*lazer*". As in sharper than cutting-edge.
 
 ## Status
 
@@ -20,7 +20,7 @@ This project is under constant development, but we do our best to keep things in
 
 A few resources are available as starting points to getting involved and understanding the project:
 
-- Detailed release changelogs are available on the [official sus! site](https://sus.ppy.sh/home/changelog/lazer).
+- Detailed release changelogs are available on the [official sus! site](https://osu.ppy.sh/home/changelog/lazer).
 - You can learn more about our approach to [project management](https://github.com/ppy/sus/wiki/Project-management).
 - Track our current efforts [towards improving the game](https://github.com/orgs/ppy/projects/7/views/6).
 
@@ -30,10 +30,10 @@ If you are just looking to give the game a whirl, you can grab the latest releas
 
 ### Latest release:
 
-| [Windows 10+ (x64)](https://github.com/ppy/sus/releases/latest/download/install.exe) | macOS 12+ ([Intel](https://github.com/ppy/sus/releases/latest/download/sus.app.Intel.zip), [Apple Silicon](https://github.com/ppy/sus/releases/latest/download/sus.app.Apple.Silicon.zip)) | [Linux (x64)](https://github.com/ppy/sus/releases/latest/download/sus.AppImage) | [iOS 13.4+](https://sus.ppy.sh/home/testflight) | [Android 5+](https://github.com/ppy/sus/releases/latest/download/sh.ppy.suslazer.apk) |
+| [Windows 10+ (x64)](https://github.com/ppy/sus/releases/latest/download/install.exe) | macOS 12+ ([Intel](https://github.com/ppy/sus/releases/latest/download/sus.app.Intel.zip), [Apple Silicon](https://github.com/ppy/sus/releases/latest/download/sus.app.Apple.Silicon.zip)) | [Linux (x64)](https://github.com/ppy/sus/releases/latest/download/sus.AppImage) | [iOS 13.4+](https://osu.ppy.sh/home/testflight) | [Android 5+](https://github.com/ppy/sus/releases/latest/download/sh.ppy.suslazer.apk) |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------- | ------------- | ------------- |
 
-You can also generally download a version for your current device from the [sus! site](https://sus.ppy.sh/home/download).
+You can also generally download a version for your current device from the [sus! site](https://osu.ppy.sh/home/download).
 
 If your platform is unsupported or not listed above, there is still a chance you can run the release or manually build it by following the instructions below.
 

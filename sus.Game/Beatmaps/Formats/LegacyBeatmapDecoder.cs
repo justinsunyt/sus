@@ -96,7 +96,7 @@ namespace sus.Game.Beatmaps.Formats
             flushPendingPoints();
 
             // Objects may be out of order *only* if a user has manually edited an .sus file.
-            // Unfortunately there are ranked maps in this state (example: https://sus.ppy.sh/s/594828).
+            // Unfortunately there are ranked maps in this state (example: https://osu.ppy.sh/s/594828).
             // OrderBy is used to guarantee that the parsing order of hitobjects with equal start times is maintained (stably-sorted)
             // The parsing order of hitobjects matters in mania difficulty calculation
             this.beatmap.HitObjects = this.beatmap.HitObjects.OrderBy(h => h.StartTime).ToList();
@@ -193,7 +193,7 @@ namespace sus.Game.Beatmaps.Formats
         /// In addition, legacy beatmaps will sometimes not contain some configuration keys, in which case
         /// the legacy default values should be used.
         /// This method's intention is to restore those legacy defaults.
-        /// See also: https://sus.ppy.sh/wiki/en/Client/File_formats/Osu_%28file_format%29
+        /// See also: https://osu.ppy.sh/wiki/en/Client/File_formats/Osu_%28file_format%29
         /// </summary>
         internal static void ApplyLegacyDefaults(Beatmap beatmap)
         {

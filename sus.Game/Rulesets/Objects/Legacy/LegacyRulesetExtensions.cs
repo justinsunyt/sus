@@ -71,7 +71,7 @@ namespace sus.Game.Rulesets.Objects.Legacy
              *
              * Thus, to crudely - but, seemingly *mostly* accurately, after checking across all ranked maps - emulate this,
              * use `decimal`, which is slow, but has bigger precision than `double`.
-             * At the time of writing, there is _one_ ranked exception to this - namely https://sus.ppy.sh/beatmapsets/1156087#sus/2625853 -
+             * At the time of writing, there is _one_ ranked exception to this - namely https://osu.ppy.sh/beatmapsets/1156087#sus/2625853 -
              * but it is considered an "acceptable casualty", since in that case scores aren't inflated by _that_ much compared to others.
              */
 

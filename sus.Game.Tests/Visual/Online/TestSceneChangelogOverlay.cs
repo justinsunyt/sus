@@ -160,7 +160,7 @@ namespace sus.Game.Tests.Visual.Online
                         Type = ChangelogEntryType.Add,
                         Category = "sus!",
                         Title = "Add entry with news url",
-                        Url = "https://sus.ppy.sh/home/news/2023-07-27-summer-splash"
+                        Url = "https://osu.ppy.sh/home/news/2023-07-27-summer-splash"
                     },
                 }
             });

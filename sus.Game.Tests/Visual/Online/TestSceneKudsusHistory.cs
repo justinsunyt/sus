@@ -61,12 +61,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 1",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username1",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -78,12 +78,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 2",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username2",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -95,12 +95,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 3",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username3",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -112,12 +112,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 4",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username4",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -129,12 +129,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 5",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username5",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -146,12 +146,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 6",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username6",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -163,12 +163,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 7",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username7",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -180,12 +180,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 8",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username8",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -197,12 +197,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 9",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username9",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -214,12 +214,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 10",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username10",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             },
             new APIKudsusHistory
@@ -231,12 +231,12 @@ namespace sus.Game.Tests.Visual.Online
                 Post = new APIKudsusHistory.ModdingPost
                 {
                     Title = @"Random post 11",
-                    Url = @"https://sus.ppy.sh/b/1234",
+                    Url = @"https://osu.ppy.sh/b/1234",
                 },
                 Giver = new APIKudsusHistory.KudsusGiver
                 {
                     Username = @"Username11",
-                    Url = @"https://sus.ppy.sh/u/1234"
+                    Url = @"https://osu.ppy.sh/u/1234"
                 }
             }
         };

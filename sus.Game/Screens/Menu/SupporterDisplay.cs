@@ -89,7 +89,7 @@ namespace sus.Game.Screens.Menu
                 else
                 {
                     supportFlow.AddText("Consider becoming an ", formatSemiBold);
-                    supportFlow.AddLink("sus!supporter", "https://sus.ppy.sh/home/support", formatSemiBold);
+                    supportFlow.AddLink("sus!supporter", "https://osu.ppy.sh/home/support", formatSemiBold);
                     supportFlow.AddText(" to help support sus!'s development", formatSemiBold);
 
                     backgroundBox.FadeColour(colours.Pink4, 250);

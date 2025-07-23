@@ -26,7 +26,7 @@ namespace sus.Game.Tests.Visual.Online
                 Availability = new BeatmapSetOnlineAvailability
                 {
                     DownloadDisabled = true,
-                    ExternalLink = @"https://sus.ppy.sh",
+                    ExternalLink = @"https://osu.ppy.sh",
                 },
             });
 
@@ -55,7 +55,7 @@ namespace sus.Game.Tests.Visual.Online
                 Availability = new BeatmapSetOnlineAvailability
                 {
                     DownloadDisabled = false,
-                    ExternalLink = @"https://sus.ppy.sh",
+                    ExternalLink = @"https://osu.ppy.sh",
                 },
             });
 

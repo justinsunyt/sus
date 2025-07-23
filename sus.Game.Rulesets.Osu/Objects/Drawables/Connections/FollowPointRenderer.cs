@@ -69,7 +69,7 @@ namespace sus.Game.Rulesets.Osu.Objects.Drawables.Connections
                 // this is important for beatmaps with multiple hitobjects at the same point in time.
                 // if we use standard comparison insert order, there will be a churn of connections getting re-updated to
                 // the next object at the point-in-time, adding a construction/disposal overhead (see FollowPointConnection.End implementation's ClearInternal).
-                // this is easily visible on https://sus.ppy.sh/beatmapsets/150945#sus/372245
+                // this is easily visible on https://osu.ppy.sh/beatmapsets/150945#sus/372245
                 return -1;
             }));
 

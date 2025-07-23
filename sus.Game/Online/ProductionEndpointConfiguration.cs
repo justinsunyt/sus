@@ -7,7 +7,7 @@ namespace sus.Game.Online
     {
         public ProductionEndpointConfiguration()
         {
-            WebsiteUrl = APIUrl = @"https://sus.ppy.sh";
+            WebsiteUrl = APIUrl = @"https://osu.ppy.sh";
             APIClientSecret = @"FGc9GAtyHzeQDshWP5Ah7dega8hJACAJpQtw6OXk";
             APIClientID = "5";
             SpectatorUrl = "https://spectator.ppy.sh/spectator";

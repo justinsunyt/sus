@@ -312,7 +312,7 @@ namespace sus.Game.Tests.Visual.Online
                     Description = "Outstanding help by being a voluntary test subject.",
                     ImageUrl = "https://assets.ppy.sh/profile-badges/contributor-new@2x.png",
                     ImageUrlLowRes = "https://assets.ppy.sh/profile-badges/contributor-new.png",
-                    Url = "https://sus.ppy.sh/wiki/en/People/Community_Contributors",
+                    Url = "https://osu.ppy.sh/wiki/en/People/Community_Contributors",
                 },
                 new Badge
                 {

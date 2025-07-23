@@ -88,7 +88,7 @@ namespace sus.Game.Tests.Visual.Beatmaps
             beatmap.Availability = new BeatmapSetOnlineAvailability
             {
                 DownloadDisabled = true,
-                ExternalLink = "https://sus.ppy.sh",
+                ExternalLink = "https://osu.ppy.sh",
             };
 
             return beatmap;

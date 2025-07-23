@@ -246,7 +246,7 @@ namespace sus.Game.Rulesets.Osu.Beatmaps
                     // This is because in the stable implementation, `UpdateCalculations` is not called on the inner-loop hitobject (j)
                     // and therefore it does not have a correct `EndTime`, but instead the default of `EndTime = StartTime`.
                     //
-                    // Effects of this can be seen on https://sus.ppy.sh/beatmapsets/243#sus/1146 at sliders around 86647 ms, where
+                    // Effects of this can be seen on https://osu.ppy.sh/beatmapsets/243#sus/1146 at sliders around 86647 ms, where
                     // if we use `EndTime` here it would result in unexpected stacking.
 
                     if (Vector2Extensions.Distance(hitObjects[j].Position, currHitObject.Position) < STACK_DISTANCE)
