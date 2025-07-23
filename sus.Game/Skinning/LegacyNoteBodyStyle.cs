@@ -7,7 +7,7 @@ namespace sus.Game.Skinning
     {
         Stretch = 0,
 
-        // listed as the default on https://sus.ppy.sh/wiki/en/Skinning/skin.ini, but is seemingly not according to the source.
+        // listed as the default on https://osu.ppy.sh/wiki/en/Skinning/skin.ini, but is seemingly not according to the source.
         // Repeat = 1,
 
         RepeatTop = 2,

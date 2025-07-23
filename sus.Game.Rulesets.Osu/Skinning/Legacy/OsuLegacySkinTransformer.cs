@@ -268,7 +268,7 @@ namespace sus.Game.Rulesets.Osu.Skinning.Legacy
                             break;
 
                         case OsuSkinConfiguration.HitCircleOverlayAboveNumber:
-                            // See https://sus.ppy.sh/help/wiki/Skinning/skin.ini#%5Bgeneral%5D
+                            // See https://osu.ppy.sh/help/wiki/Skinning/skin.ini#%5Bgeneral%5D
                             // HitCircleOverlayAboveNumer (with typo) should still be supported for now.
                             return base.GetConfig<OsuSkinConfiguration, TValue>(OsuSkinConfiguration.HitCircleOverlayAboveNumber) ??
                                    base.GetConfig<OsuSkinConfiguration, TValue>(OsuSkinConfiguration.HitCircleOverlayAboveNumer);

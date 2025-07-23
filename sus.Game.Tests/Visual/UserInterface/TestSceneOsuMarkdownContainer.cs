@@ -75,7 +75,7 @@ _**italic with underscore, bold with asterisk**_";
         {
             AddStep("Add Link", () =>
             {
-                markdownContainer.Text = "[Welcome to sus!](https://sus.ppy.sh)";
+                markdownContainer.Text = "[Welcome to sus!](https://osu.ppy.sh)";
             });
         }
 
@@ -84,7 +84,7 @@ _**italic with underscore, bold with asterisk**_";
         {
             AddStep("Add Link with inline text", () =>
             {
-                markdownContainer.Text = "Hey, [welcome to sus!](https://sus.ppy.sh) Please enjoy the game.";
+                markdownContainer.Text = "Hey, [welcome to sus!](https://osu.ppy.sh) Please enjoy the game.";
             });
         }
 

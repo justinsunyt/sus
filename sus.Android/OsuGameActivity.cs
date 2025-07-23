@@ -33,7 +33,7 @@ namespace sus.Android
         "application/download",
         "application/x-zip",
         "application/x-zip-compressed",
-        // newer official mime types (see https://sus.ppy.sh/wiki/en/sus%21_File_Formats).
+        // newer official mime types (see https://osu.ppy.sh/wiki/en/sus%21_File_Formats).
         "application/x-sus-beatmap-archive",
         "application/x-sus-skin-archive",
         "application/x-sus-replay",

@@ -154,7 +154,7 @@ namespace sus.Game.Overlays.Changelog
             };
 
             supportLinkText.AddText("Support further development of sus! and ");
-            supportLinkText.AddLink("become an sus!supporter", @"https://sus.ppy.sh/home/support", t => t.Font = t.Font.With(weight: FontWeight.Bold));
+            supportLinkText.AddLink("become an sus!supporter", @"https://osu.ppy.sh/home/support", t => t.Font = t.Font.With(weight: FontWeight.Bold));
             supportLinkText.AddText(" today!");
         }
 

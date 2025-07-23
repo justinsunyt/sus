@@ -36,7 +36,7 @@ namespace sus.Game.Overlays.News
                 return "Headers/news";
 
             if (source.StartsWith('/'))
-                return "https://sus.ppy.sh" + source;
+                return "https://osu.ppy.sh" + source;
 
             return source;
         }

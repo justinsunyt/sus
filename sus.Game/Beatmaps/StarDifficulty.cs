@@ -58,7 +58,7 @@ namespace sus.Game.Beatmaps
         /// Retrieves the <see cref="DifficultyRating"/> that describes a star rating.
         /// </summary>
         /// <remarks>
-        /// For more information, see: https://sus.ppy.sh/help/wiki/Difficulties
+        /// For more information, see: https://osu.ppy.sh/help/wiki/Difficulties
         /// </remarks>
         /// <param name="starRating">The star rating.</param>
         /// <returns>The <see cref="DifficultyRating"/> that best describes <paramref name="starRating"/>.</returns>

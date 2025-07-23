@@ -158,7 +158,7 @@ namespace sus.Game.Tests.Visual.Online
                 set.Availability = new BeatmapSetOnlineAvailability
                 {
                     DownloadDisabled = true,
-                    ExternalLink = "https://sus.ppy.sh",
+                    ExternalLink = "https://osu.ppy.sh",
                 };
 
                 overlay.ShowBeatmapSet(set);

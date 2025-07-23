@@ -39,7 +39,7 @@ namespace sus.Game.Overlays.Dashboard.Home.News
             HoverColour = colourProvider.Light1;
 
             TooltipText = "view in browser";
-            Action = () => host.OpenUrlExternally("https://sus.ppy.sh/home/news/" + post.Slug);
+            Action = () => host.OpenUrlExternally("https://osu.ppy.sh/home/news/" + post.Slug);
         }
     }
 }

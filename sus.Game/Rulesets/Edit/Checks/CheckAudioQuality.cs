@@ -10,7 +10,7 @@ namespace sus.Game.Rulesets.Edit.Checks
     public class CheckAudioQuality : ICheck
     {
         // This is a requirement as stated in the Ranking Criteria.
-        // See https://sus.ppy.sh/wiki/en/Ranking_criteria#audio
+        // See https://osu.ppy.sh/wiki/en/Ranking_criteria#audio
         private const int max_bitrate_default = 192;
         private const int max_bitrate_ogg = 208;
 

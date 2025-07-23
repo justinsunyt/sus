@@ -43,7 +43,7 @@ namespace sus.Game.Tests.Visual.Menus
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/project-loved-2@2x.png",
-                        Url = @"https://sus.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
+                        Url = @"https://osu.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
                     }
                 },
             });
@@ -57,7 +57,7 @@ namespace sus.Game.Tests.Visual.Menus
 
                 var image = images.Single();
 
-                return image.IsPresent && image.Image.Url == "https://sus.ppy.sh/home/news/2023-12-21-project-loved-december-2023";
+                return image.IsPresent && image.Image.Url == "https://osu.ppy.sh/home/news/2023-12-21-project-loved-december-2023";
             });
 
             AddStep("set another title", () => onlineMenuBanner.Current.Value = new APIMenuContent
@@ -67,7 +67,7 @@ namespace sus.Game.Tests.Visual.Menus
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/wf2023-vote@2x.png",
-                        Url = @"https://sus.ppy.sh/community/contests/189",
+                        Url = @"https://osu.ppy.sh/community/contests/189",
                     }
                 }
             });
@@ -81,7 +81,7 @@ namespace sus.Game.Tests.Visual.Menus
 
                 var image = images.Single();
 
-                return image.IsPresent && image.Image.Url == "https://sus.ppy.sh/community/contests/189";
+                return image.IsPresent && image.Image.Url == "https://osu.ppy.sh/community/contests/189";
             });
 
             AddStep("set title with nonexistent image", () => onlineMenuBanner.Current.Value = new APIMenuContent
@@ -91,7 +91,7 @@ namespace sus.Game.Tests.Visual.Menus
                     new APIMenuImage
                     {
                         Image = @"https://test.invalid/@2x", // .invalid TLD reserved by https://datatracker.ietf.org/doc/html/rfc2606#section-2
-                        Url = @"https://sus.ppy.sh/community/contests/189",
+                        Url = @"https://osu.ppy.sh/community/contests/189",
                     }
                 }
             });
@@ -113,12 +113,12 @@ namespace sus.Game.Tests.Visual.Menus
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/project-loved-2@2x.png",
-                        Url = @"https://sus.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
+                        Url = @"https://osu.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
                     },
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/wf2023-vote@2x.png",
-                        Url = @"https://sus.ppy.sh/community/contests/189",
+                        Url = @"https://osu.ppy.sh/community/contests/189",
                     }
                 },
             });
@@ -154,7 +154,7 @@ namespace sus.Game.Tests.Visual.Menus
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/project-loved-2@2x.png",
-                        Url = @"https://sus.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
+                        Url = @"https://osu.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
                         Begins = DateTimeOffset.Now.AddSeconds(2),
                         Expires = DateTimeOffset.Now.AddSeconds(5),
                     },
@@ -172,7 +172,7 @@ namespace sus.Game.Tests.Visual.Menus
 
                 var image = images.Single();
 
-                return image.IsPresent && image.Image.Url == "https://sus.ppy.sh/home/news/2023-12-21-project-loved-december-2023";
+                return image.IsPresent && image.Image.Url == "https://osu.ppy.sh/home/news/2023-12-21-project-loved-december-2023";
             });
 
             AddUntilStep("wait for no image shown", () => !onlineMenuBanner.ChildrenOfType<OnlineMenuBanner.MenuImage>().Any(i => i.IsPresent));
@@ -188,12 +188,12 @@ namespace sus.Game.Tests.Visual.Menus
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/project-loved-2@2x.png",
-                        Url = @"https://sus.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
+                        Url = @"https://osu.ppy.sh/home/news/2023-12-21-project-loved-december-2023",
                     },
                     new APIMenuImage
                     {
                         Image = @"https://assets.ppy.sh/main-menu/wf2023-vote@2x.png",
-                        Url = @"https://sus.ppy.sh/community/contests/189",
+                        Url = @"https://osu.ppy.sh/community/contests/189",
                         Expires = DateTimeOffset.Now.AddSeconds(2),
                     }
                 },

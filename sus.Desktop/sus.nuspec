@@ -6,7 +6,7 @@
         <title>sus!</title>
         <authors>ppy Pty Ltd</authors>
         <owners>Dean Herbert</owners>
-        <projectUrl>https://sus.ppy.sh/</projectUrl>
+        <projectUrl>https://osu.ppy.sh/</projectUrl>
         <iconUrl>https://github.com/ppy/sus/blob/master/assets/lazer-nuget.png?raw=true</iconUrl>
         <icon>icon.png</icon>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>

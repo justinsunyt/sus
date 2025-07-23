@@ -75,7 +75,7 @@ namespace sus.Game.Tournament.Screens.Drawings
                     }
                 };
 
-                links.AddLink("Click for details on the file format", "https://sus.ppy.sh/wiki/en/Tournament_Drawings", t => t.Colour = Color4.White);
+                links.AddLink("Click for details on the file format", "https://osu.ppy.sh/wiki/en/Tournament_Drawings", t => t.Colour = Color4.White);
                 return;
             }
 

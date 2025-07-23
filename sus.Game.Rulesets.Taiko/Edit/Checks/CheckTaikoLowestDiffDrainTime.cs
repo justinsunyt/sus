@@ -12,7 +12,7 @@ namespace sus.Game.Rulesets.Taiko.Edit.Checks
     {
         protected override IEnumerable<(DifficultyRating rating, double thresholdMs, string name)> GetThresholds()
         {
-            // See lowest difficulty requirements in https://sus.ppy.sh/wiki/en/Ranking_criteria/sus%21taiko#general
+            // See lowest difficulty requirements in https://osu.ppy.sh/wiki/en/Ranking_criteria/sus%21taiko#general
             yield return (DifficultyRating.Hard, new TimeSpan(0, 3, 30).TotalMilliseconds, "Muzukashii");
             yield return (DifficultyRating.Insane, new TimeSpan(0, 4, 15).TotalMilliseconds, "Oni");
             yield return (DifficultyRating.Expert, new TimeSpan(0, 5, 0).TotalMilliseconds, "Inner Oni");

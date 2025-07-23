@@ -527,7 +527,7 @@ namespace sus.Game.Rulesets.Objects.Legacy
             {
                 soundTypes.Add(new LegacyHitSampleInfo(HitSampleInfo.HIT_NORMAL, bankInfo.BankForNormal, bankInfo.Volume, true, bankInfo.CustomSampleBank,
                     // if the sound type doesn't have the Normal flag set, attach it anyway as a layered sample.
-                    // None also counts as a normal non-layered sample: https://sus.ppy.sh/help/wiki/sus!_File_Formats/Osu_(file_format)#hitsounds
+                    // None also counts as a normal non-layered sample: https://osu.ppy.sh/help/wiki/sus!_File_Formats/Osu_(file_format)#hitsounds
                     type != LegacyHitSoundType.None && !type.HasFlag(LegacyHitSoundType.Normal)));
             }
             else
